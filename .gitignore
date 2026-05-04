@@ -1,0 +1,5 @@
+.DS_Store
+*.pdf
+*.docx
+questions.sample.json
+extract_pdf_questions.py
