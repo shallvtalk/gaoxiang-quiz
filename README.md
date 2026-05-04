@@ -22,4 +22,10 @@ http://127.0.0.1:8765/
 
 ## 部署
 
-仓库包含 GitHub Pages Actions 工作流。推送到 `main` 分支后，会自动发布根目录静态站点。
+仓库包含 GitHub Actions 工作流。推送到 `main` 分支后，工作流会把静态文件发布到 `gh-pages` 分支。
+
+第一次部署后，到 GitHub 仓库的 `Settings` -> `Pages`，把 `Build and deployment` 设置为：
+
+- Source: `Deploy from a branch`
+- Branch: `gh-pages`
+- Folder: `/ (root)`
