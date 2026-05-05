@@ -30,6 +30,7 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.58;
     }
+    body.recite .progress-grid { display: none; }
     header {
       position: sticky;
       top: 0;
@@ -38,14 +39,14 @@
       border-bottom: 1px solid var(--line);
       backdrop-filter: blur(14px);
     }
-    .topbar, main, .bottom-inner {
+    .topbar, main, .dock-inner {
       width: min(1040px, 100%);
       margin: 0 auto;
     }
     .topbar {
       display: grid;
       gap: 8px;
-      padding: 12px 14px 10px;
+      padding: 10px 14px 8px;
     }
     .title-row {
       display: flex;
@@ -71,32 +72,37 @@
     }
     .metric {
       min-width: 0;
-      padding: 8px;
+      padding: 7px 8px;
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--panel);
     }
     .metric strong {
       display: block;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 1.1;
     }
     .metric span {
       display: block;
       margin-top: 2px;
       color: var(--muted);
-      font-size: 12px;
+      font-size: 11px;
     }
     main {
-      padding: 12px 14px 190px;
+      padding: 12px 14px 94px;
     }
+    body.recite main { padding-bottom: 84px; }
     .question-card {
-      min-height: calc(100vh - 292px);
+      min-height: calc(100vh - 216px);
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 8px;
-      padding: 18px;
+      padding: 20px;
       box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+      touch-action: pan-y;
+    }
+    body.recite .question-card {
+      min-height: calc(100vh - 154px);
     }
     .meta {
       display: flex;
@@ -121,8 +127,8 @@
     }
     .stem {
       margin: 0 0 18px;
-      font-size: 21px;
-      font-weight: 800;
+      font-size: 22px;
+      font-weight: 850;
       line-height: 1.48;
     }
     .options {
@@ -143,6 +149,9 @@
       color: var(--text);
       font: inherit;
       cursor: pointer;
+    }
+    body.recite .option {
+      cursor: default;
     }
     .option .label {
       width: 30px;
@@ -206,31 +215,58 @@
       border-radius: 8px;
       text-align: center;
     }
-    .bottom-panel {
+    .dock {
       position: fixed;
       right: 0;
       bottom: 0;
       left: 0;
       z-index: 4;
-      padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+      padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
       border-top: 1px solid var(--line);
       background: rgba(255, 255, 255, 0.96);
       box-shadow: var(--shadow);
       backdrop-filter: blur(16px);
     }
-    .bottom-inner {
+    .dock-inner {
       display: grid;
       gap: 8px;
+    }
+    .quick-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 8px;
+    }
+    .filter-drawer {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      overflow: hidden;
+    }
+    .filter-drawer summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 38px;
+      padding: 0 10px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 750;
+      list-style: none;
+      cursor: pointer;
+    }
+    .filter-drawer summary::-webkit-details-marker { display: none; }
+    .filter-drawer summary::after {
+      content: "展开";
+      color: var(--brand);
+    }
+    .filter-drawer[open] summary::after {
+      content: "收起";
     }
     .filters {
       display: grid;
-      grid-template-columns: 1.1fr 1.1fr 0.8fr;
+      grid-template-columns: 1.2fr 1.2fr 0.8fr;
       gap: 8px;
-    }
-    .actions {
-      display: grid;
-      grid-template-columns: 0.8fr 1fr 0.8fr;
-      gap: 8px;
+      padding: 0 10px 10px;
     }
     select, button {
       min-height: 38px;
@@ -247,8 +283,9 @@
       font-size: 13px;
     }
     button {
-      padding: 0 10px;
+      padding: 0 8px;
       font-weight: 750;
+      cursor: pointer;
     }
     button:disabled {
       color: #98a2b3;
@@ -266,24 +303,38 @@
       background: #fff7f6;
     }
     @media (max-width: 720px) {
+      .topbar { padding: 9px 10px 7px; }
       .progress-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-      .metric { padding: 7px 6px; }
-      .metric strong { font-size: 15px; }
-      .metric span { font-size: 11px; }
-      main { padding: 10px 10px 222px; }
+      .metric { padding: 6px; }
+      .metric strong { font-size: 14px; }
+      .metric span { font-size: 10px; }
+      main { padding: 10px 10px 90px; }
+      body.recite main { padding-bottom: 78px; }
       .question-card {
-        min-height: calc(100vh - 318px);
+        min-height: calc(100vh - 210px);
         padding: 16px;
       }
+      body.recite .question-card {
+        min-height: calc(100vh - 136px);
+      }
       .stem { font-size: 20px; }
-      .filters, .actions { grid-template-columns: 1fr 1fr; }
-      .filters select:last-child { grid-column: 1 / -1; }
-      .actions button:nth-child(2) { grid-column: span 1; }
+      .quick-actions { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .quick-actions button { font-size: 13px; }
+      .filters { grid-template-columns: 1fr; }
     }
     @media (min-width: 900px) {
-      .question-card { padding: 26px; }
+      .question-card { padding: 28px; }
       .stem { font-size: 24px; }
       .option { min-height: 62px; }
+      .dock-inner {
+        grid-template-columns: 1fr auto;
+        align-items: end;
+      }
+      .filter-drawer { order: 1; }
+      .quick-actions {
+        order: 2;
+        min-width: 420px;
+      }
     }
   </style>
 </head>
@@ -307,37 +358,42 @@
     <section id="questionHost"></section>
   </main>
 
-  <nav class="bottom-panel" aria-label="刷题控制">
-    <div class="bottom-inner">
-      <div class="filters">
-        <select id="chapterFilter" aria-label="章节"></select>
-        <select id="sectionFilter" aria-label="考点"></select>
-        <select id="statusFilter" aria-label="状态">
-          <option value="all">全部题目</option>
-          <option value="unanswered">未做</option>
-          <option value="wrong">错题</option>
-          <option value="answered">已做</option>
-        </select>
-      </div>
-      <div class="actions">
-        <button id="prevBtn">上一题</button>
-        <button id="toggleAnswerBtn" class="primary">看解析</button>
-        <button id="nextBtn">下一题</button>
-        <button id="resetCurrentBtn">重做本题</button>
-        <button id="resetAllBtn" class="danger">清空进度</button>
-        <button id="randomBtn">随机一题</button>
+  <nav class="dock" aria-label="刷题控制">
+    <div class="dock-inner">
+      <details class="filter-drawer" id="filterDrawer">
+        <summary id="filterSummary">筛选：全部题目</summary>
+        <div class="filters">
+          <select id="chapterFilter" aria-label="章节"></select>
+          <select id="sectionFilter" aria-label="考点"></select>
+          <select id="statusFilter" aria-label="状态">
+            <option value="all">全部题目</option>
+            <option value="unanswered">未做</option>
+            <option value="wrong">错题</option>
+            <option value="answered">已做</option>
+          </select>
+        </div>
+      </details>
+      <div class="quick-actions">
+        <button id="modeBtn" class="primary">背题</button>
+        <button id="toggleAnswerBtn">解析</button>
+        <button id="randomBtn">随机</button>
+        <button id="resetCurrentBtn">重做</button>
       </div>
     </div>
   </nav>
 
   <script>
     const STORAGE_KEY = "gaoxiangQuizProgress.v1";
+    const MODE_KEY = "gaoxiangQuizMode.v1";
     const state = {
       all: [],
       filtered: [],
       index: 0,
       showAnswer: false,
+      mode: localStorage.getItem(MODE_KEY) || "practice",
       progress: loadProgress(),
+      touchStartX: 0,
+      touchStartY: 0,
     };
 
     const els = {
@@ -349,12 +405,11 @@
       chapterFilter: document.querySelector("#chapterFilter"),
       sectionFilter: document.querySelector("#sectionFilter"),
       statusFilter: document.querySelector("#statusFilter"),
+      filterSummary: document.querySelector("#filterSummary"),
       host: document.querySelector("#questionHost"),
-      prev: document.querySelector("#prevBtn"),
-      next: document.querySelector("#nextBtn"),
+      mode: document.querySelector("#modeBtn"),
       toggle: document.querySelector("#toggleAnswerBtn"),
       resetCurrent: document.querySelector("#resetCurrentBtn"),
-      resetAll: document.querySelector("#resetAllBtn"),
       random: document.querySelector("#randomBtn"),
     };
 
@@ -368,6 +423,11 @@
 
     function saveProgress() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress));
+    }
+
+    function saveMode() {
+      localStorage.setItem(MODE_KEY, state.mode);
+      document.body.classList.toggle("recite", state.mode === "recite");
     }
 
     function chapterLabel(q) {
@@ -420,6 +480,15 @@
       }
     }
 
+    function updateFilterSummary() {
+      const parts = [];
+      if (els.chapterFilter.value) parts.push(els.chapterFilter.value.replace(/^第\d+章\s*/, ""));
+      if (els.sectionFilter.value) parts.push(els.sectionFilter.value.replace(/\s*[★☆]+$/, ""));
+      const statusText = els.statusFilter.options[els.statusFilter.selectedIndex]?.text || "全部题目";
+      if (els.statusFilter.value !== "all") parts.push(statusText);
+      els.filterSummary.textContent = `筛选：${parts.length ? parts.join(" / ") : "全部题目"}`;
+    }
+
     function applyFilters() {
       const chapterValue = els.chapterFilter.value;
       const sectionValue = els.sectionFilter.value;
@@ -436,10 +505,12 @@
       });
       state.index = Math.min(state.index, Math.max(state.filtered.length - 1, 0));
       state.showAnswer = false;
+      updateFilterSummary();
       render();
     }
 
     function answerQuestion(q, selected) {
+      if (state.mode === "recite") return;
       const correct = answerText(q).includes(selected);
       const previous = state.progress[q.id] || {};
       state.progress[q.id] = {
@@ -460,16 +531,8 @@
       if (!q) return;
       delete state.progress[q.id];
       saveProgress();
-      state.showAnswer = false;
+      state.showAnswer = state.mode === "recite";
       render();
-    }
-
-    function resetAll() {
-      if (!confirm("确认清空所有答题进度、错题和准确率？")) return;
-      state.progress = {};
-      saveProgress();
-      state.showAnswer = false;
-      applyFilters();
     }
 
     function renderMetrics() {
@@ -485,11 +548,12 @@
 
     function render() {
       renderMetrics();
+      saveMode();
       const total = state.filtered.length;
       els.counter.textContent = total ? `${state.index + 1} / ${total}` : "0 / 0";
-      els.prev.disabled = state.index <= 0;
-      els.next.disabled = state.index >= total - 1;
-      els.toggle.textContent = state.showAnswer ? "隐藏解析" : "看解析";
+      els.mode.textContent = state.mode === "recite" ? "练习" : "背题";
+      els.toggle.textContent = state.showAnswer ? "隐藏" : "解析";
+      els.toggle.disabled = state.mode === "recite";
 
       if (!total) {
         els.host.innerHTML = `<div class="empty">没有匹配的题目</div>`;
@@ -499,9 +563,9 @@
       const q = state.filtered[state.index];
       const progress = state.progress[q.id] || {};
       const answer = answerText(q);
-      const showJudgement = Boolean(progress.selected);
-      const answerVisible = state.showAnswer || showJudgement;
-      const resultText = progress.selected
+      const showJudgement = Boolean(progress.selected) || state.mode === "recite";
+      const answerVisible = state.mode === "recite" || state.showAnswer || Boolean(progress.selected);
+      const resultText = progress.selected && state.mode !== "recite"
         ? progress.isCorrect ? "回答正确" : `回答错误，你选了 ${progress.selected}`
         : "";
 
@@ -536,15 +600,32 @@
       document.querySelectorAll(".option").forEach(button => {
         button.addEventListener("click", () => answerQuestion(q, button.dataset.option));
       });
+      const card = document.querySelector(".question-card");
+      card.addEventListener("touchstart", handleTouchStart, { passive: true });
+      card.addEventListener("touchend", handleTouchEnd, { passive: true });
     }
 
     function go(delta) {
       const nextIndex = state.index + delta;
       if (nextIndex < 0 || nextIndex >= state.filtered.length) return;
       state.index = nextIndex;
-      state.showAnswer = false;
+      state.showAnswer = state.mode === "recite";
       window.scrollTo({ top: 0, behavior: "smooth" });
       render();
+    }
+
+    function handleTouchStart(event) {
+      const touch = event.changedTouches[0];
+      state.touchStartX = touch.clientX;
+      state.touchStartY = touch.clientY;
+    }
+
+    function handleTouchEnd(event) {
+      const touch = event.changedTouches[0];
+      const dx = touch.clientX - state.touchStartX;
+      const dy = touch.clientY - state.touchStartY;
+      if (Math.abs(dx) < 72 || Math.abs(dx) < Math.abs(dy) * 1.4) return;
+      go(dx < 0 ? 1 : -1);
     }
 
     function escapeHtml(value) {
@@ -574,22 +655,31 @@
       state.index = 0;
       applyFilters();
     });
-    els.prev.addEventListener("click", () => go(-1));
-    els.next.addEventListener("click", () => go(1));
+    els.mode.addEventListener("click", () => {
+      state.mode = state.mode === "recite" ? "practice" : "recite";
+      state.showAnswer = state.mode === "recite";
+      render();
+    });
     els.toggle.addEventListener("click", () => {
+      if (state.mode === "recite") return;
       state.showAnswer = !state.showAnswer;
       render();
     });
     els.resetCurrent.addEventListener("click", resetCurrent);
-    els.resetAll.addEventListener("click", resetAll);
     els.random.addEventListener("click", () => {
       if (!state.filtered.length) return;
       state.index = Math.floor(Math.random() * state.filtered.length);
-      state.showAnswer = false;
+      state.showAnswer = state.mode === "recite";
       window.scrollTo({ top: 0, behavior: "smooth" });
       render();
     });
 
+    document.addEventListener("keydown", event => {
+      if (event.key === "ArrowLeft") go(-1);
+      if (event.key === "ArrowRight") go(1);
+    });
+
+    saveMode();
     fetch("questions.json")
       .then(response => {
         if (!response.ok) throw new Error("questions.json not found");
@@ -598,6 +688,7 @@
       .then(data => {
         state.all = data.questions || [];
         state.filtered = state.all;
+        state.showAnswer = state.mode === "recite";
         fillFilters();
         applyFilters();
       })
