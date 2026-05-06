@@ -187,6 +187,13 @@
       font-weight: 800;
     }
     .chapter-actions { display: flex; justify-content: flex-end; gap: 6px; flex-wrap: wrap; }
+    .practice-last {
+      flex-basis: 100%;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+      text-align: right;
+    }
     .question-card {
       position: relative;
       min-height: calc(100vh - 134px);
@@ -299,6 +306,7 @@
       .chapter-head { display: grid; }
       .chapter-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); justify-content: stretch; }
       .chapter-actions button { width: 100%; }
+      .practice-last { grid-column: 1 / -1; text-align: left; }
       .question-card { min-height: calc(100vh - 116px); padding: 15px; }
       body.recite .question-card { min-height: calc(100vh - 56px); }
       .stem { font-size: 21px; }
@@ -360,7 +368,8 @@
     const SESSION_KEY = "gaoxiangQuizChapterSession.v1";
     const LEARN_KEY = "gaoxiangQuizChapterLearn.v1";
     const WRONG_KEY = "gaoxiangQuizWrongBook.v1";
-    const state = { all: [], filtered: [], chapters: [], index: 0, showAnswer: false, mode: "practice", theme: "light", view: "dashboard", session: null, progress: loadJson(STORAGE_KEY, {}), learn: loadJson(LEARN_KEY, {}), wrongBook: loadJson(WRONG_KEY, {}), touchStartX: 0, touchStartY: 0 };
+    const PRACTICE_KEY = "gaoxiangQuizPracticeStats.v1";
+    const state = { all: [], filtered: [], chapters: [], index: 0, showAnswer: false, mode: "practice", theme: "light", view: "dashboard", session: null, progress: loadJson(STORAGE_KEY, {}), learn: loadJson(LEARN_KEY, {}), wrongBook: loadJson(WRONG_KEY, {}), practiceStats: loadJson(PRACTICE_KEY, {}), touchStartX: 0, touchStartY: 0 };
     let timerHandle = null;
     const els = {
       counter: document.querySelector("#counter"), topStars: document.querySelector("#topStars"), contextLine: document.querySelector("#contextLine"),
@@ -373,6 +382,7 @@
     function saveProgress() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress)); }
     function saveLearn() { localStorage.setItem(LEARN_KEY, JSON.stringify(state.learn)); }
     function saveWrongBook() { localStorage.setItem(WRONG_KEY, JSON.stringify(state.wrongBook)); }
+    function savePracticeStats() { localStorage.setItem(PRACTICE_KEY, JSON.stringify(state.practiceStats)); }
     function saveUi() { localStorage.setItem(UI_KEY, JSON.stringify({ index: state.index, showAnswer: state.showAnswer, mode: state.mode, theme: state.theme, view: state.view, chapter: els.chapterFilter.value, section: els.sectionFilter.value, status: els.statusFilter.value })); }
     function saveSession() { if (state.session) localStorage.setItem(SESSION_KEY, JSON.stringify(state.session)); else localStorage.removeItem(SESSION_KEY); }
     function applyTheme() { document.body.classList.toggle("dark", state.theme === "dark"); els.theme.textContent = state.theme === "dark" ? "日间" : "夜间"; }
@@ -432,8 +442,10 @@
         const rightProgress = Math.round(chapterCorrect / chapter.questions.length * 100);
         const wrongProgress = Math.round(chapterWrong / chapter.questions.length * 100);
         const progress = Math.round(chapterAnswered / chapter.questions.length * 100);
+        const lastPractice = state.practiceStats[chapter.key];
+        const lastPracticeHtml = lastPractice ? `<div class="practice-last">上次 ${formatDuration(lastPractice.elapsedMs)} · ${lastPractice.accuracy}%</div>` : "";
         const starHtml = [...chapter.byStars.entries()].sort((a, b) => b[0] - a[0]).map(([stars, count]) => `<span class="star-chip">${stars ? "★".repeat(stars) : "无星"} ${count}</span>`).join("");
-        return `<article class="chapter-card"><div class="chapter-head"><div><div class="chapter-title">第${chapter.chapter.number}章 ${escapeHtml(chapter.chapter.title)}</div><div class="chapter-sub">${chapter.sections.size} 个知识点 · ${chapter.questions.length} 道题</div></div><div class="chapter-actions"><button data-chapter-learn="${escapeAttr(chapter.key)}">章节学习</button><button class="primary" data-chapter-practice="${escapeAttr(chapter.key)}">章节练习</button></div></div><div class="chapter-stats"><div class="chapter-stat"><strong>${chapter.questions.length}</strong><span>题目</span></div><button class="chapter-stat action" data-chapter-wrong="${escapeAttr(chapter.key)}"><strong>${chapterWrong}</strong><span>错题</span></button></div><div class="chapter-progress"><div class="chapter-progress-label"><span>进度 ${chapterAnswered}/${chapter.questions.length}</span><span>对 ${chapterCorrect} · 错 ${chapterWrong}</span></div><div class="progress-track"><div class="progress-fill right" style="--progress: ${rightProgress}%"></div><div class="progress-fill wrong" style="--progress: ${wrongProgress}%"></div></div></div><div class="star-breakdown">${starHtml}</div></article>`;
+        return `<article class="chapter-card"><div class="chapter-head"><div><div class="chapter-title">第${chapter.chapter.number}章 ${escapeHtml(chapter.chapter.title)}</div><div class="chapter-sub">${chapter.sections.size} 个知识点 · ${chapter.questions.length} 道题</div></div><div class="chapter-actions"><button data-chapter-learn="${escapeAttr(chapter.key)}">章节学习</button><button class="primary" data-chapter-practice="${escapeAttr(chapter.key)}">章节练习</button>${lastPracticeHtml}</div></div><div class="chapter-stats"><div class="chapter-stat"><strong>${chapter.questions.length}</strong><span>题目</span></div><button class="chapter-stat action" data-chapter-wrong="${escapeAttr(chapter.key)}"><strong>${chapterWrong}</strong><span>错题</span></button></div><div class="chapter-progress"><div class="chapter-progress-label"><span>进度 ${chapterAnswered}/${chapter.questions.length}</span><span>对 ${chapterCorrect} · 错 ${chapterWrong}</span></div><div class="progress-track"><div class="progress-fill right" style="--progress: ${rightProgress}%"></div><div class="progress-fill wrong" style="--progress: ${wrongProgress}%"></div></div></div><div class="star-breakdown">${starHtml}</div></article>`;
       }).join("");
       els.host.innerHTML = `<section class="dashboard-shell"><div class="dashboard-summary"><div class="metric-card"><strong>${state.chapters.length}</strong><span>章节</span></div><div class="metric-card"><strong>${state.all.length}</strong><span>题目</span></div><div class="metric-card"><strong>${answered}</strong><span>已答</span></div><button class="metric-card metric-action" id="wrongBookCard"><strong>${accuracy}%</strong><span>总准确率 · 错题 ${wrong}</span></button></div><div class="chapter-list">${chapterHtml}</div></section>`;
       document.querySelector("#wrongBookCard").addEventListener("click", startWrongBook);
@@ -472,7 +484,8 @@
       if (!session || !["chapter", "learn", "wrongbook"].includes(session.type)) return false; const byId = new Map(state.all.map(q => [q.id, q])); const questions = session.type === "wrongbook" ? (session.chapterKey ? state.chapters.find(item => item.key === session.chapterKey)?.questions.filter(isWrong) || [] : state.all.filter(isWrong)) : (session.questionIds || []).map(id => byId.get(id)).filter(Boolean); if (!questions.length) return false;
       state.session = session; state.filtered = questions; state.view = session.type === "chapter" && session.completedAt ? "result" : "quiz"; state.mode = "practice"; state.index = session.type === "learn" ? Math.min(Number(state.learn[session.chapterKey]?.index || 0), Math.max(state.filtered.length - 1, 0)) : Math.min(state.index, Math.max(state.filtered.length - 1, 0)); return true;
     }
-    function recordSessionAnswer(q, selected, correct) { if (!state.session || state.session.type !== "chapter") return; state.session.answers[q.id] = { selected, correct, answeredAt: new Date().toISOString() }; if (Object.keys(state.session.answers).length >= state.session.questionIds.length && !state.session.completedAt) state.session.completedAt = new Date().toISOString(); saveSession(); updateTimer(); }
+    function savePracticeResult(session) { const answers = Object.values(session.answers || {}); const correct = answers.filter(item => item.correct).length; const total = session.questionIds.length || 0; state.practiceStats[session.chapterKey] = { elapsedMs: sessionElapsed(session), accuracy: total ? Math.round(correct / total * 100) : 0, correct, total, completedAt: session.completedAt }; savePracticeStats(); }
+    function recordSessionAnswer(q, selected, correct) { if (!state.session || state.session.type !== "chapter") return; state.session.answers[q.id] = { selected, correct, answeredAt: new Date().toISOString() }; if (Object.keys(state.session.answers).length >= state.session.questionIds.length && !state.session.completedAt) { state.session.completedAt = new Date().toISOString(); savePracticeResult(state.session); } saveSession(); updateTimer(); }
     function visibleProgress(q) { const item = state.session?.type === "chapter" ? state.session.answers[q.id] || {} : state.progress[q.id] || {}; return item.correct !== undefined ? { selected: item.selected, isCorrect: item.correct } : item; }
     function migrateWrongBook() { state.all.forEach(q => { const progress = state.progress[q.id]; if (progress?.isCorrect === false) state.wrongBook[q.id] ||= { addedAt: progress.answeredAt || new Date().toISOString() }; if (progress?.isCorrect === true) delete state.wrongBook[q.id]; }); saveWrongBook(); }
     function rememberLearnPosition() { if (state.session?.type !== "learn") return; state.learn[state.session.chapterKey] = { index: state.index, updatedAt: new Date().toISOString() }; saveLearn(); }
