@@ -127,6 +127,8 @@
     .metric-card { padding: 12px; }
     .metric-card strong { display: block; font-size: 22px; line-height: 1.15; }
     .metric-card span { color: var(--muted); font-size: 12px; }
+    .metric-action { text-align: left; cursor: pointer; }
+    .metric-action:hover { border-color: var(--brand); }
     .chapter-list { display: grid; gap: 10px; }
     .chapter-card { display: grid; gap: 10px; padding: 12px; }
     .chapter-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
@@ -327,7 +329,8 @@
     const UI_KEY = "gaoxiangQuizUi.v3";
     const SESSION_KEY = "gaoxiangQuizChapterSession.v1";
     const LEARN_KEY = "gaoxiangQuizChapterLearn.v1";
-    const state = { all: [], filtered: [], chapters: [], index: 0, showAnswer: false, mode: "practice", theme: "light", view: "dashboard", session: null, progress: loadJson(STORAGE_KEY, {}), learn: loadJson(LEARN_KEY, {}), touchStartX: 0, touchStartY: 0 };
+    const WRONG_KEY = "gaoxiangQuizWrongBook.v1";
+    const state = { all: [], filtered: [], chapters: [], index: 0, showAnswer: false, mode: "practice", theme: "light", view: "dashboard", session: null, progress: loadJson(STORAGE_KEY, {}), learn: loadJson(LEARN_KEY, {}), wrongBook: loadJson(WRONG_KEY, {}), touchStartX: 0, touchStartY: 0 };
     const els = {
       counter: document.querySelector("#counter"), topStars: document.querySelector("#topStars"), contextLine: document.querySelector("#contextLine"),
       chapterFilter: document.querySelector("#chapterFilter"), sectionFilter: document.querySelector("#sectionFilter"), statusFilter: document.querySelector("#statusFilter"),
@@ -338,6 +341,7 @@
     function loadJson(key, fallback) { try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); } catch { return fallback; } }
     function saveProgress() { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress)); }
     function saveLearn() { localStorage.setItem(LEARN_KEY, JSON.stringify(state.learn)); }
+    function saveWrongBook() { localStorage.setItem(WRONG_KEY, JSON.stringify(state.wrongBook)); }
     function saveUi() { localStorage.setItem(UI_KEY, JSON.stringify({ index: state.index, showAnswer: state.showAnswer, mode: state.mode, theme: state.theme, view: state.view, chapter: els.chapterFilter.value, section: els.sectionFilter.value, status: els.statusFilter.value })); }
     function saveSession() { if (state.session) localStorage.setItem(SESSION_KEY, JSON.stringify(state.session)); else localStorage.removeItem(SESSION_KEY); }
     function applyTheme() { document.body.classList.toggle("dark", state.theme === "dark"); els.theme.textContent = state.theme === "dark" ? "日间" : "夜间"; }
@@ -348,7 +352,8 @@
     function sectionLabel(q) { if (!q.section) return "未分考点"; const stars = q.section.priority || ""; return `考点${q.section.number} ${q.section.title}${stars ? " " + stars : ""}`; }
     function answerText(q) { return Array.isArray(q.answer) ? q.answer.join("") : String(q.answer || ""); }
     function isAnswered(q) { return Boolean(state.progress[q.id]?.answeredAt); }
-    function isWrong(q) { return state.progress[q.id]?.isCorrect === false; }
+    function isWrong(q) { return Boolean(state.wrongBook[q.id]); }
+    function syncWrongBook(q, correct) { if (correct) delete state.wrongBook[q.id]; else state.wrongBook[q.id] = { addedAt: new Date().toISOString() }; saveWrongBook(); }
     function uniqueBy(items, getKey) { const map = new Map(); items.forEach(item => { const key = getKey(item); if (!map.has(key)) map.set(key, item); }); return [...map.values()]; }
     function shuffle(items) { const copy = [...items]; for (let i = copy.length - 1; i > 0; i -= 1) { const j = Math.floor(Math.random() * (i + 1)); [copy[i], copy[j]] = [copy[j], copy[i]]; } return copy; }
     function buildChapters() {
@@ -390,7 +395,8 @@
         const starHtml = [...chapter.byStars.entries()].sort((a, b) => b[0] - a[0]).map(([stars, count]) => `<span class="star-chip">${stars ? "★".repeat(stars) : "无星"} ${count}</span>`).join("");
         return `<article class="chapter-card"><div class="chapter-head"><div><div class="chapter-title">第${chapter.chapter.number}章 ${escapeHtml(chapter.chapter.title)}</div><div class="chapter-sub">${chapter.sections.size} 个知识点 · ${chapter.questions.length} 道题</div></div><div class="chapter-actions"><button data-chapter-learn="${escapeAttr(chapter.key)}">章节学习</button><button class="primary" data-chapter-practice="${escapeAttr(chapter.key)}">章节练习</button></div></div><div class="chapter-stats"><div class="chapter-stat"><strong>${chapter.sections.size}</strong><span>知识点</span></div><div class="chapter-stat"><strong>${chapter.questions.length}</strong><span>题目</span></div><div class="chapter-stat"><strong>${chapterAnswered}</strong><span>已答</span></div><div class="chapter-stat"><strong>${chapter.questions.length - chapterAnswered}</strong><span>未答</span></div></div><div class="star-breakdown">${starHtml}</div></article>`;
       }).join("");
-      els.host.innerHTML = `<section class="dashboard-shell"><div class="dashboard-summary"><div class="metric-card"><strong>${state.chapters.length}</strong><span>章节</span></div><div class="metric-card"><strong>${state.all.length}</strong><span>题目</span></div><div class="metric-card"><strong>${answered}</strong><span>已答</span></div><div class="metric-card"><strong>${accuracy}%</strong><span>总准确率 · 错题 ${wrong}</span></div></div><div class="chapter-list">${chapterHtml}</div></section>`;
+      els.host.innerHTML = `<section class="dashboard-shell"><div class="dashboard-summary"><div class="metric-card"><strong>${state.chapters.length}</strong><span>章节</span></div><div class="metric-card"><strong>${state.all.length}</strong><span>题目</span></div><div class="metric-card"><strong>${answered}</strong><span>已答</span></div><button class="metric-card metric-action" id="wrongBookCard"><strong>${accuracy}%</strong><span>总准确率 · 错题 ${wrong}</span></button></div><div class="chapter-list">${chapterHtml}</div></section>`;
+      document.querySelector("#wrongBookCard").addEventListener("click", startWrongBook);
       document.querySelectorAll("[data-chapter-learn]").forEach(button => button.addEventListener("click", () => startChapterLearn(button.dataset.chapterLearn)));
       document.querySelectorAll("[data-chapter-practice]").forEach(button => button.addEventListener("click", () => startChapterPractice(button.dataset.chapterPractice)));
       saveUi();
@@ -411,19 +417,24 @@
       state.session = { type: "learn", chapterKey: key, chapterTitle: chapterTitle(chapter), questionIds: state.filtered.map(q => q.id), startedAt: new Date().toISOString() };
       rememberLearnPosition(); saveSession(); render();
     }
+    function startWrongBook() {
+      state.session = { type: "wrongbook", chapterTitle: "错题本", questionIds: state.all.filter(isWrong).map(q => q.id), startedAt: new Date().toISOString() };
+      state.mode = "practice"; state.view = "quiz"; state.filtered = state.all.filter(isWrong); state.index = 0; state.showAnswer = false; saveSession(); render();
+    }
     function restoreSession(session) {
-      if (!session || !["chapter", "learn"].includes(session.type)) return false; const byId = new Map(state.all.map(q => [q.id, q])); const questions = (session.questionIds || []).map(id => byId.get(id)).filter(Boolean); if (!questions.length) return false;
+      if (!session || !["chapter", "learn", "wrongbook"].includes(session.type)) return false; const byId = new Map(state.all.map(q => [q.id, q])); const questions = session.type === "wrongbook" ? state.all.filter(isWrong) : (session.questionIds || []).map(id => byId.get(id)).filter(Boolean); if (!questions.length) return false;
       state.session = session; state.filtered = questions; state.view = session.type === "chapter" && session.completedAt ? "result" : "quiz"; state.mode = "practice"; state.index = session.type === "learn" ? Math.min(Number(state.learn[session.chapterKey]?.index || 0), Math.max(state.filtered.length - 1, 0)) : Math.min(state.index, Math.max(state.filtered.length - 1, 0)); return true;
     }
     function recordSessionAnswer(q, selected, correct) { if (!state.session || state.session.type !== "chapter") return; state.session.answers[q.id] = { selected, correct, answeredAt: new Date().toISOString() }; if (Object.keys(state.session.answers).length >= state.session.questionIds.length) state.session.completedAt = new Date().toISOString(); saveSession(); }
-    function visibleProgress(q) { return state.session?.type === "chapter" ? state.session.answers[q.id] || {} : state.progress[q.id] || {}; }
+    function visibleProgress(q) { const item = state.session?.type === "chapter" ? state.session.answers[q.id] || {} : state.progress[q.id] || {}; return item.correct !== undefined ? { selected: item.selected, isCorrect: item.correct } : item; }
+    function migrateWrongBook() { state.all.forEach(q => { const progress = state.progress[q.id]; if (progress?.isCorrect === false) state.wrongBook[q.id] ||= { addedAt: progress.answeredAt || new Date().toISOString() }; if (progress?.isCorrect === true) delete state.wrongBook[q.id]; }); saveWrongBook(); }
     function rememberLearnPosition() { if (state.session?.type !== "learn") return; state.learn[state.session.chapterKey] = { index: state.index, updatedAt: new Date().toISOString() }; saveLearn(); }
     function answerQuestion(q, selected) {
       if (state.mode === "recite") return; const correct = answerText(q).includes(selected); const previous = state.progress[q.id] || {};
       state.progress[q.id] = { selected, isCorrect: correct, attempts: (previous.attempts || 0) + 1, correctAttempts: (previous.correctAttempts || 0) + (correct ? 1 : 0), wrongAttempts: (previous.wrongAttempts || 0) + (correct ? 0 : 1), answeredAt: new Date().toISOString() };
-      state.showAnswer = true; recordSessionAnswer(q, selected, correct); rememberLearnPosition(); saveProgress(); render();
+      syncWrongBook(q, correct); state.showAnswer = true; recordSessionAnswer(q, selected, correct); rememberLearnPosition(); saveProgress(); render();
     }
-    function resetCurrent() { const q = state.filtered[state.index]; if (!q) return; if (state.session?.type === "chapter") { delete state.session.answers[q.id]; state.session.completedAt = null; saveSession(); } else { delete state.progress[q.id]; saveProgress(); } state.showAnswer = state.mode === "recite"; render(); }
+    function resetCurrent() { const q = state.filtered[state.index]; if (!q) return; if (state.session?.type === "chapter") { delete state.session.answers[q.id]; state.session.completedAt = null; saveSession(); } else { delete state.progress[q.id]; delete state.wrongBook[q.id]; saveProgress(); saveWrongBook(); } state.showAnswer = state.mode === "recite"; render(); }
     function contextFor(q) { if (!q) return ""; const bits = [chapterLabel(q), q.section ? `考点${q.section.number} ${q.section.title}` : "未分考点", q.source || "", `页 ${q.pageStart}${q.pageEnd !== q.pageStart ? "-" + q.pageEnd : ""}`]; return bits.filter(Boolean).join(" · "); }
     function renderResult() {
       state.view = "result"; applyViewClass(); const session = state.session; const total = session?.questionIds?.length || 0; const answers = Object.values(session?.answers || {}); const correct = answers.filter(item => item.correct).length; const wrong = answers.length - correct; const accuracy = total ? Math.round(correct / total * 100) : 0;
@@ -435,7 +446,7 @@
       applyMode(); applyTheme(); applyViewClass(); if (state.view === "dashboard") return renderDashboard(); if (state.view === "result") return renderResult();
       const total = state.filtered.length; els.counter.textContent = total ? `${state.index + 1} / ${total}` : "0 / 0"; els.topStars.textContent = ""; els.prev.disabled = state.index <= 0; els.next.disabled = state.index >= total - 1; els.random.disabled = state.session?.type === "learn"; els.finish.textContent = state.session?.type === "chapter" ? "结果" : "完成"; els.finish.disabled = Boolean(state.session?.type === "chapter" && Object.keys(state.session.answers || {}).length < total); els.toggle.textContent = state.showAnswer ? "隐藏" : "解析";
       if (!total) { els.contextLine.textContent = "没有匹配的题目"; els.host.innerHTML = `<div class="empty">没有匹配的题目</div>`; saveUi(); return; }
-      const q = state.filtered[state.index]; els.topStars.textContent = q.section?.priority || ""; els.contextLine.textContent = state.session?.type === "chapter" ? `${state.session.chapterTitle} · 章节练习 · 已答 ${Object.keys(state.session.answers || {}).length}/${total}` : state.session?.type === "learn" ? `${state.session.chapterTitle} · 章节学习 · 已答 ${state.filtered.filter(isAnswered).length}/${total}` : contextFor(q);
+      const q = state.filtered[state.index]; els.topStars.textContent = q.section?.priority || ""; els.contextLine.textContent = state.session?.type === "chapter" ? `${state.session.chapterTitle} · 章节练习 · 已答 ${Object.keys(state.session.answers || {}).length}/${total}` : state.session?.type === "learn" ? `${state.session.chapterTitle} · 章节学习 · 已答 ${state.filtered.filter(isAnswered).length}/${total}` : state.session?.type === "wrongbook" ? `错题本 · 当前 ${state.all.filter(isWrong).length} 道` : contextFor(q);
       const progress = visibleProgress(q); const answer = answerText(q); const showJudgement = Boolean(progress.selected) || state.mode === "recite"; const answerVisible = state.mode === "recite" || state.showAnswer || Boolean(progress.selected); const resultText = progress.selected && state.mode !== "recite" ? progress.isCorrect ? "回答正确" : `回答错误，你选了 ${progress.selected}` : "";
       const optionHtml = Object.entries(q.options || {}).map(([key, value]) => { let classes = ""; if (progress.selected === key) classes += " selected"; if (showJudgement && answer.includes(key)) classes += " correct"; if (showJudgement && progress.selected === key && !answer.includes(key)) classes += " wrong"; return `<button class="option${classes}" data-option="${escapeAttr(key)}"><span class="label">${escapeHtml(key)}</span><span class="copy">${escapeHtml(value)}</span></button>`; }).join("");
       els.host.innerHTML = `<article class="question-card"><button class="edge-nav prev" id="edgePrev" aria-label="上一题"></button><button class="edge-nav next" id="edgeNext" aria-label="下一题"></button><p class="stem">${escapeHtml(q.stem || "")}</p><div class="options">${optionHtml}</div><div class="answer-panel ${answerVisible ? "visible" : ""}">${resultText ? `<p class="answer-line ${progress.isCorrect ? "result-right" : "result-wrong"}">${escapeHtml(resultText)}</p>` : ""}<p class="answer-line">答案：${escapeHtml(answer || "未识别")}</p><p class="explanation">${escapeHtml(q.explanation || "暂无解析")}</p></div></article>`;
@@ -449,7 +460,7 @@
     function escapeAttr(value) { return escapeHtml(value).replace(/`/g, "&#096;"); }
     els.home.addEventListener("click", goDashboard); els.filterBtn.addEventListener("click", event => { event.stopPropagation(); els.filterPopover.classList.toggle("open"); }); document.addEventListener("click", event => { if (!els.filterPopover.contains(event.target)) els.filterPopover.classList.remove("open"); }); els.chapterFilter.addEventListener("change", () => { updateSectionFilter(""); state.index = 0; applyFilters(); }); els.sectionFilter.addEventListener("change", () => { state.index = 0; applyFilters(); }); els.statusFilter.addEventListener("change", () => { state.index = 0; applyFilters(); }); els.prev.addEventListener("click", () => go(-1)); els.next.addEventListener("click", () => go(1)); els.mode.addEventListener("click", () => { state.mode = state.mode === "recite" ? "practice" : "recite"; state.showAnswer = state.mode === "recite"; render(); }); els.theme.addEventListener("click", () => { state.theme = state.theme === "dark" ? "light" : "dark"; render(); }); els.toggle.addEventListener("click", () => { if (state.mode === "recite") return; state.showAnswer = !state.showAnswer; render(); }); els.resetCurrent.addEventListener("click", resetCurrent); els.random.addEventListener("click", () => { if (!state.filtered.length || state.session?.type === "learn") return; state.index = Math.floor(Math.random() * state.filtered.length); state.showAnswer = state.mode === "recite"; window.scrollTo({ top: 0, behavior: "smooth" }); render(); }); els.finish.addEventListener("click", () => { if (state.session?.type === "chapter") { state.view = "result"; render(); } else goDashboard(); }); document.addEventListener("keydown", event => { if (event.key === "ArrowLeft") go(-1); if (event.key === "ArrowRight") go(1); });
     const savedUi = loadJson(UI_KEY, {}); state.mode = savedUi.mode || state.mode; state.theme = savedUi.theme || state.theme; state.view = savedUi.view || "dashboard"; state.showAnswer = Boolean(savedUi.showAnswer); applyMode(); applyTheme();
-    fetch("questions.json").then(response => { if (!response.ok) throw new Error("questions.json not found"); return response.json(); }).then(data => { state.all = data.questions || []; buildChapters(); fillFilters(savedUi); state.filtered = filteredQuestions(); state.index = Math.min(Number(savedUi.index || 0), Math.max(state.filtered.length - 1, 0)); const savedSession = loadJson(SESSION_KEY, null); if (savedSession && restoreSession(savedSession)) state.showAnswer = false; else if (state.view !== "dashboard") state.view = "quiz"; state.showAnswer = state.mode === "recite" ? true : Boolean(savedUi.showAnswer); render(); }).catch(error => { els.counter.textContent = "未加载"; els.topStars.textContent = ""; els.contextLine.textContent = "无法加载题库"; els.host.innerHTML = `<div class="empty">请确认 questions.json 与当前 HTML 在同一目录，并通过本地服务或 GitHub Pages 打开。</div>`; console.error(error); });
+    fetch("questions.json").then(response => { if (!response.ok) throw new Error("questions.json not found"); return response.json(); }).then(data => { state.all = data.questions || []; migrateWrongBook(); buildChapters(); fillFilters(savedUi); state.filtered = filteredQuestions(); state.index = Math.min(Number(savedUi.index || 0), Math.max(state.filtered.length - 1, 0)); const savedSession = loadJson(SESSION_KEY, null); if (savedSession && restoreSession(savedSession)) state.showAnswer = false; else if (state.view !== "dashboard") state.view = "quiz"; state.showAnswer = state.mode === "recite" ? true : Boolean(savedUi.showAnswer); render(); }).catch(error => { els.counter.textContent = "未加载"; els.topStars.textContent = ""; els.contextLine.textContent = "无法加载题库"; els.host.innerHTML = `<div class="empty">请确认 questions.json 与当前 HTML 在同一目录，并通过本地服务或 GitHub Pages 打开。</div>`; console.error(error); });
   </script>
 </body>
 </html>
