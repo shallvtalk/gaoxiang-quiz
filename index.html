@@ -141,8 +141,33 @@
       border-radius: 8px;
       background: color-mix(in srgb, var(--panel) 82%, var(--brand-weak));
     }
+    .chapter-card .chapter-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .chapter-stat strong { display: block; font-size: 16px; }
     .chapter-stat span { display: block; color: var(--muted); font-size: 11px; }
+    .chapter-stat.action { cursor: pointer; text-align: left; }
+    .chapter-stat.action:hover { border-color: var(--brand); }
+    .chapter-progress {
+      display: grid;
+      gap: 6px;
+    }
+    .chapter-progress-label {
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+    .progress-track {
+      height: 8px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--line) 65%, var(--panel));
+    }
+    .progress-fill {
+      height: 100%;
+      width: var(--progress);
+      background: var(--brand);
+    }
     .star-breakdown { display: flex; flex-wrap: wrap; gap: 6px; }
     .star-chip {
       display: inline-flex;
@@ -331,6 +356,7 @@
     const LEARN_KEY = "gaoxiangQuizChapterLearn.v1";
     const WRONG_KEY = "gaoxiangQuizWrongBook.v1";
     const state = { all: [], filtered: [], chapters: [], index: 0, showAnswer: false, mode: "practice", theme: "light", view: "dashboard", session: null, progress: loadJson(STORAGE_KEY, {}), learn: loadJson(LEARN_KEY, {}), wrongBook: loadJson(WRONG_KEY, {}), touchStartX: 0, touchStartY: 0 };
+    let timerHandle = null;
     const els = {
       counter: document.querySelector("#counter"), topStars: document.querySelector("#topStars"), contextLine: document.querySelector("#contextLine"),
       chapterFilter: document.querySelector("#chapterFilter"), sectionFilter: document.querySelector("#sectionFilter"), statusFilter: document.querySelector("#statusFilter"),
@@ -354,6 +380,10 @@
     function isAnswered(q) { return Boolean(state.progress[q.id]?.answeredAt); }
     function isWrong(q) { return Boolean(state.wrongBook[q.id]); }
     function syncWrongBook(q, correct) { if (correct) delete state.wrongBook[q.id]; else state.wrongBook[q.id] = { addedAt: new Date().toISOString() }; saveWrongBook(); }
+    function formatDuration(ms) { const total = Math.max(0, Math.floor(ms / 1000)); const h = String(Math.floor(total / 3600)).padStart(2, "0"); const m = String(Math.floor(total % 3600 / 60)).padStart(2, "0"); const s = String(total % 60).padStart(2, "0"); return `${h}:${m}:${s}`; }
+    function sessionElapsed(session = state.session) { if (!session?.startedAt) return 0; const end = session.completedAt ? Date.parse(session.completedAt) : Date.now(); return end - Date.parse(session.startedAt); }
+    function updateTimer() { if (state.session?.type !== "chapter") return; els.finish.textContent = formatDuration(sessionElapsed()); }
+    function syncTimer() { clearInterval(timerHandle); timerHandle = null; if (state.session?.type === "chapter" && state.view === "quiz") { updateTimer(); timerHandle = setInterval(updateTimer, 1000); } }
     function uniqueBy(items, getKey) { const map = new Map(); items.forEach(item => { const key = getKey(item); if (!map.has(key)) map.set(key, item); }); return [...map.values()]; }
     function shuffle(items) { const copy = [...items]; for (let i = copy.length - 1; i > 0; i -= 1) { const j = Math.floor(Math.random() * (i + 1)); [copy[i], copy[j]] = [copy[j], copy[i]]; } return copy; }
     function buildChapters() {
@@ -392,11 +422,14 @@
       els.contextLine.textContent = `${state.all.length} 道题 · ${state.chapters.length} 章 · 已答 ${answered}`;
       const chapterHtml = state.chapters.map(chapter => {
         const chapterAnswered = chapter.questions.filter(isAnswered).length;
+        const chapterWrong = chapter.questions.filter(isWrong).length;
+        const progress = Math.round(chapterAnswered / chapter.questions.length * 100);
         const starHtml = [...chapter.byStars.entries()].sort((a, b) => b[0] - a[0]).map(([stars, count]) => `<span class="star-chip">${stars ? "★".repeat(stars) : "无星"} ${count}</span>`).join("");
-        return `<article class="chapter-card"><div class="chapter-head"><div><div class="chapter-title">第${chapter.chapter.number}章 ${escapeHtml(chapter.chapter.title)}</div><div class="chapter-sub">${chapter.sections.size} 个知识点 · ${chapter.questions.length} 道题</div></div><div class="chapter-actions"><button data-chapter-learn="${escapeAttr(chapter.key)}">章节学习</button><button class="primary" data-chapter-practice="${escapeAttr(chapter.key)}">章节练习</button></div></div><div class="chapter-stats"><div class="chapter-stat"><strong>${chapter.sections.size}</strong><span>知识点</span></div><div class="chapter-stat"><strong>${chapter.questions.length}</strong><span>题目</span></div><div class="chapter-stat"><strong>${chapterAnswered}</strong><span>已答</span></div><div class="chapter-stat"><strong>${chapter.questions.length - chapterAnswered}</strong><span>未答</span></div></div><div class="star-breakdown">${starHtml}</div></article>`;
+        return `<article class="chapter-card"><div class="chapter-head"><div><div class="chapter-title">第${chapter.chapter.number}章 ${escapeHtml(chapter.chapter.title)}</div><div class="chapter-sub">${chapter.sections.size} 个知识点 · ${chapter.questions.length} 道题</div></div><div class="chapter-actions"><button data-chapter-learn="${escapeAttr(chapter.key)}">章节学习</button><button class="primary" data-chapter-practice="${escapeAttr(chapter.key)}">章节练习</button></div></div><div class="chapter-stats"><div class="chapter-stat"><strong>${chapter.questions.length}</strong><span>题目</span></div><button class="chapter-stat action" data-chapter-wrong="${escapeAttr(chapter.key)}"><strong>${chapterWrong}</strong><span>错题</span></button></div><div class="chapter-progress"><div class="chapter-progress-label"><span>进度 ${chapterAnswered}/${chapter.questions.length}</span><span>${progress}%</span></div><div class="progress-track"><div class="progress-fill" style="--progress: ${progress}%"></div></div></div><div class="star-breakdown">${starHtml}</div></article>`;
       }).join("");
       els.host.innerHTML = `<section class="dashboard-shell"><div class="dashboard-summary"><div class="metric-card"><strong>${state.chapters.length}</strong><span>章节</span></div><div class="metric-card"><strong>${state.all.length}</strong><span>题目</span></div><div class="metric-card"><strong>${answered}</strong><span>已答</span></div><button class="metric-card metric-action" id="wrongBookCard"><strong>${accuracy}%</strong><span>总准确率 · 错题 ${wrong}</span></button></div><div class="chapter-list">${chapterHtml}</div></section>`;
       document.querySelector("#wrongBookCard").addEventListener("click", startWrongBook);
+      document.querySelectorAll("[data-chapter-wrong]").forEach(button => button.addEventListener("click", () => startChapterWrongBook(button.dataset.chapterWrong)));
       document.querySelectorAll("[data-chapter-learn]").forEach(button => button.addEventListener("click", () => startChapterLearn(button.dataset.chapterLearn)));
       document.querySelectorAll("[data-chapter-practice]").forEach(button => button.addEventListener("click", () => startChapterPractice(button.dataset.chapterPractice)));
       saveUi();
@@ -421,11 +454,17 @@
       state.session = { type: "wrongbook", chapterTitle: "错题本", questionIds: state.all.filter(isWrong).map(q => q.id), startedAt: new Date().toISOString() };
       state.mode = "practice"; state.view = "quiz"; state.filtered = state.all.filter(isWrong); state.index = 0; state.showAnswer = false; saveSession(); scrollToTop(); render();
     }
+    function startChapterWrongBook(key) {
+      const chapter = state.chapters.find(item => item.key === key); if (!chapter) return;
+      const questions = chapter.questions.filter(isWrong);
+      state.session = { type: "wrongbook", chapterKey: key, chapterTitle: `${chapterTitle(chapter)}错题`, questionIds: questions.map(q => q.id), startedAt: new Date().toISOString() };
+      state.mode = "practice"; state.view = "quiz"; state.filtered = questions; state.index = 0; state.showAnswer = false; saveSession(); scrollToTop(); render();
+    }
     function restoreSession(session) {
-      if (!session || !["chapter", "learn", "wrongbook"].includes(session.type)) return false; const byId = new Map(state.all.map(q => [q.id, q])); const questions = session.type === "wrongbook" ? state.all.filter(isWrong) : (session.questionIds || []).map(id => byId.get(id)).filter(Boolean); if (!questions.length) return false;
+      if (!session || !["chapter", "learn", "wrongbook"].includes(session.type)) return false; const byId = new Map(state.all.map(q => [q.id, q])); const questions = session.type === "wrongbook" ? (session.chapterKey ? state.chapters.find(item => item.key === session.chapterKey)?.questions.filter(isWrong) || [] : state.all.filter(isWrong)) : (session.questionIds || []).map(id => byId.get(id)).filter(Boolean); if (!questions.length) return false;
       state.session = session; state.filtered = questions; state.view = session.type === "chapter" && session.completedAt ? "result" : "quiz"; state.mode = "practice"; state.index = session.type === "learn" ? Math.min(Number(state.learn[session.chapterKey]?.index || 0), Math.max(state.filtered.length - 1, 0)) : Math.min(state.index, Math.max(state.filtered.length - 1, 0)); return true;
     }
-    function recordSessionAnswer(q, selected, correct) { if (!state.session || state.session.type !== "chapter") return; state.session.answers[q.id] = { selected, correct, answeredAt: new Date().toISOString() }; if (Object.keys(state.session.answers).length >= state.session.questionIds.length) state.session.completedAt = new Date().toISOString(); saveSession(); }
+    function recordSessionAnswer(q, selected, correct) { if (!state.session || state.session.type !== "chapter") return; state.session.answers[q.id] = { selected, correct, answeredAt: new Date().toISOString() }; if (Object.keys(state.session.answers).length >= state.session.questionIds.length && !state.session.completedAt) state.session.completedAt = new Date().toISOString(); saveSession(); updateTimer(); }
     function visibleProgress(q) { const item = state.session?.type === "chapter" ? state.session.answers[q.id] || {} : state.progress[q.id] || {}; return item.correct !== undefined ? { selected: item.selected, isCorrect: item.correct } : item; }
     function migrateWrongBook() { state.all.forEach(q => { const progress = state.progress[q.id]; if (progress?.isCorrect === false) state.wrongBook[q.id] ||= { addedAt: progress.answeredAt || new Date().toISOString() }; if (progress?.isCorrect === true) delete state.wrongBook[q.id]; }); saveWrongBook(); }
     function rememberLearnPosition() { if (state.session?.type !== "learn") return; state.learn[state.session.chapterKey] = { index: state.index, updatedAt: new Date().toISOString() }; saveLearn(); }
@@ -439,18 +478,18 @@
     function renderResult() {
       state.view = "result"; applyViewClass(); const session = state.session; const total = session?.questionIds?.length || 0; const answers = Object.values(session?.answers || {}); const correct = answers.filter(item => item.correct).length; const wrong = answers.length - correct; const accuracy = total ? Math.round(correct / total * 100) : 0;
       els.counter.textContent = "练习结果"; els.topStars.textContent = ""; els.contextLine.textContent = session?.chapterTitle || "章节练习";
-      els.host.innerHTML = `<section class="result-card"><h2 class="result-title">${escapeHtml(session?.chapterTitle || "章节练习")} 完成</h2><div class="result-grid"><div class="metric-card"><strong>${total}</strong><span>本次题目</span></div><div class="metric-card"><strong>${correct}</strong><span>正确</span></div><div class="metric-card"><strong>${wrong}</strong><span>错误</span></div><div class="metric-card"><strong>${accuracy}%</strong><span>正确率</span></div></div><button class="primary" id="backDashboardBtn">回到控制台</button><button id="retryChapterBtn">再练一次本章</button></section>`;
+      els.host.innerHTML = `<section class="result-card"><h2 class="result-title">${escapeHtml(session?.chapterTitle || "章节练习")} 完成</h2><div class="result-grid"><div class="metric-card"><strong>${total}</strong><span>本次题目</span></div><div class="metric-card"><strong>${correct}</strong><span>正确</span></div><div class="metric-card"><strong>${wrong}</strong><span>错误</span></div><div class="metric-card"><strong>${accuracy}%</strong><span>正确率</span></div><div class="metric-card"><strong>${formatDuration(sessionElapsed(session))}</strong><span>最终耗时</span></div></div><button class="primary" id="backDashboardBtn">回到控制台</button><button id="retryChapterBtn">再练一次本章</button></section>`;
       document.querySelector("#backDashboardBtn").addEventListener("click", goDashboard); document.querySelector("#retryChapterBtn").addEventListener("click", () => startChapterPractice(session.chapterKey)); saveUi();
     }
     function render() {
-      applyMode(); applyTheme(); applyViewClass(); if (state.view === "dashboard") return renderDashboard(); if (state.view === "result") return renderResult();
-      const total = state.filtered.length; els.counter.textContent = total ? `${state.index + 1} / ${total}` : "0 / 0"; els.topStars.textContent = ""; els.prev.disabled = state.index <= 0; els.next.disabled = state.index >= total - 1; els.random.disabled = state.session?.type === "learn"; els.finish.textContent = state.session?.type === "chapter" ? "结果" : "完成"; els.finish.disabled = Boolean(state.session?.type === "chapter" && Object.keys(state.session.answers || {}).length < total); els.toggle.textContent = state.showAnswer ? "隐藏" : "解析";
+      applyMode(); applyTheme(); applyViewClass(); syncTimer(); if (state.view === "dashboard") return renderDashboard(); if (state.view === "result") return renderResult();
+      const total = state.filtered.length; els.counter.textContent = total ? `${state.index + 1} / ${total}` : "0 / 0"; els.topStars.textContent = ""; els.prev.disabled = state.index <= 0; els.next.disabled = state.index >= total - 1; els.random.disabled = state.session?.type === "learn"; els.finish.textContent = state.session?.type === "chapter" ? formatDuration(sessionElapsed()) : "完成"; els.finish.disabled = Boolean(state.session?.type === "chapter" && Object.keys(state.session.answers || {}).length < total); els.toggle.textContent = state.showAnswer ? "隐藏" : "解析";
       if (!total) { els.contextLine.textContent = "没有匹配的题目"; els.host.innerHTML = `<div class="empty">没有匹配的题目</div>`; saveUi(); return; }
-      const q = state.filtered[state.index]; els.topStars.textContent = q.section?.priority || ""; els.contextLine.textContent = state.session?.type === "chapter" ? `${state.session.chapterTitle} · 章节练习 · 已答 ${Object.keys(state.session.answers || {}).length}/${total}` : state.session?.type === "learn" ? `${state.session.chapterTitle} · 章节学习 · 已答 ${state.filtered.filter(isAnswered).length}/${total}` : state.session?.type === "wrongbook" ? `错题本 · 当前 ${state.all.filter(isWrong).length} 道` : contextFor(q);
+      const q = state.filtered[state.index]; els.topStars.textContent = q.section?.priority || ""; els.contextLine.textContent = state.session?.type === "chapter" ? `${state.session.chapterTitle} · 章节练习 · 已答 ${Object.keys(state.session.answers || {}).length}/${total}` : state.session?.type === "learn" ? `${state.session.chapterTitle} · 章节学习 · 已答 ${state.filtered.filter(isAnswered).length}/${total}` : state.session?.type === "wrongbook" ? `${state.session.chapterTitle || "错题本"} · 当前 ${state.filtered.length} 道` : contextFor(q);
       const progress = visibleProgress(q); const answer = answerText(q); const showJudgement = Boolean(progress.selected) || state.mode === "recite"; const answerVisible = state.mode === "recite" || state.showAnswer || Boolean(progress.selected); const resultText = progress.selected && state.mode !== "recite" ? progress.isCorrect ? "回答正确" : `回答错误，你选了 ${progress.selected}` : "";
       const optionHtml = Object.entries(q.options || {}).map(([key, value]) => { let classes = ""; if (progress.selected === key) classes += " selected"; if (showJudgement && answer.includes(key)) classes += " correct"; if (showJudgement && progress.selected === key && !answer.includes(key)) classes += " wrong"; return `<button class="option${classes}" data-option="${escapeAttr(key)}"><span class="label">${escapeHtml(key)}</span><span class="copy">${escapeHtml(value)}</span></button>`; }).join("");
       els.host.innerHTML = `<article class="question-card"><button class="edge-nav prev" id="edgePrev" aria-label="上一题"></button><button class="edge-nav next" id="edgeNext" aria-label="下一题"></button><p class="stem">${escapeHtml(q.stem || "")}</p><div class="options">${optionHtml}</div><div class="answer-panel ${answerVisible ? "visible" : ""}">${resultText ? `<p class="answer-line ${progress.isCorrect ? "result-right" : "result-wrong"}">${escapeHtml(resultText)}</p>` : ""}<p class="answer-line">答案：${escapeHtml(answer || "未识别")}</p><p class="explanation">${escapeHtml(q.explanation || "暂无解析")}</p></div></article>`;
-      document.querySelectorAll(".option").forEach(button => button.addEventListener("click", () => answerQuestion(q, button.dataset.option))); const card = document.querySelector(".question-card"); card.addEventListener("touchstart", handleTouchStart, { passive: true }); card.addEventListener("touchend", handleTouchEnd, { passive: true }); document.querySelector("#edgePrev").addEventListener("click", () => go(-1)); document.querySelector("#edgeNext").addEventListener("click", () => go(1)); if (state.session?.completedAt) setTimeout(() => { state.view = "result"; render(); }, 300); saveUi();
+      document.querySelectorAll(".option").forEach(button => button.addEventListener("click", () => answerQuestion(q, button.dataset.option))); const card = document.querySelector(".question-card"); card.addEventListener("touchstart", handleTouchStart, { passive: true }); card.addEventListener("touchend", handleTouchEnd, { passive: true }); document.querySelector("#edgePrev").addEventListener("click", () => go(-1)); document.querySelector("#edgeNext").addEventListener("click", () => go(1)); saveUi();
     }
     function scrollToTop(behavior = "auto") { window.scrollTo({ top: 0, left: 0, behavior }); document.documentElement.scrollLeft = 0; document.body.scrollLeft = 0; }
     function go(delta) { const nextIndex = state.index + delta; if (nextIndex < 0 || nextIndex >= state.filtered.length) return; state.index = nextIndex; rememberLearnPosition(); state.showAnswer = state.mode === "recite"; scrollToTop("smooth"); render(); }
