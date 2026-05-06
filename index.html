@@ -38,7 +38,7 @@
       --shadow: 0 -8px 24px rgba(0, 0, 0, 0.28);
     }
     * { box-sizing: border-box; }
-    html, body { min-height: 100%; }
+    html, body { min-height: 100%; overflow-x: hidden; }
     body {
       margin: 0;
       background: var(--bg);
@@ -384,7 +384,7 @@
     function applyFilters({ keepIndex = false } = {}) {
       state.session = null; saveSession(); const previousId = state.filtered[state.index]?.id; state.filtered = filteredQuestions();
       if (keepIndex && previousId) { const nextIndex = state.filtered.findIndex(q => q.id === previousId); state.index = nextIndex >= 0 ? nextIndex : 0; } else state.index = Math.min(state.index, Math.max(state.filtered.length - 1, 0));
-      state.view = "quiz"; state.showAnswer = state.mode === "recite" ? true : state.showAnswer; render();
+      state.view = "quiz"; state.showAnswer = state.mode === "recite" ? true : state.showAnswer; scrollToTop(); render();
     }
     function renderDashboard() {
       state.view = "dashboard"; applyViewClass(); els.counter.textContent = "控制台"; els.topStars.textContent = "";
@@ -406,7 +406,7 @@
       const chapter = state.chapters.find(item => item.key === key); if (!chapter) return;
       state.mode = "practice"; state.view = "quiz"; state.filtered = shuffle(chapter.questions); state.index = 0; state.showAnswer = false;
       state.session = { type: "chapter", chapterKey: key, chapterTitle: chapterTitle(chapter), questionIds: state.filtered.map(q => q.id), answers: {}, startedAt: new Date().toISOString(), completedAt: null };
-      saveSession(); render();
+      saveSession(); scrollToTop(); render();
     }
     function startChapterLearn(key) {
       const chapter = state.chapters.find(item => item.key === key); if (!chapter) return;
@@ -415,11 +415,11 @@
       const startIndex = saved.index !== undefined ? Number(saved.index) : firstUnanswered >= 0 ? firstUnanswered : 0;
       state.mode = "practice"; state.view = "quiz"; state.filtered = [...chapter.questions]; state.index = Math.min(startIndex, Math.max(chapter.questions.length - 1, 0)); state.showAnswer = false;
       state.session = { type: "learn", chapterKey: key, chapterTitle: chapterTitle(chapter), questionIds: state.filtered.map(q => q.id), startedAt: new Date().toISOString() };
-      rememberLearnPosition(); saveSession(); render();
+      rememberLearnPosition(); saveSession(); scrollToTop(); render();
     }
     function startWrongBook() {
       state.session = { type: "wrongbook", chapterTitle: "错题本", questionIds: state.all.filter(isWrong).map(q => q.id), startedAt: new Date().toISOString() };
-      state.mode = "practice"; state.view = "quiz"; state.filtered = state.all.filter(isWrong); state.index = 0; state.showAnswer = false; saveSession(); render();
+      state.mode = "practice"; state.view = "quiz"; state.filtered = state.all.filter(isWrong); state.index = 0; state.showAnswer = false; saveSession(); scrollToTop(); render();
     }
     function restoreSession(session) {
       if (!session || !["chapter", "learn", "wrongbook"].includes(session.type)) return false; const byId = new Map(state.all.map(q => [q.id, q])); const questions = session.type === "wrongbook" ? state.all.filter(isWrong) : (session.questionIds || []).map(id => byId.get(id)).filter(Boolean); if (!questions.length) return false;
@@ -452,13 +452,14 @@
       els.host.innerHTML = `<article class="question-card"><button class="edge-nav prev" id="edgePrev" aria-label="上一题"></button><button class="edge-nav next" id="edgeNext" aria-label="下一题"></button><p class="stem">${escapeHtml(q.stem || "")}</p><div class="options">${optionHtml}</div><div class="answer-panel ${answerVisible ? "visible" : ""}">${resultText ? `<p class="answer-line ${progress.isCorrect ? "result-right" : "result-wrong"}">${escapeHtml(resultText)}</p>` : ""}<p class="answer-line">答案：${escapeHtml(answer || "未识别")}</p><p class="explanation">${escapeHtml(q.explanation || "暂无解析")}</p></div></article>`;
       document.querySelectorAll(".option").forEach(button => button.addEventListener("click", () => answerQuestion(q, button.dataset.option))); const card = document.querySelector(".question-card"); card.addEventListener("touchstart", handleTouchStart, { passive: true }); card.addEventListener("touchend", handleTouchEnd, { passive: true }); document.querySelector("#edgePrev").addEventListener("click", () => go(-1)); document.querySelector("#edgeNext").addEventListener("click", () => go(1)); if (state.session?.completedAt) setTimeout(() => { state.view = "result"; render(); }, 300); saveUi();
     }
-    function go(delta) { const nextIndex = state.index + delta; if (nextIndex < 0 || nextIndex >= state.filtered.length) return; state.index = nextIndex; rememberLearnPosition(); state.showAnswer = state.mode === "recite"; window.scrollTo({ top: 0, behavior: "smooth" }); render(); }
+    function scrollToTop(behavior = "auto") { window.scrollTo({ top: 0, left: 0, behavior }); document.documentElement.scrollLeft = 0; document.body.scrollLeft = 0; }
+    function go(delta) { const nextIndex = state.index + delta; if (nextIndex < 0 || nextIndex >= state.filtered.length) return; state.index = nextIndex; rememberLearnPosition(); state.showAnswer = state.mode === "recite"; scrollToTop("smooth"); render(); }
     function goDashboard() { state.view = "dashboard"; state.session = null; saveSession(); render(); }
     function handleTouchStart(event) { const touch = event.changedTouches[0]; state.touchStartX = touch.clientX; state.touchStartY = touch.clientY; }
     function handleTouchEnd(event) { const touch = event.changedTouches[0]; const dx = touch.clientX - state.touchStartX; const dy = touch.clientY - state.touchStartY; if (Math.abs(dx) < 72 || Math.abs(dx) < Math.abs(dy) * 1.4) return; go(dx < 0 ? 1 : -1); }
     function escapeHtml(value) { return String(value).replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[char])); }
     function escapeAttr(value) { return escapeHtml(value).replace(/`/g, "&#096;"); }
-    els.home.addEventListener("click", goDashboard); els.filterBtn.addEventListener("click", event => { event.stopPropagation(); els.filterPopover.classList.toggle("open"); }); document.addEventListener("click", event => { if (!els.filterPopover.contains(event.target)) els.filterPopover.classList.remove("open"); }); els.chapterFilter.addEventListener("change", () => { updateSectionFilter(""); state.index = 0; applyFilters(); }); els.sectionFilter.addEventListener("change", () => { state.index = 0; applyFilters(); }); els.statusFilter.addEventListener("change", () => { state.index = 0; applyFilters(); }); els.prev.addEventListener("click", () => go(-1)); els.next.addEventListener("click", () => go(1)); els.mode.addEventListener("click", () => { state.mode = state.mode === "recite" ? "practice" : "recite"; state.showAnswer = state.mode === "recite"; render(); }); els.theme.addEventListener("click", () => { state.theme = state.theme === "dark" ? "light" : "dark"; render(); }); els.toggle.addEventListener("click", () => { if (state.mode === "recite") return; state.showAnswer = !state.showAnswer; render(); }); els.resetCurrent.addEventListener("click", resetCurrent); els.random.addEventListener("click", () => { if (!state.filtered.length || state.session?.type === "learn") return; state.index = Math.floor(Math.random() * state.filtered.length); state.showAnswer = state.mode === "recite"; window.scrollTo({ top: 0, behavior: "smooth" }); render(); }); els.finish.addEventListener("click", () => { if (state.session?.type === "chapter") { state.view = "result"; render(); } else goDashboard(); }); document.addEventListener("keydown", event => { if (event.key === "ArrowLeft") go(-1); if (event.key === "ArrowRight") go(1); });
+    els.home.addEventListener("click", goDashboard); els.filterBtn.addEventListener("click", event => { event.stopPropagation(); els.filterPopover.classList.toggle("open"); }); document.addEventListener("click", event => { if (!els.filterPopover.contains(event.target)) els.filterPopover.classList.remove("open"); }); els.chapterFilter.addEventListener("change", () => { updateSectionFilter(""); state.index = 0; applyFilters(); }); els.sectionFilter.addEventListener("change", () => { state.index = 0; applyFilters(); }); els.statusFilter.addEventListener("change", () => { state.index = 0; applyFilters(); }); els.prev.addEventListener("click", () => go(-1)); els.next.addEventListener("click", () => go(1)); els.mode.addEventListener("click", () => { state.mode = state.mode === "recite" ? "practice" : "recite"; state.showAnswer = state.mode === "recite"; render(); }); els.theme.addEventListener("click", () => { state.theme = state.theme === "dark" ? "light" : "dark"; render(); }); els.toggle.addEventListener("click", () => { if (state.mode === "recite") return; state.showAnswer = !state.showAnswer; render(); }); els.resetCurrent.addEventListener("click", resetCurrent); els.random.addEventListener("click", () => { if (!state.filtered.length || state.session?.type === "learn") return; state.index = Math.floor(Math.random() * state.filtered.length); state.showAnswer = state.mode === "recite"; scrollToTop("smooth"); render(); }); els.finish.addEventListener("click", () => { if (state.session?.type === "chapter") { state.view = "result"; render(); } else goDashboard(); }); document.addEventListener("keydown", event => { if (event.key === "ArrowLeft") go(-1); if (event.key === "ArrowRight") go(1); });
     const savedUi = loadJson(UI_KEY, {}); state.mode = savedUi.mode || state.mode; state.theme = savedUi.theme || state.theme; state.view = savedUi.view || "dashboard"; state.showAnswer = Boolean(savedUi.showAnswer); applyMode(); applyTheme();
     fetch("questions.json").then(response => { if (!response.ok) throw new Error("questions.json not found"); return response.json(); }).then(data => { state.all = data.questions || []; migrateWrongBook(); buildChapters(); fillFilters(savedUi); state.filtered = filteredQuestions(); state.index = Math.min(Number(savedUi.index || 0), Math.max(state.filtered.length - 1, 0)); const savedSession = loadJson(SESSION_KEY, null); if (savedSession && restoreSession(savedSession)) state.showAnswer = false; else if (state.view !== "dashboard") state.view = "quiz"; state.showAnswer = state.mode === "recite" ? true : Boolean(savedUi.showAnswer); render(); }).catch(error => { els.counter.textContent = "未加载"; els.topStars.textContent = ""; els.contextLine.textContent = "无法加载题库"; els.host.innerHTML = `<div class="empty">请确认 questions.json 与当前 HTML 在同一目录，并通过本地服务或 GitHub Pages 打开。</div>`; console.error(error); });
   </script>
