@@ -1,0 +1,1801 @@
+{
+  "chapter": {
+    "number": 4,
+    "title": "信息系统管理"
+  },
+  "count": 64,
+  "questions": [
+    {
+      "id": "c4-s1-q1-p64",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 4
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "信息系统的四要素是()。",
+      "options": {
+        "A": "人员、技术、流程、管理",
+        "B": "人员、技术、流程、数据",
+        "C": "人员、技术、信息、管理",
+        "D": "人员、技术、信息、数据"
+      },
+      "answer": "B",
+      "explanation": "P93。信息系统包括四个要素:人员、技术、流程和数据。",
+      "pageStart": 64,
+      "pageEnd": 64,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s1-q2-p64",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 4
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "信息系统三层架构中位于底层的是()。",
+      "options": {
+        "A": "人员、技术、流程、数据",
+        "B": "信息系统",
+        "C": "管理",
+        "D": "规划和组织"
+      },
+      "answer": "A",
+      "explanation": "P94。\n信息系统三层架构:底层(人员、技术、流程和数据),中间层(信息系统),顶层(管理)",
+      "pageStart": 64,
+      "pageEnd": 64,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s1-q3-p64",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 4
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "不属于信息系统管理四大领域是()。",
+      "options": {
+        "A": "规划和组织",
+        "B": "设计和实施",
+        "C": "开发和测试",
+        "D": "运维和服务"
+      },
+      "answer": "C",
+      "explanation": "P94。\n信息系统管理覆盖四大领城:①规划和组织;②设计和实施;③运维和服务;④优化和持续\n改进。",
+      "pageStart": 64,
+      "pageEnd": 64,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s1-q4-p64",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 4
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "()针对信息系统的整体组织、战略和支持活动。",
+      "options": {
+        "A": "规划和组织",
+        "B": "设计和实施",
+        "C": "运维和服务",
+        "D": "优化和持续改进"
+      },
+      "answer": "A",
+      "explanation": "P94。\n信息系统管理覆盖四大领域:\n规划和组织:针对信息系统的整体组织、战略和支持活动;\n设计和实施:针对信息系统解决方案的定义、采购和实施,以及他们与业务流程的整合;\n运维和服务:针对信息系统服务的运行交付和支持,包括安全;\n优化和持续改进:针对信息系统的性能监控及其于内部性能目标、内部控制目标和外部要求\n的一致性管理。",
+      "pageStart": 64,
+      "pageEnd": 64,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s2-q1-p64",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "规划和组织",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "()用于描述信息系统与业务系统必要的协同关系,以及理解信息系统与组织机制间的相互影 响。",
+      "options": {
+        "A": "信息系统战略三角",
+        "B": "信息系统战略框架",
+        "C": "信息系统组织机制",
+        "D": "信息系统业务系统"
+      },
+      "answer": "A",
+      "explanation": "P94。\n信息系统战略三角突出了业务战略、信息系统和组组机制之间的必要一致性,它用于描述信\n息系统与业务系统必要的协同关系,以及理解信息系统与组织机制间的相互影响",
+      "pageStart": 64,
+      "pageEnd": 65,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s2-q2-p65",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "规划和组织",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "以下不属于竞争力优势模型的是()。",
+      "options": {
+        "A": "差异性战略",
+        "B": "总成本领先战略",
+        "C": "专注战略",
+        "D": "扩张型战略"
+      },
+      "answer": "D",
+      "explanation": "P96。\n描述业务战略的经典框架是迈克尔·波特提出的竞争力优势模型。包含以下三种战略:总成\n本领先战略,差异性战略,专注化战略。",
+      "pageStart": 65,
+      "pageEnd": 65,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s2-q3-p65",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "规划和组织",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "()允许组织将其范围限制在更狭窄的细分市场,并为该组客户对象量身定制其产品",
+      "options": {
+        "A": "总成本领先战略",
+        "B": "差异性战略",
+        "C": "专注化战略",
+        "D": "防御性战略"
+      },
+      "answer": "C",
+      "explanation": "P96。\n竞争力优势模型:\n总成本领先战略:采用该战略的组织通过最大限度地降低成本,从而获得高于平均水平的绩\n效。通常,一个行业中只存在一个成本引领者。\n差异性战略:组织通过差异化,以一种在市场上显得独特的方式,定义其产品或服务\n专注化战略:专注化允许组织将其范围限制在更狭室的细分市场,并为该组客户对象量身定\n制其产品。该策略有两种变体:①专注成本②专注差异化",
+      "pageStart": 65,
+      "pageEnd": 65,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s2-q4-p65",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "规划和组织",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "关于组织模型,()是不正确的。",
+      "options": {
+        "A": "业务战略闸明了组织寻求的业务目标以及期望如何达成的路径",
+        "B": "组织机制战略包括组织的设计以及为定义、设置、协调和控制其工作流程而做出的选择",
+        "C": "理解组织设计的经典框架是近克尔波特提出的竞争力优势模型",
+        "D": "信息系统战略是组织用来提供信息服务的计划"
+      },
+      "answer": "C",
+      "explanation": "P96。理解组织设计的经典框架是哈罗德.菜维特提出的钻石模型",
+      "pageStart": 65,
+      "pageEnd": 65,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s2-q5-p65",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "规划和组织",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "理解组织设计的经典框架是()特提出的钻石模型。",
+      "options": {
+        "A": "迈克尔波特",
+        "B": "香农",
+        "C": "哈罗德·莱维",
+        "D": "戴明"
+      },
+      "answer": "C",
+      "explanation": "P96。\n理解组织设计的经典框架是哈罗德“菜维特溺生提出的钻石模型。钻石模型将组织计划的关\n键组成部分标识为其信息与控制、人员、结构和任务,所有组件都是相互关联的",
+      "pageStart": 65,
+      "pageEnd": 66,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s2-q6-p66",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "规划和组织",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "钻石模型将组织计划的关键组成部分标识为其信息与控制、()、结构和任务,所有组件都是 相互关联的。",
+      "options": {
+        "A": "资源",
+        "B": "人员",
+        "C": "过程",
+        "D": "技术"
+      },
+      "answer": "B",
+      "explanation": "P96。\n钻石模型将组织计划的关键组成部分标识为其信息与控制、人员、结构和任务,所有组件都\n是相互关联的。",
+      "pageStart": 66,
+      "pageEnd": 66,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s2-q7-p66",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "规划和组织",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 7,
+      "source": "2023年上半年高项真题",
+      "stem": "信息系统战略三角不包括()。",
+      "options": {
+        "A": "安全技术",
+        "B": "业务战略",
+        "C": "组织机制",
+        "D": "信息系统"
+      },
+      "answer": "A",
+      "explanation": "P94-95。\n战略是实现目标、意图和目的的一组协调行动。战略往往始于使命,而使命是对组织的宗\n旨给出的一个清晰并令人信服的陈述。信息系统战略三角突出了业务战略、信息系统和组组机\n制之间的必要一致性。",
+      "pageStart": 66,
+      "pageEnd": 66,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s2-q8-p66",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "规划和组织",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 8,
+      "source": "2023年下半年高项第2批真题",
+      "stem": "以下()不是迈克尔·波特提出的战略框架。",
+      "options": {
+        "A": "差异性战略",
+        "B": "总成本领先战略",
+        "C": "专注战略",
+        "D": "增长型战略"
+      },
+      "answer": "D",
+      "explanation": "P96。\n描述业务战略的经典框架是迈克尔·波特提出的竞争力优势模型。包含以下三种战略:总成\n本领先战略,差异性战略,专注化战略。",
+      "pageStart": 66,
+      "pageEnd": 66,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s2-q9-p66",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "规划和组织",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 9,
+      "source": "2024年高项第1批真题",
+      "stem": "信息系统战略三角包括()。",
+      "options": {
+        "A": "业务战略、技术战略和组织机制",
+        "B": "业务战略、组织机制和信息系统",
+        "C": "技术战略、组织管理和信息系统",
+        "D": "发展战略,技术战略和组织管理"
+      },
+      "answer": "B",
+      "explanation": "P95。信息系统战略三角:业务战略、信息系统和组织机制。【口诀:夜行组】",
+      "pageStart": 66,
+      "pageEnd": 66,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s3-q1-p66",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "设计和实施",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 7
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "转换框架将业务战略转化为信息系统架构进而转变为信息系统设计,转换框架提出了三类问题 ()。",
+      "options": {
+        "A": "数据、人员、结构",
+        "B": "内容、人员和结构",
+        "C": "数据、资源、结构",
+        "D": "内容、人员和位置"
+      },
+      "answer": "D",
+      "explanation": "P99。\n转换框架将业务战略转化为信息系统架构进而转变为信息系统设计,涡牛转换框架提出了三\n类问题:内容、人员和位置。",
+      "pageStart": 66,
+      "pageEnd": 67,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s3-q2-p67",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "设计和实施",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 7
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "不属于信息系统体系架构模式的是()。",
+      "options": {
+        "A": "集中式架构",
+        "B": "分布式架构",
+        "C": "面向服务的系统架构",
+        "D": "物联网架构"
+      },
+      "answer": "D",
+      "explanation": "P99。\n信息系统体系架构有三种常见模式:1集中式架构,2.分布式架构,3.面向服务的系统架构\n(SOA)",
+      "pageStart": 67,
+      "pageEnd": 67,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s3-q3-p67",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "设计和实施",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 7
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "()中,使用的软件通常被引向软件即服务(SaaS)的相关架构,同时,这些应用程序在通 过互联网交付时也被称为Web服务。",
+      "options": {
+        "A": "集中式架构",
+        "B": "分布式架构",
+        "C": "面向服务的系统架构",
+        "D": "物联网架构"
+      },
+      "answer": "C",
+      "explanation": "P99。\n面向服务的系统架构(SOA)。SOA架构中使用的软件通常被引向软件即服务(SaaS)的\n相关架构,同时,这些应用程序在通过互联网交付时也被称为Web服务。",
+      "pageStart": 67,
+      "pageEnd": 67,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s3-q4-p67",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "设计和实施",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 7
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "关于信息系统体系架构模式的说法中不正确的是()。",
+      "options": {
+        "A": "集中式架构比分布式架构更加模块化",
+        "B": "集中式体系架构更易于管理",
+        "C": "SOA对于快速构建应用程序非常有用",
+        "D": "SOA架构中使用的软件通常被引向软件即服务(SaaS)的相关架构,同时,这些应用 程序在通过互联网交付时也被称为 Web服务"
+      },
+      "answer": "A",
+      "explanation": "P100。三种架构的优点与缺点:\n分在式架构比集中式架构更加模块化,集中式体系架构更易于管理,SOA对于快速构建应\n用程序非常有用,是一种更易于变更的构建应用程序的方法。",
+      "pageStart": 67,
+      "pageEnd": 67,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s3-q5-p67",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "设计和实施",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 7
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于三种信息系统体系架构模式的说法中不正确的是()。",
+      "options": {
+        "A": "分布式架构比集中式架构更加模块化,允许相对容易地添加其他服务器",
+        "B": "集中式体系架构在某些方面更易于管理,因为所有功能都集中在主机或小型机中",
+        "C": "基于Web的架构对于快速构建应用程序非常有用",
+        "D": "面向服务的架构会更加模块化,可伸缩性较好,采用非集中化部署"
+      },
+      "answer": "D",
+      "explanation": "P100。面向服务的架构就是基于Web的架构,其特点是利于快速构建应用程\n庄。",
+      "pageStart": 67,
+      "pageEnd": 68,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s3-q6-p68",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "设计和实施",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 7
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "运行业务所需的计算能力分散在许多设备中,包括不同位置的服务器、PC和笔记本电脑、智能 手机和平板电脑。设备(有时也被称为客户端)具有足够的处理能力来执行所需的许多服务, 并根据数据和专用服务的需要连接中央服务器,属于()。",
+      "options": {
+        "A": "集中式架构",
+        "B": "分布式架构",
+        "C": "企业信息化架构",
+        "D": "面向服务的架构"
+      },
+      "answer": "B",
+      "explanation": "P1OO。\n分在式架构。运行业务所需的计算能力分散在许多设备中,包括不同位置的服务器、PC和\n笔记本电脑、智能手机和平板电脑。设备(有时也被称为客户端)具有足够的处理能力来执行\n所需的许多服务,并根据数据和专用服务的需要连接中央服务器",
+      "pageStart": 68,
+      "pageEnd": 68,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s3-q7-p68",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "设计和实施",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 7
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "当希望系统成为敏捷架构;并且可重用性和组件化利于创造新应用时,采用()。",
+      "options": {
+        "A": "集中式架构",
+        "B": "分布式架构",
+        "C": "面向服务的系统架构",
+        "D": "云服务架构"
+      },
+      "answer": "C",
+      "explanation": "P1OO。\n在被称为编排的过程中,将较大的软件程序分解\n当希望系统成为敏捷架构;基于\n面向服\n为相互连接的服务。基于此,它们共同构成了\n可重用性和组件化利于创web务的架\n个应用来运行整个业务流程。通常,这些服务可\n造新应用:的架构\n当业务对新应用和快速设从互联网上的一系列供应商处获得,而应用程序\n构则是这些服务链接在一起形成的组合。\n计选代要求较高时;",
+      "pageStart": 68,
+      "pageEnd": 68,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q1-p68",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "()负责对服务中断、服务速度变慢、软件缺陷以及其他任何组件发生故障进行管理",
+      "options": {
+        "A": "事件管理",
+        "B": "服务合",
+        "C": "问题管理",
+        "D": "变更管理"
+      },
+      "answer": "A",
+      "explanation": "P1O1。\n事件是T服务管理遭遇计划外中断或服务质量出现下降,以及尚未影响服务的配置项故障\n事件可能是服务中断、服务速度变慢、软件缺陷以及其他任何组件发生故障",
+      "pageStart": 68,
+      "pageEnd": 68,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q2-p68",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "()是服务中与服务干系人沟通和交互的重要界面,负责对服务干系人遇到的问题和需求进行 响应和处理。",
+      "options": {
+        "A": "事件管理",
+        "B": "服务台",
+        "C": "问题管理",
+        "D": "变更管理"
+      },
+      "answer": "B",
+      "explanation": "P1O1。\n服务台是服务中与服务干系人涡牛沟通和交互的重要界面,负责对服务干系人遇到的问题和\n需求进行响应和处理;",
+      "pageStart": 68,
+      "pageEnd": 69,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q3-p69",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "()的总体目标是减少事件的数量和严重性。",
+      "options": {
+        "A": "事件管理",
+        "B": "服务台",
+        "C": "间题管理",
+        "D": "变更管理"
+      },
+      "answer": "C",
+      "explanation": "P1O1。\n问题管理的总体且标是减少重件的数量和严重性,这种对事件的控制既包括发生事件后的被\n动性措施,也包括采取主动措施预防与容量相关的事件发生。",
+      "pageStart": 69,
+      "pageEnd": 69,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q4-p69",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "()的流程更多的是与过程相关,并且重在管理而不是技术。",
+      "options": {
+        "A": "事件管理",
+        "B": "服务台",
+        "C": "问题管理",
+        "D": "变更管理"
+      },
+      "answer": "D",
+      "explanation": "P101。变更管理的流程更多的是与过程相关,并且重在管理面不是技术",
+      "pageStart": 69,
+      "pageEnd": 69,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q5-p69",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "()一般是由许多问题修复和IT服务质量改进组成的。",
+      "options": {
+        "A": "服务级别管理",
+        "B": "发布管理",
+        "C": "容量管理",
+        "D": "服务连续性管理"
+      },
+      "answer": "B",
+      "explanation": "P1O2。\n发布是由其实施的变更请求定义的,发布一般是由许多间题修复和T服务质量改进组成的",
+      "pageStart": 69,
+      "pageEnd": 69,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q6-p69",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "()就是对T服务的级别进行定义、记录和管理,并在可接受的成本之下与干系人达成一致 的管理过程。",
+      "options": {
+        "A": "服务级别管理",
+        "B": "财务管理",
+        "C": "容量管理",
+        "D": "服务连续性管理"
+      },
+      "answer": "A",
+      "explanation": "P1O2。\n服务级别管理就是对T服务的级别进行定义、记录和管理,并在可接受的成本之下与干系\n人达成一致的管理过程,通过服务水平协议(SLA)、服务绩效监控和报告的不断循环,持续\n维护和改进服务质量,以及触发采取行动消除较差服务,从而满足干系人的服务需求。",
+      "pageStart": 69,
+      "pageEnd": 69,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q7-p69",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "()主要活动包括:定期测量、计划变更、战略优化和技术变化等。",
+      "options": {
+        "A": "服务级别管理",
+        "B": "财务管理",
+        "C": "容量管理",
+        "D": "服务连续性管理"
+      },
+      "answer": "C",
+      "explanation": "P1O2。\n容量管理主要活动包括:定期测量、计划变更、战略优化和技术变化等。容量管理由三个子\n过程组成:业务容量管理、服务容量管理、资源容量管理。",
+      "pageStart": 69,
+      "pageEnd": 69,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q8-p70",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "()是指一个组件或一种服务在设定的某个时刻或某段时间内发挥其应有功能的能力。",
+      "options": {
+        "A": "服务级别",
+        "B": "财务",
+        "C": "容量",
+        "D": "可用性"
+      },
+      "answer": "D",
+      "explanation": "P1O2。\n可用性是指一个组件或一种服务在设定的某个时刻或某段时间内发握其应有功能的能力",
+      "pageStart": 70,
+      "pageEnd": 70,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q9-p70",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 9,
+      "source": "蜗牛老师自编题",
+      "stem": "关于IT服务管理,错误的是()。",
+      "options": {
+        "A": "当发生了几个看起来具有相同或相似根本原因的事件时,就会启动问题管理活动",
+        "B": "服务台是服务中与服务干系人沟通和交互的重要界面,负责对服务干系人遇到的问题和 需求进行响应和处理;是IT服务干系人的“官方”接口和信息发布点",
+        "C": "服务连续性管理就是对T服务的级别进行定义、记录和管理,并在可接受的成本之下 与干系人达成一致的管理过程",
+        "D": "可用性管理是有关设计、实施、监控、评价和报告T服务的可用性以确保持续地满足 服务干系人的可用性需求的服务管理流程"
+      },
+      "answer": "C",
+      "explanation": "P1O2。\n服务级别管理就是对T服务的级别进行定义、记录和管理,并在可接受的成本之下与于系\n人达成一致的管理过程,通过服务水平协议(SLA)、服务绩效监控和报告的不断循环,持续\n维护和改进服务质量,以及触发采取行动消除较差服务,从而满足干系人的服务需求。",
+      "pageStart": 70,
+      "pageEnd": 70,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q10-p70",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 10,
+      "source": "蜗牛老师自编题",
+      "stem": "关于IT服务管理,错误的是()。",
+      "options": {
+        "A": "当发生了几个看起来具有相同或相似根本原因的事件时,就会启动问题管理活动",
+        "B": "服务台是服务中与服务干系人沟通和交互的重要界面,负责对服务干系人遇到的问题和 需求进行响应和处理",
+        "C": "服务连续性管理就是在出现事件时能够尽快恢复服务的正常运作",
+        "D": "可用性管理是有关设计、实施、监控、评价和报告T服务的可用性以确保持续地满足 服务干系人的可用性需求的服务管理流程"
+      },
+      "answer": "C",
+      "explanation": "P1O2。\n服务连续性管理是一组与组织持续提供服务的能力相关的活动,主要是在发生自然或人为次\n难时继续保持服务有效性的活动。服务连续性管理活动分为服务连续性管理的治理、业务影响\n分析、制订和维护服务连续性计划、测试服务连续性计划、响应与恢复五个过程。",
+      "pageStart": 70,
+      "pageEnd": 70,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q11-p70",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 11,
+      "source": "2024年高项第2批真题",
+      "stem": "信息系统的运维和服务中,T服务管理是通过主动管理和流程的持续改进来确保T服务交付有 效且高效的一组活动,()不属于IT服务管理的活动。",
+      "options": {
+        "A": "服务台",
+        "B": "事件管理",
+        "C": "配置管理",
+        "D": "过程管理"
+      },
+      "answer": "D",
+      "explanation": "P1O1。\nT服务管理由若干不同的活动组成;服务台、事件管理、问题管理、变更管理、配置管理\n发布管理、服务级别管理、财务管理、容量管理、服务连续性管理和可用性管理。",
+      "pageStart": 70,
+      "pageEnd": 71,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q12-p71",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 12,
+      "source": "2025年高项第1批真题",
+      "stem": "关于1T服务管理相关内容的描述,正确的是:()。",
+      "options": {
+        "A": "可用性管理聚焦于在服务中断时快速诊断并实施临时修复方案",
+        "B": "服务台的职责是制定服务目录并监控服务绩效以实现SLA目标",
+        "C": "发布管理用于审查变更请求的适用性以避免与其他计划活动冲突",
+        "D": "配置管理的核心是通过技术手段识别并记录所有配置项及其相互关系"
+      },
+      "answer": "D",
+      "explanation": "P101-102。\nA错误。P102。可用性管理的概念:可用性管理是有关设计、实施、监控、评价和报皆T\n服务的可用性以确保持续地满足服务王系人的可用性需求的服务管理流程。可用性是指一个组\n件或一种服务在设定的某个时刻或某段时间内发挥其应有功能的能力,即在约定的服务时段内,\nIT服务实际能够使用的服务的时间比例。\nB错误。P101。服务台的概念:服务自(ServiceDesk)是组织体现T服务的重要环节\n也是服务王系人体验的重要感知窗卫。服务台是服务中与服务干系人沟通和交互的重要界面,\n负责对服务干系人遇到的问题和需求进行响应和处理;服务台是T服务干系人的“官方”接口\n和信息发布点,组织内部各个团队之间相互协作的组带和协调者;服务台对T服务质量及服务\n干系人体验的管理至关重要,是组织T服务能力持续提升的战略单元。\nC错误。P102。发布管理的概念:发在管理负责计划和实施信息系统的变更,并且记录该\n变更的各方面信息。发布是由其实施的变更请求定义的,发布一般是由许多问题修复和T服务\n质量改进组成的。\nD正确。P101。配置管理的概念:配置管理是通过技术或者行政的手段对信息系统的信息\n进行管理的一系列活动,这些信息不仅包括信息系统具体配置项信息,还包括这些配置项之间\n的相互关系。配置管理的核心工作是识别、记录、控制、更新配置项信息,主要包含配置管理\n数据库(CMDB)的建立以及配置管理数据库准确性的维护,以支持信息系统的正常运行。在\nT服务中,配置管理数据库可用于故障定位、问题分析、变更影响度分析、故障分析等,因此\n配置管理数据库与真实环境的匹配度和详细度非常重要",
+      "pageStart": 71,
+      "pageEnd": 71,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s4-q13-p71",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "运维和服务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 13
+      },
+      "questionNo": 13,
+      "source": "2025年高项第2批真题",
+      "stem": "某信息系统近期频繁发生服务中断的故障,应启动()程序。",
+      "options": {
+        "A": "容量管理",
+        "B": "发布管理",
+        "C": "问题管理",
+        "D": "事件管理"
+      },
+      "answer": "C",
+      "explanation": "P1O1。\n问题管理。当发生了几个看起来具有相同或相似根本原因的事件时,就公启动问题管理活\n动。",
+      "pageStart": 71,
+      "pageEnd": 71,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q1-p72",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "以下不属于数据管理能力模型的8个核心能力域的是()。",
+      "options": {
+        "A": "数据战略",
+        "B": "数据治理",
+        "C": "数据架构",
+        "D": "数据采集"
+      },
+      "answer": "D",
+      "explanation": "P1O8。\nDCMM定义了数据战略、数据治理、数据架构、数据应用、数据安全、数据质量、数据标\n准和数据生存周期8个核心能力域。",
+      "pageStart": 72,
+      "pageEnd": 72,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q2-p72",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "在数据管理能力模型中,组织的数据战略能力域通常不包括()",
+      "options": {
+        "A": "数据治理组织",
+        "B": "数据战略规划",
+        "C": "数据战略实施",
+        "D": "数据战略评估"
+      },
+      "answer": "A",
+      "explanation": "P1O8。\n组织的数据战略能力城通常包括数据战略规划、数据战略实施和数据战略评估三个能力项",
+      "pageStart": 72,
+      "pageEnd": 72,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q3-p72",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "在数据管理能力模型中,组织的数据治理能力域通常不包括()",
+      "options": {
+        "A": "数据治理组织",
+        "B": "数据治理评估",
+        "C": "数据制度建设",
+        "D": "数据治理沟通"
+      },
+      "answer": "B",
+      "explanation": "P1O9。\n组织的数据治理能力城通常包括数据治理组织、数据制度建设和数据治理沟通三个能力项。",
+      "pageStart": 72,
+      "pageEnd": 72,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q4-p72",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "以下()不是数据架构能力域的内容。",
+      "options": {
+        "A": "数据模型",
+        "B": "数据分布",
+        "C": "元数据管理",
+        "D": "数据标准建设"
+      },
+      "answer": "D",
+      "explanation": "【蜗牛解析1:P110。组织的数据架构能力城通常包括数据模型、数据分在、数据集成与共享\n元数据管理。",
+      "pageStart": 72,
+      "pageEnd": 72,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q5-p72",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "以下()不是数据应用能力域的内容。",
+      "options": {
+        "A": "数据分析",
+        "B": "数据模型",
+        "C": "数据开放共享",
+        "D": "数据服务"
+      },
+      "answer": "B",
+      "explanation": "P111。组织的数据应用能力城通常包括数据分析、数据开放共享、数据服签",
+      "pageStart": 72,
+      "pageEnd": 72,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q6-p72",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "以下()不是数据安全能力域的内容。",
+      "options": {
+        "A": "数据安全策略",
+        "B": "数据安全管理",
+        "C": "数据安全监督",
+        "D": "数据安全审计"
+      },
+      "answer": "C",
+      "explanation": "P112。组织的数据安全能力城通常包括数据安全策略、数据安全管理、数据安\n全审让。",
+      "pageStart": 72,
+      "pageEnd": 73,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q7-p73",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "在数据管理能力模型中,()是不正确的。",
+      "options": {
+        "A": "组织的数据架构能力城通常包括数据模型、数据分布、数据集成与共享和元数据管理四 个能力项",
+        "B": "数据应用能力域通常包括数据分析、数据开放共享和数据服务三个能力项",
+        "C": "组织的数据安全能力城通常包括数据安全策略、数据安全管理和数据安全审计三个能力 项",
+        "D": "组织的数据质量能力域通常包括数据需求、数据设计和开发、数据运维和数据退役四个 能力项"
+      },
+      "answer": "D",
+      "explanation": "P113。\n组织的数据质量能力城通常包括数据质量需求、数据质量检查、数据质量分析和数据质量提\n升四个能力项。\n组织的数据生存周期能力城通常包括数据需求、数据设计和开发、数据运维和数据退役四个\n能力项。",
+      "pageStart": 73,
+      "pageEnd": 73,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q8-p73",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "在数据管理能力模型中,组织的数据生存周期能力域通常不包括()。",
+      "options": {
+        "A": "数据战略规划",
+        "B": "数据设计和开发",
+        "C": "数据运维",
+        "D": "数据退役"
+      },
+      "answer": "A",
+      "explanation": "P116-117。\n组织的数据生存周期能力城通常包括数据需求、数据设计和开发、数据运维、数据退役四个\n能力项。",
+      "pageStart": 73,
+      "pageEnd": 73,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q9-p73",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 9,
+      "source": "蜗牛老师自编题",
+      "stem": "数据管理能力成熟度模型(DCMM)将组织的管理成然度划分为5个等级,每个级别中数据的 重要程度会有所不同,从()开始数据被认为是获取竞争优势的重要资源,数据管理的效率能 量化分析和监控。",
+      "options": {
+        "A": "量化管理级",
+        "B": "稳健级",
+        "C": "优化级",
+        "D": "受管理级"
+      },
+      "answer": "A",
+      "explanation": "P118。\n数据管理能力成熟度模型。DCMM将组织的管理成熟度划分为5个等级,分别是:初始级\n受管理级、稳健级、量化管理级和优化级。\n·初始级:数据需求的管理主要是在项目级体现,没有统一的管理流程,主要是被动式管理\n·受管理级:组织意识到数据是资产,根据管理策略的要求制定了管理流程,指定了相关人员\n进行初步管理\n·稳健级:数据已被当做实现组织绩效目标的重要资产,在组织层面制定了系列的标准化管理\n流程,促进数据管理的规范化。\n·量化管理级:数据被认为是获取章全优势的重要资源,数据管理的效率能量化分析和监控\n优化级:数据被认为是组织生存和发展的基础,相关管理流程能实时优化,能在行业内进行\n最佳实践分享。",
+      "pageStart": 73,
+      "pageEnd": 74,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q10-p74",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 10,
+      "source": "蜗牛老师自编题",
+      "stem": "数据管理能力成熟度模型中,()特征是数据被认为是组织生存和发展的基础,相关管理流程 能实时优化,能在行业内进行最佳实践分享。",
+      "options": {
+        "A": "受管理级",
+        "B": "稳健级",
+        "C": "量化管理级",
+        "D": "优化级"
+      },
+      "answer": "D",
+      "explanation": "P118。\n数据管理能力成熟度模型。DCMM将组织的管理成熟度划分为5个等级,分别是:初始级\n受管理级、稳健级、量化管理级和优化级。\n·初始级:数据需求的管理主要是在项目级体现,没有统一的管理流程,主要是被动式管理\n·受管理级:组织意识到数据是资产,根据管理策略的要求制定了管理流程,指定了相关人员\n进行初步管理。\n·稳健级:数据已被当做实现组织绩效目标的重要资产,在组织层面制定了系列的标准化管理\n流程,促进数据管理的规范化。\n·量化管理级:数据被认为是获取竞争优势的重要资源,数据管理的效率能量化分析和监控\n·优化级:数据披认为是组织生在和发展的基础,相关管理流程能实时优化,能在行业内进行\n最住实践分皇。",
+      "pageStart": 74,
+      "pageEnd": 74,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q11-p74",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 11,
+      "source": "2023年上半年高项真题",
+      "stem": "数据管理能力成熟度模型(DCMM)将组织的管理成然度划分为5个等级,每个级别中数据的 重要程度会有所不同,从()开始强调数据管理的规范化,数据被当做实现组织绩效目标的重 要资产。",
+      "options": {
+        "A": "量化管理级",
+        "B": "稳健级",
+        "C": "优化级",
+        "D": "受管理级"
+      },
+      "answer": "B",
+      "explanation": "P118。\n数据管理能力成熟度模型。DCMM将组织的管理成熟度划分为5个等级,分别是:初始级、\n受管理级、稳健级、量化管理级和优化级,\n初始级:数据需求的管理主要是在项目级体现,没有统一的管理流程,主要是被动式管理\n受管理级:组织意识到数据是资产,根据管理策略的要求制定了管理流程,指定了相关人\n员进行初步管理。\n“稳健级:数据已被当做实现组组绩效且标的重要资产,在组织层面制定了系列的标准化管\n理流程,促进数据管理的规范化,\n量化管理级;数据被认为是获取竞争优势的重要资源,数据管理的效率能量化分析和监控\n“优化级;数据被认为是组织生存和发展的基础,相关管理流程能实时优化,能在行业内进\n行最住实践分享。",
+      "pageStart": 74,
+      "pageEnd": 74,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q12-p74",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 12,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "以下()不是数据治理能力域的内容。",
+      "options": {
+        "A": "数据治理组织",
+        "B": "数据制度建设",
+        "C": "数据治理沟通",
+        "D": "数据标准建设"
+      },
+      "answer": "D",
+      "explanation": "P1O9。\n组织的数据治理能力域通常包括数据治理组织、数据制度建设和数据治理沟通三个能力项。",
+      "pageStart": 74,
+      "pageEnd": 75,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q13-p75",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 13,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "关于数据安全的说法,错误的是()。",
+      "options": {
+        "A": "组织的数据安全能力城通常包括数据安全策略、数据安全管理和数据安全审计、数据安 全改进4个能力项",
+        "B": "数据安全策略是数据安全的核心内容,在制定的过程中需要结合组织管理需求、监管需 求以及相关标准等统一制定",
+        "C": "数据安全管理是在数据安全标准与策略的指导下,通过对数据访问的授权、分类分级的 控制、监控数据的访问等进行数据安全的管理工作,满足数据安全的业务需要和监管需求,实 现组织内部对数据生存周期的数据安全管理",
+        "D": "数据安全审计是一项控制活动,负责定期分析、验证、讨论、改进数据安全管理相关的 策略、标准和活动。数据安全审计的目标是为组织以及外部监管机构提供评估和建议"
+      },
+      "answer": "A",
+      "explanation": "P112。\n组织的数据安全能力城通常包括数据安全策略、数据安全管理和数据安全审计三个能力项",
+      "pageStart": 75,
+      "pageEnd": 75,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q14-p75",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 14,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "组织意识到数据是资产,根据管理策略的要求制定了管理流程,指定了相关人员涡牛进行初步 管理是()的特点。",
+      "options": {
+        "A": "初始级",
+        "B": "受管理级",
+        "C": "稳健级",
+        "D": "量化管理级"
+      },
+      "answer": "B",
+      "explanation": "P118。\n级别\n要点\n初始级\n数据需求的管理主要是在项目级体现,没有统一的管理流程,主要是被动式管理\n受管理\n组织意识到数据是资产,根据管理策略的要求制定了管理流程,指定了相关人员进\n级\n行初步管理。\n数据已被当做实现组织绩效目标的重要资产,在组织层面制定了系列的标准化管理稳健级\n流程,促进数据管理的规范化:\n量化管\n数据被认为是获取竞争优势的重要资源,数据管理的效率能量化分析和监控理级\n数据被认为是组织生存和发展的基础,相关管理流程能实时优化,能在行业内进行优化级\n最住实践分享。",
+      "pageStart": 75,
+      "pageEnd": 75,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q15-p75",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 15,
+      "source": "2024年高项第1批真题",
+      "stem": "在数据管理领域,数据管理能力,成熟度模型(DCMM),将组织的管理成然度划分为初始级、 ()、稳健级、量化管理级和优化。",
+      "options": {
+        "A": "可进阶级",
+        "B": "发展级",
+        "C": "受管理级",
+        "D": "安全级"
+      },
+      "answer": "C",
+      "explanation": "P118。\n·(1)数据管理能力成熟度模型(DCMM),将组织的管理成熟度划分为5个等级,分别\n是:初始级、受管理级、稳健级、量化管理级和优化级。\n级别\n点\n初始级\n数据需求的管理主要是在项目级体现,没有统一的管理流程,主要是被动式管理\n受管理\n组织意识到数据是资产,根据管理策略的要求制定了管理流程,指定了相关人员进\n级\n行初步管理。\n数据已被当做实现组织绩效目标的重要资产,在组织层面制定了系列的标准化管理\n稳健级\n流程,促进数据管理的规范化\n量化管\n数据被认为是获取竞争优势的重要资源,数据管理的效率能量化分析和监控理级\n数据被认为是组织生存和发展的基础,相关管理流程能实时优化,能在行业内进行优化级\n最住实践分皇,\n【口诀;\n;一被,二初,三规,四量,五最】一定要学握",
+      "pageStart": 75,
+      "pageEnd": 76,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q16-p76",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 16,
+      "source": "2025年高项第1批真题",
+      "stem": "关于数据生存周期相关的描述,正确的是:()。",
+      "options": {
+        "A": "数据退役的核心是监控数据提供方服务水平,确保数据持续可用",
+        "B": "数据规划的核心是收集、评审需求并更新数据标准",
+        "C": "数据设计和开发是提供数据应用,持续满足组织的数据需求的过程",
+        "D": "数据运维工作包括设计数据保留策略并制定归档流程以满足法规要求"
+      },
+      "answer": "C",
+      "explanation": "P116。\n数据设计和开发是指设计、实施数据解决方案,提供数据应用,持续满足组织的数据需求的\n过程。\n数据退役。数据退役是对历史数据的管理,根据法律法规、业务、技术等方面需求,对历史\n数据的保留和销毁,执行历史数据的归档、迁移和销毁工作,确保组织对历史数据的管理符合\n外部监管机构和内部业务用户的需求,而非仅满足信息技术需求。\n数据战略规划主要活动和工作要点包括:●识别利益相关者●数据战略需求评估●数据战略\n制定●数据战略发布●数据战略修订。\n数据运维。数据运维是指数据平台及相关数据服务建设完成上线投入运营后,对数据采集\n数据处理、数据存储等过程的日常运行及其维护过程,保证数据平台及数据服务的正常运行,\n为数据应用提供持续可用的数据内容。",
+      "pageStart": 76,
+      "pageEnd": 76,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s5-q17-p76",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "数据管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 17
+      },
+      "questionNo": 17,
+      "source": "2025年高项第2批真题",
+      "stem": "依据国家标准GB/T36073《数据管理能力成熟度评估模型》,组织的数据应用能力域不包括 ()。",
+      "options": {
+        "A": "数据服务",
+        "B": "数据开放共享",
+        "C": "数据分类分级",
+        "D": "数据分析"
+      },
+      "answer": "C",
+      "explanation": "P111。\n数据应用能力域通常包括数据分析、数据开放共享和数据服务三个能力项。",
+      "pageStart": 76,
+      "pageEnd": 77,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s6-q1-p77",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "运维管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 1,
+      "source": "教材第4章章节习题",
+      "stem": "()不属于IT运维能力的关键指标。",
+      "options": {
+        "A": "人员",
+        "B": "技术",
+        "C": "过程",
+        "D": "问题"
+      },
+      "answer": "D",
+      "explanation": "P120。\n能力建设。组织需要考虑环境的内外部因素,在治理要求的指导下,根据服务场景,识别服\n务能力需求,围绕人员、过程、技术、资源能力四要素,策划、实施、检查和改进运行维护能\n力体系。",
+      "pageStart": 77,
+      "pageEnd": 77,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s6-q2-p77",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "运维管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 2,
+      "source": "教材第4章章节习题",
+      "stem": "智能运维场景实现的关键审核要点应围绕()。",
+      "options": {
+        "A": "质量可靠、安全可控、效率提升、成本降低的四个运维目标",
+        "B": "场景分析、场景构建、场景交付、效果评估四个关键过程",
+        "C": "数据管理、分析决策、自动控制三个能力域",
+        "D": "能感知、会描述、自学习、会诊断、可决策、自执行、自适应七个特征"
+      },
+      "answer": "B",
+      "explanation": "P123。\n组织需在组织治理的指导下,对智能运维场景实现提出能力建设要求,开展智能运维能力规\n划和建设。组织通过场量分析、场量构建、场量交付和效果评估四个过程,基于数据管理能力\n域提供的高质量数据,结合分析决策能力城做出合理判断或结论,并根据需要驱动自动控制能\n力域执行运维操作,使运维场景具备智能特征,提升智能运维水平,实现质量可靠、安全可控、\n效率提升、成本降低。",
+      "pageStart": 77,
+      "pageEnd": 77,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s6-q3-p77",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "运维管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "IT运维能力模型由(),(),()三大部分构成",
+      "options": {
+        "A": "治理要求、运行维护服务能力体系、价值实现",
+        "B": "运维标准、运行维护服务能力体系、智能运维",
+        "C": "运维标准、运行维护服务能力体系、价值实现",
+        "D": "治理要求、运行维护服务能力体系、智能运维"
+      },
+      "answer": "A",
+      "explanation": "P12O。\n国家标准GB/T28827.1《信息技术服务运行维护第1部分通用要求》定义了T运维能力\n模型,该模型包含治理要求、运行维护服务能力体系和价值实现",
+      "pageStart": 77,
+      "pageEnd": 77,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s6-q4-p77",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "运维管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "IT运维能力模型中,()负责指导,它是T运维能力的基础。",
+      "options": {
+        "A": "运维标准",
+        "B": "运行维护服务能力体系",
+        "C": "价值实现",
+        "D": "治理要求"
+      },
+      "answer": "D",
+      "explanation": "P12O。\n治理要象\n指导\n运行雄护服务能力体系(MCS)\n实障\n人\n过程\n美键\n细标\n查\n技术\n益查\n力\n赋能\n需\n价值实现\n限务\n务\n提\n值\n图48\nπ运维能力模型图",
+      "pageStart": 77,
+      "pageEnd": 78,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s6-q5-p78",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "运维管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "GB/T28827.1《信息技术服务运行维护第1部分:通用要求》定义的T运维能力模型包含治 理要求、运行维护服务能力体系和价值实现,其中()为运维服务能力体系提供能力需求。",
+      "options": {
+        "A": "用户需求",
+        "B": "治理要求",
+        "C": "价值实现",
+        "D": "运维服务能力体系"
+      },
+      "answer": "C",
+      "explanation": "P12O。\n治理要\n指号\n运行雄护服务能力体系(MCS)\n实障\n人\n过程\n关键\n籀标\n技术\n弦逐\n盈查\n能力赋能\n求\n价值实现\n务\n图48\nπ运维能力模型图",
+      "pageStart": 78,
+      "pageEnd": 78,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s6-q6-p78",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "运维管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "()是选人做事。",
+      "options": {
+        "A": "技术能力",
+        "B": "资源能力",
+        "C": "人员能力",
+        "D": "过程"
+      },
+      "answer": "C",
+      "explanation": "P120-123。\n国家标准GB/T28827.1《信息技术服务运行维护第1部分通用要求》定义了T运维能力\n模型,该模型包含治理要求、运行维护服务能力体系和价值实现。\n“1.能力建设。组织需要考虑环境的内外部因素,在治理要求的指导下,根据服务场景,识\n别服务能力需求,围绕人员、过程、技术、资源能力四要素,策划、实施、检查和改进运行维\n护能力体系。\n2.人员能力。组织人员能力建设聚焦在从知识、技能和经验维度选择合适的人,从人员管\n理和岗位职责维度明确做适合的事,目的是指导π运维团队根据岗位职责和管理要求“选人做\n重\n3.资源能力。资源主要由人员、过程和技术要素中被固化下来的能力转化而成,资源。能\n力确保IT运维能“保障做事”。\n4.技术能力。组织需要通过自有核心技术的研发和非自有核心技术的学习,持续提升T\n运维过程中发现问题和解决问题的能力,技术要素确保T运维能“高效做事”。\n“5.过程。组织通过过程的制定,把人员、技术和资源要素以过程为主线申接在一起,用于\n指导T运维人员按约定的方式和方法,确保T运维能“正确做事”。",
+      "pageStart": 78,
+      "pageEnd": 79,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s6-q7-p79",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "运维管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "()是保障做事。",
+      "options": {
+        "A": "技术能力",
+        "B": "资源能力",
+        "C": "人员能力",
+        "D": "过程"
+      },
+      "answer": "B",
+      "explanation": "P120-123。\n3.资源能力。资源主要由人员、过程和技术要素中被固化下来的能力转化而成,资源。能\n力确保IT运维能“保障做事”。",
+      "pageStart": 79,
+      "pageEnd": 79,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s6-q8-p79",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "运维管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "()把人员、技术和资源要素以过程为主线申接在一起,用于指导T运维人员按约定的方式 和方法,确保IT运维能“正确做事”。",
+      "options": {
+        "A": "技术能力",
+        "B": "资源能力",
+        "C": "人员能力",
+        "D": "过程"
+      },
+      "answer": "D",
+      "explanation": "P122。\n“5过程。组织通过过程的制定,把人员、技术和资源要素以过程为主线申接在一起,用于\n指导IT运维人员按约定的方式和方法,确保T运维能“正确做事”",
+      "pageStart": 79,
+      "pageEnd": 79,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s6-q9-p79",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "运维管理",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 9,
+      "source": "2023年下半年高项第4批真题",
+      "stem": "GB/T28827.1《信息技术服务运行维护第1部分:通用要求》定义的T运维能力模型包含治 理要求、运行维护服务能力体系和价值实现,其中()为价值实现赋能。",
+      "options": {
+        "A": "用户需求",
+        "B": "治理要求",
+        "C": "战略要求",
+        "D": "运维服务能力体系"
+      },
+      "answer": "D",
+      "explanation": "P12O。\n治理要\n指\n运行谁护重务能力体系CMC5)\n五董\n人员\n位程\n关键\n标\n技术霞\n弦莲\n盈查\n能力赋能\n需表\n价值实现\n屋务\n图48\nπ运维能力模型图",
+      "pageStart": 79,
+      "pageEnd": 80,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s7-q1-p80",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "信息安全管理",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 5
+      },
+      "questionNo": 1,
+      "source": "教材第4章章节习题",
+      "stem": "()就是确保所传输的数据只被其预定的接收者读取。",
+      "options": {
+        "A": "保密性",
+        "B": "可聋性",
+        "C": "可用性",
+        "D": "完整性"
+      },
+      "answer": "A",
+      "explanation": "P47、P125。\nCIA三要素是保密性(Confdentiality)、完整性(Integrity)和可用性(Availabiity)\n三个词的缩写。\n保密性(Confidentiality):信息不被未投权者知晓的属性。\n可用性(Availability):信息可以随时正常使用的属性\n完整性(Integrity):信息是正确的、真实的、未被算改的、完整无缺的属性",
+      "pageStart": 80,
+      "pageEnd": 80,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s7-q2-p80",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "信息安全管理",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 5
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "属于信息安全三元组是()。 ①保密性;②完整性;③可用性;④稳定性;⑤安全性",
+      "options": {
+        "A": "①②⑤",
+        "B": "①③⑤",
+        "C": "①②③",
+        "D": "②③④"
+      },
+      "answer": "C",
+      "explanation": "P125。\n保密性、完整性和可用性是信息安全最为关注的三个居性,因此这三个特性也经常被称为信\n息安全三元组。",
+      "pageStart": 80,
+      "pageEnd": 80,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s7-q3-p80",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "信息安全管理",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 5
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "CIA有其局限性,CIA关注的重心在(),虽然这是大多数信息安全的核心要素",
+      "options": {
+        "A": "保密",
+        "B": "可用",
+        "C": "数据",
+        "D": "信息"
+      },
+      "answer": "D",
+      "explanation": "P125。CIA有其局限性,CIA关注的重心在信息,虽然这是大多数信息安全的\n核心要素。",
+      "pageStart": 80,
+      "pageEnd": 81,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s7-q4-p81",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "信息安全管理",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 5
+      },
+      "questionNo": 4,
+      "source": "2017年下半年高项真题",
+      "stem": "GB/T22240-2008《信息安全技术信息系统安全等级保护定级指南》标准将信息系统的安全保 护等级分为五级。“信息系统受到破坏后,会对社会秩序和公共利益造成严重损害,或者对国 家安全造成损害”是()的特征。",
+      "options": {
+        "A": "第二级",
+        "B": "第三级",
+        "C": "第四级",
+        "D": "第五级"
+      },
+      "answer": "B",
+      "explanation": "P126。\n信息系统的安全保护等级\n等级\n社会利益个人权益\n国家安全\n第一级\n损害\n第二级\n严重损害\n损害\n第三级\n损害严重损害\n第四级\n特别严重损害\n严重损害\n第五级\n特别严重损害",
+      "pageStart": 81,
+      "pageEnd": 81,
+      "type": "single_choice"
+    },
+    {
+      "id": "c4-s7-q5-p81",
+      "chapter": {
+        "number": 4,
+        "title": "信息系统管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "信息安全管理",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 5
+      },
+      "questionNo": 5,
+      "source": "2025年高项第2批真题",
+      "stem": "根据GB/T22239-2019《信息安全技术网路安全等级保护基本要求》某高校对教务管理信息 系统定级三级,在对网络进行升级改造时,关于改造方案的设计与实施,做法正确的是()",
+      "options": {
+        "A": "为方便各学院技术人员排查网络故障,网络管理员将详细标注设备型号,P地址分配等 关键信息的网络拓扑图共享至学校内部技术交流群",
+        "B": "鉴于学校无线网络使用频繁,为提升效率,网络管理部门决定仅对连接有线网络的设备 进行身份鉴别,对连接无线网络的设备放宽身份鉴定要求",
+        "C": "为实现对进出网络信息内容的过滤,部署了一套入侵检测系统(IDS)以实现对应用层 HTTP,FTP 协议命令集的控制",
+        "D": "考虑到教学活动存在阶段性高峰,网络设备选型时选用了具备一定冗余处理能力的设备, 并根据历史流量数据规划了网络各个部分的带宽"
+      },
+      "answer": "D",
+      "explanation": "P127。\n选项A;等保三级要求严格控制敏感信息的访问权限,即使内部人员也需遵循最小授权原\n则。锆误。\n选项B:无线网络放宽身份鉴别要求,违反了等保三级中“对所有接入网络的设备进行严\n格身份认证”的规定。无论有线或无线设备,均需实施一致的安全措施,错误\n选项C:对应用层协议(如HTTP、FTP)的命令控制需通过应用层防火墙或访问控制策略\n实现,而非依赖IDS。此做法不符合技术要求,错误\n选项D:选用冗余设备并根据历史流量规划带宽,符合等保三级“圆络设备应具备冗余能\n力”及“合理分配带宽,保障业务连续性”的要求。正确。",
+      "pageStart": 81,
+      "pageEnd": 81,
+      "type": "single_choice"
+    }
+  ]
+}

@@ -1,0 +1,2137 @@
+{
+  "chapter": {
+    "number": 3,
+    "title": "信息系统治理"
+  },
+  "count": 76,
+  "questions": [
+    {
+      "id": "c3-s1-q1-p41",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 1,
+        "title": "IT治理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 9
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "T治理将帮助组织建立以()为导向、以实现T与业务匹配为重心、以()为成果、以() 为控制手段的IT管理体制,正确定位IT团队在整个组织的作用。",
+      "options": {
+        "A": "组织战略、价值交付、决策管理",
+        "B": "企业战略、价值交付、绩效管理",
+        "C": "组织战略、价值交付、绩效管理",
+        "D": "企业战略、价值交付、决策管理"
+      },
+      "answer": "C",
+      "explanation": "P68。\nT治理将帮助组织建立以组织战略为导向、以实现T与业务匹配为重心、以价值交付为成\n墨、以绩效管理为控制手段的T管理体制,正确定位T团队在整个组织的作用。",
+      "pageStart": 41,
+      "pageEnd": 41,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s1-q2-p41",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 1,
+        "title": "IT治理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 9
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "IT治理的三大主要目标是()。",
+      "options": {
+        "A": "与组织目标一致、有效利用信息与数据资源、风险管理",
+        "B": "与业务目标一致、有效利用信息与数据资源、决策管理",
+        "C": "与组织目标一致、有效利用信息与数据资源、决策管理",
+        "D": "与业务目标一致、有效利用信息与数据资源、风险管理"
+      },
+      "answer": "D",
+      "explanation": "P68。T治理主要目标包括:与业务且标一致、有效利用信息与数据资源、风\n险管理。",
+      "pageStart": 41,
+      "pageEnd": 41,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s1-q3-p41",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 1,
+        "title": "IT治理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 9
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "T治理要从组织目标和数字战略中抽取信息与数据需求和功能需求,形成总体的T治理框架和 系统整体模型,为进一步系统设计和实施烫定基础,保证信息技术开发利用跟上持续变化的业 务目标。属于1T治理目标的()。",
+      "options": {
+        "A": "与业务目标一致",
+        "B": "有效利用信息与数据资源",
+        "C": "风险管理",
+        "D": "信息技术开发利用"
+      },
+      "answer": "A",
+      "explanation": "P68。\nT治理主要目标包括:与业务目标一致、有效利用信息与数据资源、风险管理。\n(1)与业务目标一致。工治理要从组织且标和数字战略中抽取信息与数据需求和功能需求,\n形成总体的T治理框架和系统整体授型,为进一步系统设计和实施奠定基础,保证信息技术开\n发利用跟上持续变化的业务且标。",
+      "pageStart": 41,
+      "pageEnd": 41,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s1-q4-p41",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 1,
+        "title": "IT治理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 9
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "通过T治理对信息与数据资源的管理职责进行有效管理,保证投资的回收,并支持决策,属于 IT治理目标的()。",
+      "options": {
+        "A": "与业务目标一致",
+        "B": "有效利用信息与数据资源",
+        "C": "风险管理",
+        "D": "信息技术开发利用"
+      },
+      "answer": "B",
+      "explanation": "P68。\nT治理主要目标包括:与业务目标一致、有效利用信息与数据资源、风险管理\n2)有效利用信息与数据资源。目前信息系统工程超期、T客户的需求没有满足、T平台不\n支持业务应用、数据开发利用效能与价值不高、信息技术与业务发展融合深度不够等问题突出,\n通过T治理对信息与数据资源的管理职责进行有效管理,保证投资的回收,并支持决策",
+      "pageStart": 41,
+      "pageEnd": 42,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s1-q5-p42",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 1,
+        "title": "IT治理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 9
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "通过制定信息与数据资源的保护级别,强调对关键的信息与数据资源,实施有效监控和事件处 理,属于IT治理目标的()。",
+      "options": {
+        "A": "与业务目标一致",
+        "B": "有效利用信息与数据资源",
+        "C": "风险管理",
+        "D": "信息技术开发利用"
+      },
+      "answer": "C",
+      "explanation": "P68。\nT治理主要目标包括:与业务目标一致、有效利用信息与数据资源、风险管理\n“(3)风险管理。由于组织越来越依赖于信息网络、信息系统和数据资源等,新的风险不断酒\n现,例如,新出现的技术没有管理,不符合现有法律和规章制度,没有识别对T服务的威胁等\nT治理重视风险管理,通过制定值息与数据资源的保护级别,强调对关键的信息与数据资源,\n实施有效监控和事件处理。",
+      "pageStart": 42,
+      "pageEnd": 42,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s1-q6-p42",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 1,
+        "title": "IT治理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 9
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "()不属于IT治理管理层次。",
+      "options": {
+        "A": "最高管理层",
+        "B": "执行管理层",
+        "C": "业务与服务执行层",
+        "D": "监督管理层"
+      },
+      "answer": "D",
+      "explanation": "P69。T治理管理层次大致可分为三层:最高管理层、执行管理层、业务与服\n务热行层。",
+      "pageStart": 42,
+      "pageEnd": 42,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s1-q7-p42",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 1,
+        "title": "IT治理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 9
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "T治理管理层次大致可分为三层,最高管理层、执行管理层、业务与服务执行层,最高管理层 的主要职责不包括()。",
+      "options": {
+        "A": "证实IT战略与业务战略是否一致",
+        "B": "证实通过明确的期望和衡量手段交付IT价值",
+        "C": "指导IT战略、平衡支持组织当前和未来发展的投资",
+        "D": "制定IT的目标;分析新技术的机遇和风险"
+      },
+      "answer": "D",
+      "explanation": "P69。\nT治理管理层次大致可分为三层:最高管理层、执行管理层、业务与服务执行层\n“1、最高管理层的主要职责包括:证实T战监与业务战略是否一致;证实通过明确的期望\n和衡量手段交付T价值;指导T战略、平衡支持组织当前和未来发展的投资;指导信息和数\n据登源的分配。\n“2、执行管理层的主要职责包括:制定T的目标;分析新技术的机遇和风险;建设关键过\n程与核心竞争力;分配责任、定义规程、衡量业绩;管理风险和获得可靠保证等\n3、业务及服务执行层的主要职责包括:信息和数据服务的提供和支持;T基础设施的建\n设和维护;IT需求的提出和响应。",
+      "pageStart": 42,
+      "pageEnd": 43,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s1-q8-p43",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 1,
+        "title": "IT治理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 9
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "关于T治理管理层次,()制定T的目标;分析新技术的机遇和风险;建设关键过程与核心 竞争力;分配责任、定义规程、衡量业绩;管理风险和获得可靠保证等。",
+      "options": {
+        "A": "最高管理层",
+        "B": "执行管理层",
+        "C": "业务与服务执行层",
+        "D": "监督管理层"
+      },
+      "answer": "B",
+      "explanation": "P69。\nT治理管理层次大致可分为三层:最高管理层、执行管理层、业务与服务执行层\n“1、最高管理层的主要职责包括:证实T战略与业务战略是否一致;证实通过明确的期望\n和衡量手段交付T价值;指导T战略、平衡支持组织当前和未来发展的投资;指导信息和数\n据资源的分配。\n2、执行管理层的主要职责包括:制定T的且标;分析新技术的机遇和风险;建设关键过\n程与核心章争力;分配责任、定义规程、衡量业绩;管理风险和获得可靠保证等\n3、业务及服务执行层的主要职责包括:信息和数据服务的提供和支持;T基础设施的建\n设和维护;IT需求的提出和响应。",
+      "pageStart": 43,
+      "pageEnd": 43,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s1-q9-p43",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 1,
+        "title": "IT治理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 9
+      },
+      "questionNo": 9,
+      "source": "2025年高项第2批真题",
+      "stem": "IT治理的目标不包括()。",
+      "options": {
+        "A": "与业务目标一致",
+        "B": "进行数据决策",
+        "C": "风险管理",
+        "D": "有效利用信息与数据资源"
+      },
+      "answer": "B",
+      "explanation": "P68。\nT治理主要目标包括:与业务且标一致、有效利用信息与数据资源、风险管理",
+      "pageStart": 43,
+      "pageEnd": 43,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q1-p43",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "IT治理体系构成不包括()。",
+      "options": {
+        "A": "IT定位",
+        "B": "IT治理架构",
+        "C": "IT治理内容",
+        "D": "IT目标"
+      },
+      "answer": "D",
+      "explanation": "P69。\nT治理体系的具体构成包括:T定位、T治理架构、T治理内容、T治理流程、T治理\n效果。【口诀:刘容定驾校】",
+      "pageStart": 43,
+      "pageEnd": 43,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q2-p43",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "IT治理的五项关键决策是()。",
+      "options": {
+        "A": "IT原则、IT设计、IT基础设施、业务应用需求、IT投资",
+        "B": "IT原则、IT架构、IT基础设施、业务应用需求、IT审计",
+        "C": "IT原则、IT架构、IT基础设施、业务应用需求、IT投资",
+        "D": "IT原则、IT设计、IT基础设施、业务应用需求、IT审计"
+      },
+      "answer": "C",
+      "explanation": "P7O。\n有效的T治理必须关注五项关键决策,包括T原则、T架构、T基础设施、业务应用蛋\n求、IT投资和优先顺庄。【口诀:原价鸡也偷】",
+      "pageStart": 43,
+      "pageEnd": 44,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q3-p44",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "()不属于IT治理体系框架。",
+      "options": {
+        "A": "IT战略目标",
+        "B": "IT治理组织",
+        "C": "IT治理机制",
+        "D": "IT治理方法"
+      },
+      "answer": "D",
+      "explanation": "P71、\nT治理体系框架具体包括:T战略且标、T治理组织、T治理机制、T治理城、T治理\n标准和IT绩效且标等部分。【口诀:劣质机遇标记】",
+      "pageStart": 44,
+      "pageEnd": 44,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q4-p44",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "IT治理本质上关心()。 ①实现IT的业务价值;②实现IT组织治理;③实现T绩效目标;④战略匹配;⑥IT风险的 规避",
+      "options": {
+        "A": "①②③",
+        "B": "②③⑤",
+        "C": "①④",
+        "D": "①⑤"
+      },
+      "answer": "D",
+      "explanation": "P71。T治理本质上关心:①实现T的业务价值;②IT风险的规避",
+      "pageStart": 44,
+      "pageEnd": 44,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q5-p44",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "T治理的核心内容包括六个方面,组织职责、战略匹配、()、价值交付、()和()",
+      "options": {
+        "A": "资源管理、风险管理、绩效管理",
+        "B": "战略管理、风险管理、成本管理",
+        "C": "资源管理、风险管理、经营管理",
+        "D": "战略管理、风险管理、资源管理"
+      },
+      "answer": "A",
+      "explanation": "P72。\nT治理的核心内容包括六个方面:组织职责、战略匹配、资源管理、价值交体、风险管理\n和绩效管理。【口诀:疯子租架战机】",
+      "pageStart": 44,
+      "pageEnd": 44,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q6-p44",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "()不属于IT治理机制的原则。",
+      "options": {
+        "A": "简单",
+        "B": "高效",
+        "C": "透明",
+        "D": "适合"
+      },
+      "answer": "B",
+      "explanation": "P72。建立IT治理机制的原则包括:①简单。②透明。③适企。【口诀:剪头\n师",
+      "pageStart": 44,
+      "pageEnd": 44,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q7-p44",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "机制应该明确地定义特定个人和团体所承担的责任和目标,指的是T治理机制原则的()",
+      "options": {
+        "A": "公平",
+        "B": "透明",
+        "C": "简单",
+        "D": "适合"
+      },
+      "answer": "C",
+      "explanation": "P72。\n建立T治理机制的原则包括:①简单。机制应该明确地定义特定个人和团体所承担的责任\n和目标。②透明。有效的机制依赖于正式的程序。对于那些被治理决策所影响或是想要挑战治\n理决策的人来说,机制如何工作是需要非常清晰的。③适合。机制鼓励那些处于最佳位置的个\n人去制定特定的决策。",
+      "pageStart": 44,
+      "pageEnd": 45,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q8-p45",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "有效的机制依赖于正式的程序。对于那些被治理决策所影响或是想要挑战治理决策的人来说, 机制如何工作是需要非常清晰的,指的是T治理机制原则的()。",
+      "options": {
+        "A": "公平",
+        "B": "透明",
+        "C": "简单",
+        "D": "适合"
+      },
+      "answer": "B",
+      "explanation": "P72。\n建立T治理机制的原则包括:①简单。机制应该明确地定义特定个人和团体所承担的责任\n和目标。②透明。有效的机制依赖于正式的程序。对于那些被治理决策所影响或是想要挑战治\n理决策的人来说,机制如何工作是需要非常清晰的。③适合。机制鼓励那些处于最佳位置的个\n人去制定特定的决策。",
+      "pageStart": 45,
+      "pageEnd": 45,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q9-p45",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 9,
+      "source": "蜗牛老师自编题",
+      "stem": "机制鼓励那些处于最佳位置的个人去制定特定的决策,指的是T治理机制原则的()",
+      "options": {
+        "A": "公平",
+        "B": "透明",
+        "C": "简单",
+        "D": "适合"
+      },
+      "answer": "D",
+      "explanation": "P72。\n建立T治理机制的原则包括:①简单。机制应该明确地定义特定个人和团体所承担的责任\n和目标。②透明。有效的机制依赖于正式的程序。对于那些被治理决策所影响或是想要挑战治\n理决策的人来说,机制如何工作是需要非常清晰的。③适食。机制鼓励那些处于最佳位置的个\n人去制定特定的决策。",
+      "pageStart": 45,
+      "pageEnd": 45,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q10-p45",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 10,
+      "source": "2025年系规真题",
+      "stem": "有效的T治理必须关注5项关键决策,包括T原则、T架构、()、业务应用需求、T投 资和优先顺序。",
+      "options": {
+        "A": "IT定位",
+        "B": "T治理",
+        "C": "IT基础设施 i",
+        "D": "IT评价"
+      },
+      "answer": "C",
+      "explanation": "P7O。\n有效的T治理必须关注5项关键决策,包括工原则、T架构、T基础设施、业务应用需\n求、IT投资和优先顺庄。",
+      "pageStart": 45,
+      "pageEnd": 45,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s2-q11-p45",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 2,
+        "title": "IT治理体系",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 11,
+      "source": "2024年高项第1批真题",
+      "stem": "()的核心是关注IT定位和信息化建设与数字化转型的责权利划分。",
+      "options": {
+        "A": "IT技术",
+        "B": "IT管理",
+        "C": "IT架构",
+        "D": "IT治理"
+      },
+      "answer": "D",
+      "explanation": "P69。\nT治理的核心:是关注江定位和信息化建设与数字化转型的责权利划分。【口诀:定性质】",
+      "pageStart": 45,
+      "pageEnd": 46,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s3-q1-p46",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 3,
+        "title": "IT治理任务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "开展IT治理活动的主要任务不包括()。",
+      "options": {
+        "A": "战略管理",
+        "B": "价值导向",
+        "C": "机制保障",
+        "D": "文化助推"
+      },
+      "answer": "A",
+      "explanation": "P73。开展T治理活动的主要任务:全局统签、价值导向、机制保障、创新发\n展、文化助推。",
+      "pageStart": 46,
+      "pageEnd": 46,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s3-q2-p46",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 3,
+        "title": "IT治理任务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "“建立适应内外部信息环境变化的持续改进和创新机制”,属于()内容。",
+      "options": {
+        "A": "机制保障",
+        "B": "创新发展",
+        "C": "价值导向",
+        "D": "全局统筹"
+      },
+      "answer": "D",
+      "explanation": "P73-74。\n统筹规划IT治理的\n①制订满足可持续发展的IT蓝图;\n目标范围、技术环\n②实施科学决策、集约管理的策略,实现横向的业务集成和\n全局统筹\n境、发展趋势和人员\n纵向的业务管控;通过内外部的监督,确保IT与业务的一\n责权利\n致性和适用性;\n③建立适应内外部信息环境变化的持续改进和创新机制\n试题3【蜗牛老师自编题】\n“权衡实施成本与预期效益,并随组织内外部环境的变化及时调整”,属于()内容\nA、机制保障\nB、创新发展\nC、价值导向\nD、全局统筹\n【答案】:C\n【蜗牛解析】:P74。\n价值导向包括基于\n①认可信息技术、信息系统和数据在组织中的价值;\n实现有效收益,确\n②识别投资且录,并以相应的方式进行评估和管理;\n保预期收益清晰理\n③对关键指标进行设定和监怪,并对变化和偏差做出及时回价值导向\n应;解,明确实现收益\n的问责机制。\n④权衡实施成本与预期效益,并随组织内外部环境的变化及\n时调整。",
+      "pageStart": 46,
+      "pageEnd": 46,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s3-q4-p46",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 3,
+        "title": "IT治理任务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "“审计IT完整性、有效性和合规性”,属于()内容。",
+      "options": {
+        "A": "机制保障",
+        "B": "创新发展",
+        "C": "价值导向",
+        "D": "全局统筹"
+      },
+      "answer": "A",
+      "explanation": "P74。\n机制保障|机制保障是指组织应对自身\n|①指导建立规范过程管理和痕迹管理,并向利益相关\n第页\nIT发展进行有效管控,保证\n者公开质量设定举措;\nIT需求与实现的协调发展,\n②评审IT管理体系的适宜性、充分性和有效性;\n并使IT安全和风险得到有效\n③审计IT完整性、有效性和合规性;\n的识别、管理、防范和处置。1④监督由重计和管理评审,提出改进内容的实施",
+      "pageStart": 46,
+      "pageEnd": 47,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s3-q5-p47",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 3,
+        "title": "IT治理任务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "“对组织创新能力进行评估,并对关键创新要素进行分析和评价”,属于()内容",
+      "options": {
+        "A": "机制保障",
+        "B": "创新发展",
+        "C": "价值导向",
+        "D": "全局统筹"
+      },
+      "answer": "B",
+      "explanation": "P74\n创新发展是指利用\n①创造基于业务团队与IT团队的深度沟通以及对内外部环\nIT创新开拓业务领\n境感知和学习的技术创新环境;\n域,提升管理水平,\n②确保技术发展、管理创新、模式革新的协调联动;\n改进质量、绩效和降\n③对组织创新能力进行评估,并对关键创新要素进行分析和\n创新发展\n低成本,确保实现战\n评价;\n略目标的灵活性和\n④通过促进和创新有效抵御风险,并确保创新是组织文化的\n对环境变化的适应\n组成部分\n性",
+      "pageStart": 47,
+      "pageEnd": 47,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s3-q6-p47",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 3,
+        "title": "IT治理任务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "“根据组织内部环境的变化,评估并改进组织文化的管理”,属于()内容",
+      "options": {
+        "A": "文化助推",
+        "B": "创新发展",
+        "C": "价值导向",
+        "D": "全局统筹"
+      },
+      "answer": "A",
+      "explanation": "P74。\n文化助推是指组织\n①建立与IT发展相适应的组织文化发展策略;\n与利益相关者沟通\n②营造包括知识、技术、管理、情操在内的积极向上的文化\nIT治理的目标、策略\n氩围;文化助推\n和职责,营造积极向\n③根据组织内部环境的变化,评估并改进组织文化的管理\n上、沟通包容的组织\n文化",
+      "pageStart": 47,
+      "pageEnd": 47,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s3-q7-p47",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 3,
+        "title": "IT治理任务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 7,
+      "source": "2024年高项第2批真题",
+      "stem": "T治理活动的主要任务聚焦在全局统筹,价值导向,机制保障,创新发展,文化助推五个方面, 其中“指导建立规范过程管理和痕迹管理,并向利益相关者公开质量设定举措”属于()内容",
+      "options": {
+        "A": "机制保障",
+        "B": "创新发展",
+        "C": "价值导向",
+        "D": "全局统筹"
+      },
+      "answer": "A",
+      "explanation": "P73-74。\n开展1T治理活动的主要任务:全局统筹、价值导向、机制保障、创新发展、文化助推\nP74。机制保障。机制保障是指组织应对自身T发展进行有效管控,保证T需求与实现的\n协调发展,并使T安全和风险得到有效的识别、管理、防范和处置。组织需要建立适合组织特\n点的机制保障方法,满足疏漏互补、协同发展、监督改进和安全风险可控的原则,避免扭曲决\n策目标方向。组织需要明确管理责任,明晰上下左右权利关系,落实责任制和各项措施。组织\n可以根据相关法律法规、行业管理和上级监管机构发布的规范文件要求,制定本组织的信息技\n术治理制度并实施,重点聚焦在:\n①指导建立规范过程管理和痕迹管理,并向利益相关者公开质量设定举措;\n*②评审IT管理体系的适宜性、充分性和有效性;\n*③审计IT完整性、有效性和合规性;\n*④监督由审计和管理评审,提出改进内容的实施",
+      "pageStart": 47,
+      "pageEnd": 48,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s3-q8-p48",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 3,
+        "title": "IT治理任务",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 8,
+      "source": "2025年高项第1批真题",
+      "stem": "关于组织IT治理相关的描述,不正确的是:()。",
+      "options": {
+        "A": "把组织治理纳入IT治理并建立IT治理机构",
+        "B": "确保在可控成本与风险下实现IT战略目标",
+        "C": "设立跨部门委员会统筹IT战略与业务集成",
+        "D": "建立与IT发展相适应的组织文化发展策略"
+      },
+      "answer": "A",
+      "explanation": "P73-74。\nA错误。P73。1.全局统筹。统筹规划T治理的目标范围、技术环境、发展道势和人员责\n权利。组织需要适应当前信息环境和未来发展趋势,保证利益相关者理解和接受T的战略、目\n标和发展方向。组织需要把T治理作为组织治理的组成部分,建立T治理机构,并明确组织\n负责人对T治理工作负责。组织还需要关注T发展的规划、实施、检查和改进全过程,重点\n包括:①制订满足可持续发展的T蓝图;②实施科学决策、集约管理的策略,实现横向的业务\n集成和纵向的业务管控;通过内外部的监督,确保T与业务的一致性和适用性;③建立适应内\n外部信息环境变化的持续改进和创新机制。\nB正确。P74。2.价值导问。价值导向包括基于实现有效收益,确保预期收益清晰理解,明\n确实现收益的间责机制。组织需要建立T投资的价值框架,确保在可承担成本和可接受风险水\n平的基础上,实现T的战略目标。确保T治理符合组织治理的价值导向,明确战略投资方向,\n以及由投资产生的T服务、资产和其他资源。组织需要建立价值递送规则,确保利益相关者明\n确相应的权利和义务,包括:①认可信息技术、信息系统和数据在组织中的价值;②识别投资\n目录,并以相应的方式进行评估和管理;③对关键指标进行设定和监督,并对变化和偏差做出\n及时回应;④权衡实施成本与预期效益,并随组织内外部环境的变化及时调整\nD正确。P74。5.文化助推。文化助推是指组织与利益相关者沟通T治理的目标、策略和\n职责,营造积极向上、沟通包容的组织文化。组织需要引导组织人员适应T建设所带来的变革\n遵循道德和职业规范、端正态度和规范行为。组织可以要求各级管理层把符合信息技术战略发\n展的文化建设作为其职责的一部分。按照文化营造、实施和改进的生命周期,保障利益相关者\n的沟通和透明,包括:①建立与T发展相适应的组织文化发展策略;②营造包括知识、技术\n管理、情操在内的积极向上的文化氛围;③根据组织内部环境的变化,评估并改进组织文化的\n管理。",
+      "pageStart": 48,
+      "pageEnd": 48,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s4-q1-p48",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 4,
+        "title": "IT治理方法与标准",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 1,
+      "source": "教材第3章章节习题",
+      "stem": "《信息技术服务治理第1部分:通用要求》标准不适用于()。",
+      "options": {
+        "A": "建立组织的IT治理体系并实施自我评价",
+        "B": "组织的IT治理能力进行自我评价",
+        "C": "研发、选择和评价IT治理相关的软件或解决方案",
+        "D": "开展信息技术审计"
+      },
+      "answer": "B",
+      "explanation": "P75。\nGB/T34960.1《信息技术服务治理第1部分;通用要求》规定了T治理的模型和框架、\n实施IT治理的原则,以及开展IT顶层设计、管理体系和资源的治理要求\n该标准可用于:①建立组织的T治理体系,并实施自我评价:②开展信息技术审计:③研\n发、选择和评价T治理相关的软件或解决方案;④第三方对组织的T治理能力进行评价",
+      "pageStart": 48,
+      "pageEnd": 49,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s4-q2-p49",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 4,
+        "title": "IT治理方法与标准",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "IT治理框架的三大治理域()。",
+      "options": {
+        "A": "IT战略顶层设计、管理体系和资源",
+        "B": "信息技术顶层设计、管理体系和风险",
+        "C": "IT战略顶层设计、管理体系和风险",
+        "D": "信息技术顶层设计、管理体系和资源"
+      },
+      "answer": "D",
+      "explanation": "P76。T治理框架的三大治理城:信息技术顶层设计、管理体系和资源",
+      "pageStart": 49,
+      "pageEnd": 49,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s4-q3-p49",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 4,
+        "title": "IT治理方法与标准",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "在IT治理框架中,下列()治理域包含基础设施、应用系统和数据",
+      "options": {
+        "A": "管理体系治理域",
+        "B": "资源治理域",
+        "C": "顶层设计治理域",
+        "D": "投资管理治理域"
+      },
+      "answer": "B",
+      "explanation": "P76。\n该标准定义的T治理框架包含信息技术顶层设计、管理体系和资源三大治理域,每个治理\n域由如下若干治理要素组成。\n三大治理域\n包含内容\n顶层设计治理域\n战略,组织和架构。\n管理体系治理域\n质量管理、项目管理、投资管理、服务管理、业务连续性管理、信息安全管\n理、风险管理、供方管理、资产管理和其他管理,\n资源治理域\n基础设施、应用系统和数据。",
+      "pageStart": 49,
+      "pageEnd": 49,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s4-q4-p49",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 4,
+        "title": "IT治理方法与标准",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "在IT治理框架中,下列()治理域包含投资管理、服务管理",
+      "options": {
+        "A": "管理体系治理域",
+        "B": "资源治理域",
+        "C": "顶层设计治理域",
+        "D": "投资管理治理域"
+      },
+      "answer": "A",
+      "explanation": "P76。\n该标准定义的T治理框架包含信息技术顶层设计、管理体系和资源三大治理城,每个治理\n域由如下若干治理要素组成。\n三大治理域\n包含内容\n顶层设计治理域\n战略,组织和架构。\n管理体系治理域\n质量管理、项目管理、投资管理、服务管理、业务连续性管理、信息安\n全管理、风险管理、供方管理、资产管理和其他管理\n资源治理域\n基础设施、应用系统和数据。",
+      "pageStart": 49,
+      "pageEnd": 50,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s4-q5-p50",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 4,
+        "title": "IT治理方法与标准",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "T治理实施指南-GB/T34960.2《信息技术服务治理第2部分:实施指南》中的实施框架包括 ()、()和()。",
+      "options": {
+        "A": "实施环境、实施过程、治理域",
+        "B": "信息技术顶层设计、管理体系和资源",
+        "C": "战略、组织、架构",
+        "D": "IT战略顶层设计、管理体系、风险"
+      },
+      "answer": "A",
+      "explanation": "P77。\nT治理实施框架:实施环境、实施过程和治理域。【口诀:治环城】\nIT治理实施框架\n包含内容【口诀:治环城】\n实施环境\n组织的内外部环境和促成因素。\nT治理实施的方法论,包括统筹和规划、构建和运行、监督和评估、改进和实施过程\n优化。\n治理域\n顶层设计治理域、管理体系治理域、资源治理域,",
+      "pageStart": 50,
+      "pageEnd": 50,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s4-q6-p50",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 4,
+        "title": "IT治理方法与标准",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "IT治理实施的方法论属于()IT治理实施框架。",
+      "options": {
+        "A": "实施环境",
+        "B": "实施过程",
+        "C": "治理域",
+        "D": "管理域"
+      },
+      "answer": "B",
+      "explanation": "P77。\nIT治理实施框架\n包含内容\n实施环境\n组织的内外部环境和促成因素。\n实施过程\nT治理实施的方法论,包括统筹和规划、构建和运行、监督和评估、改进\n和优化。\n溢理域\n顶层设计治理域、管理体系治理域、资源治理域、",
+      "pageStart": 50,
+      "pageEnd": 50,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s4-q7-p50",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 4,
+        "title": "IT治理方法与标准",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "GB/T34960.2《信息技术服务治理第2部分:实施指南》标准不适用于()",
+      "options": {
+        "A": "建立组织的IT治理实施框架,明确实施方法和过程",
+        "B": "组织内部开展IT治理的实施",
+        "C": "IT治理相关软件或解决方案实施落地的指导",
+        "D": "组织内部开展IT治理评价的指导"
+      },
+      "answer": "D",
+      "explanation": "P77。\n该标准适用于:①建立组织的T治理实施框架,明确实施方法和过程;②组织内部开展T\n治理的实施;“③IT治理相关软件或解决方案实施酱地的指导;④第三方开展T治理评价的指\n昱。",
+      "pageStart": 50,
+      "pageEnd": 50,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s4-q8-p51",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 4,
+        "title": "IT治理方法与标准",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 8,
+      "source": "2023年上半年高项真题",
+      "stem": "GB/T34960.1中定义了IT治理框架, ,()不属于IT治理框架的三大治理域、",
+      "options": {
+        "A": "管理体系",
+        "B": "技术体系",
+        "C": "顶层设计",
+        "D": "资源"
+      },
+      "answer": "B",
+      "explanation": "P76。该标准定义的T治理框架包含信息技术顶层设计、管理体系和资源三大\n治理域。",
+      "pageStart": 51,
+      "pageEnd": 51,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s4-q9-p51",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 4,
+        "title": "IT治理方法与标准",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 9
+      },
+      "questionNo": 9,
+      "source": "2023年下半年高项第3批真题",
+      "stem": "在T治理框架中,下列()治理域包含信息技术的战略,以及支撑战略的组织和架构",
+      "options": {
+        "A": "管理体系治理域",
+        "B": "资源治理域",
+        "C": "顶层设计治理域",
+        "D": "投资管理治理域"
+      },
+      "answer": "C",
+      "explanation": "P76。\n该标准定义的T治理框架包含信息技术质层设计、管理体系和资源三大治理域,每个治理\n域由如下若干治理要素组成。\n三大治理域\n包含内容\n顶层设计治理域\n战略,组织和架构\n管理体系治理域\n质量管理、项目管理、投资管理、服务管理、业务连续性管理、信息安全管\n理、风险管理、供方管理、资产管理和其他管理\n资源治理域\n基础设施、应用系统和数据",
+      "pageStart": 51,
+      "pageEnd": 51,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s5-q1-p51",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 5,
+        "title": "IT审计基础",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 1,
+      "source": "教材第3章章节习题",
+      "stem": "“计算机硬件故障或软件不足,易造成信息的损坏和丢失,导致数据处理过程中发生偶发错误” 描述的风险类型是()。",
+      "options": {
+        "A": "固有风险",
+        "B": "控制风险",
+        "C": "检查风险",
+        "D": "审计风险"
+      },
+      "answer": "A",
+      "explanation": "P82。\n表36\n固有风险、控制风险和检查风险的内容\n类别\n描述\n●含义:是指IT活动不存在相关控制的情况下,易于导致重大错误的风险\n●分类:可从IT组织层面控制、\n,一般控制及应用控制三个方面分析固有风险固有风险\n●特点:固有风险是IT活动本身所具有的,审计人员只能评估,却无法控制或影响它:固有\n风险的衡量是主观的、复杂的,不同的IT活动其固有风险水平不同",
+      "pageStart": 51,
+      "pageEnd": 51,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s5-q2-p51",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 5,
+        "title": "IT审计基础",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 2,
+      "source": "教材第3章章节习题",
+      "stem": "关于IT审计范围的描述,不正确的是:()。",
+      "options": {
+        "A": "总体范围需要根据审计目的和投入的审计成本来确定",
+        "B": "组织范围需明确审计涉及的组织机构、主要的流程、活动及人员等",
+        "C": "逻辑范围需明确涉及的信息系统",
+        "D": "物理范围需明确具体的物理地点与边界"
+      },
+      "answer": "C",
+      "explanation": "P81。\n逻辑范围涉及的信息系统和逻辑边界。\n表3-4\nIT\n审计范围的确定\nIT审计范团\n说明\n总体范团\n需要根据审计目的和投入的审计成本来确定\n组织范团\n明确审计涉及的组织机构、主要流程、活动及人员等\n物理范团\n具体的物理地点与边界\n逻辑范团\n涉及的信息系统和逻辑边界\n其他相关内容",
+      "pageStart": 51,
+      "pageEnd": 52,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s5-q3-p52",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 5,
+        "title": "IT审计基础",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "()不属于组织的IT目标。",
+      "options": {
+        "A": "组织的IT战略应与业务战略保持一致",
+        "B": "保护信息资产的安全及数据的完整、可靠、有效",
+        "C": "充分识别与评估相关IT风险",
+        "D": "提高信息系统的安全性、可靠性及有效性"
+      },
+      "answer": "C",
+      "explanation": "P81。\n组织的T目标主要包括:①组织的T战略应与业务战略保持一致;②保护信息资产的安全\n及数据的完整、可靠、有效;③提高信息系统的安全性、可靠性及有效性;④合理保证信息系\n统及共运用符合有关法律、法规及标准等的要求。",
+      "pageStart": 52,
+      "pageEnd": 52,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s5-q4-p52",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 5,
+        "title": "IT审计基础",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "在确定IT审计范围时, ()明确审计涉及的组织机构、主要流程、活动及人员等。",
+      "options": {
+        "A": "逻铒范围",
+        "B": "物理范围",
+        "C": "组织范围",
+        "D": "总体范围"
+      },
+      "answer": "C",
+      "explanation": "P81。\nIT审计范围的确定,如下表所示:\nT审计范围\n说明\n总体范围\n需要根据审计目的和投入的审计成本来确定,\n组织范围\n明确审计涉及的组织机构、主要流程、活动及人员等。\n物理范围\n具体的物理地点与边界,\n逻辑范围\n涉及的信息系统和逻辑边界。\n其他相关内容",
+      "pageStart": 52,
+      "pageEnd": 52,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s5-q5-p52",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 5,
+        "title": "IT审计基础",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "以下说法中不正确的是()。",
+      "options": {
+        "A": "固有风险是T活动本身所具有的,审计人员只能评估,却无法控制或影响它",
+        "B": "审计人员能对控制风险水平实施控制和影响",
+        "C": "检查风险是指通过预定的审计程序未能发现重大、单个或与其他错误相结合的风险",
+        "D": "可从T组织层面控制、一般控制及应用控制三个方面分析固有风险"
+      },
+      "answer": "B",
+      "explanation": "P83。\n控制风险:与内部控制制度执行的有效性有关,与审计无关,属于内部控制的范畴,重计人\n员只能评估其风险水平而不能对其实施控制和影响",
+      "pageStart": 52,
+      "pageEnd": 53,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s5-q6-p53",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 5,
+        "title": "IT审计基础",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "下列哪类T审计风险是由审计人员蝎牛自身或者技术原因等造成()。",
+      "options": {
+        "A": "固有风险",
+        "B": "控制风险",
+        "C": "检查风险",
+        "D": "外部风险"
+      },
+      "answer": "C",
+      "explanation": "P83。\n●含义:检查风险是指通过预定的审计程序未能发现重大、单个或与其他错误相结\n检查风\n合的风险。\n险\n●影响检查风险的因素:由于T审计规范不完善、审计人员自身或者技术原因等\n造成影响审计测试正确性的各种因素,",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s5-q7-p53",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 5,
+        "title": "IT审计基础",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 7,
+      "source": "2023年上半年高项真题",
+      "stem": "()不属于IT审计的目的。",
+      "options": {
+        "A": "对IT目标的实现进行审查和评价",
+        "B": "识别与评估IT风险",
+        "C": "保护信息资产的安全",
+        "D": "提出评价意见及改进"
+      },
+      "answer": "C",
+      "explanation": "P81。\nT审计的目的是指通过开展T审计工作,了解组织T系统与T活动的总体状况,对组织\n是否实现辽且标进行审查和评价,充分识别与评估相关T风险,提出评价意见及改进建这\n促进组织实现IT目标。",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s5-q8-p53",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 5,
+        "title": "IT审计基础",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 8,
+      "source": "2024年高项第1批真题",
+      "stem": "在确定IT审计范围时, ()需要根据审计的目的和投入的审计成本来确定。",
+      "options": {
+        "A": "逻铒范围",
+        "B": "物理范围",
+        "C": "组织范围",
+        "D": "总体范围"
+      },
+      "answer": "D",
+      "explanation": "P81。\nIT审计范围的确定,如下表所示:\nIT审计范围\n说明\n总体范田\n需要根据审计目的和投入的审计成本来确定。\n组织范围\n明确审计涉及的组织机构、主要流程、活动及人员等。\n物理范围\n具体的物理地点与边界。\n逻铒范围\n涉及的信息系统和逻辑边界。\n其他相关内容",
+      "pageStart": 53,
+      "pageEnd": 53,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q1-p54",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "对被审计单位内部或外部生成的记录和文件进行审查,属于()",
+      "options": {
+        "A": "访谈法",
+        "B": "调查法",
+        "C": "检查法",
+        "D": "观察法"
+      },
+      "answer": "C",
+      "explanation": "P84。检查法。对被审计单位内部或外部生成的记录和文件进行审查,或对资产\n进行实物审查。可分为审阅法、核对法、复算法和分析法",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q2-p54",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "()是审计人员到被审计单位的经营场所及其他有关场所进行实地察看,来证实审计事项的一 种方法。",
+      "options": {
+        "A": "访谈法",
+        "B": "调查法",
+        "C": "检查法",
+        "D": "观察法"
+      },
+      "answer": "D",
+      "explanation": "P84。\n观察法是审计人员到被审计单位的经营场所及其他有关场所进行实地察看,来证实审计事项\n的一种方法。",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q3-p54",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "审计抽样方法分为统计抽样和非统计抽样,以下属于非统计抽样的是()",
+      "options": {
+        "A": "属性抽样",
+        "B": "变量抽样",
+        "C": "判所抽样",
+        "D": "随机抽样"
+      },
+      "answer": "C",
+      "explanation": "P85。\n非统计抽样。常指判断抽样一采用审计人员判断来确定抽样方法、样本量及抽样标准。抽样\n结果是基于审计人员对抽样事项或交易的重要性及风险的主观判断。",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q4-p54",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "()不属于审计证据的特性。",
+      "options": {
+        "A": "独特性",
+        "B": "充分性",
+        "C": "客观性",
+        "D": "合法性"
+      },
+      "answer": "A",
+      "explanation": "P86。审计证据的特性:充分性、客观性、相关性、可靠性、合法性",
+      "pageStart": 54,
+      "pageEnd": 54,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q5-p54",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "审计证据能够反映和证实客观经济活动特征的程度,属于审计证据的()特性",
+      "options": {
+        "A": "充分性",
+        "B": "客观性",
+        "C": "相关性",
+        "D": "可靠性"
+      },
+      "answer": "D",
+      "explanation": "P86。\n分类\n说明\n指要求审计人员根据所获证据足以对被审计对象提出一定程度保证的结论,是对审\n充分性\n计证据数量的要求,主要与审计人员确定的样本量有关\n客观性\n指审计证据必须是客观在在的事实材料。客观的审计证据比需要判断或解释的证据\n可靠\n相关性\n指审计证据与审计事项之间必须有实质性联系\n指重计证据能够反映和证实客观经济活动特征的程度。审计证据的可靠性受到审计\n可聋性\n证据的类型、取证的渠道和方式等因素的影响\n合法性\n指审计证据必须符合法定种类,并依照法定程序取得",
+      "pageStart": 54,
+      "pageEnd": 55,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q6-p55",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "审计证据与审计事项之间必须有实质性联系,属于审计证据的()特性。",
+      "options": {
+        "A": "充分性",
+        "B": "客观性",
+        "C": "相关性",
+        "D": "可靠性"
+      },
+      "answer": "C",
+      "explanation": "P86。相关性。指审计证据与审计事项之间必须有实质性联系",
+      "pageStart": 55,
+      "pageEnd": 55,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q7-p55",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "审计工作底稿不包括()。",
+      "options": {
+        "A": "综合类工作底稿",
+        "B": "审计类工作底稿",
+        "C": "业务类工作底稿",
+        "D": "备查类工作底稿"
+      },
+      "answer": "B",
+      "explanation": "P87。审计工作底稿一般分为综合类工作底稿、业务类工作底稿和备查类工作底\n盘。",
+      "pageStart": 55,
+      "pageEnd": 55,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q8-p55",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "以下说法不正确的是()。",
+      "options": {
+        "A": "审计证据是指由审计机构和审计人员获取,用于确定所审计实体或数据是否遵循既定标 准或目标,形成审计结论的证明材料",
+        "B": "审计证据是审计意见的支柱,是审计人员形成审计结论的基础",
+        "C": "审计工作底稿是指审计人员对制订的审计计划、实施的审计程序、获取的相关审计证据, 以及得出的审计结论做出的记录",
+        "D": "审计工作底稿是审计证据的基础,是审计人员在审计过程中形成的审计工作记录和获取 的资料"
+      },
+      "answer": "D",
+      "explanation": "P87。\n重计工作底稻是指审计人员对制订的审计计划、实施的审计程序、获取的相关审计证据,以\n及得出的审计结论做出的记录。审计工作底稿是审计证据的载体,是审计人员在审计过程中形\n成的审计工作记录和获取的资料。它形成于审计过程,也反映整个审计过程。",
+      "pageStart": 55,
+      "pageEnd": 55,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q9-p55",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 9,
+      "source": "蜗牛老师自编题",
+      "stem": "()指审计人员在审计计划阶段和审计报告阶段,为规划、控制和总结整个审计工作并发表审 计意见所形成的审计工作底稿,",
+      "options": {
+        "A": "综合类工作底稿",
+        "B": "业务类工作底稿",
+        "C": "备查类工作底稿",
+        "D": "技术类工作底稿"
+      },
+      "answer": "A",
+      "explanation": "P87。\n综合类工作底稿。指审计人员在审计计划阶段和审计报告阶段,为规划、控制和总结整个审\n计工作并发表审计意见所形成的审计工作底稿,主要包括:重计业务约定书、审计计划、审计\n总结、审计报告、管理建议书、被审计单位管理当局声明书以及审计人员对整个审计工作进行\n组织管理的所有记录和资料",
+      "pageStart": 55,
+      "pageEnd": 56,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q10-p56",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 10,
+      "source": "蜗牛老师自编题",
+      "stem": "()指审计人员在审计过程中形成对审计工作仅具有备查作用的审计工作底稿",
+      "options": {
+        "A": "综合类工作底稿",
+        "B": "业务类工作底稿",
+        "C": "备查类工作底稿",
+        "D": "技术类工作底稿"
+      },
+      "answer": "C",
+      "explanation": "P87。\n备查类工作底稿指审计人员在审计过程中形成对审计工作仅县有备查作用的审计工作底稿",
+      "pageStart": 56,
+      "pageEnd": 56,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q11-p56",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 11,
+      "source": "蜗牛老师自编题",
+      "stem": "()指审计人员在审计实施阶段为执行具体审计程序所形成的审计工作底稿,包括:符合性测 试中形成的内部控制问题调查表和流程图、实质性测试中形成的项目明细表等。",
+      "options": {
+        "A": "综合类工作底稿",
+        "B": "业务类工作底稿",
+        "C": "备查类工作底稿",
+        "D": "技术类工作底稿"
+      },
+      "answer": "B",
+      "explanation": "P87。\n业务类工作底稿。指审计人员在审计实施阶段为执行具体审计程序所形成的审计工作底稿\n包括:符合性测试中形成的内部控制间题调查表和流程图、实质性测试中形成的项目明细表等",
+      "pageStart": 56,
+      "pageEnd": 56,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q12-p56",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 12,
+      "source": "2025年系规真题",
+      "stem": "T审计证据的特征中,()是对审计证据数量的要求,主要与审计人员确定的样本量有关。",
+      "options": {
+        "A": "充分性",
+        "B": "客观性",
+        "C": "相关性",
+        "D": "可靠性"
+      },
+      "answer": "A",
+      "explanation": "P86\n分类\n说明\n指要求审计人员根据所获证据足以对被审计对象提出一定程度保证的结论,是对审\n充分性\n计证据数量的要求,主要与审计人员确定的样本量有关\n指审计证据必须是客观在在的事实材料。客观的审计证据比需要判断或解释的证据客观性\n可霍\n相关性\n指审计证据与审计事项之间必须有实质性联系\n指审计证据能够反映和证实客观经济活动特征的程度。审计证据的可靠性受到审计\n可聋性\n证据的类型、取证的架道和方式等因素的影响\n合法性\n指审计证据必须符合法定种类,并依照法定程序取得",
+      "pageStart": 56,
+      "pageEnd": 56,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q13-p57",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 13,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "以下关于审计工作底稿,说法错误的是()。",
+      "options": {
+        "A": "审计工作底稿是指审计人员对制订的审计计划、实施的审计程序、获取的相关审计证据, 以及得出的审计结论做出的记录",
+        "B": "审计工作底稿是审计证据的载体,是审计人员在审计过程中形成的审计工作记录和获取 的资料",
+        "C": "审计工作底稿一般分为综合类工作底稿、业务类工作底稿和备查类工作底稿",
+        "D": "综合类工作底稿是指审计人员在审计实施阶段为执行具体审计程序所形成的审计工作底 稿,包括:符合性测试中形成的内部控制问题调查表和流程图、实质性测试中形成的项目明细 表等"
+      },
+      "answer": "D",
+      "explanation": "P87。\n审计工作底稿一般分为综合类工作底稿、业务类工作底稿和备查类工作底稿\n表3-12审计工作底稿分类\n底稿类型\n说明\n指审计人员在审计计划阶段和审计报告阶段,为规划、控制和总结整个审计工\n综合类工作底\n作并发表审计意见所形成的审计工作底稿,主要包括:重计业务约定书、审计\n稿\n计划、审计意结、审计报告、管理建议书、被审计单位管理当局声明书以及审\n计人员对整个审计工作进行组织管理的所有记录和资料。\n指审计人员在审计实施阶段为执行具体审计程序所形成的审计工作底稿,包业务类工作底\n括:符合性测试中形成的内部控制间题调查表和流程图、实质性测试中形成的稿\n项且明细表等。\n指审计人员在审计过程中形成对审计工作仅具有备查作用的审计工作底稿。备\n查类工作底稿应随被审计单位有关情况的变化而不断更新;应详细列明目录清\n备查类工作底\n单,并将更新的文件资料随时归档;应根据需要,将其中与具体审计项目有关\n稿\n的内容复印、摘录、综合后归入业务类审计工作底稿的具体审计项目之后。通\n堂,备查类审计工作底稿是由被审计单位或第三者根据实际情况提供或代为编\n制,审计人员应认真审核,并对所取得的有关文件、资料标明其具体来源",
+      "pageStart": 57,
+      "pageEnd": 57,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q14-p57",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 14,
+      "source": "2023年下半年高项第2批真题",
+      "stem": "以下关于审计证据的说法中,错误的是()。",
+      "options": {
+        "A": "审计证据是指由审计机构和审计人员获取,用于确定所审计实体或数据是否遵循既定标 准或目标,形成审计结论的证明材料",
+        "B": "客观性是指审计证据必须是客观存在的事实材料。客观的审计证据比需要判断或解释的 证据可靠",
+        "C": "充分性是指要求审计人员根据所获证据足以对被审计对象提出一定程度保证的结论,是 对审计证据数量的要求,主要与审计人员确定的样本量有关",
+        "D": "合法性是指审计证据与审计事项之间必须有实质性联系"
+      },
+      "answer": "D",
+      "explanation": "P86。\n审计证据是指由审计机构和审计人员获取,用于确定所审计实体或数据是否遵循既定标准或\n目标,形成审计结论的证明材料。审计证据的特性见下表。\n分类\n说明\n指要求审计人员根据所获证据足以对被审计对象提出一定程度保证的结论,是对审充分性\n计证据数量的要求,主要与审计人员确定的样本量有关\n指审计证据必须是客观在在的事实材料。客观的审计证据比需要判断或解释的证据\n客观性\n可靠\n相关性\n指审计证据与审计事项之间必须有实质性联系\n指重计证据能够反映和证实客观经济活动特征的程度。审计证据的可靠性受到审计\n可靠性\n证据的类型、取证的梁道和方式等因素的影响\n合法性\n指审计证据必须符合法定种类,并依照法定程序取得",
+      "pageStart": 57,
+      "pageEnd": 58,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q15-p58",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 15,
+      "source": "2023年下半年高项第3批真题",
+      "stem": "在常用的统计抽样方法中,下列哪一种方法()主要用于估计总体中某种特性的发生比率",
+      "options": {
+        "A": "属性抽样",
+        "B": "变量抽样",
+        "C": "判断抽样",
+        "D": "平均抽样"
+      },
+      "answer": "A",
+      "explanation": "P85。\n常用的统计抽样方法有:①属性抽样。固定样本量属性抽样或频率估计抽样一用于估计总体\n中某种特性(属性)的发生比率(百分率)的抽样方法,属性抽样回答“有多少?”的问题\n可被测试的属性的一个例子是计算机访间申请表上的批准签字二②变量抽样。变量抽样也称为\n金额估计抽样或平均值估计抽样,是一种由样本估计总体的货币金额或其他度量单位(如重量)\n的抽样技术。变量抽样的一个例子是检查组织重要交易的余额表及对生成余额表的程序实施的\n应用系统审计。",
+      "pageStart": 58,
+      "pageEnd": 58,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s6-q16-p58",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 6,
+        "title": "审计方法与技术",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 16,
+      "source": "2024年高项第2批真题",
+      "stem": "常用的IT审计技术不包括()。",
+      "options": {
+        "A": "产品分析技术",
+        "B": "风险评估技术",
+        "C": "大数据审计技术",
+        "D": "抽样审计技术"
+      },
+      "answer": "A",
+      "explanation": "P84。\nT审计技术;风险评估技术、审计抽样技术、计算机辅助审计技术及大数据审计技术【口\n诀:疯婶算数】",
+      "pageStart": 58,
+      "pageEnd": 58,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s7-q1-p58",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 7,
+        "title": "审计流程",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "审计流程的作用不包括()。",
+      "options": {
+        "A": "有利于审计流程的规范",
+        "B": "有利于提高审计工作效率",
+        "C": "有利于保证审计项目质量",
+        "D": "有利于规范审计工作"
+      },
+      "answer": "A",
+      "explanation": "P88。\n审计流程的作用:①有效地指导审计工作;②有利于提高审计工作效率;③有利于保证审计\n项目质量;**④有利于规范审计工作、",
+      "pageStart": 58,
+      "pageEnd": 58,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s7-q2-p59",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 7,
+        "title": "审计流程",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "审计流程一般分为()四个阶段。",
+      "options": {
+        "A": "审计规划、审计实施、审计执行及审计监控",
+        "B": "审计规划、审计实施、审计终结及后续审计",
+        "C": "审计准备、审计实施、审计执行及审计终结",
+        "D": "审计准备、审计实施、审计终结及后续审计"
+      },
+      "answer": "D",
+      "explanation": "P88。审计流程一般分为重计准备、审计实施、审计终结及后续审计四个阶段",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s7-q3-p59",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 7,
+        "title": "审计流程",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "在T审计流程中,()是审计全过程的中心环节,是整个审计流程的关键阶段,关系到整个 审计工作的成败。",
+      "options": {
+        "A": "审计终结阶段",
+        "B": "审计准备阶段",
+        "C": "后续审计阶段",
+        "D": "审计实施阶段"
+      },
+      "answer": "D",
+      "explanation": "P88。\nT审计实施阶段是审计人员将项目审计计划付请实施的期间。此阶段的工作是审计全过程\n的中心环节,是整个审计流程的关键阶段,关系到整个审计工作的成败",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s7-q4-p59",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 7,
+        "title": "审计流程",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "在T审计流程中,“整理与复核审计工作底稿”,属于()的工作内容。",
+      "options": {
+        "A": "审计终结阶段",
+        "B": "审计准备阶段",
+        "C": "后续审计阶段",
+        "D": "审计实施阶段"
+      },
+      "answer": "A",
+      "explanation": "P88。\nT审计终结阶段是整理审计工作成稿、总结重计工作、编写审计报告、做出审计结论的期\n间。终结阶段的工作一般包括:①整理与复核审计工作底稿;②整理审计证据;◎评价相关π\n控制且标的实现;④判断并报告审计发现;⑤沟通审计结果;⑥出具审计报告;⑦归档管理等",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s7-q5-p59",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 7,
+        "title": "审计流程",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "在T审计流程中,“①明确审计目的及任务;②组建审计项目组;③搜集相关信息;④编制审 计计划”,属于()的工作内容。",
+      "options": {
+        "A": "审计终结阶段",
+        "B": "审计准备阶段",
+        "C": "后续审计阶段",
+        "D": "审计实施阶段"
+      },
+      "answer": "B",
+      "explanation": "P88。\nT审计准备阶段是指工重计项目从计划开始,到发出重计通知书为止的期间。准备阶段工\n作一般包括:①明确审计且的及任务;②组建重计项且组;③搜集相关信息;④编制审计计划\n等。",
+      "pageStart": 59,
+      "pageEnd": 59,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s7-q6-p59",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 7,
+        "title": "审计流程",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "IT()是指1T审计项目从计划开始,到发出审计通知书为止的期间。",
+      "options": {
+        "A": "审计终结阶段",
+        "B": "审计准备阶段",
+        "C": "后续审计阶段",
+        "D": "审计实施阶段"
+      },
+      "answer": "B",
+      "explanation": "P88。\nT审计准备阶段是指江审计项目从计划开始,到发出审计通知书为止的期间。准备阶段工\n作一般包括:①明确审计且的及任务;②组建审计项目组;◎搜集相关信息:④编制审计计划\n等。",
+      "pageStart": 59,
+      "pageEnd": 60,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s7-q7-p60",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 7,
+        "title": "审计流程",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "()是在审计报告发出后的一定时间内,审计人员为检查被审计单位对审计问题和建议是否己 经采取了适当的纠正措施,并取得预期效果的跟踪审计。",
+      "options": {
+        "A": "审计终结阶段",
+        "B": "审计准备阶段",
+        "C": "后续审计阶段",
+        "D": "审计实施阶段"
+      },
+      "answer": "C",
+      "explanation": "P89。\n后续审计是在重计报告发出后的一定时间内,审计人员为检查被审计单位对审计问题和建议\n是否己经采取了适当的纠正措施,并取得预期效果的跟踪审计",
+      "pageStart": 60,
+      "pageEnd": 60,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s7-q8-p60",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 7,
+        "title": "审计流程",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 8,
+      "source": "2024年高项第1批真题",
+      "stem": "在T审计流程中,“深入调查并调整审计计划”,属于()的工作内容之一。",
+      "options": {
+        "A": "审计终结阶段",
+        "B": "审计准备阶段",
+        "C": "后续审计阶段",
+        "D": "审计实施阶段"
+      },
+      "answer": "D",
+      "explanation": "P88。\nT审计实施阶段是审计人员将项目审计计划付诸实施的期间。此阶段的工作是审计全过程\n的中心环节,是整个审计流程的关键阶段,关系到整个审计工作的成败\n实施阶段主要完成工作包括:①深入调查并调整审计计划;②了解并初步评估T内部控制\n*③进行符合性测试;④进行实质性测试等。",
+      "pageStart": 60,
+      "pageEnd": 60,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s7-q9-p60",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 7,
+        "title": "审计流程",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 9,
+      "source": "2025年高项第1批真题",
+      "stem": "关于IT审计流程的描述,不正确的是:()。",
+      "options": {
+        "A": "在审计准备阶段组建团队并编制计划",
+        "B": "在后续审计阶段重新执行完整的审计步骤",
+        "C": "在审计终结阶段归档审计底稿与报告",
+        "D": "在审计实施阶段开展符合性及实质性测试"
+      },
+      "answer": "B",
+      "explanation": "P88-89。\n审计流程分为四个阶段:\n1.审计准备阶段。T审计准备阶段是指T审计项目从计划开始,到发出审计通知书为止\n的期间。准备阶段是整个审计过程的起点和基础,准备阶段的工作是否充分、合理、细致,对\n提高审计工作效率,保证审计工作质量至关重要。准备阶段工作一般包括:①明确审计目的及\n任务;②组建审计项目组;③搜集相关信息;④编制审计计划等。\n2.审计实施阶段。T审计实施阶段是审计人员将项目审计计划付诸实施的期间。此阶段的\n工作是审计全过程的中心环节,是整个审计流程的关键阶段,关系到整个审计工作的成败。实\n施阶段主要完成工作包括:“①深入调查并调整审计计划;②了解并初步评估T内部控制;③\n进行符合性测试;④进行实质性测试等。\n3.审计终结阶段。T审计终结阶段是整理审计工作底稿、总结审计工作、编写审计报告、\n做出审计结论的期间。审计人员应运用专业判断,综合分析所收集到的相关证据,以经过核实\n的审计证据为依据,形成审计意见、出具审计报告。终结阶段的工作一般包括:①整理与复核\n审计工作底稿;②整理审计证据;③评价相关T控制目标的实现;④判断并报告审计发现;⑤\n沟通审计结果;⑥出具审计报告;⑦归档管理等。\n4.后续审计阶段。后续审计是在审计报告发出后的一定时间内,审计人员为检查被审计单\n位对审计问题和建议是否已经采取了适当的纠正措施,并取得预期效果的跟踪审计。后续重计\n并不是一次新的重计,面是前一次重计的有机组成部分。实施后续审计,可不必遵守审计流程\n的每一过程和要求,但必须依法依规进行检查、调查,收集审计证据,写出后续审计报告",
+      "pageStart": 60,
+      "pageEnd": 61,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s7-q10-p61",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 7,
+        "title": "审计流程",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 10,
+      "source": "2025年高项第2批真题",
+      "stem": "在IT审计流程中,()是审计实施阶段的工作。",
+      "options": {
+        "A": "进行符合性测试",
+        "B": "编制审计计划",
+        "C": "整理审计证据",
+        "D": "明确审计目的及任务"
+      },
+      "answer": "A",
+      "explanation": "P88。\nT审计实施阶段是审计人员将项目审计计划付诸实施的期间。此阶段的工作是审计全过程\n的中心环节,是整个审计流程的关键阶段,关系到整个审计工作的成败。实施阶段主要完成工\n作包括:①深入调查并调整审计计划;②了解并初步评估T内部控制;③进行符合性测试;④\n进行实质性测试等。",
+      "pageStart": 61,
+      "pageEnd": 61,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s8-q1-p61",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 8,
+        "title": "审计内容",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 6
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "以下说法不正确的是()。",
+      "options": {
+        "A": "IT审计业务和服务通常分为IT内部控制审计和IT专项审计",
+        "B": "T内部控制审计主要包括组织层面T控制审计、T一般控制审计及应用控制审计",
+        "C": "T专项审计主要是指根据当前面临的特殊风险或者需求开展的T审计,审计范围为T 综合审计的全部范围",
+        "D": "应用控制审计是指针对业务流程层面运行的人工或自动化程序进行审计,主要包括输入 控制、处理控制和输出控制的审计"
+      },
+      "answer": "C",
+      "explanation": "P89。\nIT审计业务和服务通常分为IT内部控制审计和IT专项审计。\nT内部控制审计主要包括组织层面T控制审计、T一般控制审计及应用控制审计\nT专项审计主要是指根据当前面临的特殊风险成者需求开展的T审计,审计范围为T综合\n审计的某一个或儿个部分。",
+      "pageStart": 61,
+      "pageEnd": 61,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s8-q2-p61",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 8,
+        "title": "审计内容",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 6
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "对T战略、组织、架构、业务连续性、风险管理、外包管理、网络与信息安全及监督管理等进 行审计,属于()。",
+      "options": {
+        "A": "组织层面IT控制审计",
+        "B": "IT一般控制审计",
+        "C": "应用控制审计",
+        "D": "信息系统项目审计"
+      },
+      "answer": "A",
+      "explanation": "P89。\n●组织层面T控制审计主要指对T战略、组织、架构、业务连续性、风险管理、外包管理、\n网络与信息安全及监督管理等进行审计。\n●T一般控制审计主要是指针对与应用系统、数据库、操作系统、网络相关的策略和措施\n等进行审计。\n●应用控制审计是指针对业务流程层面运行的人工或自动化程序进行审计,主要包括输入控\n制、处理控制和输出控制的审计。",
+      "pageStart": 61,
+      "pageEnd": 62,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s8-q3-p62",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 8,
+        "title": "审计内容",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 6
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "针对业务流程层面运行的人工或自动化程序进行审计,主要包括输入控制、处理控制和输出控 制的审计,属于()。",
+      "options": {
+        "A": "组织层面IT控制审计",
+        "B": "IT一般控制审计",
+        "C": "应用控制审计",
+        "D": "信息系统项目审计"
+      },
+      "answer": "C",
+      "explanation": "P89。\n●组织层面T控制审计主要指对T战略、组织、架构、业务连续性、风险管理、外包管理、\n网络与信息安全及监督管理等进行审计。\n●T一般控制审计主要是指针对与应用系统、数据库、操作系统、网络相关的策略和措施\n等进行审计。\n●应用控制审计是指针对业务流程层面运行的人工赠牛或自动化程序进行审计,主要包括输\n入控制、处理控制和输出控制的审计。",
+      "pageStart": 62,
+      "pageEnd": 62,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s8-q4-p62",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 8,
+        "title": "审计内容",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 6
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "对与应用系统、数据库、操作系统、网络相关的策略和措施等进行审计,属于()",
+      "options": {
+        "A": "组织层面IT控制审计",
+        "B": "IT一般控制审计",
+        "C": "应用控制审计",
+        "D": "信息系统项目审计"
+      },
+      "answer": "B",
+      "explanation": "P89。\n●组织层面T控制审计主要指对T战略、组织、架构、业务连续性、风险管理、外包管理、\n网络与信息安全及监督管理等进行审计\n●T一般控制审计主要是指针对与应用系统、数据库、操作系统、园络相关的策略和措施\n等进行审让\n●应用控制审计是指针对业务流程层面运行的人工或自动化程序进行审计,主要包括输入控\n制、处理控制和输出控制的审计",
+      "pageStart": 62,
+      "pageEnd": 62,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s8-q5-p62",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 8,
+        "title": "审计内容",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 6
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "主要围绕信息系统规划、设计、建设、实施是否符合T架构和战略进行评估和监督,属于()",
+      "options": {
+        "A": "信息系统开发过程审计",
+        "B": "信息系统运行维护审计",
+        "C": "信息系统生命周期审计",
+        "D": "信息系统项目审计"
+      },
+      "answer": "A",
+      "explanation": "P89。\n信息系统开发过程审计。主要围绕信息系统规划、设计、建设、实施是否符合T架构和战\n略进行评估和监怪。",
+      "pageStart": 62,
+      "pageEnd": 63,
+      "type": "single_choice"
+    },
+    {
+      "id": "c3-s8-q6-p63",
+      "chapter": {
+        "number": 3,
+        "title": "信息系统治理"
+      },
+      "section": {
+        "number": 8,
+        "title": "审计内容",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 6
+      },
+      "questionNo": 6,
+      "source": "2024年高项第2批真题",
+      "stem": "T审计业务和服务通常分为T内部控制审计和T专项审计,()属于T内部控制审计",
+      "options": {
+        "A": "应用控制审计",
+        "B": "网络与信息安全审计",
+        "C": "数据审计",
+        "D": "信息系统生命周期审计"
+      },
+      "answer": "A",
+      "explanation": "P89。\n一般控制审计及应用控制审计,IT内部控制审计主要包括组织层面IT控制审计、IT\n有\n陶宝扫码课\n公众号\n扫码加考即\n副中轼高小对通店请自加\n【老用002078878",
+      "pageStart": 63,
+      "pageEnd": 63,
+      "type": "single_choice"
+    }
+  ]
+}

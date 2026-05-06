@@ -18,7 +18,20 @@ http://127.0.0.1:8765/
 
 ## 数据
 
-题库数据已经固定在 `questions.json` 中，页面会自动加载该文件，不需要每次运行 PDF 抽取脚本。
+题库数据已经固定在 `questions.json` 中，不需要每次运行 PDF 抽取脚本。
+
+为了便于逐章修正 OCR 问题，题库同时拆分在 `data/` 目录：
+
+- `data/index.json`：章节索引
+- `data/chapter-01.json` 等：按章节拆分后的题目
+
+页面会优先加载 `data/` 中的拆分数据；如果失败，再回退到 `questions.json`。
+
+当 `questions.json` 更新后，运行下面的命令重新生成拆分数据：
+
+```bash
+node scripts/split-questions.js
+```
 
 ## 部署
 

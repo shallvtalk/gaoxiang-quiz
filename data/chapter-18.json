@@ -1,0 +1,3089 @@
+{
+  "chapter": {
+    "number": 18,
+    "title": "项目绩效域"
+  },
+  "count": 110,
+  "questions": [
+    {
+      "id": "c18-s1-q1-p409",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 1,
+        "title": "项目绩效域概述",
+        "priority": "★★",
+        "priorityStars": 2,
+        "questionCountHint": 1
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "以下说法不正确的是()。",
+      "options": {
+        "A": "项目绩效域分为:干系人、团队、开发方法和生命周期、规划、项目工作、交付、测量、 不确定性8大绩效域",
+        "B": "项目8大绩效城相互重叠和关联,我们不能把某一个绩效城当作一个孤立的工作进行处 理",
+        "C": "实际项目进行过程中,每个绩效城中开展的活动是由组织的背景、项目、可交付物、项 目团队、干系人和其他因素确定的",
+        "D": "绩效域中的活动是按顺序执行的"
+      },
+      "answer": "D",
+      "explanation": "P52O。\n实际项目进行过程中,每个绩效城中开展的活动是由组织的背景、项目、可交付物、项目团\n队、干系人和其他因素确定的,它们之间并没有特定的执行顺序和权重。",
+      "pageStart": 409,
+      "pageEnd": 409,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s2-q1-p409",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 2,
+        "title": "干系人绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 1,
+      "source": "教材第18章章节习题",
+      "stem": "促进干系人参与的步骤包括:识别、理解、()、优先级排序、参与和()。",
+      "options": {
+        "A": "分析、变更",
+        "B": "分析、监督",
+        "C": "效果评价、监督",
+        "D": "效果评价、变更"
+      },
+      "answer": "B",
+      "explanation": "【蜗牛解析1:P520-521。促进干系人参与的开展步骤:识别、理解和分析、优先级排序、参\n与、监登。",
+      "pageStart": 409,
+      "pageEnd": 409,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s2-q2-p409",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 2,
+        "title": "干系人绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "有效执行干系人绩效域可以实现的预期目标不包含()。",
+      "options": {
+        "A": "与干系人建立高效的工作关系",
+        "B": "满足干系人的利益",
+        "C": "支持项目的干系人提高了满意度,并从中收益",
+        "D": "反对项目的干系人没有对项目产生负面影响"
+      },
+      "answer": "B",
+      "explanation": "P52O。\n干系人绩效城预期目标:①与干系人建立高效的工作关系;②干系人认同项且且标;③支持\n项目的于系人提高了满意度,并从中收益;④反对项目的干系人没有对项目产生负面影响",
+      "pageStart": 409,
+      "pageEnd": 409,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s2-q3-p409",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 2,
+        "title": "干系人绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "干系人绩效域的绩效要点是()。",
+      "options": {
+        "A": "识别干系人",
+        "B": "管理干系人参与",
+        "C": "促进干系人参与",
+        "D": "监督干系人参与"
+      },
+      "answer": "C",
+      "explanation": "P52O。\n在项目整个生命周期过程中,为了有效热行王系人绩效城,项目经理需要重点促进于系人的\n参与。",
+      "pageStart": 409,
+      "pageEnd": 410,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s2-q4-p410",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 2,
+        "title": "干系人绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "促进干系人参与的步骤()。 ①理解和分析;②优先级排序;③识别;④监督;⑤参与",
+      "options": {
+        "A": "③①②⑤④",
+        "B": "①③②⑤④",
+        "C": "①③②④⑤",
+        "D": "③①②④⑤"
+      },
+      "answer": "A",
+      "explanation": "【蜗牛解析1:P520-521。促进干系人参与的开展步骤:识别、理解和分析、优先级排序、参\n与、监督。",
+      "pageStart": 410,
+      "pageEnd": 410,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s2-q5-p410",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 2,
+        "title": "干系人绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "根据干系人参与项目工作的相关描述,下列说法正确的是()。",
+      "options": {
+        "A": "干系人仅能导致项目不确定性增加,无法帮助减少不确定性",
+        "B": "客户、高层管理人员等干系人重点参与项目需求定义与范围优先级排序",
+        "C": "干系人可参与制定规划、确定可交付物验收标准等关键项目工作",
+        "D": "项目可交付物的质量标准仅由项目团队独立制定,无需干系人参与"
+      },
+      "answer": "C",
+      "explanation": "P521-522。\n很多项目工作都是围绕着促进干系人参与、与干系人进行沟通而展开的,干系人会参与到项\n目的很多方面,基些干系人可以帮助减少项目的不确定性,面有些干系人则可能导致不确定性\n的增加。干系人主要参与的项目工作包括:①为项目团队定义需求和范围,并对其进行优先级\n排序;②参与并制定规划;①确定项目可交付物和项目成果的验收和质量标准;④客户、高层\n管理人员、项且管理办公室领导或项目集经理等干系人将重点关注项目及其可交付物绩效的满\n量。",
+      "pageStart": 410,
+      "pageEnd": 410,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s2-q6-p410",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 2,
+        "title": "干系人绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "可以通过()来判断是否与干系人建立了高效的工作关系。",
+      "options": {
+        "A": "干系人参与的连续性",
+        "B": "变更的频率",
+        "C": "干系人行为",
+        "D": "干系人满意度"
+      },
+      "answer": "A",
+      "explanation": "P522。\n表18-1干系人绩效域的检查方法\n预期目标\n指标及检查方法\n干系人参与的连续性:通过观察、记录方式,对于系人参与的连续性建立高效的工作关系\n进行衡量\n变更的频率:对项目范围、产品需求的大量变更或修改可能表明干系干系人认同项目目标\n人没有参与进来或与项目目标不一致\n支持项目的干系人提\n1干系人行为:干系人的行为可表明项目受益人是否对项目感到满意和\n高了满意度,并从中收\n表示支持,或者他们是否反对项目;\n益;反对项目的干系人\n干系人满意度:可通过调研、访谈和焦点小组方式,确定干系人满意\n没有对项目产生负面|度,判断干系人是否感到满意和表示支持,或者他们对项目及其可交\n影响\n付物是否表示反对;\n干系人相关问题和风险:对项目问题日志和风险登记册的审查可以识\n别与单个干系人有关的问题和风险",
+      "pageStart": 410,
+      "pageEnd": 411,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s2-q7-p411",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 2,
+        "title": "干系人绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "通过对项目问题日志和风险登记册的审查可以识别与单个干系人有关的问题和风险,属于干系 人绩效域执行效果检查的那个指标()。",
+      "options": {
+        "A": "变更的频率",
+        "B": "干系人参与的连续性",
+        "C": "干系人行为",
+        "D": "干系人相关问题和风险"
+      },
+      "answer": "D",
+      "explanation": "P522。\n王系人相关问题和风险:对项目问题日志和风险登记册的审查可以识别与单个干系人有关的\n间题和风险",
+      "pageStart": 411,
+      "pageEnd": 411,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q1-p411",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 1,
+      "source": "教材第18章章节习题",
+      "stem": "有效执行团队绩效域可以实现的预期目标,不包括()",
+      "options": {
+        "A": "共亭责任",
+        "B": "建立高绩效团队",
+        "C": "所有团队成员都展现出相应的领导力和人际关系技能",
+        "D": "项目以有条理、协调一致的方式推进"
+      },
+      "answer": "D",
+      "explanation": "P522。\n团队绩效城预期目标:①共辛责任;②建立高绩效团队;③所有团队成员都展现出相应的领\n导力和人际关系技能。",
+      "pageStart": 411,
+      "pageEnd": 411,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q2-p411",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "有效执行团队绩效域可以实现的预期目标,包括()。 ①共享责任;②建立高绩效团队;③所有团队成员都展现出相应的领导力和人际关系技能;④ 高绩效项目团队;⑤领导力技能。",
+      "options": {
+        "A": "①②④",
+        "B": "②③④",
+        "C": "①②③",
+        "D": "③④⑤"
+      },
+      "answer": "C",
+      "explanation": "P522。\n团队绩效城预期目标:①共享责任;②建立高绩效团队;③所有团队成员都展现出相应的领\n导力和人际关系技能。",
+      "pageStart": 411,
+      "pageEnd": 411,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q3-p411",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "在项目整个生命周期过程中,为了有效执行团队绩效域,项目经理需要关注的重点不包括()",
+      "options": {
+        "A": "项目团队文化",
+        "B": "高绩效项目团队",
+        "C": "管理者技能",
+        "D": "领导力技能"
+      },
+      "answer": "C",
+      "explanation": "P522。\n第41?页\n在项目整个生命周期过程中,为了有效执行团队绩效城,项目经理需要重点关注:项目团队\n文化、高绩效项目团队和领导力技能。",
+      "pageStart": 411,
+      "pageEnd": 412,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q4-p412",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "为了有效执行团队绩效域,项目经理需要关注的重点,包括()。 ①项目团队文化;②高绩效项目团队;③管理者技能;④领导力技能",
+      "options": {
+        "A": "①②④",
+        "B": "②③④ )",
+        "C": "①②③",
+        "D": "①③④"
+      },
+      "answer": "A",
+      "explanation": "P522。\n在项目整个生命周期过程中,为了有效执行团队绩效域,项目经理需要重点关注:项目团队\n文化、高绩效项且团队和领导力技能。",
+      "pageStart": 412,
+      "pageEnd": 412,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q5-p412",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 5,
+      "source": "教材第18章章节习题",
+      "stem": "()决策速度快,但容易出错,也会因为未考虑受决策影响的人的感受而降低他们的积极性。 ()决策具有包容性的特点,可增加对决策的承诺,促使人们参与决策。",
+      "options": {
+        "A": "单方面、群体",
+        "B": "群体、专家判断",
+        "C": "单方而、集中",
+        "D": "群体、集中"
+      },
+      "answer": "A",
+      "explanation": "P525。\n决策:项目经理和项目团队每天都要做出许多决策,决策可由项目经理和项目团队成员单方\n面做出。单方面决策速度快,但容易出错,也会因为未考虑受决策影响的人的感受而降低他们\n的积极性。鞋体决策县有包容性的特点,包容性可增加对决策的承诺,可以利用群体广泛的知\n识,让人们参与决策,使他们对成果更加认同。",
+      "pageStart": 412,
+      "pageEnd": 412,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q6-p412",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "在高绩效项目团队中,()是指出现问题或故障时,高绩效项目团队可以快速恢复",
+      "options": {
+        "A": "共亭责任",
+        "B": "协作",
+        "C": "适应性",
+        "D": "韧性"
+      },
+      "answer": "D",
+      "explanation": "P523。●切性:出现问题或故障时,高绩效项目团队可以快速恢复",
+      "pageStart": 412,
+      "pageEnd": 412,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q7-p412",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "下面不属于领导力技能的是()。",
+      "options": {
+        "A": "批判性思维",
+        "B": "人际关系技能",
+        "C": "建立和维护愿景",
+        "D": "共享责任"
+      },
+      "answer": "D",
+      "explanation": "P523-524。\n领导力技能:(1)建立和维护愿量(2)批判性思维(3)激励(4)人际关系技能",
+      "pageStart": 412,
+      "pageEnd": 412,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q8-p412",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "()是识别自己的和他人的情绪的能力。",
+      "options": {
+        "A": "领导力",
+        "B": "情商",
+        "C": "意识",
+        "D": "管理力"
+      },
+      "answer": "B",
+      "explanation": "P524。\n情商是识别自己的和他人的情绪的能力,情商是领导力的基础,有助于积极沟通、协作,并\n形成有效领导力。",
+      "pageStart": 412,
+      "pageEnd": 413,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q9-p413",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 9,
+      "source": "蜗牛老师自编题",
+      "stem": "情商的四个层次()。",
+      "options": {
+        "A": "自我意识、自我管理、社交意识、社交技能",
+        "B": "团队意识、团队管理、社交意识、社交技能",
+        "C": "自我意识、自我管理、社交意识、社交管理",
+        "D": "团队意识、团队管理、社交意识、社交管理"
+      },
+      "answer": "A",
+      "explanation": "P524。情商一般集中在4个层次:①自我意识。②自我管理。③社交意识。④\n社交技能。",
+      "pageStart": 413,
+      "pageEnd": 413,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q10-p413",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 10,
+      "source": "蜗牛老师自编题",
+      "stem": "即与自我相关,又与管理和技能相关,属于情商四层中的()。",
+      "options": {
+        "A": "自我意识",
+        "B": "自我管理",
+        "C": "社交意识",
+        "D": "社交技能"
+      },
+      "answer": "B",
+      "explanation": "P524。\n自我意识、自我管理与自我相关;社交意识、社交技能与社交相关\n自我意识、社交意识与意识相关;自我管理、社交技能与管理和技能相关",
+      "pageStart": 413,
+      "pageEnd": 413,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q11-p413",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 11,
+      "source": "蜗牛老师自编题",
+      "stem": "()首先由干系人分别参与,制定一套广泛的备选解决方案;然后项目团队再将方案汇聚一起, 确定一个首选的解决方案。",
+      "options": {
+        "A": "汇聚/发散",
+        "B": "单方面决策",
+        "C": "发散/汇聚",
+        "D": "群体决策"
+      },
+      "answer": "C",
+      "explanation": "P525。\n发散/江聚的模式:首先由干系人分别参与,制定一套广泛的备选解决方案:然后项目团队\n再将方案汇聚一起,确定一个首选的解决方案。",
+      "pageStart": 413,
+      "pageEnd": 413,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q12-p413",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 12,
+      "source": "蜗牛老师自编题",
+      "stem": "解决冲突的方法包括:()。 ①尊重。②聚焦于问题。③聚焦于当前和未来。④共同寻找备选方案。",
+      "options": {
+        "A": "①②",
+        "B": "C3④",
+        "C": "①②③",
+        "D": "①②③④"
+      },
+      "answer": "D",
+      "explanation": "P525-526。\n解决冲突的方法包括:①尊重。②聚焦于间题。③聚焦于当前和未来。④共同寻找备选方案",
+      "pageStart": 413,
+      "pageEnd": 413,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q13-p413",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 13,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "()通过以下方式打造高绩效项目团队。",
+      "options": {
+        "A": "项目经理",
+        "B": "项目经理和团队",
+        "C": "项目团队",
+        "D": "质量管理人员"
+      },
+      "answer": "B",
+      "explanation": "P523。\n项且经理和项且团队通过以下方式打造高绩效项目团队:1.开诚布公的沟通;2.共识;3\n共享责任;4.信任;5.协作;6.适应性;7.韧性;8.赋能;9.认可。",
+      "pageStart": 413,
+      "pageEnd": 414,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q14-p414",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 14,
+      "source": "2024年高项第1批真题",
+      "stem": "下列关于建设团队的说法,不正确的是()。",
+      "options": {
+        "A": "团队成员对成果的主人翁意识越强,表现就越好",
+        "B": "出现问题或故障时能够快速定位,体现了团队绩效高,韧性强",
+        "C": "所有团队成员都应展现出相应的领导力和人际关系技能",
+        "D": "团队成员相互协作与合作,有助于产生多样化的想法,获得更好成果"
+      },
+      "answer": "B",
+      "explanation": "P523。打造高绩效项目团队的方式:\n●开诚布公的沟通:达成共识、信任和协作的基石。\n●共识:共享项目的目的及其将带来的收益。\n●共享责任:项目团队成员对成果的主人翁意识越强,表现得就越好。\n●信任:成员相互信任的项目团队愿意付出额外的努力来取得成功\n●协作:项目团队相互协作与合作,有助于产生多样化的想法,获得更好的成果\n●适应性:项目团队能够根据环境和情况调整工作方式,使工作更加有效\n●划性:出现问题或故障时,高绩效项目团队可以快速恢复。\n●赋能:给项目团队成员赋能,有助于其有权就所采取的工作方式做出决策\n●认可:获得认可更有可能继续取得出色绩效。",
+      "pageStart": 414,
+      "pageEnd": 414,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q15-p414",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 15,
+      "source": "蜗牛老师自编题",
+      "stem": "关于项目团队绩效域的描述,下列说法正确的是()。",
+      "options": {
+        "A": "团队绩效域与领导力素质无关",
+        "B": "团队相关技能需在项目规划阶段重点关注",
+        "C": "在规划绩效域和测量绩效域中,无需借用团队绩效技能",
+        "D": "团队绩效域的技能需融入项目各方面,团队成员全程需展现相关领导力素质"
+      },
+      "answer": "D",
+      "explanation": "P526。\n团队绩效域聚焦于项目经理和项目团队成员在整个项目生命周期过程中的技能,这些技能已\n政入项目的其他各个方面,在整个项目期间项目团队成员都需要全程展现团队相关的领导力素\n质和技能。例如,在进行规划时和干系人沟通项目愿景和收益;在参与项目工作时运用批判性\n思维解决问题和决策;在整个规划绩效域和测量绩效城中都要聚焦于团队绩效;应用团队相关\n技能。",
+      "pageStart": 414,
+      "pageEnd": 414,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s3-q16-p414",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 3,
+        "title": "团队绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 16
+      },
+      "questionNo": 16,
+      "source": "蜗牛老师自编题",
+      "stem": "建立高绩效团队的效果检查方法和指标不包括()。",
+      "options": {
+        "A": "信任与协作程度",
+        "B": "适应变化的能力",
+        "C": "管理和领导力风格适宜性",
+        "D": "彼此赋能"
+      },
+      "answer": "C",
+      "explanation": "P526。\n表18-2团队绩效域的检查方法\n预期目标\n指标及检查方法\n目标和责任心:所有项目团队成员都了解愿景和目标。项目团队对项\n共辛责任\n目的可交付物和项目成果承担责任\n信任与协作程度;项目团队彼此信任,相互协作\n建立高绩效团队\n适应变化的能力:项目团队适应不断变化的情况\n彼此赋能:项目团队感到被赋能\n所有团队成员都展现\n管理和领导力风格适宜性:项目团队成员的管理和领导力风格适合项出相应的领导力和人\n且的背量和环境\n际关系技能",
+      "pageStart": 414,
+      "pageEnd": 415,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q1-p415",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "有效执行开发方法和生命周期绩效域可以实现的预期目标,不包括()",
+      "options": {
+        "A": "交付节奏、开发方法及其选择",
+        "B": "开发方法与项目可交付物相符合",
+        "C": "将项目交付与干系人价值紧密关联",
+        "D": "项目生命周期由促进交付节奏的项目阶段和产生项目交付物所需的开发方法组成"
+      },
+      "answer": "A",
+      "explanation": "P526。\n开发方法和生命周期绩效城预期目标:①开发方法与项目可交付物相符合;②将项目交付与\n王系人价值紧密关联;③项目生命周期由促进交付节奏的项目阶段和产生项目交付物所盖的开\n发方法组成。",
+      "pageStart": 415,
+      "pageEnd": 415,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q2-p415",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "在项目整个生命周期过程中,为了有效执行开发方法和生命周期绩效域,项目经理需要关注的 重点不包括()",
+      "options": {
+        "A": "交付节奏",
+        "B": "开发方法及其选择",
+        "C": "协调交付节奏",
+        "D": "开发方法及项目的五个过程组"
+      },
+      "answer": "D",
+      "explanation": "P526。\n项目经理需要重点关注:交付节娄、开发方法、开发方法的选择、协调交付节娄和开发方法",
+      "pageStart": 415,
+      "pageEnd": 415,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q3-p415",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "()在整个项目期间的不同时间交付。",
+      "options": {
+        "A": "一次性交付",
+        "B": "多次交付",
+        "C": "定期交付",
+        "D": "持续交付"
+      },
+      "answer": "B",
+      "explanation": "P527。\n多次交付。一个项目可能包含多个组件,这些组件公在整个项目期间的不同时间交付,因此\n有些项且公进行多次交付。",
+      "pageStart": 415,
+      "pageEnd": 416,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q4-p416",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "()按固定的交付计划进行。",
+      "options": {
+        "A": "一次性交付",
+        "B": "多次交付",
+        "C": "定期交付",
+        "D": "持续交付"
+      },
+      "answer": "C",
+      "explanation": "P527。\n定期交付。定期交付与多次交付非常相似,但定期交付是按固定的交付计划进行",
+      "pageStart": 416,
+      "pageEnd": 416,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q5-p416",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于交付节奏的说法中不正确的是()。",
+      "options": {
+        "A": "持续交付聚焦于在整个产品生命周期内产生的收益和价值。这种交付类型适合需求变化 频繁的项目",
+        "B": "一次性交付的项目只在项目结束时交付",
+        "C": "一个项目可能包含多个组件,这些组件会在整个项目期间的不同时间交付,因此有些项 目会进行多次交付",
+        "D": "定期交付。定期交付与多次交付非常相似,但定期交付是按固定的交付计划进行"
+      },
+      "answer": "A",
+      "explanation": "P527。\n持续交付。持续交付是将项且特性增量交付给客户高洋,通常通过使用小批量工作和自动化\n技术完成。持续交付聚焦于在整个产品生命周期内产生的收益和价值。这种交付类型更适合王\n人员稳定的项且团队。",
+      "pageStart": 416,
+      "pageEnd": 416,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q6-p416",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于开发方法的说法中不正确的是()。",
+      "options": {
+        "A": "从频谱一端的适应型方法到另一端的预测型方法,随着选代性和增量性逐渐增加",
+        "B": "预测型方法又称为瀑布型方法。这种开发方法相对稳定,范围、进度、成本、资源和风 险可以在项目生命周期的早期阶段进行明确定义",
+        "C": "混合型开发方法是适应型方法和预测型方法的结合体。当需求存在不确定性或风险时, 这种开发方法非常有用",
+        "D": "当需求面临高度的不确定性和易变性,且在整个项目期间不断变化时,适合采用适应型 方法"
+      },
+      "answer": "A",
+      "explanation": "P527。\n当前行业普遍认同的三种开发方法是预测型方法、混合型方法和适应型方法,三种方法通常\n被视为一个频谱,随着选代性和增量性逐渐增加,从频谱一猫的预调型方法到另一端的适应型\n方法逐渐变化。",
+      "pageStart": 416,
+      "pageEnd": 416,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q7-p416",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "当涉及重大投资和高风险项目,需要频紧审查、改变控制机制以及在开发阶段之间重新规划时, 适合采用()。",
+      "options": {
+        "A": "预测型方法",
+        "B": "混合型方法",
+        "C": "适应型方法",
+        "D": "面向对象方法"
+      },
+      "answer": "A",
+      "explanation": "P527。\n预测型方法又称为瀑布型方法。这种开发方法相对稳定,范围、进度、成本、资源和风险可\n以在项目生命周期的早期阶段进行明确定义。当涉及重大投资和高风险项且,雷要额繁审查、\n改变控制机制以及在开发阶段之间重新规划时,可以使用此方法",
+      "pageStart": 416,
+      "pageEnd": 417,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q8-p417",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "()只在项目结束时交付。",
+      "options": {
+        "A": "一次性交付",
+        "B": "多次交付",
+        "C": "定期交付",
+        "D": "持续交付"
+      },
+      "answer": "A",
+      "explanation": "P527。二次性交付。一次性交付的项目只在项目结束时交付。",
+      "pageStart": 417,
+      "pageEnd": 417,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q9-p417",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 9,
+      "source": "蜗牛老师自编题",
+      "stem": "()的项目仅在结束时完成交付,()包含多个组件且在不同时间交付,()则是按照固定 计划进行交付。",
+      "options": {
+        "A": "一次性交付、多次交付、定期交付",
+        "B": "多次交付、定期交付、持续交付",
+        "C": "定期交付、持续交付、一次性交付",
+        "D": "持续交付、一次性交付、多次交付"
+      },
+      "answer": "A",
+      "explanation": "P527。\n一次性交付。一次性交付的项目只在项且结束时交付。\n多次交付。一个项目可能包含多个组件,这些组件会在整个项目期间的不同时间交付,因此\n有些项且公进行多次交付。\n定期交付。定期交付与多次交付非常相似,但定期交付是按固定的交付计划进行。\n持续交付。持续交付是将项目特性增量交付给客户,通常通过使用小批量工作和自动化技术\n完成。持续交付聚焦于在整个产品生命周期内产生的收益和价值。这种交付类型更适合于人员\n稳定的项目团队",
+      "pageStart": 417,
+      "pageEnd": 417,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q10-p417",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 10,
+      "source": "蜗牛老师自编题",
+      "stem": "培训内容由基础培训、后勤培训和巡查培训模块构成,各模块由不同人员负责开发。开发时可 以采用多个模块同时进行的方式,也可以先开发一个模块、收集反馈,然后再开发后续模块, 但只有在所有模块均开发完毕并且进行了集成与部署后,培训方案才算是开发完成,这属于() 开发方法。",
+      "options": {
+        "A": "预测型",
+        "B": "迭代型",
+        "C": "增量型",
+        "D": "适应型"
+      },
+      "answer": "C",
+      "explanation": "P528。\n增量型方法是用于在一系列法代过程中生成可交付物,每个送代都会在预先确定的煎间期限\n(时间盒)内增加功能,该可交付物包含的功能只有在最后一个法代结束后才被完成",
+      "pageStart": 417,
+      "pageEnd": 417,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q11-p418",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 11,
+      "source": "蜗牛老师自编题",
+      "stem": "当需求面临高度的不确定性和易变性,且在整个项目期间不断变化时,适合采用()",
+      "options": {
+        "A": "预测型方法",
+        "B": "混合型方法",
+        "C": "适应型方法",
+        "D": "面向对象方法"
+      },
+      "answer": "C",
+      "explanation": "P529。\n当需求面临高度的不确定性和易变性,且在整个项目期间不断变化时,适合采用适应型方法\n敏捷方法可以视为一种适应性方法。",
+      "pageStart": 418,
+      "pageEnd": 418,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q12-p418",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 12,
+      "source": "蜗牛老师自编题",
+      "stem": "当范围和需求明确,能提前规划时,适合采用()。",
+      "options": {
+        "A": "预测型方法",
+        "B": "混合型方法",
+        "C": "适应型方法",
+        "D": "面向对象方法"
+      },
+      "answer": "A",
+      "explanation": "P529。\n因素\n预测型\n适应型\n创新程度\n范围和需求明确,能提前规划\n创新程度高或没做过\n雷求确定性\n需求易于定义\n需求不确定、易变\n范田稳定性\n范围稳定且变化小\n范围有许多变更\n变更的难易程\n可交付物不易变更\n适应变更的可交付物度\n交付物的性质\n大型项目\n可以分组件开发或交付的产品\n风险\n高风险的产品\n安全需求\n严格安全需求的产品\n法规\n具有重大监管监督的环境",
+      "pageStart": 418,
+      "pageEnd": 418,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q13-p418",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 13,
+      "source": "蜗牛老师自编题",
+      "stem": "资金不确定的环境,适合采用()。",
+      "options": {
+        "A": "预测型方法",
+        "B": "混合型方法",
+        "C": "适应型方法",
+        "D": "面向对象方法"
+      },
+      "answer": "C",
+      "explanation": "P53O。\n因素\n预测型\n适应型\n干系人\n需要干系人大量参与\n进度制约因素\n需要尽早交付,即使不是成品\n资金不确定的环境资金可用情况",
+      "pageStart": 418,
+      "pageEnd": 418,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q14-p418",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 14,
+      "source": "2023年下半年高项第2批真题",
+      "stem": "可交付物的范围稳定且变化小时,适合采用()方法。",
+      "options": {
+        "A": "预测型",
+        "B": "适应型",
+        "C": "混合型",
+        "D": "敏捷型"
+      },
+      "answer": "A",
+      "explanation": "P529。可交付物的范围稳定且变化小时,适合采用预测型方法",
+      "pageStart": 418,
+      "pageEnd": 418,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q15-p419",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 15,
+      "source": "2023年下半年高项第2批真题",
+      "stem": "对于大型项目团队和主要通过虚拟方式工作的项目团队,则更适合采用()方法。",
+      "options": {
+        "A": "预测型",
+        "B": "适应型",
+        "C": "混合型",
+        "D": "敏捷型"
+      },
+      "answer": "A",
+      "explanation": "P530。对于大型项目团队和主要通过虚拟方式工作的项目团队,则更适合采用\n预测型",
+      "pageStart": 419,
+      "pageEnd": 419,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q16-p419",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 16,
+      "source": "2023年下半年高项第4批真题",
+      "stem": "高风险的产品需要大量的前期规划和严格的流程来降低风险,可采用()开发方法,新药开发 项目可能会进行(),临床前建议、第1阶段临床试验结果、第2阶段临床试验结果、第3 阶段临床试验结果、注册和上市,按照顺序进行交付。",
+      "options": {
+        "A": "混合型、多次交付",
+        "B": "混合型、定期交付",
+        "C": "预测型、多次交付",
+        "D": "适应型、持续交付"
+      },
+      "answer": "C",
+      "explanation": "P527-529。\nP529。高风险的产品需要在选择开发方法之前进行分析。基些高风险产晶需要大量的前期\n规划和严格的流程来隆低风险,可适当采用预测型方法,通过模块化构建、调整设计和开发,\n从而降低风险。\nP527。多次交付。一个项目可能包含多个组件,这些组件会在整个项目期间的不同时间交\n付,因此有些项目公进行多次交付。例如,新药开发项目可能公进行多次交付:临床前建议、\n第1阶段临床试验结果、第2阶段临床试验结果、第3阶段临床试验结果、注册和上市,在此\n示例中,交付是按顺序进行的。",
+      "pageStart": 419,
+      "pageEnd": 419,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q17-p419",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 17,
+      "source": "蜗牛老师自编题",
+      "stem": "采用()方法时,通常需要更加重视预先规划、测量和控制,()方法需要更多的服务型领 导风格。",
+      "options": {
+        "A": "预测型、适应型",
+        "B": "适应型、预测型",
+        "C": "敏捷型、混合型",
+        "D": "混合型、预测型"
+      },
+      "answer": "A",
+      "explanation": "P531。\n采用预测型方法时,通常需要更加重视预先规划、测量和控制,适应型方法(特别是在使用\n敏捷方法时)需要更多的服务型领导风格。",
+      "pageStart": 419,
+      "pageEnd": 419,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q18-p419",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 18,
+      "source": "2025年高项第2批真题",
+      "stem": "某医疗器械公司正在研发一款新型的医疗诊断设备,该设备需要符合严格的国家和国际医疗设 备标准。但相关法规和标准不断更新,如果等产品开发完成后再进行合规性测试,可能会导致 产品不符合最新的法规要求,无法通过干系人的验收,该项目适合采用()的开发方法,项目 经理需要具有()领导风格。",
+      "options": {
+        "A": "适应型、服务型",
+        "B": "适应型、指导型",
+        "C": "预测型、变革型",
+        "D": "预测型、权威型"
+      },
+      "answer": "A",
+      "explanation": "P531。\n根据题干:“但相关法规和标准不断更新,如果等产品开发完成后再进行合规性测试,可\n能会导致产品不符合最新的法规要求,无法通过干系人的验收”建议选适应性。\n采用预测型方法时,通常需要更加重视预先规划、测量和控制,适应型方法(特别是在使\n用敏捷方法时)需要更多的服务型领导风格,而且可能会形成自我管理的项目团队",
+      "pageStart": 419,
+      "pageEnd": 420,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s4-q19-p420",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 4,
+        "title": "开发方法和生命周期绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 19
+      },
+      "questionNo": 19,
+      "source": "蜗牛老师自编题",
+      "stem": "可以从以下哪个方面判断项目的开发方法与项目可交付物相符合()",
+      "options": {
+        "A": "产品质量和变更成本",
+        "B": "价值导向型项目阶段",
+        "C": "适宜的交付节奏",
+        "D": "变化的生命周期阶段"
+      },
+      "answer": "A",
+      "explanation": "P532。\n预期目标\n指标及检查方法\n产品质量和变更成本:采用适宜的开发方法(预测型、混合\n开发方法与项目可交付物相符合\n型或适应型),可交付物的产品变量比较高,变更成本相对\n较小\n价值导向型项目阶段:按照价值导向将项目工作从启动到\n将项目交付与干系人价值紧密联系\n收尾划分为多个项目阶段,项目阶段中包括适当的退出标\n准\n项目生命周期由促进交付节奏的项适宜的交付节奏和开发方法:如果项目具有多个可交付物\n目阶段和产生项目交付物所需的开且交付节奏和开发方法不同,可将生命周期阶段进行重叠\n发方法组成\n或重复",
+      "pageStart": 420,
+      "pageEnd": 420,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q1-p420",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "有效执行规划绩效域可以实现的预期目标,不包括()。",
+      "options": {
+        "A": "项目以有条理、协调一致的方式推进",
+        "B": "对演变情况进行详细说明",
+        "C": "规划投入的时间成本是适当的",
+        "D": "针对新出现的和不断变化的需求无需调整"
+      },
+      "answer": "D",
+      "explanation": "P532。\n规划绩效城预期目标:①项目以有条理、协调二致的方式推进;②应用系统的方法交付项且\n成果;③对演变情况进行详细说明;④规划投入的时间成本是适当的;⑥规划的内容对管理王\n系人的需求面言是充分的;⑥可以根据新出现的和不断变化的需求进行调整",
+      "pageStart": 420,
+      "pageEnd": 420,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q2-p420",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "在项目整个生命周期过程中,为了有效执行规划绩效城,项目经理需要关注的重点不包括()",
+      "options": {
+        "A": "实物资源规划",
+        "B": "沟通规划",
+        "C": "采购规划",
+        "D": "成本规划"
+      },
+      "answer": "D",
+      "explanation": "P532。\n项目经理需要重点关注:规划的影响因素、项且估算、项且团队组成和结构规划、沟通规划\n实物资源规划、采购规划、变更规划、度量指标和一致性。",
+      "pageStart": 420,
+      "pageEnd": 421,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q3-p421",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 3,
+      "source": "2023年上半年高项真题",
+      "stem": "()不属于规划绩效域的预期目标。",
+      "options": {
+        "A": "项目以有条理、协调一致的方式推进",
+        "B": "对项目状况充分了解,支持决策",
+        "C": "应用系统的方法交付项目成果",
+        "D": "可以根据新出现的和不断变化的需求进行调整"
+      },
+      "answer": "B",
+      "explanation": "P532。\n规划绩效域预期目标:①项目以有条理、协调二致的方式推进;②应用系统的方法交付项目\n成果;③对演变情况进行详细说明;④规划投入的时间成本是适当的;⑥规划的内容对管理王\n系人的需求而言是充分的;⑥可以根据新出现的和不断变化的需求进行调整。",
+      "pageStart": 421,
+      "pageEnd": 421,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q4-p421",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 4,
+      "source": "2024年高项第2批真题",
+      "stem": "有效执行规划绩效域,能够达到的目标不包括()",
+      "options": {
+        "A": "项目以有条理、协调一致的方式推进",
+        "B": "可以根据新出现的和不断变化的需求进行调整",
+        "C": "对实物资源进行了有效管理",
+        "D": "以系统的方法交付项目成果"
+      },
+      "answer": "C",
+      "explanation": "P532。\n规划绩效城预期目标:①项目以有条理、协调一致的方式推进;②应用系统的方法交付项目\n成果;◎对演变情况进行详细说明;④规划投入的时间成本是适当的;⑥规划的内容对管理王\n系人的需求面言是充分的;⑥可以根据新出现的和不断变化的需求进行调整",
+      "pageStart": 421,
+      "pageEnd": 421,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q5-p421",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "影响估算的4个方面的因素不包括()。",
+      "options": {
+        "A": "区间",
+        "B": "准确度",
+        "C": "精确度",
+        "D": "估算方法"
+      },
+      "answer": "D",
+      "explanation": "P533。\n影响估算的4个方面的因素包括:\n“1区间。项目开始时,估算往往有较大的区间,随着项目进展,估算区间会逐步缩小\n“2.准确度。项目开始时的估算准确度将低于项目进展中的估算准确度\n*3.精确度。估算精确度应与所需的准确度相匹配\n“4.信心。信心会随经验的增长而增加。",
+      "pageStart": 421,
+      "pageEnd": 421,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q6-p421",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "某项工作被分配了64个故事点,项目经理根据已知的工作人力投入比较后进行估算,这属于()",
+      "options": {
+        "A": "绝对估算",
+        "B": "相对估算",
+        "C": "确定性估算",
+        "D": "概率估算"
+      },
+      "answer": "B",
+      "explanation": "P534。\n绝对估算是具体信息,使用实际数字,例如某工作人力投入的绝对估算值为120小时,假\n设某全职员工每个工作日工作8小时,则该员工可在15个工作日内完成该项工作\n相对估算一般会基于某一个特定基淮进行,比如开展工作的项目团队会对所需的人力投入达\n成共识,并使用故事点来估算工作。假如与以前工作的点数相对比后,基项工作被分配了64个\n故事点,则新工作的64个故事点是在与以前已知的工作人力投入比较后估算得出的相对估算值",
+      "pageStart": 421,
+      "pageEnd": 422,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q7-p422",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "关于估算方法的说法中不正确的是()。",
+      "options": {
+        "A": "确定性估算,也称为点估算,表示为一个数字或金额。概率估算包括一定区间内的估算 以及该区间内的相关概率",
+        "B": "绝对估算是具体信息,使用实际数字,相对估算一般会基于某一个特定基准进行",
+        "C": "基于工作流的估算是通过确定周期和产量来制定的",
+        "D": "对不确定性的调整估算。可根据不确定性模拟的结果,通过增加管理储备的方式,调整 关键可交付物的交付日期或成本估算值"
+      },
+      "answer": "D",
+      "explanation": "P534。\n对不确定性的调整估算。可根据不确定性模拟的结果,通过增加应急储备的方式,调整关键\n可交付物的交付日期或成本估算值。",
+      "pageStart": 422,
+      "pageEnd": 422,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q8-p422",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于变更规划说法不正确的是()。",
+      "options": {
+        "A": "项目团队应对变更进行规划,并制定相关变更管理流程",
+        "B": "项目期间会发生很多变更,有些变更是因发生风险事件或项目环境变化而导致的,有些 则是基于对需求的深入了解之后提出的,还有些变更则是由于客户或其他原因造成的",
+        "C": "变更时需要重新确定待办事项列表的优先级排序",
+        "D": "签订合同的项目只需要遵循项目变更流程"
+      },
+      "answer": "D",
+      "explanation": "P535。签订合同的项目还需要遵循已定义的合同变更流程",
+      "pageStart": 422,
+      "pageEnd": 422,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q9-p422",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 9,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于度量指标和一致性说法不正确的是()。",
+      "options": {
+        "A": "项目进行过程中,规划、交付和度量工作之间存在自然的联系,这种联系就是度量指标",
+        "B": "规划绩效域通过度量指标、基准和测试流程与度量绩效域相关联",
+        "C": "制定度量指标包括:设定临界值,确定度量目标和度量频率",
+        "D": "度量目标的原则是“只测量客户需要的东西”。"
+      },
+      "answer": "D",
+      "explanation": "P535。度量目标的原则是“只测量重要的东西”",
+      "pageStart": 422,
+      "pageEnd": 422,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q10-p422",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 10,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "以下()不是概率估算的相关因素。",
+      "options": {
+        "A": "具有一定区间的点估算",
+        "B": "置信程度",
+        "C": "概率分布",
+        "D": "管理储备"
+      },
+      "answer": "D",
+      "explanation": "P534。\n确定性估算和概率估算。确定性估算,也称为点估算,表示为一个数字或金额,如36个月\n概率估算包括一定区间内的估算以及该区间内的相关概率。概率估算的三个因素:具有一定区\n间、置信程度、概率分在。",
+      "pageStart": 422,
+      "pageEnd": 423,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q11-p423",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 11,
+      "source": "2023年下半年高项第3批真题",
+      "stem": "从计算机模拟中得出的概率估算有3个相关因素,这3个因素共同构成了一个可描述概率估算 的完整的度量指标,共中不包含()。",
+      "options": {
+        "A": "具有一定区间的点估算",
+        "B": "置信程度",
+        "C": "概率分布",
+        "D": "期望值"
+      },
+      "answer": "D",
+      "explanation": "P534。\n从计算机模拟中得出的概率估算有3个相关因素:\n(1)具有一定区间(例如,36个月+3个月/-1个月)的点估算。\n*(2)置信程度,例如95%信水平。\n(3)概率分布,描述特定区间内和周围的数据分在情况。这3个因素共同构成了一个可\n描述概率估算的完整的度量指标。",
+      "pageStart": 423,
+      "pageEnd": 423,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q12-p423",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 12,
+      "source": "2023年下半年高项第4批真题",
+      "stem": "在制定预算的过程中,项目的总成本为100万,项目团队把预算确定为95万,这种估算为()",
+      "options": {
+        "A": "概率估算",
+        "B": "确定性估算",
+        "C": "粗略量级估算",
+        "D": "自下而上估算"
+      },
+      "answer": "B",
+      "explanation": "P534。\nP534。概率估算:概率估算包括一定区间内的估算以及该区间内的相关概率,这个不正确\nP341。粗略量级估算:其区间为-25%一+75%,启动阶段的估算方法,这个也不正确\nP313。自下而上估算:是从下而上进行汇总。\nP534。确定性估算:也称为点估算,表示为一个数字或金额,如36个月。所以B正确。",
+      "pageStart": 423,
+      "pageEnd": 423,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q13-p423",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 13,
+      "source": "2025年高项第1批真题",
+      "stem": "在项目整个生命周期过程中,为了有效执行规划绩效城、需要对工作投入、持续时间、成本、 人员和实物资源进行估算,在估算时一般可以采用()估算办法。 ①绝对估算和相对估算 ②精准度和准确度估算 *③确定性估算和概率估算 \"④基于工作流估算 \"⑤对不确定性的调整估算",
+      "options": {
+        "A": "①②③④",
+        "B": "①③④⑤",
+        "C": "②③④⑤",
+        "D": "①②④⑤"
+      },
+      "answer": "B",
+      "explanation": "P534。\n估算时,可采用的估算方法包括:1确定性估算和概率估算。2.绝对估算和相对估算。3\n基于工作流的估算。4.对不确定性的调整估算。",
+      "pageStart": 423,
+      "pageEnd": 424,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q14-p424",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 14,
+      "source": "教材第18章章节习题",
+      "stem": "评价项目以有条理、协调一致的方式推进,可以通过对照()和其他度量指标,对项目结果进 行绩效审查来判断。",
+      "options": {
+        "A": "项目需求",
+        "B": "项目目标",
+        "C": "项目计划",
+        "D": "项目基准"
+      },
+      "answer": "D",
+      "explanation": "P536。\n预期目标\n指标及检查方法\n项且以有条理、协调一\n绩效偏差:对照项目基准和其他度量指标对项目结果进行绩效审查表\n致的方式推进\n明项目正在按计划进行,绩效偏差处于临界值范围内\n应用系统的方法交付项\n规划的整体性:交付进度、资金提供、资源可用性、采购等表明项目\n目成果\n是以整体方式进行规划的,没有差距或不一致之处\n规划的详尽程度:与当前信息相比,可交付物和需求的初步信息是适\n对演变情况进行详细说\n当的、详尽的;与可行性研究与评估相比,当前信息表明项目可以生明\n成预期的可交付物和成果\n规划投入的时间成本是\n规划适宜性:项目计划和文件表明规划水平适合于项目适当的\n规划的内容对管理干系\n规划的充分性:沟通管理计划和干系人信息表明沟通足以满足干系人\n人的需求而言是充分的\n的期望\n可适应变化:采用待办事项列表的项目,在整个项目期间会对各个计可以根据新出现的和不\n划做出调整。采用变更控制过程的项目具有变更控制委员会,会议的断变化的需求进行调整\n变更志日志和文档表明变更控制过程正在得到应用",
+      "pageStart": 424,
+      "pageEnd": 424,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s5-q15-p424",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 5,
+        "title": "规划绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 15
+      },
+      "questionNo": 15,
+      "source": "2023年下半年高项第4批真题",
+      "stem": "规划绩效域中,可以应用()检查项目是否以有条理、协调一致的方式推进",
+      "options": {
+        "A": "绩效偏差",
+        "B": "规划的详尽程度",
+        "C": "规划的充分性",
+        "D": "规划的整体性"
+      },
+      "answer": "A",
+      "explanation": "P536。\n项目以有条理、协调一致的方式推进:绩效偏差:对照项目基准和其他度量指标对项目结果\n进行绩效审查表明项目正在按计划进行,绩效偏差处于临界值范围内",
+      "pageStart": 424,
+      "pageEnd": 424,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s6-q1-p424",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 6,
+        "title": "项目工作绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 10
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "在项目整个生命周期过程中,为了有效执行项目工作绩效城,项目经理高浒需要关注的重点不 包括()。",
+      "options": {
+        "A": "项目过程",
+        "B": "专注于工作过程和能力",
+        "C": "管理实物资源",
+        "D": "可以根据新出现的和不断变化的需求进行调整"
+      },
+      "answer": "D",
+      "explanation": "P536。\n为了有效执行项目工作绩效城,项目经理需要重点关注:项目过程、项目制约因素、专注王\n工作过程和能力、管理沟通和参与、管理实物资源、处理采购事宜、监督新工作和变更、学习\n与持续改进。",
+      "pageStart": 424,
+      "pageEnd": 425,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s6-q2-p425",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 6,
+        "title": "项目工作绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 10
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "有效执行项目工作绩效域可以实现的预期目标,不包括()",
+      "options": {
+        "A": "高效且有数的项目绩效",
+        "B": "干系人认同项目目标",
+        "C": "对实物资源进行了有效管理",
+        "D": "对采购进行了有效管理"
+      },
+      "answer": "B",
+      "explanation": "P536。干系人认同项目目标,是干系人绩效城的预期目标\n在项目整个生命周期过程中,有效执行项目工作绩效城可以实现预期目标,主要包含:①高\n效且有效的项且绩效;②适合项且和环境的项且过程;③干系人适当的沟通和参与;④对实物\n资灏进行了有效管理;⑤对采购进行了有效管理;⑥有效处理了变更;⑦通过持续学习和过程\n改进提高了团队能力。",
+      "pageStart": 425,
+      "pageEnd": 425,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s6-q3-p425",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 6,
+        "title": "项目工作绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 10
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "有效执行工作绩效域可以实现的预期目标,不包括()。",
+      "options": {
+        "A": "高效且有效的项目绩效",
+        "B": "适合项目和环境的项目过程",
+        "C": "有效处理了变更",
+        "D": "有效进行配置管理"
+      },
+      "answer": "D",
+      "explanation": "P536。\n在项目整个生命周期过程中,有效执行项目工作绩效城可以实现预期目标,主要包含:①高\n效且有效的项目绩效;②活合项目和环境的项目过程;◎干系人适当的沟通和参与;④对实物\n资源进行了有效管理;⑥对采购进行了有效管理;⑥有效处理了变更;⑦通过持续学习和过程\n改进提高了团队能力。",
+      "pageStart": 425,
+      "pageEnd": 425,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s6-q4-p425",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 6,
+        "title": "项目工作绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 10
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "在项目整个生命周期过程中,为了有效执行项目工作绩效城,项目经理需要重点关注的重点不 包括()",
+      "options": {
+        "A": "项目过程",
+        "B": "项目制约因素",
+        "C": "专注于工作过程和能力",
+        "D": "管理人力资源"
+      },
+      "answer": "D",
+      "explanation": "P536。\n在项目整个生命周期过程中,为了有效执行项目工作绩效城,项目经理需要重点关注:项目\n过程、项目制约因素、专注于工作过程和能力、管理沟通和参与、管理实物资源、处理采购事\n宜、监怪新工作和变更、学习与持续改进。",
+      "pageStart": 425,
+      "pageEnd": 425,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s6-q5-p425",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 6,
+        "title": "项目工作绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 10
+      },
+      "questionNo": 5,
+      "source": "2023年上半年高项真题",
+      "stem": "关于项目工作绩效域目标和工作内容的描述,不正确的是()",
+      "options": {
+        "A": "使干系人接受项目可交付物和成果,并对其满意",
+        "B": "使项目团队保持专注,并使项目活动顺利进行",
+        "C": "通过持续学习和过程改进,提高团队能力",
+        "D": "涉及大量的沟通工作,与干系人绩效域关联"
+      },
+      "answer": "A",
+      "explanation": "【蜗牛解析1:P536。使干系人接受项目可交付物和成果,并对其满意,是交付绩效域的预期\n目标。\n在项目整个生命周期过程中,有效执行项目工作绩效域可以实现预期目标,主要包含:①高\n效且有效的项目绩效;②活合项且和环境的项且过程;③干系人适当的沟通和参与;④对实物\n资源进行了有效管理;⑥对采购进行了有效管理;⑥有效处理了变更;⑦通过持续学习和过程\n改进提高了团队能力。",
+      "pageStart": 425,
+      "pageEnd": 426,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s6-q6-p426",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 6,
+        "title": "项目工作绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 10
+      },
+      "questionNo": 6,
+      "source": "2025年高项第2批真题",
+      "stem": "在项目整个生命周期过程中,有效执行项目工作绩效城可以实现预期目标,主要包含:() *①对采购进行了有效管理 *②干系人认同项目目标 *③干系人适当的沟通和参与 *④通过持续学习和过程改进提高了团队能力 *⑤对演变情况进行详细说明 ⑥有效处理了变更",
+      "options": {
+        "A": "③④⑤⑥",
+        "B": "②④⑤⑥",
+        "C": "①②③④",
+        "D": "①③④⑥"
+      },
+      "answer": "D",
+      "explanation": "P536。\n在项目整个生命周期过程中,有效执行项目工作绩效城可以实现预期目标,主要包含:①高\n效且有效的项目绩效;②活合项目和环境的项目过程;◎干系人适当的沟通和参与;④对实物\n资源进行了有效管理;⑥对采购进行了有效管理;⑥有效处理了变更;⑦通过持续学习和过程\n改进提高了团队能力。",
+      "pageStart": 426,
+      "pageEnd": 426,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s6-q7-p426",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 6,
+        "title": "项目工作绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 10
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "管理实物资源的主要目标不包括()。",
+      "options": {
+        "A": "减少或消除现场的材料搬运和储存",
+        "B": "消除材料等待时间。",
+        "C": "最小化报废和浪费。",
+        "D": "与供应商谈判,降低采购价格。"
+      },
+      "answer": "D",
+      "explanation": "P538。\n管理实物资源的目标主要包括:①减少或消除现场的材料撤运和储在;②消除材料等待时间\n*③最小化报废和浪费;④促进安全的工作环境等",
+      "pageStart": 426,
+      "pageEnd": 426,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s6-q8-p426",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 6,
+        "title": "项目工作绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 10
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于项目工作绩效域的说法中不正确的是()。",
+      "options": {
+        "A": "在大多数组织中,项目经理没有签订合同的权限",
+        "B": "将适应多变的工作放入附录或增补条款中,这样可以灵活应对变更,而不会对总体合同 造成影响。",
+        "C": "采购在项目生命周期过程中的任何阶段都可进行。",
+        "D": "因为项目具有独特性特点,项目完成后大部分知识可能会丢失,因此项目完成后的知识 转移对组织非常重要。"
+      },
+      "answer": "D",
+      "explanation": "P539。\n项目具有临时性特点,项目完成后大部分知识可能会丢失,因此项目完成后的知识转移对组\n非常重要。",
+      "pageStart": 426,
+      "pageEnd": 427,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s6-q9-p427",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 6,
+        "title": "项目工作绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 10
+      },
+      "questionNo": 9,
+      "source": "2024年高项第1批真题",
+      "stem": "在项目工作绩效域,管理实物资源的主要目标不包括()。",
+      "options": {
+        "A": "促进安全的工作环境",
+        "B": "杜绝报废和浪费",
+        "C": "消除材料等待时间",
+        "D": "减少现场的材料搬运和储存"
+      },
+      "answer": "B",
+      "explanation": "P538、\n管理实物资源的目标主要包括:①减少成消除现场的材料撤运和值在;②消除材料等待时间\n③最小化报废和浪费;④促进安全的工作环境等。",
+      "pageStart": 427,
+      "pageEnd": 427,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s6-q10-p427",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 6,
+        "title": "项目工作绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 10
+      },
+      "questionNo": 10,
+      "source": "蜗牛老师自编题",
+      "stem": "评价项目对实物资源进行了有效管理,可以通过对照()和其他度量指标,对项目结果进行绩 效审查来判断。",
+      "options": {
+        "A": "沟通有效性",
+        "B": "团队绩效",
+        "C": "资源利用率",
+        "D": "过程相关性和有效性"
+      },
+      "answer": "C",
+      "explanation": "P539、\n表18-6项目工作绩效域的检查方法\n预期目标\n指标及检查方法\n高效且有效的项目\n状态报告:通过状态报告可以表明项目工作有效率且有效果。绩效\n过程的适宜性:证据表明,项目过程是为满足项目和环境的需要而裁剪\n的适合项目和环境的\n项目过程\n过程相关性和有效性:过程审计和质量保证活动表明,过程具有相关性\n且正得到有效使用\n沟通有效性:项目沟通管理计划和沟通文件表明,所计划的信息与干系干系人适当的沟通\n人进行了沟通,如有新的信息沟通需求或误解,可能表明干系人的沟通和参与\n和参与活动缺乏成效,\n对实物资源进行了\n资源利用率:所用材料的数量、抛弃的废料和返工量表明,资源正得到\n有效管理\n高效利用。\n对采购进行了有效\n采购过程适宜:采购审计表明,所采用的适当流程足以开展采购工作,\n管理\n而且承包商正在按计划开展工作,\n变更处理情况:使用预测型方法的项目已建立变更日志,该日志表明,\n有效处理了变更\n正在对变更做出全面评估,同时考虑了范围、进度、预算、资源、干系\n人和风险的影响;采用适应型方法的项目已建立待办事项列表,该列表\n第42?页\n显示完成范围的比率和增加新范围的比率。\n通过持续学习和过\n程改进提高了团队\n团队绩效:团队状态报告表明,错误和返工减少,而效率提高\n能力",
+      "pageStart": 427,
+      "pageEnd": 428,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s7-q1-p428",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 7,
+        "title": "交付绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "有效执行交付绩效域可以实现的预期目标,不包括()",
+      "options": {
+        "A": "项目实现了预期成果",
+        "B": "在预定时间内实现了项目收益",
+        "C": "项目团队对可交付物有清晰的理解",
+        "D": "干系人接受项目可交付物和成果,并对其满意"
+      },
+      "answer": "C",
+      "explanation": "P539-540。\n在项目整个生命周期过程中,有效执行交付绩效域可以实现预期目标,主要包含:①项且有助\n于实现业务且标和战略;②项目实现了预期成果;③在预定时间内实现了项目收益;④项目团\n队对需求有清晰的理解;⑤干系人接受项目可交付物和成果,并对其满意",
+      "pageStart": 428,
+      "pageEnd": 428,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s7-q2-p428",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 7,
+        "title": "交付绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "在项目整个生命周期过程中,为了有效执行交付绩效域,项目经理需要关注的重点不包括()",
+      "options": {
+        "A": "价值的交付",
+        "B": "可交付物",
+        "C": "质量",
+        "D": "进度"
+      },
+      "answer": "D",
+      "explanation": "P54O。\n在项目整个生命周期过程中,为了有效执行交付绩效域,项目经理需要重点关注价值的交付\n可交付物、质量。",
+      "pageStart": 428,
+      "pageEnd": 428,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s7-q3-p428",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 7,
+        "title": "交付绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 3,
+      "source": "2023年下半年高项第2批真题",
+      "stem": "以下()不是交付绩效域需要重点关注的内容。",
+      "options": {
+        "A": "价值的交付",
+        "B": "可交付物",
+        "C": "质量",
+        "D": "范围"
+      },
+      "answer": "D",
+      "explanation": "P54O。\n在项目整个生命周期过程中,为了有效执行交付绩效域,项目经理需要重点关注价值的交付\n可交付物、质量。",
+      "pageStart": 428,
+      "pageEnd": 428,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s7-q4-p428",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 7,
+        "title": "交付绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 4,
+      "source": "2023年下半年高项第4批真题",
+      "stem": "在交付绩效域,为了有效执行项目交付工作,项目经理需要重点关注的内容包括:() *①可交付物;②价值的交付;③质量;④规划;⑤预算",
+      "options": {
+        "A": "②③④",
+        "B": "①②③",
+        "C": "①②③④⑤",
+        "D": "①②④"
+      },
+      "answer": "B",
+      "explanation": "P54O。\n在项目整个生命周期过程中,为了有效执行交付绩效城,项目经理需要重点关注价值的交\n付、可交付物、质量。",
+      "pageStart": 428,
+      "pageEnd": 428,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s7-q5-p429",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 7,
+        "title": "交付绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 5,
+      "source": "2024年高项第2批真题",
+      "stem": "交付绩效域的绩效要点包括()。 *①质量;②成本;③风险;④可交付物;⑤价值的交付",
+      "options": {
+        "A": "①②③",
+        "B": "②③④",
+        "C": "①④⑤",
+        "D": "②④⑤"
+      },
+      "answer": "C",
+      "explanation": "P54O。\n在项目整个生命周期过程中,为了有效执行交付绩效域,项目经理需要重点关注价值的交付\n可交付物、质量。",
+      "pageStart": 429,
+      "pageEnd": 429,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s7-q6-p429",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 7,
+        "title": "交付绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "范围和()聚焦于需要交付的内容,而()聚焦于需要达到的绩效水平。",
+      "options": {
+        "A": "需求、质量",
+        "B": "质量、需求",
+        "C": "可交付成果、质量",
+        "D": "需求、可交付成果"
+      },
+      "answer": "A",
+      "explanation": "【蜗牛解析1:P541。范围和需求聚焦于需要交付的内容,而质量聚焦于需要达到的绩效水平",
+      "pageStart": 429,
+      "pageEnd": 429,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s7-q7-p429",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 7,
+        "title": "交付绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "()是在规划绩效域中所执行所有工作的终点。",
+      "options": {
+        "A": "干系人绩效域",
+        "B": "交付绩效域",
+        "C": "团队绩效域",
+        "D": "度量绩效域"
+      },
+      "answer": "B",
+      "explanation": "P541。交付绩效域是在规划绩效域中所执行所有工作的终点",
+      "pageStart": 429,
+      "pageEnd": 429,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s7-q8-p429",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 7,
+        "title": "交付绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "评价项目实现了预期成果,可以通过对照()和其他度量指标,对项目结果进行绩效审查来判 断。",
+      "options": {
+        "A": "目标一致性",
+        "B": "项目完成度",
+        "C": "项目收益",
+        "D": "需求稳定性"
+      },
+      "answer": "B",
+      "explanation": "P542。\n表18-7交付绩效域的检查方法\n预期目标\n指标及检查方法\n项目有助于实现业务目\n目标一致性:组织的战略计划、可行性研究报告以及项目授权文件\n标和战略\n表明,项目可交付物和业务目标保持一致\n项目完成度:项目基础数据表明,项目仍处于正轨,可实现预期成项目实现了预期成果\n果\n在预定时间内实现了项\n项目收益:进度表明财务指标和所规划的交付正在按计划实现目收益\n需求稳定性:在预测型项目中,初始需求的变更很少,表明对需求项目团队对需求有清晰\n的真正理解度较高。在需求不断演变的适应型项目中,项目进展中地理解\n阶段性需求确认反映了干系人对需求的理解。\n干系人接受项目可交付\n干系人满意度:访谈、观察和最终用户反馈可表明干系人对可交付\n物和成果,并对其满意\n物的满意度\n质量问题:投诉或退货等质量相关问题的数量也可用于表示满意度",
+      "pageStart": 429,
+      "pageEnd": 430,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q1-p430",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "有效执行度量绩效域可以实现的预期目标,不包括()。",
+      "options": {
+        "A": "项目实现了预期成果",
+        "B": "对项目状况充分理解",
+        "C": "数据充分,可支持决策",
+        "D": "及时采取行动,确保项目最佳绩效"
+      },
+      "answer": "A",
+      "explanation": "P542。\n有效执行度量绩效城可以实现的预期目标:①对项目状况充分理解;②数据充分,可支持决\n策;③及时采取行动,确保项目最佳绩效;④能能基于预测和评估作出决策,实现且标并产生\n价值。",
+      "pageStart": 430,
+      "pageEnd": 430,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q2-p430",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "在项目整个生命周期过程中,为了有效执行度量绩效城,项目经理需要关注的重点不包括()",
+      "options": {
+        "A": "制定有效的度量指标",
+        "B": "度量内容及相应指标",
+        "C": "展示度量信息和结果",
+        "D": "度量指标的制订规则"
+      },
+      "answer": "D",
+      "explanation": "P542。\n在项目整个生命周期过程中,为了有效执行度量绩效城,项目经理需要重点关注:制定有效\n的度量指标、度量内容及相应指标、展示度量信息和结果、度量陷阱、基于度量进行诊断、持\n续改进。",
+      "pageStart": 430,
+      "pageEnd": 430,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q3-p430",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "在项目整个生命周期过程中,为了有效执行度量绩效域,项目经理需要关注的重点不包括()",
+      "options": {
+        "A": "制定有效的度量指标",
+        "B": "度量内容及相应指标",
+        "C": "展示度量信息和结果",
+        "D": "度量指标的优化方法"
+      },
+      "answer": "D",
+      "explanation": "P542。\n在项目整个生命周期过程中,为了有效执行度量绩效城,项目经理需要重点关注:制定有效\n的度量指标、度量内容及相应指标、展示度量信息和结果、度量陷阱、基于度量进行诊断、持\n续改进。",
+      "pageStart": 430,
+      "pageEnd": 430,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q4-p430",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 4,
+      "source": "2023年下半年高项第2批真题",
+      "stem": "以下()不是度量绩效域需要重点关注的内容。",
+      "options": {
+        "A": "制定有效的度量指标",
+        "B": "度量内容及相应指标",
+        "C": "度量陷阱",
+        "D": "风险"
+      },
+      "answer": "D",
+      "explanation": "P542。\n在项目整个生命周期过程中,为了有效执行度量绩效城,项目经理需要重点关注:制定有效\n的度量指标、度量内容及相应指标、展示度量信息和结果、度量陷阱、基于度量进行诊断、持\n续改进。",
+      "pageStart": 430,
+      "pageEnd": 431,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q5-p431",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 5,
+      "source": "教材第18章章节习题",
+      "stem": "对某一事物进行度量会对其行为产生影响,因此需要谨慎制定度量指标,表明了度量具有()",
+      "options": {
+        "A": "蛋桑效应",
+        "B": "蝴蝶效应",
+        "C": "木桶效应",
+        "D": "青蛙效应"
+      },
+      "answer": "A",
+      "explanation": "P548。\n蛋系效应(Hawthornecffect)。蛋桑效应指出,对某一事物进行度量时会对其行为产生\n影响,因此需要谨慎制定度量指标。",
+      "pageStart": 431,
+      "pageEnd": 431,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q6-p431",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "以下说法不正确的是()。",
+      "options": {
+        "A": "KPI有提前指标和滞后指标两种类型",
+        "B": "提前指标用于预测项目的变化或趋势,提前指标可以量化",
+        "C": "滞后指标用于测量项目可交付物或重大项目事件(event)",
+        "D": "滞后指标反映的是过去的绩效或状况。提前指标比滞后指标更容易测量"
+      },
+      "answer": "D",
+      "explanation": "P542-543。\n项目的关键绩效指标(KP1)是用于评估项目成功与否的量化的指标,KP1有提前指标和滞\n后指标两种类型。\n提前指标:提前指标用于预测项目的变化或趋势,提前指标可以量化\n滞后指标:滞后指标用于测量项目可交付物或重大项目事件(event),它们在事后提供信\n息,滞后指标反映的是过去的绩效或状况。溢后指标比提前指标更容易测量",
+      "pageStart": 431,
+      "pageEnd": 431,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q7-p431",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "有效的度量指标具有SMART特征,其中A是指()。",
+      "options": {
+        "A": "具体的",
+        "B": "可实现的",
+        "C": "具有相关性",
+        "D": "具有及时性"
+      },
+      "answer": "B",
+      "explanation": "P543。\n有效的度量指标具有SMART特征如下:\nS-Specific(具体的):针对要度量的内容,度量指标是具体的。例如缺陷数量、已修复\n的缺陷和修复缺陷平均花费的时间等。\n·M=Measurable(有意义的);度量指标应与基准或需求相关\n-A=Attainable(可实现的):在人员、技术和环境既定的情况下,目标是可以实现的。\n·R-Relevant(具有相关性):度量指标应具有相关性,度量结果应能带来价值,并且可\n付诸行动。\n·T-Time-bount(具有及时性);有用的度量指标具有及时性,新信息比旧信息有用,前\n瞻性信息(例如新趋势)可以帮助项目团队改变方向并更好地决策。",
+      "pageStart": 431,
+      "pageEnd": 431,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q8-p431",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "有效的度量指标具有SMART特征,其中R是指()。",
+      "options": {
+        "A": "具体的",
+        "B": "可实现的",
+        "C": "具有相关性",
+        "D": "具有及时性"
+      },
+      "answer": "C",
+      "explanation": "P543。\n有效的度量指标具有SMART特征如下:\nS-Specifc(具体的):针对要度量的内容,度量指标是具体的。例如缺陷数量、已修复\n的缺陷和修复缺陷平均花费的时间等。\n·M-Measurable(有意义的):度量指标应与基准或需求相关。\n·A=Attainable(可实现的);在人员、技术和环境既定的情况下,目标是可以实现的。\n·R=Relevant(具有相关性):度量指标应具有相关性,度量结果应能带来价值,并且可\n付诸行动。\n·T-Time-bount(具有及时性):有用的度量指标具有及时性,新信息比旧信息有用,前\n瞻性信息(例如新趋势)可以帮助项目团队改变方向并更好地决策。",
+      "pageStart": 431,
+      "pageEnd": 432,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q9-p432",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 9,
+      "source": "蜗牛老师自编题",
+      "stem": "以下不属于价值的度量指标的是()。",
+      "options": {
+        "A": "成本效益比",
+        "B": "投资回报率(ROI)",
+        "C": "净现值(NPV)",
+        "D": "成本偏差"
+      },
+      "answer": "D",
+      "explanation": "P544。\n价值有许多方面,包括财务的和非财务的。针对价值,常见的度量指标包括:①成本效益比\n成本效益比用于确定项目的成本是否超过其收益。②计划收益交付与实际收益交付的对比:度\n量项目进展中交付的收益和价值,并与预期收益进行比较,以决定缝缕开展项目还是取消项且\n③投资回报率(RO1):RO1是二种将财务回报金额与成本进行比较的度量指标,通常在决定\n开展项目时参考这一指标。④净现值(NPV):NPV是二段时间内资本流入的现值与资本流出\n的现值之差",
+      "pageStart": 432,
+      "pageEnd": 432,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q10-p432",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 10,
+      "source": "蜗牛老师自编题",
+      "stem": "以下不属于基准绩效的度量指标的是()。",
+      "options": {
+        "A": "开始日期和完成日期",
+        "B": "成本偏差",
+        "C": "成本绩效指数",
+        "D": "范围基准"
+      },
+      "answer": "D",
+      "explanation": "P544。\n项目中最常见的基准是进度基准和成本基准,对于范围基准或技术基准的度量可应用可交付\n物的度量指标。\n针对进度基准,常见的度量指标包括:①开始日期和完成日期。②人力投入和持续时间。③\n进度偏差(SV)。④进度绩效指数(SPI)。\n针对成本基准,常见的度量指标包括:①与计划成本相比的实际成本。②成本偏差(CV)\n③成本绩效指数(CPI)。",
+      "pageStart": 432,
+      "pageEnd": 432,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q11-p432",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 11,
+      "source": "蜗牛老师自编题",
+      "stem": "()用于度量干系人(通常是客户)愿意向他人推荐产品或服务的程度,它的测量范围为-100 1OO。",
+      "options": {
+        "A": "NPS",
+        "B": "情绪图",
+        "C": "士气",
+        "D": "离职率"
+      },
+      "answer": "A",
+      "explanation": "P544-545。\n逢推茬值(NPS):净推茬值用于度量干系人(通常是客户高注)愿意向他人推荐产晶或服\n务的程度,它的测量范围为-100一100。",
+      "pageStart": 432,
+      "pageEnd": 433,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q12-p433",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 12,
+      "source": "蜗牛老师自编题",
+      "stem": "对决策没有帮助的度量指标一般属于()。",
+      "options": {
+        "A": "士气低落",
+        "B": "虚荣指标",
+        "C": "误用度量指标",
+        "D": "确认偏见"
+      },
+      "answer": "B",
+      "explanation": "P548。对决策没有帮助的度量指标一般属于虚荣指标",
+      "pageStart": 433,
+      "pageEnd": 433,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q13-p433",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 13,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "()指出,对某一事物进行度量时会对其行为产生影响,因此需要谨慎制定度量指标",
+      "options": {
+        "A": "霍桑效应",
+        "B": "虚荣指标",
+        "C": "士气低落",
+        "D": "确认偏见"
+      },
+      "answer": "A",
+      "explanation": "P548。\n我们避免常见的度量陷阱:\n“(1)霍桑效应。霍桑效应指出,对某一事物进行度量时公对其行为产生影响,因此需要道\n慎制定度量指标。\n*(2)虚荣指标。对决策没有帮助的度量指标一般属于虚荣指标\n“(3)士气低落。如果设定了无法实现的度量指标和目标,项目团队的士气可能会下降,因\n此需要设定拓展性目标和激励人心的度量指标。\n*(4)误用度量指标。尽量避免度量指标的误用。\n“(5)确认偏见:度量过程中应尽量损脱偏见。人们倾向于寻找并看到支持原有观点的信息,\n可能会导致对数据作出错误解释;\n“(6)相关性与因果关系混酒。解释度量数据的一个常见错误是将两个变量之间的相关性与\n一个变量导致了另一个变量的因果性混淆。",
+      "pageStart": 433,
+      "pageEnd": 433,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q14-p433",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 14,
+      "source": "2023年下半年高项第2批真题",
+      "stem": "有效的度量指标具有SMART特征,其中T是指()。",
+      "options": {
+        "A": "具体的",
+        "B": "可实现的",
+        "C": "具有相关性",
+        "D": "具有及时性"
+      },
+      "answer": "D",
+      "explanation": "P543。\n有效的度量指标具有SMART特征如下:\nS-Specifc(具体的):针对要度量的内容,度量指标是具体的。例如缺陷数量、已修复\n的缺陷和修复缺陷平均花费的时间等。\n·M=Measurable(有意义的):度量指标应与基准或需求相关。\nA-Attainabe(可实现的):在人员、技术和环境既定的情况下,目标是可以实现的\n·R=Relevant(具有相关性);度量指标应具有相关性,度量结果应能带来价值,并且可\n付语行动。\n·T=Timebount(具有及时性):有用的度量指标具有及时性,新信息比旧信息有用,前\n暗性信息(例如新趋势)可以帮助项目团队高牛改变方向并更好地决策。",
+      "pageStart": 433,
+      "pageEnd": 434,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q15-p434",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 15,
+      "source": "2023年下半年高项第3批真题",
+      "stem": "价值的度量指标包含()。 ①成本效益比;②计划收益交付与实际收益交付的对比;④投资回报率(ROI);④净现值(NPV",
+      "options": {
+        "A": "①②③④",
+        "B": "①②③",
+        "C": "②③④",
+        "D": "4"
+      },
+      "answer": "A",
+      "explanation": "P544。\n针对价值常见的度量指标包括:\n①成本效益比。成本效益比用于确定项目的成本是否超过其收益。如果成本高于收益,结\n果将大于1.0,在这种情况下,除非有监管、社会利益或其他原因,否则不应考虑该项目。一个\n类似的度量指标是效益成本比,效益成本比使用相同的度量指标,但分子是收益,分母是成本,\n如果比率大于1.0,则应考虑该项目。\n②计划收益交付与实际收益交付的对比:组织可以把价值确定为项目实施后将带来的收益\n对于预期在项目生命周期内交付收益的项目,度量项目进展中交付的收益和价值,并与预期收\n益进行比较,以决定继续开展项目还是取消项目。\n③投资回报率(ROI)。ROI是一种将财务回报金额与成本进行比较的度量指标\n④净现值(NPV)。NPV是一段时间内资本流入的现值与资本流出的现值之差。",
+      "pageStart": 434,
+      "pageEnd": 434,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q16-p434",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 16,
+      "source": "2023年下半年高项第3批真题",
+      "stem": "项目团队通过预测来考虑未来可能发生的情况,以便决定是否调整计划和项目工作。以下哪个 不属于可用于预测的度量指标()。",
+      "options": {
+        "A": "完工尚需估算(ETC)",
+        "B": "完工估算(EAC)",
+        "C": "回归分析",
+        "D": "成本绩效指数(CPI)"
+      },
+      "answer": "D",
+      "explanation": "P545。\n预测型度量指标。可用于预测的度量指标包括:①完工尚需估算(ETC)②完工估算(EAC)\n③完工偏差(VAC)④完工尚需绩效指数(TCPI)⑤回归分析⑥产量分析\nD属于基准绩效的度量指标。",
+      "pageStart": 434,
+      "pageEnd": 434,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q17-p434",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 17,
+      "source": "2023年下半年高项第3批真题",
+      "stem": "新访问者的数量比网站的页面访问量更加有用,这是()的举例。",
+      "options": {
+        "A": "虚荣指标",
+        "B": "误用度量指标",
+        "C": "确认偏见",
+        "D": "相关性与因果关系混淆"
+      },
+      "answer": "A",
+      "explanation": "P548。\n虚苯指标:对决策没有帮助的度量指标一般属于虚苯指标。例如,新访间者的数量比网站的\n页面访问量更加有用。",
+      "pageStart": 434,
+      "pageEnd": 434,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q18-p434",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 18,
+      "source": "2023年下半年高项第4批真题",
+      "stem": "()可以度量项目的生产率,可以对照计划跟踪已完成的工作量,显示剩余工作的数量或已减 少的风险的数量。",
+      "options": {
+        "A": "仪表盘",
+        "B": "燃烧图",
+        "C": "气泡图",
+        "D": "任务板"
+      },
+      "answer": "B",
+      "explanation": "P547-548。\n燃烷图(包括燃起图或燃尽图)用于显示项目团队的“速度”,此“速度”可度量项目的生\n产室。燃起图可以对照计划,跟踪已完成的工作量,燃尽图可以显示剩余工作(例如采用适应\n型方法的项目中的故事点)的数量或己减少的风险的数量。",
+      "pageStart": 434,
+      "pageEnd": 435,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q19-p435",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 19,
+      "source": "2024年高项第1批真题",
+      "stem": "在一个信息化系统开发项目中,()是属于交付物的度量指标。",
+      "options": {
+        "A": "系统可用性百分比",
+        "B": "项目文档的总页数",
+        "C": "开发进度报告更新频率",
+        "D": "项目经理加班工时"
+      },
+      "answer": "A",
+      "explanation": "P543。\n针对可交付物,常见的度量指标包括:\n●有关错误或缺陷的信息:包括缺陷来源、识别的缺陷数量和已解决的缺陷数量等\n●绩效度量指标:描述与系统运行相关的物理或功能属性,例如尽寸、重量、容量、准确度、\n可盛性和效室等。\n●技术绩效度量指标:用于度量系统组件是否符合技术要求",
+      "pageStart": 435,
+      "pageEnd": 435,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s8-q20-p435",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 8,
+        "title": "度量绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 20
+      },
+      "questionNo": 20,
+      "source": "蜗牛老师自编题",
+      "stem": "评价项目及时采取行动,确保项目最佳绩效,可以通过对照(),对项目结果进行绩效审查来 判断。",
+      "options": {
+        "A": "度量结果和报告",
+        "B": "度量结果",
+        "C": "工作绩效数据",
+        "D": "度量稳定性"
+      },
+      "answer": "B",
+      "explanation": "P55O。\n及时采取行动,确保项目最佳绩效:度量结果:度量结果提供了提前指标以及当前状态,可\n导致及时的决策和行动",
+      "pageStart": 435,
+      "pageEnd": 435,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q1-p435",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "不确定性的含义不包括()。",
+      "options": {
+        "A": "风险",
+        "B": "模糊性",
+        "C": "复杂性",
+        "D": "多样性"
+      },
+      "answer": "D",
+      "explanation": "P55O。\n广义的不确定性是一种不可知或不可预测的状态,不确定性包含以下意义:\n●风险:与不可知未来事件相关的风险。\n●模糊性:与不了解当前或未来状况相关的模糊性。\n●复杂性:与具有不可预测结果的动态系统相关的复杂性。",
+      "pageStart": 435,
+      "pageEnd": 435,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q2-p435",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "有效执行不确定性绩效域可以实现的预期目标,不包括()。",
+      "options": {
+        "A": "积极识别、分析和应对不确定性",
+        "B": "能够对威胁和机公进行预测,了解问题的后果",
+        "C": "最小化不确定性对项目交付的负而影响",
+        "D": "保证项目的进度、成本、质量目标均能实现"
+      },
+      "answer": "D",
+      "explanation": "P55O。\n在项目整个生命周期过程中,有效执行不确定性绩效城可以实现预期目标,主要包含:①了\n解项目的运行环境,包括技术、社会、政治、市场和经济环境等;②积极识别、分析和应对不\n画定性;③了解项且中多个因素之间的相互依额关系;④能够对威胁和机会进行预测,了解间\n题的后果;⑥最小化不确定性对项目交付的负面影卵;⑥能能利用机公改进项目的绩效和成果;\n*⑦有效利用成本和进度储备,与项且目标保持一致等",
+      "pageStart": 435,
+      "pageEnd": 436,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q3-p436",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "在项目整个生命周期过程中,为了有效执行不确定性量绩效域,项目经理需要关注的重点不包 括()。",
+      "options": {
+        "A": "风险",
+        "B": "模糊性",
+        "C": "复杂性",
+        "D": "不可预测性"
+      },
+      "answer": "D",
+      "explanation": "P55O。\n在项目整个生命周期过程中,为了有效执行不确定性绩效域,项目经理需要重点关注:风险、\n模糊性、复杂性、不确定性的应对方法。",
+      "pageStart": 436,
+      "pageEnd": 436,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q4-p436",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "处理基于系统的复杂性的方法主要包括()。 ①选代;②参与;③解糊;④故障保护;⑤模拟;⑥多样性;⑦平衡",
+      "options": {
+        "A": "③⑤",
+        "B": "③⑤⑦",
+        "C": "①②④⑥",
+        "D": "①"
+      },
+      "answer": "A",
+      "explanation": "P551。\n处理复杂性的方法主要有:\n处理基于系统的复杂性的方法主要包括:①解据。断开系统的各个部分之间的关联,确定系\n统的独立工作的一部分,以简化系统并减少相互之间有关联的变量的数量,可降低间题的总体\n规模。(②模拟。模拟系统的组件。\n处理需要重新构建的复杂性的方法主要包括:①多样性。需要从不同的角度看待复杂的系统;\n*②平衡。平衡使用的多种数据类型、\n处理基于过程的复杂性的方法主要包括:①送代。以选代或增量方式进行构建,一次增加一\n个特性,每次送代后,确定哪些特性有效、哪些特性无效。②参与。创造机会争取干系人参与,\n可以减少假设数量,并将学习和参与融入到过程之中。③故障保护。对系统中的关键要素,要\n增加冗余,或者增加在关键组件出现故障时能提供功能正常降级的要系。",
+      "pageStart": 436,
+      "pageEnd": 436,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q5-p436",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "以下说法中不正确的是()。",
+      "options": {
+        "A": "项目是不确定性程度各异的独特性工作,因此所有项目都有风险",
+        "B": "项目团队需要在追求项目目标的过程中确定风险临界值,即风险可接受的范围",
+        "C": "模糊性有两类,概念模糊性和情景模糊性",
+        "D": "当缺乏有效的理解时,就会出现情景模糊性"
+      },
+      "answer": "D",
+      "explanation": "P551。\n模糊性有两类,概念模糊性和情景模糊性。概念模糊性,即缺乏有效的理解。当可能出现多\n个结果时,就会出现情景模糊性。",
+      "pageStart": 436,
+      "pageEnd": 437,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q6-p437",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "处理基于需要重新构建的复杂性的方法主要包括()。 ①选代;②参与;③解糊;④故障保护;⑤模拟;⑥多样性;⑦平衡",
+      "options": {
+        "A": "③⑤⑥",
+        "B": "③⑤⑦",
+        "C": "⑥⑦",
+        "D": "①⑦"
+      },
+      "answer": "C",
+      "explanation": "P551。\n处理复杂性的方法主要有:\n处理基于系统的复杂性的方法主要包括:①解揭。断开系统的各个部分之间的关联,确定系\n统的独立工作的一部分,以简化系统并减少相互之间有关联的变量的数量,可降低问题的总体\n规模。②模拟。模拟系统的组件。\n处理需要重新构建的复杂性的方法主要包括:①多样性。需要从不同的角度看待复杂的系统;\n“(②平衡。平衡使用的多种数据类型。\n处理基于过程的复杂性的方法主要包括:①选代。以选代或增量方式进行构建,一次增加一\n个特性,每次选代后,确定哪些特性有效、哪些特性无效。②参与。创造机会争取干系人参与,\n可以减少假设数量,并将学习和参与融入到过程之中。③故障保护。对系统中的关键要素,要\n增加冗余,或者增加在关键组件出现故障时能提供功能正常降级的要素。",
+      "pageStart": 437,
+      "pageEnd": 437,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q7-p437",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "处理基于过程的复杂性的主要方法不包括()。",
+      "options": {
+        "A": "选代",
+        "B": "参与",
+        "C": "故障保护",
+        "D": "平衡"
+      },
+      "answer": "D",
+      "explanation": "P551。\n处理基于过程的复杂性的方法主要包括:①选代。以选代或增量方式进行构建,一次增加一\n个特性,每次送代后,确定哪些特性有效、哪些特性无效。②参与。创造机会争取干系人参与,\n可以减少假设数量,并将学习和参与融入到过程之中。③故障保护。对系统中的关键要素,要\n增加冗余,或者增加在关键组件出现故障时能提供功能正常降级的要素。",
+      "pageStart": 437,
+      "pageEnd": 437,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q8-p437",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "对信息收集和分析工作进行规划,以便发现更多信息,这种不确定性应对方法是()",
+      "options": {
+        "A": "集合设计",
+        "B": "坚韧性",
+        "C": "多种结果",
+        "D": "收集信息"
+      },
+      "answer": "D",
+      "explanation": "P552。\n针对不确定性的应对方法主要包括:\n(1)收集信息。\n可以对信息收集和分析工作进行规划,以便发现更多信息(如进行研究、争取专家参与或进\n行市场分析)来减少不确定性。\n*(2)为多种结果做好准备。\n制定可用的解决方案,包括备份或应急计划,为每一个不确定性做好准备\n(3)集合设计。\n探索各种选项,来权衡包括时间与成本、质量与成本、风险与进度、进度与质量等多种因素,\n在整个过程中,含弃无效或次优的替代方案,以便项目团队能够从各种备选方案中选择最佳方\n案。\n(4)增加韧性。\n韧性是对意外变化快速适应和应对的能力,韧性既适用于项目团队成员,也适用于组织过程",
+      "pageStart": 437,
+      "pageEnd": 438,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q9-p438",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 9,
+      "source": "蜗牛老师自编题",
+      "stem": "制定可用的解决方案,包括备份或应急计划,这种不确定性应对方法是()",
+      "options": {
+        "A": "集合设计",
+        "B": "增加韧性",
+        "C": "为多种结果做好准备",
+        "D": "收集信息"
+      },
+      "answer": "C",
+      "explanation": "P552。\n针对不确定性的应对方法主要包括:\n(1)收集信息。可以对信息收集和分析工作进行规划,以便发现更多信息(如进行研究、争取\n专家参与或进行市场分析)来减少不确定性。\n2为多种结果做好准备。制定可用的解决方案,包括备份或应急计划,为每一个不确定性\n做好准备。\n(3)集合设计。探索各种选项,来权衡包括时间与成本、质量与成本、风险与进度、进度与\n质量等多种因素,在整个过程中,舍弃无效或次优的替代方案,以便项目团队能够从各种备选\n方案中选择最佳方案。\n(4)增加韧性。韧性是对意外变化快速适应和应对的能力,韧性既适用于项目团队成员,也\n适用于组织过程。",
+      "pageStart": 438,
+      "pageEnd": 438,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q10-p438",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 10,
+      "source": "2023年上半年高项真题",
+      "stem": "项目不确定性的应对方法包括()。 *①听取专家分析和专项市场分析 \"②提高组织和团队的适应性能力 \"③建立项目关键绩效指标 *④权衡项目多种因素选择最佳方案 *⑤应用系统的方法交付项目成果 “⑥对潜在的不确定性估算发生概率",
+      "options": {
+        "A": "①②③⑤",
+        "B": "①③④⑥",
+        "C": "①③⑤⑥",
+        "D": "①②④⑥"
+      },
+      "answer": "D",
+      "explanation": "P552。\n项目中必然存在不确定性,任何活动的影响都无法准确预测,而且可能会产生一系列的不\n确定性。针对不确定性的应对方法主要包括:\n1收集信息。可以对信息收集和分析工作进行规划,以便发现更多信息(如进行研究\n争取专家参与或进行市场分析)来减少不确定性。\n“2.为多种结果做好准备。制定可用的解决方案,包括备份或应急计划,为每一个不确定\n性做好准备。如果存在大量潜在不确定性,项目团队需要对潜在原因进行分类和评估,估算其\n发生的可能性。\n3集合设过。探索各种选项,来权衡包括时间与成本、质量与成本、风险与进度、进度\n与质量等多种因素,在整个过程中,舍弃无效或次优的替代方案,以便项目团队能够从各种备\n选方案中选择最佳方案。\n“4增加韧性。韧性是对意外变化快速适应和应对的能力,韧性既适用于项目团队成员,\n也适用于组织过程。如果对产品设计的初始方法或原型无效,则项目团队和组织需要能够快速\n学习、适应和应对变化。",
+      "pageStart": 438,
+      "pageEnd": 439,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q11-p439",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 11,
+      "source": "2023年下半年高项第3批真题",
+      "stem": "处理基于系统的复杂性的方法主要包括()。 *①解耦;②模拟;③多样性;④平衡",
+      "options": {
+        "A": "①②",
+        "B": "③④",
+        "C": "①③",
+        "D": "②④"
+      },
+      "answer": "A",
+      "explanation": "P551。\n处理复杂性的方法主要有:\n1.基于系统的复杂性。处理基于系统的复杂性的方法主要包括:①解耦②模拟。\n2.重新构建的复杂性。处理需要重新构建的复杂性的方法主要包括:①多样性②平衡。\n3.基于过程的复杂性。处理基于过程的复杂性的方法主要包括:①送代②参与③故障保护",
+      "pageStart": 439,
+      "pageEnd": 439,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q12-p439",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 12,
+      "source": "2024年高项第2批真题",
+      "stem": "探索各种选项,权衡包括时间与成本、质量与成本、风险与进度、进度与质量等多种因素,在 整个过程中,含弃无效或次优的替代方案,这种不确定性应对方法是()。",
+      "options": {
+        "A": "集合设计",
+        "B": "坚韧性",
+        "C": "多种结果",
+        "D": "收集信息"
+      },
+      "answer": "A",
+      "explanation": "P552。\n“3.集合设计。探索各种选现,来权衡包括时间与成本、质量与成本、风险与进度、进度与\n质量等多种因素,在整个过程中,含弃无效或次优的替代方案,以便项目团队能够从各种备选\n方案中选择最住方案。",
+      "pageStart": 439,
+      "pageEnd": 439,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q13-p439",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 13,
+      "source": "2025年高项第1批真题",
+      "stem": "不确定性绩效域相关的定义中,()是对意外变化快速适应和应对的能力。",
+      "options": {
+        "A": "韧性",
+        "B": "风险",
+        "C": "复杂性",
+        "D": "模糊性"
+      },
+      "answer": "A",
+      "explanation": "P552。\n韧性是对意外变化快速适应和应对的能力,韧性既适用于项目团队成员,也适用于组织过\n程。如果对产品设计的初始方法或原型无效,则项目团队和组织需要能够快速学习、适应和应\n对变化。",
+      "pageStart": 439,
+      "pageEnd": 439,
+      "type": "single_choice"
+    },
+    {
+      "id": "c18-s9-q14-p440",
+      "chapter": {
+        "number": 18,
+        "title": "项目绩效域"
+      },
+      "section": {
+        "number": 9,
+        "title": "不确定性绩效域",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 14
+      },
+      "questionNo": 14,
+      "source": "蜗牛老师自编题",
+      "stem": "评价最小化不确定性对项目交付的负面影响,可以通过对照(),对项目结果进行绩效审查来 判断。",
+      "options": {
+        "A": "风险应对措施",
+        "B": "应对措施适宜性",
+        "C": "风险管理机制或系统",
+        "D": "项目绩效处于临界值内"
+      },
+      "answer": "D",
+      "explanation": "P552-553。\n小化不确定性对项目交付的负面影响:项目绩效处于临界值内:满足计划的交付日期,预\n算执行情况处于偏差临界值内。\n【期年老师0020781878310s0ba",
+      "pageStart": 440,
+      "pageEnd": 440,
+      "type": "single_choice"
+    }
+  ]
+}
