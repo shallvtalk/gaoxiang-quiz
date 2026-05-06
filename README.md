@@ -18,14 +18,14 @@ http://127.0.0.1:8765/
 
 ## 数据
 
-题库数据已经固定在 `questions.json` 中，不需要每次运行 PDF 抽取脚本。
+题库原始备份保留在 `questions.json` 中，不需要每次运行 PDF 抽取脚本。
 
-为了便于逐章修正 OCR 问题，题库同时拆分在 `data/` 目录：
+页面读取并维护的是 `data/` 目录中的拆分数据：
 
 - `data/index.json`：章节索引
 - `data/chapter-01.json` 等：按章节拆分后的题目
 
-页面会优先加载 `data/` 中的拆分数据；如果失败，再回退到 `questions.json`。
+页面会优先加载 `data/` 中的拆分数据；如果失败，再回退到 `questions.json`。后续修正 OCR 问题时，优先直接改对应章节文件。
 
 当 `questions.json` 更新后，运行下面的命令重新生成拆分数据：
 
@@ -35,10 +35,10 @@ node scripts/split-questions.js
 
 ## 部署
 
-仓库包含 GitHub Actions 工作流。推送到 `main` 分支后，工作流会把静态文件发布到 `gh-pages` 分支。
+仓库是纯静态页面，推荐直接从 `main` 分支发布。
 
-第一次部署后，到 GitHub 仓库的 `Settings` -> `Pages`，把 `Build and deployment` 设置为：
+到 GitHub 仓库的 `Settings` -> `Pages`，把 `Build and deployment` 设置为：
 
 - Source: `Deploy from a branch`
-- Branch: `gh-pages`
+- Branch: `main`
 - Folder: `/ (root)`
