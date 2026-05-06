@@ -75,7 +75,7 @@
       color: var(--text);
       font-size: 15px;
       font-weight: 850;
-      white-space: nowrap;
+      overflow-wrap: anywhere;
     }
     .top-stars {
       margin-left: 8px;
@@ -157,6 +157,8 @@
       font-size: 23px;
       font-weight: 850;
       line-height: 1.5;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
     .options {
       display: grid;
@@ -191,6 +193,8 @@
     .option .copy {
       align-self: center;
       overflow-wrap: anywhere;
+      word-break: break-word;
+      min-width: 0;
     }
     .option.selected {
       border-color: var(--brand);
@@ -223,6 +227,9 @@
     .answer-line {
       margin: 0 0 10px;
       font-weight: 850;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
     .result-right { color: var(--right); }
     .result-wrong { color: var(--wrong); }
@@ -230,6 +237,7 @@
       margin: 0;
       white-space: pre-wrap;
       overflow-wrap: anywhere;
+      word-break: break-word;
     }
     .empty {
       margin-top: 20px;
@@ -275,7 +283,8 @@
       padding: 0 8px;
       font-weight: 750;
       cursor: pointer;
-      white-space: nowrap;
+      white-space: normal;
+      overflow-wrap: anywhere;
     }
     button:disabled {
       color: var(--muted);
