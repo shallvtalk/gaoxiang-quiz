@@ -21,6 +21,22 @@
       --right-weak: #e7f6ed;
       --shadow: 0 -8px 24px rgba(16, 24, 40, 0.08);
     }
+    body.dark {
+      color-scheme: dark;
+      --bg: #101410;
+      --panel: #181d19;
+      --text: #eef3ed;
+      --muted: #a3ad9f;
+      --line: #343d35;
+      --brand: #64c4b5;
+      --brand-weak: #19332f;
+      --accent: #f0a35d;
+      --wrong: #ff8a80;
+      --wrong-weak: #3b1d1a;
+      --right: #69d48f;
+      --right-weak: #173222;
+      --shadow: 0 -8px 24px rgba(0, 0, 0, 0.28);
+    }
     * { box-sizing: border-box; }
     html, body { min-height: 100%; }
     body {
@@ -30,13 +46,12 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.58;
     }
-    body.recite .progress-grid { display: none; }
     header {
       position: sticky;
       top: 0;
-      z-index: 3;
-      background: rgba(247, 248, 244, 0.94);
+      z-index: 5;
       border-bottom: 1px solid var(--line);
+      background: color-mix(in srgb, var(--bg) 94%, transparent);
       backdrop-filter: blur(14px);
     }
     .topbar, main, .dock-inner {
@@ -45,60 +60,71 @@
     }
     .topbar {
       display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
       gap: 8px;
-      padding: 10px 14px 8px;
-    }
-    .title-row {
-      display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 12px;
+      padding: 8px 12px;
     }
-    h1 {
-      margin: 0;
-      font-size: 18px;
-      letter-spacing: 0;
+    .top-info {
+      min-width: 0;
+      display: grid;
+      gap: 2px;
     }
     .counter {
-      color: var(--muted);
-      font-size: 13px;
-      text-align: right;
+      color: var(--text);
+      font-size: 15px;
+      font-weight: 850;
       white-space: nowrap;
     }
-    .progress-grid {
+    .context-line {
+      min-width: 0;
+      color: var(--muted);
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .top-actions {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .filter-popover {
+      position: relative;
+    }
+    .filter-panel {
+      display: none;
+      position: fixed;
+      top: 50px;
+      right: 10px;
+      left: 10px;
+      max-width: 680px;
+      margin-left: auto;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 0 16px 32px rgba(16, 24, 40, 0.16);
+    }
+    .filter-popover.open .filter-panel {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
       gap: 8px;
     }
-    .metric {
-      min-width: 0;
-      padding: 7px 8px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: var(--panel);
-    }
-    .metric strong {
-      display: block;
-      font-size: 15px;
-      line-height: 1.1;
-    }
-    .metric span {
-      display: block;
-      margin-top: 2px;
-      color: var(--muted);
-      font-size: 11px;
+    .filters {
+      display: grid;
+      grid-template-columns: 1.2fr 1.2fr 0.8fr;
+      gap: 8px;
     }
     main {
-      padding: 12px 14px 94px;
+      padding: 10px 12px 76px;
     }
-    body.recite main { padding-bottom: 84px; }
     .question-card {
       position: relative;
-      min-height: calc(100vh - 216px);
-      background: var(--panel);
+      min-height: calc(100vh - 134px);
+      padding: 18px;
       border: 1px solid var(--line);
       border-radius: 8px;
-      padding: 20px;
+      background: var(--panel);
       box-shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
       touch-action: pan-y;
     }
@@ -108,45 +134,21 @@
       top: 0;
       bottom: 0;
       width: 22%;
+      min-height: 0;
+      padding: 0;
       border: 0;
       border-radius: 0;
       background: transparent;
       color: transparent;
-      padding: 0;
-      min-height: 0;
       z-index: 1;
     }
     .edge-nav.prev { left: 0; }
     .edge-nav.next { right: 0; }
-    body.recite .question-card {
-      min-height: calc(100vh - 154px);
-    }
-    .meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 16px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      min-height: 24px;
-      padding: 1px 8px;
-      border-radius: 999px;
-      background: var(--brand-weak);
-      color: var(--brand);
-    }
-    .stars {
-      color: var(--accent);
-      font-weight: 800;
-    }
     .stem {
       margin: 0 0 18px;
-      font-size: 22px;
+      font-size: 23px;
       font-weight: 850;
-      line-height: 1.48;
+      line-height: 1.5;
     }
     .options {
       display: grid;
@@ -162,21 +164,19 @@
       text-align: left;
       border: 2px solid var(--line);
       border-radius: 8px;
-      background: #fff;
+      background: var(--panel);
       color: var(--text);
       font: inherit;
       cursor: pointer;
     }
-    body.recite .option {
-      cursor: default;
-    }
+    body.recite .option { cursor: default; }
     .option .label {
       width: 30px;
       height: 30px;
       border-radius: 50%;
       display: inline-grid;
       place-items: center;
-      background: #eef0eb;
+      background: color-mix(in srgb, var(--line) 54%, var(--panel));
       font-weight: 850;
       line-height: 1;
     }
@@ -194,7 +194,7 @@
     }
     .option.correct .label {
       background: var(--right);
-      color: #fff;
+      color: var(--panel);
     }
     .option.wrong {
       border-color: var(--wrong);
@@ -202,14 +202,14 @@
     }
     .option.wrong .label {
       background: var(--wrong);
-      color: #fff;
+      color: var(--panel);
     }
     .answer-panel {
       display: none;
       margin-top: 18px;
       padding: 14px;
       border-left: 4px solid var(--brand);
-      background: #f7fbf9;
+      background: color-mix(in srgb, var(--brand-weak) 54%, var(--panel));
     }
     .answer-panel.visible { display: block; }
     .answer-line {
@@ -240,54 +240,17 @@
       z-index: 4;
       padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
       border-top: 1px solid var(--line);
-      background: rgba(255, 255, 255, 0.96);
+      background: color-mix(in srgb, var(--panel) 95%, transparent);
       box-shadow: var(--shadow);
       backdrop-filter: blur(16px);
     }
     .dock-inner {
       display: grid;
+      grid-template-columns: repeat(5, 1fr);
       gap: 8px;
-    }
-    .quick-actions {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-      gap: 8px;
-    }
-    .desktop-nav { display: block; }
-    .filter-drawer {
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: var(--panel);
-      overflow: hidden;
-    }
-    .filter-drawer summary {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      min-height: 38px;
-      padding: 0 10px;
-      color: var(--muted);
-      font-size: 13px;
-      font-weight: 750;
-      list-style: none;
-      cursor: pointer;
-    }
-    .filter-drawer summary::-webkit-details-marker { display: none; }
-    .filter-drawer summary::after {
-      content: "展开";
-      color: var(--brand);
-    }
-    .filter-drawer[open] summary::after {
-      content: "收起";
-    }
-    .filters {
-      display: grid;
-      grid-template-columns: 1.2fr 1.2fr 0.8fr;
-      gap: 8px;
-      padding: 0 10px 10px;
     }
     select, button {
-      min-height: 38px;
+      min-height: 36px;
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--panel);
@@ -304,72 +267,71 @@
       padding: 0 8px;
       font-weight: 750;
       cursor: pointer;
+      white-space: nowrap;
     }
     button:disabled {
-      color: #98a2b3;
-      background: #f2f4f0;
+      color: var(--muted);
+      background: color-mix(in srgb, var(--line) 25%, var(--panel));
       cursor: not-allowed;
     }
     .primary {
       background: var(--brand);
       border-color: var(--brand);
-      color: #fff;
+      color: var(--panel);
     }
-    .danger {
-      color: var(--wrong);
-      border-color: #f0b8b1;
-      background: #fff7f6;
-    }
+    .desktop-nav { display: block; }
     @media (max-width: 720px) {
-      .topbar { padding: 9px 10px 7px; }
-      .progress-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-      .metric { padding: 6px; }
-      .metric strong { font-size: 14px; }
-      .metric span { font-size: 10px; }
-      main { padding: 10px 10px 90px; }
-      body.recite main { padding-bottom: 78px; }
+      .topbar {
+        grid-template-columns: minmax(0, 1fr) auto;
+        padding: 7px 8px;
+      }
+      .top-actions { gap: 4px; }
+      .top-actions button { min-height: 32px; padding: 0 7px; font-size: 12px; }
+      .context-line { font-size: 11px; }
+      main { padding: 8px 8px 68px; }
       .question-card {
-        min-height: calc(100vh - 210px);
-        padding: 16px;
+        min-height: calc(100vh - 116px);
+        padding: 15px;
       }
-      body.recite .question-card {
-        min-height: calc(100vh - 136px);
-      }
-      .stem { font-size: 20px; }
-      .quick-actions { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-      .quick-actions button { font-size: 13px; }
-      .desktop-nav { display: none; }
+      .stem { font-size: 21px; }
       .edge-nav { display: block; }
+      .desktop-nav { display: none; }
+      .dock-inner { grid-template-columns: repeat(3, 1fr); }
       .filters { grid-template-columns: 1fr; }
+      .filter-panel { top: 46px; }
     }
     @media (min-width: 900px) {
       .question-card { padding: 28px; }
-      .stem { font-size: 24px; }
+      .stem { font-size: 25px; }
       .option { min-height: 62px; }
-      .dock-inner {
-        grid-template-columns: 1fr auto;
-        align-items: end;
-      }
-      .filter-drawer { order: 1; }
-      .quick-actions {
-        order: 2;
-        min-width: 560px;
-      }
     }
   </style>
 </head>
 <body>
   <header>
     <div class="topbar">
-      <div class="title-row">
-        <h1>高项冲刺刷题</h1>
+      <div class="top-info">
         <div class="counter" id="counter">加载中</div>
+        <div class="context-line" id="contextLine"></div>
       </div>
-      <div class="progress-grid" aria-label="答题统计">
-        <div class="metric"><strong id="answeredMetric">0</strong><span>已做</span></div>
-        <div class="metric"><strong id="accuracyMetric">0%</strong><span>准确率</span></div>
-        <div class="metric"><strong id="wrongMetric">0</strong><span>错题</span></div>
-        <div class="metric"><strong id="remainingMetric">0</strong><span>未做</span></div>
+      <div class="top-actions">
+        <div class="filter-popover" id="filterPopover">
+          <button id="filterBtn">筛选</button>
+          <div class="filter-panel">
+            <div class="filters">
+              <select id="chapterFilter" aria-label="章节"></select>
+              <select id="sectionFilter" aria-label="考点"></select>
+              <select id="statusFilter" aria-label="状态">
+                <option value="all">全部题目</option>
+                <option value="unanswered">未做</option>
+                <option value="wrong">错题</option>
+                <option value="answered">已做</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button id="modeBtn" class="primary">背题</button>
+        <button id="themeBtn">夜间</button>
       </div>
     </div>
   </header>
@@ -380,58 +342,43 @@
 
   <nav class="dock" aria-label="刷题控制">
     <div class="dock-inner">
-      <details class="filter-drawer" id="filterDrawer">
-        <summary id="filterSummary">筛选：全部题目</summary>
-        <div class="filters">
-          <select id="chapterFilter" aria-label="章节"></select>
-          <select id="sectionFilter" aria-label="考点"></select>
-          <select id="statusFilter" aria-label="状态">
-            <option value="all">全部题目</option>
-            <option value="unanswered">未做</option>
-            <option value="wrong">错题</option>
-            <option value="answered">已做</option>
-          </select>
-        </div>
-      </details>
-      <div class="quick-actions">
-        <button id="prevBtn" class="desktop-nav">上一题</button>
-        <button id="modeBtn" class="primary">背题</button>
-        <button id="toggleAnswerBtn">解析</button>
-        <button id="randomBtn">随机</button>
-        <button id="resetCurrentBtn">重做</button>
-        <button id="nextBtn" class="desktop-nav">下一题</button>
-      </div>
+      <button id="prevBtn" class="desktop-nav">上一题</button>
+      <button id="toggleAnswerBtn">解析</button>
+      <button id="randomBtn">随机</button>
+      <button id="resetCurrentBtn">重做</button>
+      <button id="nextBtn" class="desktop-nav">下一题</button>
     </div>
   </nav>
 
   <script>
     const STORAGE_KEY = "gaoxiangQuizProgress.v1";
-    const MODE_KEY = "gaoxiangQuizMode.v1";
+    const UI_KEY = "gaoxiangQuizUi.v2";
     const state = {
       all: [],
       filtered: [],
       index: 0,
       showAnswer: false,
-      mode: localStorage.getItem(MODE_KEY) || "practice",
+      mode: "practice",
+      theme: "light",
       progress: loadProgress(),
       touchStartX: 0,
       touchStartY: 0,
+      restoring: true,
     };
 
     const els = {
       counter: document.querySelector("#counter"),
-      answeredMetric: document.querySelector("#answeredMetric"),
-      accuracyMetric: document.querySelector("#accuracyMetric"),
-      wrongMetric: document.querySelector("#wrongMetric"),
-      remainingMetric: document.querySelector("#remainingMetric"),
+      contextLine: document.querySelector("#contextLine"),
       chapterFilter: document.querySelector("#chapterFilter"),
       sectionFilter: document.querySelector("#sectionFilter"),
       statusFilter: document.querySelector("#statusFilter"),
-      filterSummary: document.querySelector("#filterSummary"),
+      filterPopover: document.querySelector("#filterPopover"),
+      filterBtn: document.querySelector("#filterBtn"),
       host: document.querySelector("#questionHost"),
       prev: document.querySelector("#prevBtn"),
       next: document.querySelector("#nextBtn"),
       mode: document.querySelector("#modeBtn"),
+      theme: document.querySelector("#themeBtn"),
       toggle: document.querySelector("#toggleAnswerBtn"),
       resetCurrent: document.querySelector("#resetCurrentBtn"),
       random: document.querySelector("#randomBtn"),
@@ -445,13 +392,39 @@
       }
     }
 
+    function loadUi() {
+      try {
+        return JSON.parse(localStorage.getItem(UI_KEY) || "{}");
+      } catch {
+        return {};
+      }
+    }
+
     function saveProgress() {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state.progress));
     }
 
-    function saveMode() {
-      localStorage.setItem(MODE_KEY, state.mode);
+    function saveUi() {
+      localStorage.setItem(UI_KEY, JSON.stringify({
+        index: state.index,
+        showAnswer: state.showAnswer,
+        mode: state.mode,
+        theme: state.theme,
+        chapter: els.chapterFilter.value,
+        section: els.sectionFilter.value,
+        status: els.statusFilter.value,
+      }));
+    }
+
+    function applyTheme() {
+      document.body.classList.toggle("dark", state.theme === "dark");
+      els.theme.textContent = state.theme === "dark" ? "日间" : "夜间";
+    }
+
+    function applyMode() {
       document.body.classList.toggle("recite", state.mode === "recite");
+      els.mode.textContent = state.mode === "recite" ? "练习" : "背题";
+      els.toggle.disabled = state.mode === "recite";
     }
 
     function chapterLabel(q) {
@@ -485,39 +458,35 @@
       return [...map.values()];
     }
 
-    function fillFilters() {
+    function fillFilters(ui = {}) {
       const chapters = uniqueBy(state.all, chapterLabel);
       els.chapterFilter.innerHTML = `<option value="">全部章节</option>` +
         chapters.map(q => `<option value="${escapeAttr(chapterLabel(q))}">${escapeHtml(chapterLabel(q))}</option>`).join("");
-      updateSectionFilter();
-    }
-
-    function updateSectionFilter() {
-      const chapterValue = els.chapterFilter.value;
-      const source = chapterValue ? state.all.filter(q => chapterLabel(q) === chapterValue) : state.all;
-      const sections = uniqueBy(source, sectionLabel);
-      const previous = els.sectionFilter.value;
-      els.sectionFilter.innerHTML = `<option value="">全部考点</option>` +
-        sections.map(q => `<option value="${escapeAttr(sectionLabel(q))}">${escapeHtml(sectionLabel(q))}</option>`).join("");
-      if ([...els.sectionFilter.options].some(option => option.value === previous)) {
-        els.sectionFilter.value = previous;
+      if ([...els.chapterFilter.options].some(option => option.value === ui.chapter)) {
+        els.chapterFilter.value = ui.chapter;
+      }
+      updateSectionFilter(ui.section);
+      if ([...els.statusFilter.options].some(option => option.value === ui.status)) {
+        els.statusFilter.value = ui.status;
       }
     }
 
-    function updateFilterSummary() {
-      const parts = [];
-      if (els.chapterFilter.value) parts.push(els.chapterFilter.value.replace(/^第\d+章\s*/, ""));
-      if (els.sectionFilter.value) parts.push(els.sectionFilter.value.replace(/\s*[★☆]+$/, ""));
-      const statusText = els.statusFilter.options[els.statusFilter.selectedIndex]?.text || "全部题目";
-      if (els.statusFilter.value !== "all") parts.push(statusText);
-      els.filterSummary.textContent = `筛选：${parts.length ? parts.join(" / ") : "全部题目"}`;
+    function updateSectionFilter(preferred = els.sectionFilter.value) {
+      const chapterValue = els.chapterFilter.value;
+      const source = chapterValue ? state.all.filter(q => chapterLabel(q) === chapterValue) : state.all;
+      const sections = uniqueBy(source, sectionLabel);
+      els.sectionFilter.innerHTML = `<option value="">全部考点</option>` +
+        sections.map(q => `<option value="${escapeAttr(sectionLabel(q))}">${escapeHtml(sectionLabel(q))}</option>`).join("");
+      if ([...els.sectionFilter.options].some(option => option.value === preferred)) {
+        els.sectionFilter.value = preferred;
+      }
     }
 
-    function applyFilters() {
+    function filteredQuestions() {
       const chapterValue = els.chapterFilter.value;
       const sectionValue = els.sectionFilter.value;
       const statusValue = els.statusFilter.value;
-      state.filtered = state.all.filter(q => {
+      return state.all.filter(q => {
         const statusOk =
           statusValue === "all" ||
           (statusValue === "unanswered" && !isAnswered(q)) ||
@@ -527,9 +496,18 @@
           (!sectionValue || sectionLabel(q) === sectionValue) &&
           statusOk;
       });
-      state.index = Math.min(state.index, Math.max(state.filtered.length - 1, 0));
-      state.showAnswer = false;
-      updateFilterSummary();
+    }
+
+    function applyFilters({ keepIndex = false } = {}) {
+      const previousId = state.filtered[state.index]?.id;
+      state.filtered = filteredQuestions();
+      if (keepIndex && previousId) {
+        const nextIndex = state.filtered.findIndex(q => q.id === previousId);
+        state.index = nextIndex >= 0 ? nextIndex : 0;
+      } else {
+        state.index = Math.min(state.index, Math.max(state.filtered.length - 1, 0));
+      }
+      state.showAnswer = state.mode === "recite" ? true : state.showAnswer;
       render();
     }
 
@@ -559,34 +537,36 @@
       render();
     }
 
-    function renderMetrics() {
-      const answered = state.all.filter(isAnswered).length;
-      const correct = state.all.filter(q => state.progress[q.id]?.isCorrect === true).length;
-      const wrong = state.all.filter(isWrong).length;
-      const accuracy = answered ? Math.round((correct / answered) * 100) : 0;
-      els.answeredMetric.textContent = answered;
-      els.accuracyMetric.textContent = `${accuracy}%`;
-      els.wrongMetric.textContent = wrong;
-      els.remainingMetric.textContent = Math.max(state.all.length - answered, 0);
+    function contextFor(q) {
+      if (!q) return "";
+      const bits = [
+        chapterLabel(q),
+        q.section ? `考点${q.section.number} ${q.section.title}` : "未分考点",
+        q.section?.priority || "",
+        q.source || "",
+        `页 ${q.pageStart}${q.pageEnd !== q.pageStart ? "-" + q.pageEnd : ""}`,
+      ];
+      return bits.filter(Boolean).join(" · ");
     }
 
     function render() {
-      renderMetrics();
-      saveMode();
+      applyMode();
+      applyTheme();
       const total = state.filtered.length;
       els.counter.textContent = total ? `${state.index + 1} / ${total}` : "0 / 0";
-      els.mode.textContent = state.mode === "recite" ? "练习" : "背题";
-      els.toggle.textContent = state.showAnswer ? "隐藏" : "解析";
-      els.toggle.disabled = state.mode === "recite";
       els.prev.disabled = state.index <= 0;
       els.next.disabled = state.index >= total - 1;
+      els.toggle.textContent = state.showAnswer ? "隐藏" : "解析";
 
       if (!total) {
+        els.contextLine.textContent = "没有匹配的题目";
         els.host.innerHTML = `<div class="empty">没有匹配的题目</div>`;
+        saveUi();
         return;
       }
 
       const q = state.filtered[state.index];
+      els.contextLine.textContent = contextFor(q);
       const progress = state.progress[q.id] || {};
       const answer = answerText(q);
       const showJudgement = Boolean(progress.selected) || state.mode === "recite";
@@ -609,13 +589,6 @@
       els.host.innerHTML = `<article class="question-card">
         <button class="edge-nav prev" id="edgePrev" aria-label="上一题"></button>
         <button class="edge-nav next" id="edgeNext" aria-label="下一题"></button>
-        <div class="meta">
-          <span class="pill">${escapeHtml(chapterLabel(q))}</span>
-          <span class="pill">${escapeHtml(q.section ? `考点${q.section.number} ${q.section.title}` : "未分考点")}</span>
-          <span class="stars">${escapeHtml(q.section?.priority || "")}</span>
-          <span>${escapeHtml(q.source || "")}</span>
-          <span>页 ${q.pageStart}${q.pageEnd !== q.pageStart ? "-" + q.pageEnd : ""}</span>
-        </div>
         <p class="stem">${escapeHtml(q.stem || "")}</p>
         <div class="options">${optionHtml}</div>
         <div class="answer-panel ${answerVisible ? "visible" : ""}">
@@ -633,6 +606,7 @@
       card.addEventListener("touchend", handleTouchEnd, { passive: true });
       document.querySelector("#edgePrev").addEventListener("click", () => go(-1));
       document.querySelector("#edgeNext").addEventListener("click", () => go(1));
+      saveUi();
     }
 
     function go(delta) {
@@ -672,8 +646,17 @@
       return escapeHtml(value).replace(/`/g, "&#096;");
     }
 
+    els.filterBtn.addEventListener("click", event => {
+      event.stopPropagation();
+      els.filterPopover.classList.toggle("open");
+    });
+    document.addEventListener("click", event => {
+      if (!els.filterPopover.contains(event.target)) {
+        els.filterPopover.classList.remove("open");
+      }
+    });
     els.chapterFilter.addEventListener("change", () => {
-      updateSectionFilter();
+      updateSectionFilter("");
       state.index = 0;
       applyFilters();
     });
@@ -692,6 +675,10 @@
       state.showAnswer = state.mode === "recite";
       render();
     });
+    els.theme.addEventListener("click", () => {
+      state.theme = state.theme === "dark" ? "light" : "dark";
+      render();
+    });
     els.toggle.addEventListener("click", () => {
       if (state.mode === "recite") return;
       state.showAnswer = !state.showAnswer;
@@ -705,13 +692,18 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
       render();
     });
-
     document.addEventListener("keydown", event => {
       if (event.key === "ArrowLeft") go(-1);
       if (event.key === "ArrowRight") go(1);
     });
 
-    saveMode();
+    const savedUi = loadUi();
+    state.mode = savedUi.mode || state.mode;
+    state.theme = savedUi.theme || state.theme;
+    state.showAnswer = Boolean(savedUi.showAnswer);
+    applyMode();
+    applyTheme();
+
     fetch("questions.json")
       .then(response => {
         if (!response.ok) throw new Error("questions.json not found");
@@ -719,13 +711,15 @@
       })
       .then(data => {
         state.all = data.questions || [];
-        state.filtered = state.all;
-        state.showAnswer = state.mode === "recite";
-        fillFilters();
-        applyFilters();
+        fillFilters(savedUi);
+        state.filtered = filteredQuestions();
+        state.index = Math.min(Number(savedUi.index || 0), Math.max(state.filtered.length - 1, 0));
+        state.showAnswer = state.mode === "recite" ? true : Boolean(savedUi.showAnswer);
+        render();
       })
       .catch(error => {
         els.counter.textContent = "未加载";
+        els.contextLine.textContent = "无法加载题库";
         els.host.innerHTML = `<div class="empty">请确认 questions.json 与当前 HTML 在同一目录，并通过本地服务或 GitHub Pages 打开。</div>`;
         console.error(error);
       });
