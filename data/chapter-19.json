@@ -1,0 +1,3005 @@
+{
+  "chapter": {
+    "number": 19,
+    "title": "配置与变更管理"
+  },
+  "count": 107,
+  "questions": [
+    {
+      "id": "c19-s1-q1-p441",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 1,
+      "source": "教材第19章章节习题",
+      "stem": "配置管理是为了系统地控制配置变更,在信息系统项目的整个生命周期中维持配置的()和()",
+      "options": {
+        "A": "完整性、可跟踪性",
+        "B": "完整性、真实性",
+        "C": "高效性、可跟踪性",
+        "D": "高效性、真实性"
+      },
+      "answer": "A",
+      "explanation": "P555。\n配置管理是为了系统地控制配置变更,在信息系统项目的整个生命周期中维持配置的完整性\n和可跟踪性。",
+      "pageStart": 441,
+      "pageEnd": 441,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q2-p441",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 2,
+      "source": "教材第19章章节习题",
+      "stem": "若对配置项进行更改,配置项状态为()。当配置项修改完毕并重新通过评审时,其状态变为 ()",
+      "options": {
+        "A": "修改、正式",
+        "B": "草稿、正式",
+        "C": "草稿、修改",
+        "D": "正式、草稿"
+      },
+      "answer": "A",
+      "explanation": "P556。\n配置项刚建立时,其状态为“草稿”。配置项通过评审后,其状态变为“正式”。此后若更\n改配置项,则其状态变为“修改”。当配置项修改完毕并重新通过评审时,其状态又变为“正\n式",
+      "pageStart": 441,
+      "pageEnd": 441,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q3-p441",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "软件系统的版本号由3部分构成,即主版本号+次版本号+修改号。某个配置项的版本号是1.0 按照配置版本号规则表明()。",
+      "options": {
+        "A": "目前配置项处于“不可变更”状态",
+        "B": "目前配置项处于“正式发布”状态",
+        "C": "目前配置项处于“草稿”状态",
+        "D": "目前配置项处于“正在修改”状态"
+      },
+      "answer": "B",
+      "explanation": "P556。配置项第一次成为“正式”文件时,版本号为1.0",
+      "pageStart": 441,
+      "pageEnd": 441,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q4-p441",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "某个配置项的版本号是2.01,按照配置项版本号规则表明()。",
+      "options": {
+        "A": "目前配置项处于“不可变更”状态",
+        "B": "目前配置项处于“正式发布”状态",
+        "C": "目前配置项处于“草稿”状态",
+        "D": "目前配置项处于“正在修改”状态"
+      },
+      "answer": "D",
+      "explanation": "P556。\n处于“修改”状态的配置项的版本号格式为XYZ。配置项正在修改时,一般只增大乙值,\nXY值保持不变。当配置项修改完毕,状态成为“正式”时,将Z值设置为0,增加XY值\n【蜗牛老师】:只要版本号以0开头那么状态就是“草稻”,只要版本号的开头大于0且位数\n为2位那么状态就是“正式”,只要版本号的开头大于0且位数为3位那么状态就是“修改”。",
+      "pageStart": 441,
+      "pageEnd": 441,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q5-p442",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "在软件配置管理中,版本控制的目的是按照一定的规则保存配置项的()。",
+      "options": {
+        "A": "重要版本",
+        "B": "基线版本",
+        "C": "所有版本",
+        "D": "需要的版本"
+      },
+      "answer": "C",
+      "explanation": "P556。\n版本管理的目的是按照一定的规则保在配置项的所有版本,避免发生版本丢失或混滞等现象,\n并且可以快速准确地查我到配置项的任何版本。",
+      "pageStart": 442,
+      "pageEnd": 442,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q6-p442",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "在配置管理中,基线是一组经过审查并且达成一致的规范或工作产品,是开发工作的基础。配 置管理员根据《项目计划文档》、《配置管理计划》、《配置项管理表》等文档,创建了() 基线。",
+      "options": {
+        "A": "内部或外部",
+        "B": "设计或构造",
+        "C": "计划或发行",
+        "D": "构造或发行"
+      },
+      "answer": "D",
+      "explanation": "P557。\n基线通常对应于项目过程中的里程碑(Milestone),一个项目可以有多个基线,也可以只\n有一个基线。交付给用户使用的基线一般称为发行基线(Release),内部过程使用的基线一般\n称为构造基线(Build)。",
+      "pageStart": 442,
+      "pageEnd": 442,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q7-p442",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 7,
+      "source": "2024年中项第1批真题",
+      "stem": "关于配置管理的描述,不正确的是()。",
+      "options": {
+        "A": "整个项目生命周期中得到控制",
+        "B": "应基于组织特点和项目规模来定义配置管理的范围",
+        "C": "用于定义并控制信息系统的组件,维护准确的配置信息",
+        "D": "应定期对配置管理进行回顾"
+      },
+      "answer": "B",
+      "explanation": "P555:配置管理是为了系统地控制配置变更,在信息系统项目的整个生命周期中维持配置\n的完整性和可跟踪性,而标识信息系统建设在不同时间点上配置的学科。A正确\nP559:在信息系统项目中,配置管理的目标主要用以定义并控制信息系统的组件,维护准\n确的配置信息。C正确\nP564;配置管理回顺与改进是指定期回顺配置管理活动的实施情况,目的是发现在配置管\n理执行过程中有无问题,找到改进点,优化配置管理过程。D正确\n应基于系统配置项特点来定义配置管理的范围。B不正确。",
+      "pageStart": 442,
+      "pageEnd": 442,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q8-p442",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 8,
+      "source": "2024年中项第2批真题",
+      "stem": "按配置项的类型分类建库适用于()的开发组织。在这样的组织内,产品的继承性较强,工具 比较统一,对()有一定的需求。",
+      "options": {
+        "A": "通用软件、并行开发",
+        "B": "专业软件、并行开发",
+        "C": "通用软件、串行开发",
+        "D": "专业软件、串行开发"
+      },
+      "answer": "A",
+      "explanation": "P557。\n按配置项的类型分类建库:适用于通用软件的开发组织。在这样的组织内,产品的继承性较\n强,工具比较统一,对并行开发有一定的需求。使用这样的库结构有利于对配置项",
+      "pageStart": 442,
+      "pageEnd": 443,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q9-p443",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 9,
+      "source": "2024年中项第2批真题",
+      "stem": "配置项的建库,选项正确的是()。",
+      "options": {
+        "A": "按配置项的类型分类建库:适用于通用软件的开发组织,工具比较统一,活动是并行开发",
+        "B": "按配置项的类型分类建库;适用于通用软件的开发组织,工具比较统一,活动是申行开发",
+        "C": "按开发任务建立相应的配置库;适用于专业软件的开发组织。使用的开发工具种类繁多, 活动是并行",
+        "D": "按开发任务建立相应的配置库;适用于通用软件的开发组织。使用的开发工具种类紧多 活动是甲行"
+      },
+      "answer": "A",
+      "explanation": "P557。\n配置库的建库模式有两种:按配置项类型建库和按开发任务建库。\n●按配置项的类型分类建库:适用于通用软件的开发组织。在这样的组织内,产品的继承性\n较强,工具比较统一,对并行开发有一定的需求。使用这样的库结构有利于对配置项的统一管\n理和控制,同时也能提高编译和发布的效率。但由于这样的库结构并不是面向各个开发团队的\n开发任务的,所以可能会造成开发人员的工作目录结构过于复杂,带来一些不必要的麻烦\n●按开发任务建立相应的配置库:适用于专业软件的开发组织。在这样的组织内,使用的开\n发工具种类繁多,开发模式以线性发展为主,所以就没有必要把配置项严格地分类存储,人为\n增加目录的复杂性。对于研发性的软件组织来说,采用这种设置策略比较灵活。",
+      "pageStart": 443,
+      "pageEnd": 443,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q10-p443",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 10,
+      "source": "2024年中项第3批真题",
+      "stem": "关于配置管理的说法,不正确的是()。",
+      "options": {
+        "A": "对基线的变更必须遵循正式的变更控制程序",
+        "B": "一个项目可以有多条基线,也可以只有一条基线",
+        "C": "修改配置项形成新的版本后,旧版本没必要保留",
+        "D": "已发布的配置项通过了CCB的审批同意更改,此时其状态变为“正在修改"
+      },
+      "answer": "C",
+      "explanation": "P556。\n对配置项的任何修改都将产生新的版本。由于我们不能保证新版本一定比旧版本“好”,所\n以不能地弃旧版本。",
+      "pageStart": 443,
+      "pageEnd": 443,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q11-p443",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 11,
+      "source": "2016年上半年高项真题",
+      "stem": "基线是项目配置管理的基础,()不属于基线定义中的内容。",
+      "options": {
+        "A": "建立基线的条件",
+        "B": "基线识别",
+        "C": "受控制项",
+        "D": "批准基线变更的权限"
+      },
+      "answer": "B",
+      "explanation": "P557。\n对于每一个基线,要定义下列内容:建立基线的事件、受控的配置项、建立和变更基线的程\n序、批准变更基线所需的权限。",
+      "pageStart": 443,
+      "pageEnd": 443,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q12-p444",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 12,
+      "source": "2020年下半年高项真题",
+      "stem": "关于配置管理的描述,正确的是:()。",
+      "options": {
+        "A": "某个配置项的版本号为0.91,该配置项的状态为“正式”",
+        "B": "配置项版本管理的目的是保留配置项的最新版本,删除所有旧的版本,以避免发生版本 混溶",
+        "C": "一个产品只能有一个基线,因此对基线的变更必须遵循正式的变更控制程序",
+        "D": "开发库中的信息可能被频繁修改,因此可以由开发人员自行控制"
+      },
+      "answer": "D",
+      "explanation": "P556-558。\nA错误。正式版本为X.Y,0.91为修改状态,A错误\nB错误。由于我们不能保证新版本一定比旧版本“好”,所以不能抛弃旧版本。\nC错误。基线通常对应于项目过程中的里程砷(Milestone,一个项目可以有多个基线,也\n可以只有一个基线。\nD正确。开发库也称为动态库、程序员库或工作库,用于保在开发人员当前正在开发的配置\n实体,如新模块、文档、数报元素成进行修改的已有元素。动态中的配置项被置于版本管理之\n下。动态库是开发人员的个人工作区,由开发人员自行控制。库中的信息可能有较为频繁的修\n改,只要开发库的使用者认为有必要,无须对其进行配置控制,因为这通常不公影响到项目的\n其他部分",
+      "pageStart": 444,
+      "pageEnd": 444,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s1-q13-p444",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 1,
+        "title": "配置管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 13
+      },
+      "questionNo": 13,
+      "source": "2025年高项第2批真题",
+      "stem": "某公司承接一个轨道交通乘客播放系统项目,下表是项目中为部分配置项定义的标识符,表中 关于标识符的定义存在()错误。 序号 备注配置项 标识符 服务器 既做为视频服务器,又作 PIS-VIDEO-OO1 为邮件服务器 PIS-MAIL-OO1 2 网络交换机 网络交换机 PIS-SW-OO1 3 DevicelnfoV1.O.java PIS-Dev-Code-OO1设备管理源代码1.O版 4 DevicelnfoV1.1.java PIS-Dev-Code-OO1设备管理源代码1.1版 5 DevicelnfoV1.3.java 设备管理源代码1.3版 PIS-Dev-DB-OO1 6 DevicelnfoV1.2.java 设备管理源代码1.2版 PIS-User-DB-OO2",
+      "options": {
+        "A": "O",
+        "B": "3",
+        "C": "1",
+        "D": "2"
+      },
+      "answer": "B",
+      "explanation": "课外知识。\n根据表格内容及标识符规范,表中存在的主要错误如下:\n服务器配置项:一个实体被赋予了两个标识符(PIS-VIDEO-0O1和PIS-MAL-0O1),\n这是错误的。同一配置项应该只有一个主标识符。\n网络交换机:标识符PIS-SW-001合理,没有错误。\nDevicelnfoV1.0.java:标识符PIS-Dev-Code-001合理,没有错误\nDevicelnfoV1.1java:与V1.0版本使用了相同的标识符PIS-Dev-Code0O1,这是错误\n的。不同版本的同一配置项应该有区分。\nDevicelnfoV1.3java:标识符PIS-Dev-DB-0O1中包含“DB”(数据库),但实际是源代\n码文件,命名与内容不符,这是错误的。\nDevicclnfoV1.2java:标识符PIS-User-DB-002中包含“User”(用户)和”DB”(数据库),\n与实际内容(设备管理源代码)完全不匹配,这是错误的\n总计4个错误,但是题目没有4这个选项,那就选3个,选项B。",
+      "pageStart": 444,
+      "pageEnd": 445,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s2-q1-p445",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "配置库",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "配置管理系统通常由()组成。",
+      "options": {
+        "A": "动态库、静态库和产品库",
+        "B": "开发库、备份库和产品库",
+        "C": "动态库、主库和产品库",
+        "D": "主库、受控库和产品库"
+      },
+      "answer": "C",
+      "explanation": "P558。\n配置库可以分开发库、受控库、产晶库3种类型。开发库也叫动态库,受控库也叫主库",
+      "pageStart": 445,
+      "pageEnd": 445,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s2-q2-p445",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "配置库",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "在配置管理中,用于管理当前基线和控制对基线的变更的配置库是()",
+      "options": {
+        "A": "动态库",
+        "B": "备份库",
+        "C": "受控库",
+        "D": "静态库"
+      },
+      "answer": "C",
+      "explanation": "P558。\n受控库也称为主库,包含当前的基线以及对基线的变更。受控库中的配置项被置于完全的配\n置管理之下。在信息系统开发的某个阶段工作结束时,将当前的工作产品存入受控库。",
+      "pageStart": 445,
+      "pageEnd": 445,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s2-q3-p445",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "配置库",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "在开发的软件产品完成系统测试之后,作为最终产品应将其存入(),等待交付用户或现场安 装。",
+      "options": {
+        "A": "知识库",
+        "B": "开发库",
+        "C": "受控库",
+        "D": "产品库"
+      },
+      "answer": "D",
+      "explanation": "P558。\n产品库也称静态库、发行库、软件仓库,包含已发布使用的各种基线的存档,被置于完全的\n配置管理之下。在开发的信息系统产晶完成系统测试之后,作为最终产晶在入产晶库内,等待\n交付用户或现场安装。",
+      "pageStart": 445,
+      "pageEnd": 445,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s2-q4-p445",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "配置库",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "()用于保存开发人员当前正在开发的配置实体。",
+      "options": {
+        "A": "受控库",
+        "B": "开发库",
+        "C": "产品库",
+        "D": "知识库"
+      },
+      "answer": "B",
+      "explanation": "P558。\n开发库也称动态库、程序员库或工作库,用于保在开发人员当前正在开发的配置实体,动态\n库是开发人员的个人工作区,由开发人员自行控制。库中的信息可能有较为频繁的修改",
+      "pageStart": 445,
+      "pageEnd": 446,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s2-q5-p446",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "配置库",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 5,
+      "source": "2025年中项第3批真题",
+      "stem": "在开发的信息系统产品完成系统测试之后,作为最终产品存入()内,等待交付用户或现场安 装。",
+      "options": {
+        "A": "开发库",
+        "B": "受控库",
+        "C": "产品库",
+        "D": "主库"
+      },
+      "answer": "C",
+      "explanation": "P558。\n产品库也称静态库、发行库、软件仓库,包含已发布使用的各种基线的存档,被置于完全的\n配置管理之下。在开发的信息系统产晶完成系统测试之后,作为最终产晶在入产晶库内,等待\n交付用户或现场安装。",
+      "pageStart": 446,
+      "pageEnd": 446,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s2-q6-p446",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 2,
+        "title": "配置库",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 6,
+      "source": "2023年下半年高项第2批真题",
+      "stem": "关于配置管理的说法中,错误的是()。",
+      "options": {
+        "A": "所有配置项的操作权限应由配置管理员严格管理,基本原则是;基线配置项向开发人员 开放读取的权限;非基线配置项向项目经理、CCB及相关人员开放",
+        "B": "可将配置项状态分为“草稿”“正式”和“修改”三种",
+        "C": "由于我们不能保证新版本一定比旧版本“好”,所以不能抛弃旧版本",
+        "D": "配置库可以分开发库、受控库、产品库、备份库4种类型"
+      },
+      "answer": "D",
+      "explanation": "P558。配置库可以分开发库、受控库、产晶库3种类型",
+      "pageStart": 446,
+      "pageEnd": 446,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s3-q1-p446",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "配置管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 5
+      },
+      "questionNo": 1,
+      "source": "教材第 19章章节习题",
+      "stem": "()负责在整个项目生命周期中进行配置管理的主要实施活动。",
+      "options": {
+        "A": "配置管理负责人",
+        "B": "配置项负责人",
+        "C": "项目经理",
+        "D": "配置管理员"
+      },
+      "answer": "D",
+      "explanation": "P559。\n配置管理员负责在整个项目生命周期中进行配置管理的主要实施活动,具体有:①建立和维\n护配置管理系统;②建立和维护配置库或配置管理数据库;③配置项识别;④建立和管理基线;\n⑤版本管理和配置控制;“⑥配置状态报告;⑦配置审计;⑧发布管理和交付。",
+      "pageStart": 446,
+      "pageEnd": 446,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s3-q2-p446",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "配置管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 5
+      },
+      "questionNo": 2,
+      "source": "2024年中项第3批真题",
+      "stem": "下列属于配置项负责人的工作的是()。",
+      "options": {
+        "A": "记录所负责配置项的所有变更",
+        "B": "制定和修改项目配置管理策略",
+        "C": "指派配置审计员",
+        "D": "评估配置管理过程并持续改进"
+      },
+      "answer": "A",
+      "explanation": "P558-559。\n配置项负责人确保所负责配置项的淮确和真实,具体工作包括:①记录所负责配置项的所有\n变更;②维护配置项之间的关系;④调查审计中发现的配置项差异,完成差异报告;④遵从配\n置管理过程;5参与配置管理过程评估。\nB是配置控制委员会的工作;C、D是配置管理负责人的工作",
+      "pageStart": 446,
+      "pageEnd": 447,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s3-q3-p447",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "配置管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 5
+      },
+      "questionNo": 3,
+      "source": "2020年下半年高项真题",
+      "stem": "配置管理员的工作职责不包括()。",
+      "options": {
+        "A": "基线设立审批",
+        "B": "版本管理和配置控制",
+        "C": "建立和维护配置库",
+        "D": "配置状态报告"
+      },
+      "answer": "A",
+      "explanation": "P559。\n配置管理员负责在整个项目生命周期中进行配置管理的主要实施活动,具体有:①建立和维\n护配置管理系统;②建立和维护配置库成配置管理数据库;③配置项识别;④建立和管理基线\n⑤版本管理和配置控制;⑥配置状态报告;⑦配置审计;⑧发布管理和交付。",
+      "pageStart": 447,
+      "pageEnd": 447,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s3-q4-p447",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "配置管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 5
+      },
+      "questionNo": 4,
+      "source": "2024年高项第1批真题",
+      "stem": "关于项目配置管理的描述不正确的是()。",
+      "options": {
+        "A": "配置项负责人需要定期开展项目所有配置的审计",
+        "B": "配置管理相关角色包括变更控制委员会,配置管理员,配置项负责人",
+        "C": "配置经理负责管理和决策整个项目生命周期中的配置活动",
+        "D": "建立和维护,配置管理系统是配置管理员的职责之一"
+      },
+      "answer": "A",
+      "explanation": "P559。A错误。定期开展项且所有配置的审计是配置管理员的职责",
+      "pageStart": 447,
+      "pageEnd": 447,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s3-q5-p447",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 3,
+        "title": "配置管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 5
+      },
+      "questionNo": 5,
+      "source": "2018年下半年高项真题",
+      "stem": "在项目配置项与基线的变更控制中,()是配置管理员的主要工作。",
+      "options": {
+        "A": "确定受变更影响的关联配置项和有关基线",
+        "B": "将变更申请的决议通知受此变更影响的每个干系人",
+        "C": "组织修改配置项,并在相应的文档或程序代码中记录变更信息",
+        "D": "将变更后的配置项纳入基线,并将变更内容和结果通知相关人"
+      },
+      "answer": "D",
+      "explanation": "P562。D属于配置控制的主要内容。\n变更的发布。配置管理员将变更后的配置项纳入基线。配置管理员将变更内容和结果通知相\n关人员,并做好记录。",
+      "pageStart": 447,
+      "pageEnd": 447,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s4-q1-p447",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "配置管理活动",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 2
+      },
+      "questionNo": 1,
+      "source": "教材第19章章节习题",
+      "stem": "配置管理的日常管理活动主要包括:制订配置管理计划、配置项识别、配置项控制、配置状态 报告、()、配置管理回顾与改进等。",
+      "options": {
+        "A": "配置审计",
+        "B": "配置变更",
+        "C": "配置项重新定义",
+        "D": "配置管理"
+      },
+      "answer": "A",
+      "explanation": "P56O。\n配置管理的日常管理活动主要包括:制订配置管理计划、配置项识别、配置项控制、配置状\n态报告、配置审计、配置管理回顾与改进等。",
+      "pageStart": 447,
+      "pageEnd": 447,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s4-q2-p448",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 4,
+        "title": "配置管理活动",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 2
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "项目配置管理的主要任务中,不包括()。",
+      "options": {
+        "A": "版本管理",
+        "B": "发行管理",
+        "C": "检测配置",
+        "D": "变更控制"
+      },
+      "answer": "C",
+      "explanation": "P56O。\n配置管理的日常管理活动主要包括:制订配置管理计划、配置项识别、配置项控制、配置状\n态报告、配置审计、配置管理回顾与改进等。",
+      "pageStart": 448,
+      "pageEnd": 448,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s5-q1-p448",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "配置项控制",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "UAT测试中发现问题,程序员首先需将待修改代码从()中取出放入()。其次检出代码段 放入(),修改完成被检入受控库后,才能被其他程序员检出",
+      "options": {
+        "A": "产品库、开发库、受控库",
+        "B": "受控库、开发库、产品库",
+        "C": "受控库、产品库、开发库",
+        "D": "产品库、受控库、开发库"
+      },
+      "answer": "D",
+      "explanation": "P562-563。\n基于配置库的变更控制:\n*(1)将待升级的基线从产品库中取出,放入受控库。\n“(2)程序员将欲修改的代码段从受控库中检出Checkout,放入自己的开发库中进行修\n改。\n*(3)程序员将开发库中修改好的代码段检入Checkin受控库。\n*(4)软件产品的升级修改工作全部完成后,将受控库中的新基线存入产品库中",
+      "pageStart": 448,
+      "pageEnd": 448,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s5-q2-p448",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "配置项控制",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "信息系统项目完成后,最终产品或项目成果应置于产品库内,当需要在此基础上进行后续开发 时,应将其转移到()后进行。",
+      "options": {
+        "A": "开发库",
+        "B": "服务器",
+        "C": "受控库",
+        "D": "产品库"
+      },
+      "answer": "C",
+      "explanation": "P562-563。\n基于配置库的变更控制:\n*(1)将待升级的基线从产品库中取出,放入受控库。\n“(2)程序员将欲修改的代码段从受控库中检出Checkout,放入自己的开发库中进行修\n改。\n*(3)程序员将开发库中修改好的代码段检入Checkin受控库\n“(4)软件产品的升级修改工作全部完成后,将受控库中的新基线存入产品库中",
+      "pageStart": 448,
+      "pageEnd": 448,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s5-q3-p448",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "配置项控制",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 3,
+      "source": "2019年下半年高项真题",
+      "stem": "运维过程中发现待修改间题,程序员首先需将待修改代码从()中取出放入()。其次检出 代码段放入(),修改完成被检入受控库后,才能被其他程序员检出",
+      "options": {
+        "A": "产品库、开发库、受控库",
+        "B": "受控库、开发库、产品库",
+        "C": "受控库、产品库、开发库",
+        "D": "产品库、受控库、开发库"
+      },
+      "answer": "D",
+      "explanation": "P562-563。\n基于配置库的变更控制:\n*(1)将待升级的基线从产品库中取出,放入受控库。\n(2)程序员将微修改的代码段从受控库中检出Checkout,放入自己的开发库中进行修\n改。\n(3)程序员将开发库中修改好的代码段检入Checkin受控库。\n(4)软件产品的升级修改工作全部完成后,将受控库中的新基线在入产晶库中。",
+      "pageStart": 448,
+      "pageEnd": 449,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s5-q4-p449",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "配置项控制",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 4,
+      "source": "2021年上半年高项真题",
+      "stem": "某软件产品集成测试阶段,发现问题需要对源代码进行修改。此时,程序员应将待修改的代码 段从()检出,放入自己的()中进行修改,代码即被锁定,以保证同一段代码只能被一个 程序员修改。",
+      "options": {
+        "A": "产品库,开发库",
+        "B": "受控库,开发库",
+        "C": "产品库,受控库",
+        "D": "受控库,产品库"
+      },
+      "answer": "B",
+      "explanation": "P562-563。\n基于配置库的变更控制:\n(1)将待升级的基线从产品库中取出,放入受控库。\n(2)程序员将微修改的代码段从受控库中检出Checkout,放入自己的开发库中进行修\n改。\n(3)程序员将开发库中修改好的代码段检入Checkin受控库。\n(4)软件产品的升级修改工作全部完成后,将受控库中的新基线在入产晶库中。",
+      "pageStart": 449,
+      "pageEnd": 449,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s5-q5-p449",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "配置项控制",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 5,
+      "source": "2021年下半年高项真题",
+      "stem": "A,B两个开发人员对信息系统的同一软件部件的两个bug(位于同一代码段)进行修改,当B 微把计划修改的代码段从()检出时,显示锁定,基于配置库的变更控制,可知此时该代码段 正在工程师A的()中进行修改。",
+      "options": {
+        "A": "开发库、受控库",
+        "B": "受控库、开发库",
+        "C": "受控库、产品库",
+        "D": "产品库、开发库"
+      },
+      "answer": "B",
+      "explanation": "P562-563。\n基于配置库的变更控制:\n*(1)将待升级的基线从产品库中取出,放入受控库。\n(2)程序员将微修改的代码段从受控库中检出Checkout,放入自己的开发库中进行修\n改。\n(3)程序员将开发库中修改好的代码段检入Checkin受控库。\n(4)软件产品的升级修改工作全部完成后,将受控库中的新基线在入产品库中。",
+      "pageStart": 449,
+      "pageEnd": 449,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s5-q6-p449",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 5,
+        "title": "配置项控制",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 6
+      },
+      "questionNo": 6,
+      "source": "2022年下半年高项真题",
+      "stem": "在采用基于配置库的变更控制对软件代码进行修改过程中,请将下列活动按照时间先后顺序排 列:() ①将新基线存入产品库;②从产品库中取出待修改代码;③程序员在开发库中修改代码;④将 待修改代码从受控库中检出;",
+      "options": {
+        "A": "①②③④",
+        "B": "②①④③",
+        "C": "②④③①",
+        "D": "③①②④"
+      },
+      "answer": "C",
+      "explanation": "P562-563。\n基于配置库的变更控制:\n(1)将待升级的基线从产品库中取出,放入受控库。\n(2)程序员将微修改的代码段从受控库中检出Checkout,放入自己的开发库中进行修\n改。\n*(3)程序员将开发库中修改好的代码段检入Checkin受控库。\n(4)软件产品的升级修改工作全部完成后,将受控库中的新基线在入产品库中。",
+      "pageStart": 449,
+      "pageEnd": 450,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q1-p450",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "配置审计的实施可以()。",
+      "options": {
+        "A": "防止向用户交付用户手册的不正确版本",
+        "B": "确保项目进度的合理性",
+        "C": "确认项目分解结构的合理性",
+        "D": "确保活动资源的可用性"
+      },
+      "answer": "A",
+      "explanation": "P563。\n配置审计的实施是为了确保项目配置管理的有效性,体现了配置管理的最根本要求,不允许\n出现任何混乱现象:①防止向用户提交不适合的产晶,如交付了用户手册的不正确版本;②发\n现不完普的实现,如开发出不符合初始规格说明或未按变更请求实施变更;③找出各配置项间\n不匹配或不相容的现象;④确认配置项已在所要求的质量控制审核之后纳入基线并入库保在;\n⑤确认记录和文档保持着可追溯性等。",
+      "pageStart": 450,
+      "pageEnd": 450,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q2-p450",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "下列选项中,不属于配置审计的作用是()。",
+      "options": {
+        "A": "防止向用户提交不适合的产品",
+        "B": "确保项目范围的正确",
+        "C": "确保变更遵循变更控制规程",
+        "D": "找出各配置项间不匹配的现象"
+      },
+      "answer": "B",
+      "explanation": "P563。B不属于配置管理的范畴。\n配置审计的实施是为了确保项目配置管理的有效性,体现了配置管理的最根本要求,不允许\n出现任何混乱现象:①防止向用户握交不适合的产晶,如交付了用户手册的不正确版本;②发\n现不完普的实现,如开发出不符合初始规格说明或未按变更请求实施变更;Q找出各配置项回\n不匹配或不相容的现象;④确认配置项已在所要求的质量控制审核之后纳入基线并入库保在;\n⑤确认记录和文档保持着可追溯性等。",
+      "pageStart": 450,
+      "pageEnd": 450,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q3-p451",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "()验证要交付的配置项是否存在。",
+      "options": {
+        "A": "功能配置审计",
+        "B": "物理配置审计",
+        "C": "设计评审",
+        "D": "代码审计"
+      },
+      "answer": "B",
+      "explanation": "P563。\n物理配置审计。物理配置审计是审计配置项的完整性(配置项的物理存在是否与预期一致),\n具体验证主要包括:①要交付的配置项是否在在;②配置项中是否包含了所有必需的项且等",
+      "pageStart": 451,
+      "pageEnd": 451,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q4-p451",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "()是审计配置项的一致性,配置项的实际功效是否与其需求一致。",
+      "options": {
+        "A": "功能配置审计",
+        "B": "物理配置审计",
+        "C": "设计评年",
+        "D": "代码审计"
+      },
+      "answer": "A",
+      "explanation": "P563。\n功能配置审计。功能配置审计是审计配置项的一致性(配置项的实际功效是否与其需求一致),\n具体验证主要包括:①配置项的开发已圆满完成;②配置项已达到配置标识中规定的性能和功\n能特征;③配置项的操作和支持文档已完成并且是符合要求的等",
+      "pageStart": 451,
+      "pageEnd": 451,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q5-p451",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "()是审计配置项的完整性,配置项的物理存在是否与预期一致",
+      "options": {
+        "A": "功能配置审计",
+        "B": "物理配置审计",
+        "C": "设计评审",
+        "D": "代码审计"
+      },
+      "answer": "B",
+      "explanation": "P563。\n物理配置审计。物理配置审计是审计配置项的完整性(配置项的物理在在是否与预期二致,\n具体验证主要包括:①要交付的配置项是否存在;②配置项中是否包含了所有必需的项目等",
+      "pageStart": 451,
+      "pageEnd": 451,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q6-p451",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "配置审计包括物理审计和功能审计,()属于功能审计的范畴。",
+      "options": {
+        "A": "代码走查",
+        "B": "变更过程的规范性审核",
+        "C": "介质齐备性检查",
+        "D": "配置项齐全性审核"
+      },
+      "answer": "A",
+      "explanation": "无课本原话。\nA正确。代码走查是一种通过人工方式检查代码逻辑、结构和功能是否符合需求和规范的活\n动,属于对功能实现的验证,因此属于功能审计。\nB不正确。非配置审计,属于变更控制审计。\nC不正确。介质齐备性检查,检查存储介质(如光盘、硬盘、文档等)是否齐全、完好,属\n于物理配置审计内容。\nD不正确。配置项齐全性审核,检查所有应交付的配置项是否都已存在、完整,也属于物理\n配置审计。",
+      "pageStart": 451,
+      "pageEnd": 451,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q7-p451",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 7,
+      "source": "2019年上半年高项真题",
+      "stem": "()验证一个配置项的实际工作性能是否符合他的需求规格说明。",
+      "options": {
+        "A": "功能配置审计",
+        "B": "物理配置审计",
+        "C": "设计评审",
+        "D": "代码审计"
+      },
+      "answer": "A",
+      "explanation": "【蜗牛解析1:P563。功能配置审计是审计配置项的一致性(配置项的实际功效是否与其需求\n一致)。",
+      "pageStart": 451,
+      "pageEnd": 452,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q8-p452",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 8,
+      "source": "2022年下半年高项真题",
+      "stem": "属于物理配置审计活动的()。",
+      "options": {
+        "A": "验证配置项已达到配置标识中的性能和功能特征",
+        "B": "验证配置项的开发已圆满完成",
+        "C": "验证要交付的配置项是否存在",
+        "D": "验证配置项的操作和支持文档已完成并且是符合要求的"
+      },
+      "answer": "C",
+      "explanation": "P563。\n物理配置审计。物理配置审计是审计配置项的完整性(配置项的物理存在是否与预期一致),\n具体验证主要包括:①要交付的配置项是否在在;②配置项中是否包含了所有必需的项目等",
+      "pageStart": 452,
+      "pageEnd": 452,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q9-p452",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 9,
+      "source": "2023年上半年高项真题",
+      "stem": "在配置审计的工作中,()不属于功能配置审计验证的内容",
+      "options": {
+        "A": "要交付的配置项是否存在",
+        "B": "配置项的开发已圆满完成",
+        "C": "配置项已达到配置标识中规定的性能和功能特征",
+        "D": "配置项的操作和支持文档已完成并且是符合要求的"
+      },
+      "answer": "A",
+      "explanation": "P563。\n功能配置审计。功能配置审计是审计配置项的一致性(配置项的实际功效是否与其需求一致),\n具体验证主要包括:①配置项的开发已圆满完成;②配置项已达到配置标识中规定的性能和功\n能特征;③配置项的操作和支持文档已完成并且是符合要求的等",
+      "pageStart": 452,
+      "pageEnd": 452,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q10-p452",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 10,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "以下属于物理配置审计的是()。",
+      "options": {
+        "A": "配置项的开发已圆满完成",
+        "B": "配置项已达到配置标识中规定的性能和功能特征",
+        "C": "配置项的操作和支持文档已完成并且是符合要求的",
+        "D": "要交付的配置项是否存在"
+      },
+      "answer": "D",
+      "explanation": "P563。\n物理配置审计。物理配置审计是审计配置项的完整性(配置项的物理存在是否与预期一致),\n具体验证主要包括:①要交付的配置项是否在在;②配置项中是否包含了所有必需的项且等",
+      "pageStart": 452,
+      "pageEnd": 452,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q11-p452",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 11,
+      "source": "2023年下半年高项第4批真题",
+      "stem": "功能配置审计内容包含:()。 \"①交付配置项是否存在 *②配置项已达到配置标识中规定的性能和功能特征 “③配置项中是否包含了所有必须的项目 \"④配置项的开发已圆满完成 ⑤配置项的操作和支持文档已完成并且是符合要求的",
+      "options": {
+        "A": "②④⑤",
+        "B": "①③④",
+        "C": "(①②④⑤",
+        "D": "②③④"
+      },
+      "answer": "A",
+      "explanation": "P563。\n功能配置审计。功能配置审计是审计配置项的一致性(配置项的实际功效是否与其需求一致,\n具体验证主要包括:①配置项的开发已圆满完成;②配置项已达到配置标识中规定的性能和功\n能特征;③配置项的操作和支持文档已完成并且是符合要求的等",
+      "pageStart": 452,
+      "pageEnd": 453,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s6-q12-p453",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 6,
+        "title": "配置审计",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 12
+      },
+      "questionNo": 12,
+      "source": "2024年高项第2批真题",
+      "stem": "关于配置审计的描述,不正确的是()。",
+      "options": {
+        "A": "审计软件即使发现不一致的情况,也不允许自动更新配置库或配置管理数据库,必须由 有关负责人调查后再进行更新",
+        "B": "配置审计也称配置审核或配置评价,包括功能配置审计和物理配置审计",
+        "C": "功能配置审计是审计配置项的完整性,物理配置审计是审计配置项的一致性",
+        "D": "验证配置项的开发已圆满完成属于功能配置审计"
+      },
+      "answer": "C",
+      "explanation": "P563、\n功能配置审计。功能配置审计是审计配置项的二致性(配置项的实际功效是香与其需求一致\n物理配置审计。物理配置审计是审计配置项的完整性(配置项的物理在在是否与预期一致",
+      "pageStart": 453,
+      "pageEnd": 453,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s7-q1-p453",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "变更管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 7
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "项目变吏的常见原因一般不包括()。",
+      "options": {
+        "A": "项目范围(工作)定义的过失或者疏忽",
+        "B": "应对风险的紧急计划,但不包括回避计划",
+        "C": "项目执行过程与基准要求不一致带来的被动调整",
+        "D": "外部灾害天气"
+      },
+      "answer": "B",
+      "explanation": "P564。\n变更的常见原因包括:①产晶范围(成果定义的过失或者疏忽;②项且范围(工作定义的过\n失或者疏忽;③增值变更;④应对风险的紧急计划或回避计划;⑥项目执行过程与基准要求不\n二致带来的被动调整;6外部事件等。",
+      "pageStart": 453,
+      "pageEnd": 453,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s7-q2-p453",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "变更管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 7
+      },
+      "questionNo": 2,
+      "source": "2024年中项第1批真题",
+      "stem": "关于变更管理的基本概念,描述不正确的是:()。",
+      "options": {
+        "A": "变更的常见原因包括产品范围定义的过失或疏忽",
+        "B": "只要是变更必然会引发项目基准的调整",
+        "C": "变更管理的原则是项目基准化和变更管理过程规范化",
+        "D": "基准是变更的依据,每次变更通过评审后,都应重新确定基准"
+      },
+      "answer": "B",
+      "explanation": "P564。\nA正确。变更的常见原因包括:①产品范围(成果)定义的过失或者疏忽;②项目范围(工作\n定义的过失或者疏忽;③增值变更;④应对风险的紧急计划或回避计划;⑤项目执行过程与基\n准要求不一致带来的被动调整;⑥外部事件等。\nB错误。变更不一定引起基准的调整,小的变更不一定涉及基准。\nC正确。P565:变更管理的原则是项目基准化、变更管理过程规范化。\nD正确。P565:基准是变更的依据。在项目实施过程中,基准计划确定并经过评审后(通\n常用户应参与部分评审工作),建立初始基准。此后每次变更通过评审后,都应重新确定基淮",
+      "pageStart": 453,
+      "pageEnd": 454,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s7-q3-p454",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "变更管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 7
+      },
+      "questionNo": 3,
+      "source": "2021年上半年高项真题",
+      "stem": "变更管理是为了使得()与项目实际执行情况相一致,是应对项目变化的一套管理方法。",
+      "options": {
+        "A": "项目资源",
+        "B": "项目报告",
+        "C": "项目基准",
+        "D": "项目目标"
+      },
+      "answer": "C",
+      "explanation": "P565。\n变更管理是为使得项目基准与项目实际执行情况相一致,应对项目变化的一套管理方法",
+      "pageStart": 454,
+      "pageEnd": 454,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s7-q4-p454",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "变更管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 7
+      },
+      "questionNo": 4,
+      "source": "2022年上半年高项真题",
+      "stem": "项目变更管理的实质是()。",
+      "options": {
+        "A": "满足甲方管理者的要求",
+        "B": "调整项目基准或资源配置提升项目价值",
+        "C": "有效应对项目管理者的经验不足",
+        "D": "实时了解并监控项目进展"
+      },
+      "answer": "B",
+      "explanation": "P564。\n变更管理的实质,是根据项目推进过程中越来越丰富的项目认知,丕断调整项目努力方向和\n资源配置,最大程度地满足项日需求,提升项日价值。",
+      "pageStart": 454,
+      "pageEnd": 454,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s7-q5-p454",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "变更管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 7
+      },
+      "questionNo": 5,
+      "source": "2023年上半年高项真题",
+      "stem": "关于项目变更管理的描述,不正确的是()。",
+      "options": {
+        "A": "项目范围(工作)和产品范围(工作)定义的过失或者疏忽不属于变更的原因",
+        "B": "项目规模小、与其他项目的关联度越小时,变更的提出和处理过程可在操作上力求简便、 高效",
+        "C": "变更管理的实质是根据项目情况不断调整项目方向和资源配置,最大程度满足项目需求",
+        "D": "在项目变更过程控制中,需要对进度变更控制、成本变更控制和合同变更控制等进行重 点关注"
+      },
+      "answer": "A",
+      "explanation": "P564。\n变更的常见原因包括:①产晶范围(成果定义的过失或者疏忽;②项且范围(工作定义的过\n失或者疏忽;③增值变更;④应对风险的紧急计划或回灌计划;⑥项目执行过程与基准要求不\n二致带来的被动调整;(6外部事件等。",
+      "pageStart": 454,
+      "pageEnd": 454,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s7-q6-p455",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "变更管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 7
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "项目变更的依据是()。",
+      "options": {
+        "A": "干系人的需求",
+        "B": "甲方的要求",
+        "C": "项目基准",
+        "D": "项目成员的请求"
+      },
+      "answer": "C",
+      "explanation": "P565。\n基准管理:基准是变更的依据。在项目实施过程中,基准计划确定并经过评审后(通常用户\n应参与部分评审工作),建立初始基准。此后每次变更通过评审后,都应重新确定基准。",
+      "pageStart": 455,
+      "pageEnd": 455,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s7-q7-p455",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 7,
+        "title": "变更管理基础",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 7
+      },
+      "questionNo": 7,
+      "source": "2019年下半年高项真题",
+      "stem": "关于变更管理的描述,不正确的是:()。",
+      "options": {
+        "A": "每次变更通过评审后,都应重新确定基准",
+        "B": "必须采用变更管理工具",
+        "C": "明确变更工作中评估、评审、执行的职责",
+        "D": "评估变更的可能影响"
+      },
+      "answer": "B",
+      "explanation": "P565。\nB错误。不一定要使用变更管理工具,只需要遵守变更流程即可。\n变更管理的原则是项目基准化、变更管理过程规范化。包括以下内容:\n●基准管理:基准是变更的依据。在项目实施过程中,基准计划确定并经过评审后,建立初\n始基准。此后每次变更通过评审后,都应重新确定基准。\n●变更控制流程化:建立或选用符合项目需要的变更管理流程,所有变更都必须遵循这个控\n制流程进行控制。\n●明确组织分工:至少应明确变更相关工作的评估、评审、执行的职能\n●评估变更的可能影响。\n●妥善保存变更产生的相关文档,确保其完整、及时、准确、清晰。",
+      "pageStart": 455,
+      "pageEnd": 455,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s8-q1-p455",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 8,
+        "title": "变更管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 6
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "项目经理在综合变更中主要负责()。",
+      "options": {
+        "A": "评估变更对项目的影响",
+        "B": "评估变更的应对方案",
+        "C": "将变更由技术要求转换为资源要求",
+        "D": "批准可否使用储备资源"
+      },
+      "answer": "A",
+      "explanation": "B评估变更的应对方案,一般由技术负责人或者产品负责人来负责\nC将变更由技术要求转换为资源要求,这个在整个项目中都需要,不光在变更管理里需要\nD批准可否使用储备资源,这个不是变更管理的范畴",
+      "pageStart": 455,
+      "pageEnd": 455,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s8-q2-p455",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 8,
+        "title": "变更管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 6
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "监控变更管理过程是()的职责。",
+      "options": {
+        "A": "质量经理",
+        "B": "变更经理",
+        "C": "变更请求者",
+        "D": "变更实施者"
+      },
+      "answer": "B",
+      "explanation": "【蜗牛解析1:P566,变更管理负责人也称变更经理,通常是变更管理过程解决方案的负责人,\n其主要职责包括:\n\"①负责整个变更过程方案的结果;\n*②负责变更管理过程的监控;\n③负责协调相关的资源,保障所有变更按照预定过程顺利运作;\n*④确定变更类型,组织变更计划和日程安排;\n\"⑤管理变更的日程安排;\n“⑥变更实施完成之后的回顾和关闭;\n*⑦承担变更相关责任,并且具有相应权限;\n⑥可能以逐级审批形式或团队会议的形式参与变更的风险评估和审批等。",
+      "pageStart": 455,
+      "pageEnd": 456,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s8-q3-p456",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 8,
+        "title": "变更管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 6
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "项目经理在变更中的作用不包括()。",
+      "options": {
+        "A": "响应变更提出者的需求",
+        "B": "评估变更对项目的影响及应对方案",
+        "C": "审批资源要求",
+        "D": "监控变更及已批准的变更正确实施"
+      },
+      "answer": "C",
+      "explanation": "P565,\n项目经理在变更中的作用是,响应变更提出者的需求,评估变更对项目的影响及应对方案,将\n需求由技术要求转化为资源要求,供授权人决策。依据变更评审结果调整基准,确保项目基淮\n反映项目实施情况,并监控变更及已批准的变更正确实施\nC不正确,项目经理将需求由技术要求转化为资源要求,供授权人决策。项目经理没有审批权",
+      "pageStart": 456,
+      "pageEnd": 456,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s8-q4-p456",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 8,
+        "title": "变更管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 6
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "项目经理在变更中的作用不包括()。",
+      "options": {
+        "A": "响应变更提出者的需求",
+        "B": "评估变更对项目的影响及应对方案",
+        "C": "审批资源要求",
+        "D": "监控变更及已批准的变更正确实施"
+      },
+      "answer": "C",
+      "explanation": "P565。\n项目经理在变更中的作用是,响应变更提出者的需求,评估变更对项目的影响及应对方案\n将需求由技术要求转化为资源要求,供授权人决策。依据变更评审结果调整基准,确保项目基\n准反映项目实施情况,并监控变更及已批准的变更正确实施\nC不正确,项目经理将需求由技术要求转化为资源要求,供授权人决策。项目经理没有审批\n权。",
+      "pageStart": 456,
+      "pageEnd": 456,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s8-q5-p456",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 8,
+        "title": "变更管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 6
+      },
+      "questionNo": 5,
+      "source": "2025年中项第1批真题",
+      "stem": "()初步评价变更的风险和影响,给变更请求设定适当的变更类别。",
+      "options": {
+        "A": "变更控制委员会",
+        "B": "变更请求者",
+        "C": "变更管理负责人",
+        "D": "变更实施者"
+      },
+      "answer": "B",
+      "explanation": "P566。\n变更请求者负责记录与提交变更请求单,具体为:①提交初步的变更方案和计划;②初步评\n价变更的风险和影响,给变更请求设定适当的变更类型;③对理解变更过程有能力要求等",
+      "pageStart": 456,
+      "pageEnd": 457,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s8-q6-p457",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 8,
+        "title": "变更管理角色与职责",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 6
+      },
+      "questionNo": 6,
+      "source": "2024年高项第1批真题",
+      "stem": "监控变吏管理过程是()的职责。",
+      "options": {
+        "A": "质量经理",
+        "B": "变更经理",
+        "C": "变更请求者",
+        "D": "变更实施者"
+      },
+      "answer": "B",
+      "explanation": "P565-566。\n变更管理负责人也称变更经理,通常是变更管理过程解决方案的负责人,其主要职责包括\n①负责整个变更过程方案的结果;②负责变更管理过程的监控;③负责协调相关的资源,保险\n所有变更按照预定过程顺利运作;④确定变更类型,组织变更计划和日程安排;⑥管理变更的\n且程安排;⑥变更实施完成之后的回顺和关闭;⑦承担变更相关责任,并且具有相应权限;⑥\n可能以逐级审批形式或团队会议的形式参与变更的风险评估和审批等",
+      "pageStart": 457,
+      "pageEnd": 457,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q1-p457",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "关于变更工作程序的描述,正确的是:()。",
+      "options": {
+        "A": "项目中变更申请应由项目团队成员提出",
+        "B": "监理单位可监控主要变更成果和变更进度里程碑",
+        "C": "涉及项目目标和交付成果的变更,应以专家意见为准",
+        "D": "在变更确认前应将项目实施基准调整情况进行公示"
+      },
+      "answer": "B",
+      "explanation": "项目的干系人都可以提出变更申请,故A错误。\n变更实施的过程监控,通常由项目经理负责基准的监控。管理委员会监控变更明确的主要成果、\n进度里程碑等,可以通过监理单位完成,故B正确。\n审查过程应注意分工,项目投资人虽有最终的决策权,但通常技术上并不专业。所以应当在评\n审过程中将专业评审、经济评审分开,对涉及项目目标和交付成果的变更,客户的意见应放在\n核心位置,故C错误。\n基准的调整,包括项目目标的确认,最终成果、工作内容和资源、进度计划的调整。需要强调\n的是,变更的通知,不只是包括项目实施基准的调整,更要明确项目的交付日期、成果对相关\n干系人的影响。如变更造成交付期的调整,应在变更确认时发布,而非在交付前公布,故D错\n误。",
+      "pageStart": 457,
+      "pageEnd": 457,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q2-p457",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "关于变更管理工作程序描述,不正确的是()。",
+      "options": {
+        "A": "项目的干系人都可以提出变更申请",
+        "B": "CCB是执行机构,负责提出变更方案",
+        "C": "变更实施的过程监控,通常由项目经理负责基准监控",
+        "D": "涉及项目目标及交付成果的变更,客户意见应放在核心位置"
+      },
+      "answer": "B",
+      "explanation": "CCB是决策机构,不是作业机构;通常CCB的工作是通过评审手段来决定项\n目基准是否能变更,但不提出变更方案。",
+      "pageStart": 457,
+      "pageEnd": 458,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q3-p458",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "项目组的测试人员在软件系统测试时,发现了一个重大缺陷并报告了项目经理,项目经理接下 来应该()。",
+      "options": {
+        "A": "提交一个变更申请",
+        "B": "和质量保证人员商量如何修改",
+        "C": "将任务分配给开发人员小王修改",
+        "D": "评估是否需要修改"
+      },
+      "answer": "A",
+      "explanation": "有变更发生首先要提交变更申请。",
+      "pageStart": 458,
+      "pageEnd": 458,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q4-p458",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "小王是某软件开发公司负责某项目的项目经理,该项目己经完成了前期的工作进入实现阶段, 但用户提出要增加一项新的功能,小王应该()。",
+      "options": {
+        "A": "立即实现该变更",
+        "B": "拒绝该变更",
+        "C": "通过变更控制过程管理该变更",
+        "D": "要求客户与公 司领导协商"
+      },
+      "answer": "C",
+      "explanation": "有变更走变更流程即可。",
+      "pageStart": 458,
+      "pageEnd": 458,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q5-p458",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "变更管理组织机构的工作程序按时间先后顺序,排列正确的是:() ①变更效果评估 *②项目工程师提出变更申请 *③项目经理审批变更申请 *④发出变更通知并组织实施 ⑤变更申请文档审核流转 ⑥变更方案论证 ⑦项目管理委员会审查 *⑧项目经理和监理单位监控实施",
+      "options": {
+        "A": "Z⑤③④⑥⑥Z①",
+        "B": "Z⑥④③⑦①⑥⑤",
+        "C": "Z③⑤⑦⑥④①⑤",
+        "D": "Z③⑤⑥⑦④⑥ ①"
+      },
+      "answer": "D",
+      "explanation": "变更的工作程序【流程】:\n变更申请\n对变更的初审\n◆\n变更方案论证\n变更审查\n发出通知并实施\n实施监控\n效果评估\n变更收尾",
+      "pageStart": 458,
+      "pageEnd": 458,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q6-p459",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "()的目的是确认变更的必要性,确保变更是有价值的。",
+      "options": {
+        "A": "提出变更申请",
+        "B": "变更效果评估",
+        "C": "变更初审",
+        "D": "变更实施"
+      },
+      "answer": "C",
+      "explanation": "变更初审的目的如下:\n①对变更提出方施加影响,确认变更的必要性,确保变更是有价值的\n*②格式校验,完整性校验,确保评估所需信息准备充分。\n“③在干系人间就提出供评估的变更信息达成共识。",
+      "pageStart": 459,
+      "pageEnd": 459,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q7-p459",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "关于变更管理工作程序,正确的步骤是()。 *① 变更实施监控与效果评估 \"② 发出变更通知并组织实施 *③ 提出与接受变更申请 *④ 对变更的初审和方案论证 ⑤CCB审查",
+      "options": {
+        "A": "③①②④⑤",
+        "B": "④③⑤②①",
+        "C": "③④⑤②①",
+        "D": "④⑤③②①"
+      },
+      "answer": "C",
+      "explanation": "变更的工作程序【流程】:\n变更申请\n对变更的初审\n◆\n变更方案论证\n变更审查\n发出通知并实施\n实施监控\n效果评估\n变更收尾",
+      "pageStart": 459,
+      "pageEnd": 459,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q8-p459",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 8,
+      "source": "蜗牛老师自编题",
+      "stem": "做好变更管理可以使项目的质量、进度、成本管理更加有效。关于变更工作程序的描述,不正 确的是() *①及时,正式的提出变更,且留下书而记录 *②变更初审的常见方式为变更申请文档的格式校验 ③变更方案论证首先是对变更请求是否可行实现进行论证 “④审查过程中,客户根据变更申请及评估方案,决定是否变更项目基准 \"⑤发出变更通知并组织实施 *⑥变更实施的工程监控,配置管理员负责基准的监控 *⑦变更效果评估中的首要评估依据是项目的基准 *⑧基准调整后,需要判断项目是否已纳入正轨",
+      "options": {
+        "A": "②③⑤",
+        "B": "②④⑥",
+        "C": "①②③④",
+        "D": "⑤⑥⑦⑧"
+      },
+      "answer": "B",
+      "explanation": "②错误。变更初审的常见方式为变更申请文档的审核流转\n③错误。审查过程,是项目所有者根据变更申请及评估方案,决定是否变更项目基准。\n*⑥错误。基准的监控应该是由项目经理来负责",
+      "pageStart": 459,
+      "pageEnd": 460,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q9-p460",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 9,
+      "source": "蜗牛老师自编题",
+      "stem": "下图是变更控制管理流程图,该流程图缺少()。 提出变更申请 影响分析 审查批准 2O7845763 是 否是否批准 实施变更 取消变更 结束",
+      "options": {
+        "A": "评估影响记录",
+        "B": "配置审计",
+        "C": "变更定义",
+        "D": "记录变更实施情况"
+      },
+      "answer": "D",
+      "explanation": "A评估影响记录,在影响分析里有\nB配置审计,这个属于配置管理\nC变更定义,在提出变更申请的时候就会进行定义\n这里缺少变更实施后的监控和效果评估,在监控和评估的时候需要记录变更实施情况",
+      "pageStart": 460,
+      "pageEnd": 460,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q10-p460",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 10,
+      "source": "蜗牛老师自编题",
+      "stem": "关于变更管理工作程序描述,不正确的是(),",
+      "options": {
+        "A": "项目的干系人都可以提出变更申请",
+        "B": "变更初审可以由配置管理员负责",
+        "C": "变更方案的论证需要有技术和经济方面的专家参与",
+        "D": "涉及项目目标及交付成果的变更,技术专家的意见应放在核心位置"
+      },
+      "answer": "D",
+      "explanation": "P567,审查过程应注意分工,项目投资人虽有最终的决策权,但通常技术上并\n不专业。所以应当在评审过程中将专业评审、经济评审分开,对于涉及项且且标和交付成果的\n变更,客户和服务对象的意见应放在核心位置。",
+      "pageStart": 460,
+      "pageEnd": 460,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q11-p461",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 11,
+      "source": "教材第19章章节习题",
+      "stem": "对于大型的变更,可以召开相关的变更方案论证会议,通常需要由()(相关技术和经济方面 的专家组成)进行相关论证。",
+      "options": {
+        "A": "变更控制委员会CCB",
+        "B": "变更实施委员会",
+        "C": "变更顾问委员会",
+        "D": "配置管理委员会"
+      },
+      "answer": "C",
+      "explanation": "P566。\n对于一些大型的变更,可以召开相关的变更方案论证会议,通常需要由变更顾间委员会(相\n关技术和经济方面的专家组成)进行相关论证,并将相关专家意见作为项目变更方案的一部分,\n报项目CCB作为决策参考。",
+      "pageStart": 461,
+      "pageEnd": 461,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q12-p461",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 12,
+      "source": "蜗牛老师自编题",
+      "stem": "下列选项中,属于变更控制委员会主要任务的是()。",
+      "options": {
+        "A": "提出变更申请",
+        "B": "评估变更影响",
+        "C": "评价、审批变更",
+        "D": "实施变更"
+      },
+      "answer": "C",
+      "explanation": "P252。\nCCB是项目的所有者权益代表,负责对变更进行决策。CCB由项目所涉及的主要干系人共\n同组成,通常包括用户和项目所在组织管理层的决策人员。CCB是决策机构,不是作业机构;\n通常CCB的工作是通过评审手段来决定项目基准是否需要变更,但不提出变更方案。",
+      "pageStart": 461,
+      "pageEnd": 461,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q13-p461",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 13,
+      "source": "蜗牛老师自编题",
+      "stem": "变更管理的首要工作程序是()。",
+      "options": {
+        "A": "提出变更申请",
+        "B": "记录变更信息、填写变更控制单",
+        "C": "做出变更,并交上级审批",
+        "D": "修改相应的软件配置项,确立新的版本"
+      },
+      "answer": "A",
+      "explanation": "P566-567。\n变更管理的工作程序:1变更申请;2.对变更的初审;3变更方案论证;4变更审查;5发\n出通知并实施;*6.实施监控;7.效果评估;8.变更收尾",
+      "pageStart": 461,
+      "pageEnd": 461,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q14-p461",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 14,
+      "source": "蜗牛老师自编题",
+      "stem": "关于变更管理工作程序描述,不正确的是()。",
+      "options": {
+        "A": "项目的干系人都可以提出变更申请",
+        "B": "变更初审可以由配置管理员负责",
+        "C": "变更方案的论证需要有技术和经济方面的专家参与",
+        "D": "涉及项目目标及交付成果的变更,技术专家的意见应放在核心位置"
+      },
+      "answer": "D",
+      "explanation": "P567。\n审查过程应注意分工,项目投资人虽有最终的决策权,但通常技术上并不专业。所以应当在\n评审过程中将专业评审、经济评审分开,对于涉及项且且标和交付成果的变更,客户和服务对\n象的意见应放在核心位置。",
+      "pageStart": 461,
+      "pageEnd": 462,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q15-p462",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 15,
+      "source": "蜗牛老师自编题",
+      "stem": "李先生是某软件开发公司负责某项目的项目经理,该项目已经完成了前期的工作进入实现阶段, 但用户提出要增加一项新的功能,李先生应该()。",
+      "options": {
+        "A": "拒绝该变更",
+        "B": "认为用户要求合理,立即实现该变更",
+        "C": "通过变更控制过程管理该变更",
+        "D": "要求用户与公司领导协商"
+      },
+      "answer": "C",
+      "explanation": "无课本原话。有变更那么走变更流程。",
+      "pageStart": 462,
+      "pageEnd": 462,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q16-p462",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 16,
+      "source": "蜗牛老师自编题",
+      "stem": "某软件开发项目计划设置如下基线:需求基线、设计基线、产品基线。在编码阶段,详细设计 文件需要变更,以下叙述中,()是正确的。",
+      "options": {
+        "A": "设计文件评审已通过,直接变更即可",
+        "B": "设计基线已经建立,不允许变更",
+        "C": "设计基线已经建立,若变更必须走变更控制流程",
+        "D": "详细设计与设计基线无关,直接变更即可"
+      },
+      "answer": "C",
+      "explanation": "无课本原话。\nA错误。已经评审了,必须走变更流程。\nB错误。基线建立并不影响变更的控制,走变更流程即可。\nD错误。详细设计涉及基线,必需走变更流程。",
+      "pageStart": 462,
+      "pageEnd": 462,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q17-p462",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 17,
+      "source": "蜗牛老师自编题",
+      "stem": "项目进行过程中,客户要求进度提前,围绕整体变更管理,项目经理以下做法,正确的是()",
+      "options": {
+        "A": "进度变更和整体变更应一步到位,不要反复选代",
+        "B": "进度变更对成本、人力资源的影响,可在变更实施时再进行评价",
+        "C": "先要求提出变更申请,走进度变更流程,然后根据变更后的新基线再进行相关的成本、 人力资源等的变更",
+        "D": "只要变更内容正确,即可执行变更"
+      },
+      "answer": "C",
+      "explanation": "无课本原话。\nA错误。可以先走进度变更,再进行其他方面的变更。\nB错误。在变更时需要考虑变更对项目的影响。\nD错误。有变更一定要走变更流程。",
+      "pageStart": 462,
+      "pageEnd": 462,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q18-p462",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 18,
+      "source": "蜗牛老师自编题",
+      "stem": "当()时,要正式通过变更审批。",
+      "options": {
+        "A": "0.7版的项目管理计划调整",
+        "B": "某活动在自由时差内的进度调整",
+        "C": "某活动负责人要求进度提前",
+        "D": "项目经理安排一次临时加班"
+      },
+      "answer": "C",
+      "explanation": "无课本原话。\nA错误。0.7版的项目管理计划属于草稿状态,不涉及基准调整,无变更批准\nB同理。自由时差内的进度调整,不涉及基线调整,无变更批准\nC需要。进度提前属于基准变化了,需要变更审批\nD错误。临时加班,不涉及基准,项目经理自己就可以决定",
+      "pageStart": 462,
+      "pageEnd": 463,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q19-p463",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 19,
+      "source": "2025年中项第2批真题",
+      "stem": "某市灯杆颜色与设计图纸中的色值不符,现场比对后直接在图纸上修改,该做法()",
+      "options": {
+        "A": "违反变更记录要求",
+        "B": "符合配置项核实与审计",
+        "C": "无需正式变更流程",
+        "D": "应事后补录变更日志"
+      },
+      "answer": "A",
+      "explanation": "无课本原话。\n选项A正确:灯杆颜色与图纸色值不符属于配置项偏差,本质是需要调整配置基准(设计\n图纸)的变更。现场直接修改图纸未经过“提出-审议-批准”的正式流程,也未留下完整变更记\n录,违反了变更管理的核心要求。\n选项B错误:“配置项核实与审计”的目的是验证配置项与基准的一致性,而题干中直接\n修改图纸的行为是破坏基准的违规操作。\n选项C错误:任何影响配置基准(如设计图纸)的变更都需遵循正式变更流程,现场直接\n修改属于绕过流程的违规行为,并非“无需正式流程”。\n选项D错误:变更管理的核心是“过程管控”,而非“事后补录”。题干中未经过审批的\n变更本身已违规,事后补录无法弥补“未履行审批流程”的核心问题。",
+      "pageStart": 463,
+      "pageEnd": 463,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q20-p463",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 20,
+      "source": "2025年中项第2批真题",
+      "stem": "关于变更管理的描述,不正确的是()。",
+      "options": {
+        "A": "可能是对需求的变化,也可能是对执行过程的变化",
+        "B": "稳定性是成功交付的保证,应避免多次变更",
+        "C": "过失或疏忽是变更的常见原因",
+        "D": "逐渐完善意味着发生变化是必然的"
+      },
+      "answer": "B",
+      "explanation": "无课本原话。\n选项A正确:变更的范围涵盖需求层面和执行过程层面,符合变更管理的适用场景\n选项B错误:P564。变更管理的实质是根据项目推进过程中越来越丰富的项目认知,不断\n调整项目努力方向和资源配置,最大程度地满足项目需求,提升项目价值。\n选项C正确:过失或疏忽是导致项目执行中出现错误、异常的常见原因,属于变更的合理\n诱因。\n选项D正确:项目是渐进明细的过程,“逐渐完善”必然伴随对原有计划、范围或执行方\n式的调整,因此变更具有必然性。",
+      "pageStart": 463,
+      "pageEnd": 463,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q21-p463",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 21,
+      "source": "2025年中项第2批真题",
+      "stem": "变更评审通过后,变更通知的内容中必须包括()。",
+      "options": {
+        "A": "完整的审批流程和主要干系人的签字记录",
+        "B": "详细的技术方案细节",
+        "C": "专家评审意见内容",
+        "D": "基准的调整和明确项目的交付日期"
+      },
+      "answer": "D",
+      "explanation": "P567。\n变更评审通过后,意味着基准的调整,同时确保变更方案中的资源需求及时到位。基准调整\n包括项目目标的确认,最终成果、工作内容和资源、进度计划的调整。需要强调的是:变更通\n知不只是包括项目实施基准的调整,更要明确项且的交付日期、成果对相关干系人的影响一如\n果变更造成交付期调整,应在变更确认时发布,而非在交付前公布。",
+      "pageStart": 463,
+      "pageEnd": 464,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q22-p464",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 22,
+      "source": "2018年上半年高项真题",
+      "stem": "做好变更管理可以使项目的质量、进度、成本管理更加有效。关于变更工作程序的描述,不正 确的是()。 *①及时,正式的提出变更,且留下书面记录 *②变更初审的常见方式为变更申请文档的格式校验 *③变更方案论证首先是对变更请求是否可行实现进行论证 “④审查过程中,客户根据变更申请及评估方案,决定是否变更项目基准 *⑤发出变更通知并组织实施 *⑥变更实施的工程监控,配置管理员负责基准的监控 *⑦变更效果评估中的首要评估依据是项目的基准 *⑧基准调整后,需要判断项目是否已纳入正轨",
+      "options": {
+        "A": "②③⑤",
+        "B": "②④⑥",
+        "C": "①②③④",
+        "D": "⑤⑥⑦"
+      },
+      "answer": "B",
+      "explanation": "P566-567。\n②错误。变更初审的常见方式为变更申请文档的审核流转。\n③错误。审查过程,是项目所有者根据变更申请及评估方案,决定是否变更项目基准\n*⑥错误。基准的监控应该是由项目经理来负责。",
+      "pageStart": 464,
+      "pageEnd": 464,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q23-p464",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 23,
+      "source": "2018年下半年高项真题",
+      "stem": "A公司承接了某海外信息系统集成项目,项目进行中,项目经理获悉因天气和汇率原因,预计 设备到场的运费比预算高出30%,接下来他应该首先()。",
+      "options": {
+        "A": "项目还没有结束,暂时不做处理",
+        "B": "给主管领导打电话,汇报情况,寻求解决方案",
+        "C": "填写项目变更申请,启动变更流程",
+        "D": "寻找新的承运商,评估变更影响,提交合同变更申请"
+      },
+      "answer": "C",
+      "explanation": "无课本原话。\n选项A:错误。“暂时不做处理”属于消极应对,违背项目管理的“主动控制”原则。\n选项B:错误。主管领导通常作为CCB成员参与变更审批,而非直接处理变更细节。\n选项C:正确。运费超支30%属于“成本基准变更”,根据变更管理原则,任何基准偏离\n必须首先提交正式变更申请,启动变更控制流程。\n选项D:错误。在未启动正式变更流程、未评估变更影响的情况下,直接执行具体操作,违\n背变更管理流程。",
+      "pageStart": 464,
+      "pageEnd": 465,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q24-p465",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 24,
+      "source": "2019年上半年高项真题",
+      "stem": "项目执行期间,客户提出增加一项功能,但它并没有包括在项目预算之内。不过对于一个儿百 万美元的项目而言,该项工作涉及的开放工作量较小。作为项目经理应该()",
+      "options": {
+        "A": "拒绝用户请求,原因是该项工作不在项目预算之内",
+        "B": "同意并免费完成这项工作,帮助维护客户关系",
+        "C": "同意增加新功能,但是需要客户负担相应的费用",
+        "D": "评估新功能对项目的影响,提交变更申请"
+      },
+      "answer": "D",
+      "explanation": "无课本原话。\n选项A:错误。未经评估就拒绝,可能损害客户关系,甚至影响后续合作。\n选项B:错误。同意并免费完成工作,属于“无底线要协”,会导致范围楚延和成本隐性超\n支。\n选项C:错误。客户是否需要付费,需基于变更评估结果(如对成本、进度的影响程度)和\n合同约定(如是否包含免费变更额度),由CCB审批后确定,而非项目经理直接决策\n选项D:正确。变更管理的核心规则是“先评估,后决策”,无论变更大小或是否在预算内,\n均需启动正式流程。",
+      "pageStart": 465,
+      "pageEnd": 465,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q25-p465",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 25,
+      "source": "2019年下半年高项真题",
+      "stem": "关于变更管理工作程序,正确的步骤是()。 *①变更实施监控与效果评估 *②发出变更通知并组织实施 \"③提出与接受变更申请 *④对变更的初审和方案论证 ⑤CCB审查",
+      "options": {
+        "A": "③①②④⑤ )",
+        "B": "④③⑤②①",
+        "C": "③④⑤②①",
+        "D": "④⑤③②①"
+      },
+      "answer": "C",
+      "explanation": "P566-567。\n变更的工作程序【流程】:1变更申请;2.对变更的初审;3变更方案论证;4变更审查;\n5.发出通知并实施;6.实施监控;7.效果评估;8.变更收尾;",
+      "pageStart": 465,
+      "pageEnd": 465,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q26-p465",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 26,
+      "source": "2020年下半年高项真题",
+      "stem": "()的目的是确认变更的必要性,确保变更是有价值的。",
+      "options": {
+        "A": "提出变更申请",
+        "B": "变更效果评估",
+        "C": "变更初审",
+        "D": "变更实施"
+      },
+      "answer": "C",
+      "explanation": "P566。\n变更初审的目的如下:①对变更提出方施加影响,确认变更的必要性,确保变更是有价值的\n②格式校验,完整性校验,确保评估所需信息准备充分。③在干系人间就提出供评估的变更信\n息达成共识。",
+      "pageStart": 465,
+      "pageEnd": 465,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q27-p466",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 27,
+      "source": "2021年上半年高项真题",
+      "stem": "关于变更管理工作程序描述,不正确的是()。",
+      "options": {
+        "A": "项目的干系人都可以提出变更申请",
+        "B": "CCB是执行机构,负责提出变更方案",
+        "C": "变更实施的过程监控,通常由项目经理负责基准监控",
+        "D": "涉及项目目标及交付成果的变更,客户意见应放在核心位置"
+      },
+      "answer": "B",
+      "explanation": "P252。\nCCB是决策机构,不是作业机构;通常CCB的工作是通过评审手段来决定项目基准是否\n能变更,但不提出变更方案。",
+      "pageStart": 466,
+      "pageEnd": 466,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q28-p466",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 28,
+      "source": "2021年下半年高项真题",
+      "stem": "变更管理组织机构的工作程序按时间先后顺序,排列正确的是: () ①变更效果评估 *②项目工程师提出变更申请 \"③项目经理审批变更申请 *④发出变更通知并组织实施 *⑤变更申请文档审核流转 ⑥变更方案论证 *⑦项目管理委员会审查 *⑧项目经理和监理单位监控实施",
+      "options": {
+        "A": "②⑤③④⑥⑧⑦①",
+        "B": "②⑤④③⑦①⑥⑧",
+        "C": "②③⑤⑦⑥④①⑧",
+        "D": "②③⑤⑥⑦④⑧①"
+      },
+      "answer": "D",
+      "explanation": "P566-567。\n变更的工作程序【流程】:1变更电请;2.对变更的初审;3变更方案论证;4.变更审查;\n5.发出通知并实施;6.实施监控;7.效果评估;8.变更收尾;",
+      "pageStart": 466,
+      "pageEnd": 466,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q29-p466",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 29,
+      "source": "2022年上半年高项真题",
+      "stem": "关于变更工作程序的描述,正确的是:()。",
+      "options": {
+        "A": "项目中变更申请应由项目团队成员提出",
+        "B": "监理单位可监控主要变更成果和变更进度里程碑",
+        "C": "涉及项目目标和交付成果的变更,应以专家意见为准",
+        "D": "在变更确认前应将项目实施基准调整情况进行公示"
+      },
+      "answer": "B",
+      "explanation": "P567。\n项目的干系人都可以提出变更申请,故A错误。\n变更实施的过程监控,通常由项目经理负责基准的监控。管理委员会监控变更明确的主要成\n果、进度里程碑等,可以通过监理单位完成,故B正确。\n审查过程应注意分工,项目投资人虽有最终的决策权,但通常技术上并不专业。所以应当在\n评审过程中将专业评审、经济评审分开,对涉及项且且标和交付成果的变更,客户的意见应放\n在核心位置,故C错误。\n基准的调整,包括项目目标的确认,最终成果、工作内容和资源、进度计划的调整。需要强\n调的是,变更的通知,不只是包括项目实施基准的调整,更要明确项目的交付日期、成果对相\n关干系人的影响。如变更造成交付期的调整,应在变更确认时发布,面非在交付前公在,故D\n锆误。",
+      "pageStart": 466,
+      "pageEnd": 467,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s9-q30-p467",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 9,
+        "title": "变更工作程序",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 30
+      },
+      "questionNo": 30,
+      "source": "2025年高项第1批真题",
+      "stem": "某T项目已经确定范围、进度和成本基准,在开发过程中,客户要求增加一项复杂功能,该功 能将影响原有的进度和成本,项目经理正确的处理方式是()。",
+      "options": {
+        "A": "提出变更请求,实施变更控制过程更新项目管理计划",
+        "B": "立即更新项目管理计划中的基准,以满足客户需求",
+        "C": "优先执行新功能开发,事后补充变更请求",
+        "D": "拒绝变更,坚持按照原基准执行"
+      },
+      "answer": "A",
+      "explanation": "P566。\n变更管理的工作程序:1变更申请;2.对变更的初审;3变更方案论证;4.变更审查;5\n发出通知并实施;*6.实施监控;7.效果评估;8.变更收尾。",
+      "pageStart": 467,
+      "pageEnd": 467,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s10-q1-p467",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 10,
+        "title": "变更控制",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 5
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "关于变更的流程和规则的做法中,错误的是()。",
+      "options": {
+        "A": "以口头方式提出某项变更,在评估前针对该变更提交了书面报告",
+        "B": "项目组成员变更以邮件发出,在评审前填写了变更申请",
+        "C": "为了规范,监理不对变更进行分级,所有变更流程都不能简化",
+        "D": "按照影响范围、紧急程度把变更分为3个优先级别"
+      },
+      "answer": "C",
+      "explanation": "P567-568。\n选项A正确。变更的提出形式可灵活处理,核心要求是“评估前形成书面记录”。\n选项B正确。变更申请的载体可多样化(邮件、项目管理工具工单、专用表格等),核心\n是“明确变更信息并留痕”\n选项C错误。项目规模小,与其他项目的关联度小时,变更的提出与处理过程可在操作上\n力求简便、高效。\n选项D正确。变更分级是项目管理的常规做法,目的是“差异化处理不同类型的变更,提\n升流程效率",
+      "pageStart": 467,
+      "pageEnd": 467,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s10-q2-p467",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 10,
+        "title": "变更控制",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 5
+      },
+      "questionNo": 2,
+      "source": "2024年中项第3批真题",
+      "stem": "变更管理首要完成的任务是()。",
+      "options": {
+        "A": "分析变更的必要性和合理性,确认是否实施变更",
+        "B": "记录变更信息、填写变更控制单",
+        "C": "做出变更,并交上级审批",
+        "D": "修改相应的软件配置项(基线),确立新的版本"
+      },
+      "answer": "A",
+      "explanation": "P568。\n由于变更的真实原因和提出背景复杀,如不经评估面快速实施则可能涉及的项目影响难以预\n料,而变更申请是变更管理流程的起点,故应严格控制变更申请的提交。",
+      "pageStart": 467,
+      "pageEnd": 468,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s10-q3-p468",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 10,
+        "title": "变更控制",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 5
+      },
+      "questionNo": 3,
+      "source": "2024年中项第3批真题",
+      "stem": "某软件项目接近尾声,客户要求增加系统的功能模块,需要对已签署的合同进行变更,按照合 同变更控制流程,项目经理首先应当()。",
+      "options": {
+        "A": "修改项目范围文档并通知开发团队开始实施新的功能",
+        "B": "通过变更控制流程记录该变更请求,并跟踪审批流程",
+        "C": "向客户发送最终发票并关闭项目,拒绝任何变更",
+        "D": "召开项目团队会议,讨论变更请求的的可行性并直接开始开发"
+      },
+      "answer": "B",
+      "explanation": "P568。\n合同变更控制是规定合同修改的过程,它包括文书工作、跟踪系统、争议解决程序以及批准\n变更所需的审批层次。合同变更控制应当与整体变更控制结合起来",
+      "pageStart": 468,
+      "pageEnd": 468,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s10-q4-p468",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 10,
+        "title": "变更控制",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 5
+      },
+      "questionNo": 4,
+      "source": "2025年中项第3批真题",
+      "stem": "客户要求在交付期间添加一个新功能,首要步骤是()。",
+      "options": {
+        "A": "组织开发人员按客户要求实现新功能",
+        "B": "交付期间提出新的功能,造成范围蔓延,拒绝变更",
+        "C": "评估变更影响",
+        "D": "与干系人充分沟通"
+      },
+      "answer": "C",
+      "explanation": "P568。\n由于变更的真实原因和提出背景复杂,如不经评估而快速实施则可能涉及的项目影响难以预\n料,而变更申请是变更管理流程的起点,故应严格控制变更申请的提交",
+      "pageStart": 468,
+      "pageEnd": 468,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s10-q5-p468",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 10,
+        "title": "变更控制",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 5
+      },
+      "questionNo": 5,
+      "source": "2025年高项第1批真题",
+      "stem": "变更管理的实质是根据项目推进过程中越来越丰富的项目认知,不断调整项目努力方向和资源 配置,最大程度地满足项目需求,一般来说,项目的变更控制主要关注()的控制和()的 控制。",
+      "options": {
+        "A": "变更工具、CCB",
+        "B": "变更申请、变更过程",
+        "C": "变更申请、CCB",
+        "D": "变更工具、变更申请"
+      },
+      "answer": "B",
+      "explanation": "【蜗牛解析1:P568。项目的变更控制主要关注变更电请的控制及变更过程的控制。",
+      "pageStart": 468,
+      "pageEnd": 468,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s11-q1-p468",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 11,
+        "title": "版本发布和回退计划",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 3
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "软件版本发布前的准备工作一般不包括()。",
+      "options": {
+        "A": "备份版本发布所涉及的存储过程",
+        "B": "启动回退机制的触发条件",
+        "C": "系统应急方案",
+        "D": "进行相关的回退分析"
+      },
+      "answer": "C",
+      "explanation": "P568。\n版本发布前的准备工作包括:①进行相关的回退分析;②备份版本发布所涉及的在储过程、\n函数等其他数据的在储及回退管理;③备份配置数据,包括数据备份的方式;④备份在线生产\n平台接口、应用、工作流等版本;⑥启动回退机制的触发条件:⑥对变更回退的机制职责的说\n明,如通知相关部门,确定需要回退的关联系统和回退时间点等。",
+      "pageStart": 468,
+      "pageEnd": 469,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s11-q2-p469",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 11,
+        "title": "版本发布和回退计划",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 3
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "关于版本发布的回退步骤是()。 ①通知各关联系统进行版本回退;②通知相关用户系统开始回退;③通知用户回退完成等;④ 回退存储过程等数据对象;⑤回退后进行相关测试,保证国退系统能够正常运行;⑥回退完成 通知各周边关联系统;⑦应用程序、接口程序、工作流等版本回退;⑧配置数据回退;",
+      "options": {
+        "A": "①②④⑧①⑤③⑥",
+        "B": "②①④⑧T⑤③⑥",
+        "C": "①②④ST⑥⑤③",
+        "D": "②①④⑧①⑥⑤③"
+      },
+      "answer": "D",
+      "explanation": "P568-569。\n回退步骤通常包括:①通知相关用户系统开始回退;②通知各关联系统进行版本回退;③回\n退在储过程等数据对象;④配置数据回退;⑤应用程序、接口程序、工作流等版本回退;⑥回\n退完成通知各周边关联系统;⑦回温后进行相关测试,保证回温系统能能正常运行:③通知用\n户回退完成等。",
+      "pageStart": 469,
+      "pageEnd": 469,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s11-q3-p469",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 11,
+        "title": "版本发布和回退计划",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 3
+      },
+      "questionNo": 3,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "在评审发布内容时对存在风险的发布项做重点评估,确定相应的回退范围,制定相应的回退策 略。回退步骤通常包括:①通知相关用户系统开始回退;②通知各关联系统进行版本回退;③ 回退存储过程等数据对象;““④配置数据回退;⑤应用程序、接口程序、工作流等版本回退;⑥ 回退完成通知各周边关联系统;②回退后进行相关测试,保证回退系统能够正常运行;⑥通知 用户回退完成。正确的排序是()。",
+      "options": {
+        "A": "①②③④⑤⑥⑦⑧",
+        "B": "②①③④⑤⑥⑦⑧",
+        "C": "④②①③⑤⑥⑦⑧",
+        "D": "④①②③⑤⑥⑦⑧"
+      },
+      "answer": "A",
+      "explanation": "P568-569。\n回退步骤通常包括:①通知相关用户系统开始回退;②通知各关联系统进行版本回退;③回\n退在储过程等数据对象;④配置数据回退;⑥应用程序、接口程序、工作流等版本回退;⑥回\n退完成通知各周边关联系统;⑦回退后进行相关测试,保证回退系统能能正常运行;⑥通知用\n户回退完成笠。",
+      "pageStart": 469,
+      "pageEnd": 469,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s12-q1-p469",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 12,
+        "title": "文档管理基础",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 1,
+      "source": "教材第19章章节习题",
+      "stem": "对于信息系统开发项目来说,其文档一般分为开发文档、产品文档和()。",
+      "options": {
+        "A": "管理文档",
+        "B": "应用文档",
+        "C": "指南文档",
+        "D": "规范文档"
+      },
+      "answer": "A",
+      "explanation": "P569。\n信息系统项目类型的不同,其文档分类的方法不同,不同的组织也会结合自身的管理实践\n定义其文档类型。对于信息系统开发项目来说,其文档一般分开发文档、产晶文档和管理文档",
+      "pageStart": 469,
+      "pageEnd": 470,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s12-q2-p470",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 12,
+        "title": "文档管理基础",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 2,
+      "source": "教材第19章章节习题",
+      "stem": "对于信息系统开发项目来说,参考手册和用户指南属于()。",
+      "options": {
+        "A": "规划文档",
+        "B": "开发文档",
+        "C": "配置文档",
+        "D": "产品文档"
+      },
+      "answer": "D",
+      "explanation": "P569。\n产品文档描述开发过程的产物,基本的产品文档包括:培训手册、参考手册和用户指南、软\n件支持手册、产品手册和信息广告。",
+      "pageStart": 470,
+      "pageEnd": 470,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s12-q3-p470",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 12,
+        "title": "文档管理基础",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "对于信息系统开发项目来说,需求规格说明、功能规格说明属于()。",
+      "options": {
+        "A": "管理文档",
+        "B": "开发文档",
+        "C": "配置文档",
+        "D": "产品文档"
+      },
+      "answer": "B",
+      "explanation": "P569。\n开发文档描述开发过程本身,基本的开发文档包括:可行性研究报告和项且任务书、需求规\n格说明、功能规格说明、设计规格说明(包括程序和数据规格说明、开发计划、软件集成和测试\n计划、质量保证计划、安全和测试信息等。",
+      "pageStart": 470,
+      "pageEnd": 470,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s12-q4-p470",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 12,
+        "title": "文档管理基础",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "()不属于管理文档。",
+      "options": {
+        "A": "变更控制记录",
+        "B": "开发计划",
+        "C": "项目总结报告",
+        "D": "需求文件评审记录"
+      },
+      "answer": "B",
+      "explanation": "P569。开发计划属于开发文档、\n管理文档记录项目管理的信息,例如;开发过程的每个阶段的进度和进度变更的记录;软件\n变更情况的记录;开发团队的职责定义、项目计划、项目阶段报告;配置管理计划",
+      "pageStart": 470,
+      "pageEnd": 470,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s12-q5-p470",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 12,
+        "title": "文档管理基础",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "()适合那些要正式发行供普遍使用的软件产品。",
+      "options": {
+        "A": "最低文档(1级文档)",
+        "B": "内部文档(2级文档)",
+        "C": "工作文档(3级文档)",
+        "D": "正式文档(4级文档)"
+      },
+      "answer": "D",
+      "explanation": "P569。\n正式文档(4级文档):适合那些要正式发行供普遍使用的软件产品。关键性程序或具有重复\n管理应用性质(如工资计算)的程序需要4级文档。",
+      "pageStart": 470,
+      "pageEnd": 470,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s12-q6-p470",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 12,
+        "title": "文档管理基础",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 6,
+      "source": "蜗牛老师自编题",
+      "stem": "()适合开发工作量低于一个人月的开发者自用程序。该文档应包含程序清单、开发记录、测 试数据和程序简介。",
+      "options": {
+        "A": "最低文档(1级文档)",
+        "B": "内部文档(2级文档)",
+        "C": "工作文档(3级文档)",
+        "D": "正式文档(4级文档)"
+      },
+      "answer": "A",
+      "explanation": "P569。\n最低限度文档(1级文档):适合开发工作量低于一个人月的开发者自用程序。该文档应包含\n程序清单、开发记录、测试数据和程序简介",
+      "pageStart": 470,
+      "pageEnd": 471,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s12-q7-p471",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 12,
+        "title": "文档管理基础",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 7,
+      "source": "蜗牛老师自编题",
+      "stem": "()适合于由同一单位内若干人联合开发的程序,或可被其他单位使用的程序。",
+      "options": {
+        "A": "最低文档(1级文档)",
+        "B": "内部文档(2级文档)",
+        "C": "工作文档(3级文档)",
+        "D": "正式文档(4级文档)"
+      },
+      "answer": "C",
+      "explanation": "P569。\n工作文档(3级文档):适合于由同一单位内若王人联合开发的程序,或可被其他单位使用的\n程庄。",
+      "pageStart": 471,
+      "pageEnd": 471,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s12-q8-p471",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 12,
+        "title": "文档管理基础",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 8,
+      "source": "2025年中项第1批真题",
+      "stem": "关键性程序或具有重复管理应用性质的程序需要()",
+      "options": {
+        "A": "最低限度文档",
+        "B": "内部文档",
+        "C": "工作文档",
+        "D": "正式文档"
+      },
+      "answer": "D",
+      "explanation": "P568。\n正式文档(4级文档):适合那些要正式发行供普遍使用的软件产品。关键性程序或具有重复\n管理应用性质(如工资计算)的程序需要4级文档。",
+      "pageStart": 471,
+      "pageEnd": 471,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s12-q9-p471",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 12,
+        "title": "文档管理基础",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 9,
+      "source": "2024年高项第2批真题",
+      "stem": "对于信息系统开发项目来说,其文档一般分开发文档、产品文档和管理文档。不属于开发文档 的是()。",
+      "options": {
+        "A": "软件集成计划",
+        "B": "安全和测试信息",
+        "C": "配置管理计划",
+        "D": "可行性研究报告"
+      },
+      "answer": "C",
+      "explanation": "P569。\n开发文档描述开发过程本身,基本的开发文档包括:可行性研究报告和项且任务书、需求规\n格说明、功能规格说明、设计规格说明包括程序和数据规格说明、开发计划、软件集成和测试\n计划、质量保证计划、安全和测试信息等。",
+      "pageStart": 471,
+      "pageEnd": 471,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s12-q10-p471",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 12,
+        "title": "文档管理基础",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 10
+      },
+      "questionNo": 10,
+      "source": "2025年高项第2批真题",
+      "stem": "对于信息系统开发项目来说,其文档一般分开发文档、产品文档和管理文档。配置管理计划属 于(),需求规格说明属于()。",
+      "options": {
+        "A": "产品文档、管理文档",
+        "B": "管理文档、管理文档",
+        "C": "产品文档、开发文档",
+        "D": "管理文档、开发文档"
+      },
+      "answer": "D",
+      "explanation": "P569。\n对于信息系统开发项目来说,其文档一般分开发文档、产品文档和管理文档。\n1.开发文档描述开发过程本身,基本的开发文档包括:可行性研究报告和项目任务书、需\n求规格说明、功能规格说明、设计规格说明(包括程序和数据规格说明、开发计划、软件集成\n和测试计划、质量保证计划、安全和测试信息等)。\n2.产品文档描述开发过程的产物,基本的产品文档包括:培训手册、参考手册和用户指南\n软件支持手册、产品手册和信息广告。\n“3.管理文档记录项目管理的信息,例如:开发过程的每个阶段的进度和进度变更的记录;\n软件变更情况的记录;开发团队的职责定义、项且计划、项目阶段报告、配置管理计划",
+      "pageStart": 471,
+      "pageEnd": 472,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s13-q1-p472",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 13,
+        "title": "规则和方法",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 2
+      },
+      "questionNo": 1,
+      "source": "2023年上半年高项真题",
+      "stem": "文档的规范化管理主要体现在()方面。 ①文档书写规范;②文档质量级别;③图表编号规则;④文档目录编写标准;⑤文档管理制度; 6文档安全标准",
+      "options": {
+        "A": "①②③④",
+        "B": "②B45",
+        "C": "③④⑤⑥",
+        "D": "①③④⑤"
+      },
+      "answer": "D",
+      "explanation": "P569。\n文档的规范化管理主要体现在文档书写规范、图表编号规则、文档目录编写标准和文档管理\n制度等几个方面。",
+      "pageStart": 472,
+      "pageEnd": 472,
+      "type": "single_choice"
+    },
+    {
+      "id": "c19-s13-q2-p472",
+      "chapter": {
+        "number": 19,
+        "title": "配置与变更管理"
+      },
+      "section": {
+        "number": 13,
+        "title": "规则和方法",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 2
+      },
+      "questionNo": 2,
+      "source": "2023年下半年高项第2批真题",
+      "stem": "以下关于文档的说法中,错误的是()。",
+      "options": {
+        "A": "对于信息系统开发项目来说,其文档一般分开发文档、产品文档和管理文档",
+        "B": "产品文档描述开发过程的产物,基本的产品文档包括:培训手册、参考手册和用户指南、 软件支持手册、产品手册和信息广告。",
+        "C": "工作文档(3级文档):适合于由同一单位内若干人联合开发的程序,或可被其他单位 使用的程序。",
+        "D": "文档书写规范是在管理信息系统的开发过程中用到很多的图表,对这些图表进行有规则 地编号,可以方便图表的查找。"
+      },
+      "answer": "D",
+      "explanation": "P569-570。\n文档的规范化管理主要体现在文档书写规范、图表编号规则、文档目录编写标准和文档管理\n制度等儿个方面。\n(1)文档书写规范。管理信息系统的文档资料涉及文本、图形和表格等多种类型,无论是\n要种类型的文档都应该遵循统一的书写规范,包括符号的使用、图标的含义、程序中注释行的\n使用、注明文档书写人及书写日期等。\n“(2)图表编号规则。在管理信息系统的开发过程中用到很多的图表,对这些图表进行有规\n则地编号,可以方使图表的查找。\n“(3)文档目录编写标准。为了存档及未来使用的方便,应该编写文档目录。管理信息系统\n的文档目录中应包含文档编号、文档名称、格式或载体、份数、每份页数或件数、存储地点、\n存档时间、保管人等。\n“(4)文档管理制度。文档的管理制度须根据组织实体的具体情况而定,主要包括建立文档\n的相关规范、文档借阅记录的登记制度、文档使用权限控制规则等。\n留中老师小红众\n中老师耳\n【损年老师00207848783]oa0s\n扫的加老师",
+      "pageStart": 472,
+      "pageEnd": 473,
+      "type": "single_choice"
+    }
+  ]
+}

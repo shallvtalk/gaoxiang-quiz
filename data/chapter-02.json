@@ -1,0 +1,1745 @@
+{
+  "chapter": {
+    "number": 2,
+    "title": "信息技术发展"
+  },
+  "count": 62,
+  "questions": [
+    {
+      "id": "c2-s1-q1-p22",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 1,
+        "title": "计算机网络",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 4
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "下列不属于TCP/IP应用层协议的是()。",
+      "options": {
+        "A": "TFTP",
+        "B": "SMTP",
+        "C": "SNMP",
+        "D": "IGMP"
+      },
+      "answer": "D",
+      "explanation": "P39。\nTCP/P中,应用层的主要协议有:FTP、TFTP、HTTP、SMTP、DHCP、TeInet、DNS",
+      "pageStart": 22,
+      "pageEnd": 22,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s1-q2-p22",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 1,
+        "title": "计算机网络",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 4
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "TCP/IP模型中,Telnet属于()协议。",
+      "options": {
+        "A": "接口层",
+        "B": "网络层",
+        "C": "传输层",
+        "D": "应用层"
+      },
+      "answer": "D",
+      "explanation": "P39。\nTCP/IP中,应用层的主要协议有:FTP、TFTP、HTTP、SMTP、DHCP、TeInet、DNS",
+      "pageStart": 22,
+      "pageEnd": 22,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s1-q3-p22",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 1,
+        "title": "计算机网络",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 4
+      },
+      "questionNo": 3,
+      "source": "2017年上半年高项真题",
+      "stem": "局域网中,常采用广插消息的方法来获取访间目标P地址对应的MAC地址,实现此功能的协 议为()。",
+      "options": {
+        "A": "RARP协议",
+        "B": "SMTP协议",
+        "C": "SLIP协议",
+        "D": "ARP协议"
+      },
+      "answer": "D",
+      "explanation": "P39。\nARP(AddressResolution\nProtocol,地址解析协议)和RARP(ReverseAddress\nResolutionProtocol,反向地址解析协议)等,这些协议处理信息的路由和主机地址解析。\nARP协议就能把P地址解析成MAC地址(物理地址)。ARP将含目标P地址域的数据\n报封装在广播锁中,接收到ARP的实体,如果同本机P相同则发回应答数据报,告之本机MAC\n地址,否则丢弃。",
+      "pageStart": 22,
+      "pageEnd": 22,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s1-q4-p22",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 1,
+        "title": "计算机网络",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 4
+      },
+      "questionNo": 4,
+      "source": "2024年高项第1批真题",
+      "stem": "()不属于TCP/IP的应用层协议。",
+      "options": {
+        "A": "DHCP(Dynamic Host Configuration,动态主机配置协议)",
+        "B": "FTP(FileTransferProtocol,文件传输协议)",
+        "C": "SMTP(Simple MailTransfer Protocol,简单邮件传输协议)",
+        "D": "ARP(Address ResolutionProtocol,地址解析协议)"
+      },
+      "answer": "D",
+      "explanation": "P39。\nTCP/IP中,应用层的主要协议有:ETP、TFTP、HTTP、SMTP、DHCP、Tenet、DNS",
+      "pageStart": 22,
+      "pageEnd": 22,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s2-q1-p22",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 2,
+        "title": "软件定义网络",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 3
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "关于SDN的描述中错误的是()。",
+      "options": {
+        "A": "SDN的整体架构由下到上(由南到北)分为数据平面、控制平面和应用平面",
+        "B": "控制平面与数据平面之间通过SDN控制数据平面接口进行通信,其最主要的应用是 Open Flow协议",
+        "C": "控制平面与应用平面之间通过SDN南向接口进行通信,它允许用户根据自身需求定制 开发各种网络管理应用",
+        "D": "SDN中的接口具有开放性,以控制器为逻辑中心,南向接口负责与数据平面进行通信, 北向接口负责与应用平面进行通信,东西向接口负责多控制器之间的通信"
+      },
+      "answer": "C",
+      "explanation": "P40。北向接口负责与应用平面进行通信",
+      "pageStart": 22,
+      "pageEnd": 23,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s2-q2-p23",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 2,
+        "title": "软件定义网络",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 3
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "关于软件定义网络(SDN)描述不正确的是()。",
+      "options": {
+        "A": "软件定义网络(SDN)的整体架构由下到上分为数据平面,控制平面和应用平面",
+        "B": "控制平面和数据平面之间通信最主要应用的是FlowTable协议",
+        "C": "SDN南向接口负责与数据平面进行通信,最主流的南向接口CDP采用的是OpenFlow 协议",
+        "D": "SDN东向接口负责多控制器之间的通信,北向接口负责与应用平面进行通信"
+      },
+      "answer": "B",
+      "explanation": "P40。控制平面和数据平面之间通信最主要应用的是OpenFlow协议",
+      "pageStart": 23,
+      "pageEnd": 23,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s2-q3-p23",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 2,
+        "title": "软件定义网络",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 3
+      },
+      "questionNo": 3,
+      "source": "2025年高项第1批真题",
+      "stem": "关于软件定义网络(SDN)的描述,正确的是()。",
+      "options": {
+        "A": "通过控制面与数据面分离,实现网络流量的灵活控制",
+        "B": "网络设备的控制面与数据面紧密耦合,由交换机自主决策转发规则",
+        "C": "应用平面通过OpenFlow协议直接配置数据平面设备",
+        "D": "数据平面负责全局网络管理,控制平面负责执行简单的数据包转发"
+      },
+      "answer": "A",
+      "explanation": "P39-P40。互斥型题目:\nA正确,B不正确。P39。软件定义网络(SDN)是一种新型网络创新架构,是网络虚拟\n化的一种实现方式,它可通过软件编程的形式定义和控制网络,其通过将网络设备的控制面与\n数据面分离开来,从而实现了网络流量的灵活控制,使网络变得更加智能,为核心网络及应用\n的创新提供了良好的平台。\nC不正确。P40。控制平面与数据平面之间通过SDN控制数据平面接口(CDPI)进行通\n信,它具有统一的通信标准,主要负责将控制器中的转发规则下发至转发设备,最主要应用的\n是OpenFlow\n协议。\nD不正确。P39。数据平面由交换机等网络通用硬件组成,各个网络设备之间通过不同规\n则形成的SDN数据通路连接;控制平面包含了逻辑上为中心的SDN控制器,它掌握着全局网\n络信息,负责各种转发规则的控制;应用平面包含着各种基于SDN的网络应用,用户无须关心\n底层细节就可以编程、部署新应用、",
+      "pageStart": 23,
+      "pageEnd": 23,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s3-q1-p24",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 3,
+        "title": "存储和数据库",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 3
+      },
+      "questionNo": 1,
+      "source": "2018年下半年高项真题",
+      "stem": "关于网络存储技术的描述,正确的是()。",
+      "options": {
+        "A": "DAS是一种易于扩展的存储枝术",
+        "B": "NAS系统与DAS系统相同,都没有自己的文件系统",
+        "C": "NAS可以使用TCP/IP作为其网络传输协议",
+        "D": "SAN采用了文件共享存取方式"
+      },
+      "answer": "C",
+      "explanation": "P41-42。\n表2-2\n常用存储模式的技术与应用对比\n存储系统架构\nDAs\nMAs\nSAN\n简单安装难易度\n不一定\n困难\nEc数据传输协议\nTCP/IPSCSI/FC/ATA\n文件传输对象\n数据块\n数据块\n否\n否使用标准文件共享协议\n是(NFS/CIFS…)\n否\n是异种操作系统文件共享\n需要转换设备\n是集中式管理\n不一定\n需要管理工具\n不一定管理难易度\n以网络为基础,容易\n不一定,但通常很难\n是否\n是提高服务器效率\n低\n高灾难忍受度\n高,专有方案\n中小组织中小组织服务器\n大型组织适合对象\nSoHO族\n数据中心细绑磁盘(JBOO)\n组织部门\n存储系统架构\nDAs\nNAS\nSAN\n光纤通道储域网\n局域网\n局域网\n网络环境复杂文档共字程度低\n应用环境\n文档共亭程度高\n文档共亨程度高独立操作平台\n异质格式存储需求高\n异质操作系统平台\n服务器数量少\n服务器数量多\neb服务器\n大型资料库业务模式\n一般服务器\n多媒体资料存储\n数据库等文件资料共享\n中低\n高档案格式复杂度\n中\n高容量扩充能力\n低",
+      "pageStart": 24,
+      "pageEnd": 24,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s3-q2-p24",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 3,
+        "title": "存储和数据库",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 3
+      },
+      "questionNo": 2,
+      "source": "2021年上半年高项真题",
+      "stem": "关于网络存储技术的描述,不正确的是()。",
+      "options": {
+        "A": "当存储容量增加时,采用直接附加存储(DAS)方式很难扩容",
+        "B": "网络附加存储(NAS)支持即插即用,可经济地解决存储容量不足的问题",
+        "C": "光纤通道存储区域网络(FCSAN)相对成本较低,配置简单",
+        "D": "网际协议存储区域网络(IPSAN)设备成本低,可共享和使用大容量存储空间"
+      },
+      "answer": "C",
+      "explanation": "P41-42。\n表2-2\n常用存储模式的技术与应用对比\n存储系统架构\nDAS\nMS\nSAN\n不二定\n简单\n困难安装难易度\n数据传输协议\nEcSCSI/FC/ATA\nTCP/IP\n文件传输对象\n数据块\n数据块\n否\n是(NFs/CIFS…)\n否使用标准文件共享协议\n否\n是异种操作系统文件共亨\n需要转换设备\n不一定\n是集中式管理\n需要管理工具\n不一定管理难易度\n以网络为基础,容易\n不一定,但通常很难\n否\n是\n是提高服务器效率\n低\n高灾难忍受度\n高,专有方案\n中小组织\n中小组织服务器\n大型组织适合对象\nSoHo族\n数据中心细绑磁盘(JBOD)\n组织部门",
+      "pageStart": 24,
+      "pageEnd": 25,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s3-q3-p25",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 3,
+        "title": "存储和数据库",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 3
+      },
+      "questionNo": 3,
+      "source": "2025年高项第2批真题",
+      "stem": "关于直接式存储(DAS)网络接入存储(NAS)的描述不正确的是()",
+      "options": {
+        "A": "DAS数据传输协议是SCSI/FC/ATA,NAS数据传输协议是TCP/IP",
+        "B": "DAS不一定采用集中式管里,NAS采用集中式管理",
+        "C": "DAS的容量扩充能力高,NAS的容量扩充能力低",
+        "D": "DAS的传输对象是数据块,NAS的传输对象是文件"
+      },
+      "answer": "C",
+      "explanation": "P42。\n存储系统架构\nDAS\nNAS\nSAN\n光纤通道储域网\n局域网\n局域网\n网络环境复杂文档共享程度低应用环境\n文档共享程度高\n文档共享程度高独立操作平台\n异质操作系统平台异质格式存储需求高服务器数量少\n服务器数量多\nWeb服务器\n大型资料库业务模式\n一般服务器\n多媒体资料存储\n数据库等文件资料共亭\n低\n中档案格式复杂度\n高\n中低\n高容量扩充能力",
+      "pageStart": 25,
+      "pageEnd": 25,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s4-q1-p25",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 4,
+        "title": "数据结构模型",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 2
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "关于数据库的描述正确的是()。",
+      "options": {
+        "A": "数字化结构模型是数据库系统的核心",
+        "B": "常见的数据结构模型有三种:层次模型、网状模型和数据模型",
+        "C": "层次模型和关系模型又统称为格式化数据模型",
+        "D": "层次模型是数据库系统最早使用的一种模型,它用“树”结构表示实体集之间的关联"
+      },
+      "answer": "D",
+      "explanation": "P42-43。\n数据结构模型是数据库系统的核心。A错误。\n常见的数据结构模型有三种:层次模型、网状模型和关系模型,层次模型和网状模型又统称\n为格式化数据模型。B错误。\n层次模型和网状模型又统称为格式化数据模型。C错误。",
+      "pageStart": 25,
+      "pageEnd": 26,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s4-q2-p26",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 4,
+        "title": "数据结构模型",
+        "priority": "★★★",
+        "priorityStars": 3,
+        "questionCountHint": 2
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于数据结构模型的说法中错误的是()。",
+      "options": {
+        "A": "数据结构模型是数据库系统的核心",
+        "B": "在层次模型中,同一双亲的子女结点称为兄弟结点,没有子女结点的结点称为叶结点",
+        "C": "网状模型是一种可以灵活地描述事物及其之间关系的数据库模型",
+        "D": "关系模型是采用键值对结构表达实体类型及实体间联系的数据模型"
+      },
+      "answer": "D",
+      "explanation": "P44。关系模型是采用二维表格结构表达实体类型及实体间联系的数据模型",
+      "pageStart": 26,
+      "pageEnd": 26,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q1-p26",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "关于信息安全的说法中,错误的是()。",
+      "options": {
+        "A": "保密性、完整性、可用性是信息安全的基本属性",
+        "B": "信息系统安全可以划分为四个层次:设备安全、数据安全、内容安全、行为安全",
+        "C": "非对称加密体制下,解密秘钥可以公开,加密秘钥必须保密",
+        "D": "从架构上来看,UEBA系统通常包括数据获取层、算法分析层和场景应用层"
+      },
+      "answer": "C",
+      "explanation": "【蜗牛解析1:P48。非对称加密的加密密钥和解密密钥不同,加密密钥可以公开面解密密钥需\n要保盛。",
+      "pageStart": 26,
+      "pageEnd": 26,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q2-p26",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "从架构上来看,UEBA系统通常包括()、()和()。",
+      "options": {
+        "A": "数据获取层、数据分析层、数据应用层",
+        "B": "数据感知层、数据分析层、数据应用层",
+        "C": "数据感知层、算法分析层、场景应用层",
+        "D": "数据获取层、算法分析层、场景应用层"
+      },
+      "answer": "D",
+      "explanation": "P48。\n从架构上来看,UEBA系统通常包括数据获取层、算法分析层和场景应用层",
+      "pageStart": 26,
+      "pageEnd": 26,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q3-p26",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于安全行为分析技术的说法中错误的是()。",
+      "options": {
+        "A": "传统安全产品、技术、方案基本上都是基于已知特征进行规则匹配来进行分析和检测",
+        "B": "用户和实体行为分析(UEBA)提供了用户画像及基于各种分析方法的异常检测,由于 它主要依靠高级分析方法,所以不需要对基本规则进行分析",
+        "C": "UEBA以用户和实体为对象,利用大数据,结合规则以及机器学习模型,并通过定义此 类基线,对用户和实体行为进行分析和异常检测,尽可能快递地感知内部用户和实体的可疑或 非法行为",
+        "D": "网络安全态势感知(NetworkSecuritySituationAwareness)是在大规模网络环境 中,对能够引起网络态势发生变化的安全要素进行获取、理解、显示,并据此预测未来的网络 安全发展趋势"
+      },
+      "answer": "B",
+      "explanation": "P48。\n用户和实体行为分析(UEBA)提供了用户画像及基于各种分析方法的异常检测,结合基本\n分析方法(利用签名的规则、模式匹配、简单统计、阔值等)和高级分析方法(监督和无监督\n的机器学习等),用打包分析来评估用户和其他实体(主机、应用程序、网络、数据库等),\n发现与用户或实体标准画像或行为异常的活动所相关的潜在事件。",
+      "pageStart": 26,
+      "pageEnd": 27,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q4-p27",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "关于信息安全的描述,不正确的是()。",
+      "options": {
+        "A": "用户和实体行为分析(UEBA)提供了户画像及基于各种分析方法的异常检测",
+        "B": "网络安全态势感知它是一种基于环境的、动态的、整体的洞悉安全风险的能力",
+        "C": "网络安全态势感知的关键技术主要包括;海量多元异构数据的汇聚融合技术、面向多类 型的网络安全威胁评估技术、网络安全态势评估与决策支撑技术、网络安全态势可视化等",
+        "D": "网络安全态势感知是在小规模的网络环境中,对能够引起网络态势发生变化的安全要素 进行获取、理解、显示、并据此预测未来的网络安全发展趋势"
+      },
+      "answer": "D",
+      "explanation": "P48。\n网络安全态势感知是在大规模的圆络环境中,对能够引起网络态势发生变化的安全要素进行\n获取、理解、显示、并据此预测未来的网络安全发展趋势。",
+      "pageStart": 27,
+      "pageEnd": 27,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q5-p27",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "网络安全态势感知的关键技术不包括()。",
+      "options": {
+        "A": "海量多元异构数据的汇聚融合技术",
+        "B": "面向多类型的网络安全威胁评估技术",
+        "C": "网络安全态势评估与决策支撑技术",
+        "D": "网络安全态势风险洞察"
+      },
+      "answer": "D",
+      "explanation": "P48。\n网络安全态势感知的关键技术主要包括:海量多元异构数据的汇聚融合技术、面向多类型的\n网络安全威胁评估技术、园络安全态势评估与决策支撑技术、园络安全态势可视化等",
+      "pageStart": 27,
+      "pageEnd": 27,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q6-p27",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 6,
+      "source": "2019年上半年高项真题",
+      "stem": "信息必须依赖其存储、传输、处理及应用的载体(媒介)而存在。信息系统安全可以划分设备 安全、数据安全、内容安全和()。",
+      "options": {
+        "A": "行为安全",
+        "B": "通信安全",
+        "C": "主机安全",
+        "D": "信息安全"
+      },
+      "answer": "A",
+      "explanation": "P47。\n信息系统安全可以划分为以下四个层次:设备安全、数据安全、内容安全、行为安全。其中\n数据安全即是传统的信息安全。",
+      "pageStart": 27,
+      "pageEnd": 28,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q7-p28",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 7,
+      "source": "2021年下半年高项真题",
+      "stem": "关于RSA算法的描述,不正确的是:()。",
+      "options": {
+        "A": "RSA 算法是非对称算法的代表",
+        "B": "RSA算法中加密密钥与解密密钥不同",
+        "C": "RSA算法中解密密钥公开而加密密钥需要保密",
+        "D": "利用 RSA密码可以同时实现数字签名和数据加密"
+      },
+      "answer": "C",
+      "explanation": "P48。\n非对称加密通常以(RSA)算法为代表。对称加密的加密密钥和解密密钥相同,而非对称加\n密的加密密钥和解密密钥不同,加密密钥可以公开而解密密钥需要保密",
+      "pageStart": 28,
+      "pageEnd": 28,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q8-p28",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 8,
+      "source": "2022年上半年高项真题",
+      "stem": "()是利用公开密钥进行加密的技术。",
+      "options": {
+        "A": "AES",
+        "B": "IDEA",
+        "C": "DES",
+        "D": "RSA"
+      },
+      "answer": "D",
+      "explanation": "P48。\n非对称加密通常以(RSA)算法为代表。对称加密的加密密钥和解密密钥相同,而非对称加\n密的加密密钥和解密密钥不同,加密密钥可以公开而解密密钥需要保密。",
+      "pageStart": 28,
+      "pageEnd": 28,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q9-p28",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 9,
+      "source": "2023年上半年高项真题",
+      "stem": "网络安全态势感知在()的基础上,进行数据整合,特征提取等,应用一系列态势评估算法, 生成网络的整体态势情况。",
+      "options": {
+        "A": "安全应用软件",
+        "B": "安全基础设施",
+        "C": "安全网络环境",
+        "D": "安全大数据"
+      },
+      "answer": "D",
+      "explanation": "P48。\n网络安全态势感知是在大规模网络环境中阿牛,对能够引起网络态势发生变化的安全要素进\n行获取、理解、显示,并据此预测未来的网络安全发展趋势。安全态势感知不仅是一种安全技\n术,也是一种新兴的安全概念。它是一种基于环境的、动态的、整体的洞悉安全风险的能力。\n安全态势感知的前提是安全大数据,其在安全大数据的基础上进行数据整合、特征提取等,然\n后应用二系列态费评估算法生成园络的整体态势状况,应用态势预测算法预测态势的发展状况,\n并使用数据可视化技术,将态势状况和预测情况展示给安全人员,方便安全人员直观便捷地了\n解网络当前状态及预期的风险。",
+      "pageStart": 28,
+      "pageEnd": 28,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q10-p28",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 10,
+      "source": "2023年下半年高项第3批真题",
+      "stem": "根据给出的描述,关于用户和实体行为分析(UEBA)的陈述,()是正确的",
+      "options": {
+        "A": "UEBA只使用基本分析方法进行异常检测。",
+        "B": "UEBA主要关注网络异常,不涉及用户行为。",
+        "C": "UEBA结合了基本和高级分析方法来进行异常检测。",
+        "D": "UEBA只使用机器学习来检测异常行为。"
+      },
+      "answer": "C",
+      "explanation": "P48。\n今用户和实体行为分析(UEBA)提供了用户画像及基于各种分析方法的异常检测,结合基本\n分析方法(利用签名的规则、模式匹配、简单统计、阙值等)和高级分析方法(监督和无监\n督的机器学习等),用打包分析来评估用户和其他实体(主机、应用程序、网络、数据库等),\n发现与用户或实体标准画像或行为异常的活动所相关的潜在事件。\n今UEBA以用户和实体为对象,利用大数据,结合规则以及机器学习模型,对用户和实体行\n为进行分析和异常检测,尽可能快速地感知内部用户和实体的可疑或非法行为\n今从架构上来看,UEBA系统通常包括数据获取层、算法分析层和场景应用层",
+      "pageStart": 28,
+      "pageEnd": 29,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s5-q11-p29",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 5,
+        "title": "信息安全",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 11
+      },
+      "questionNo": 11,
+      "source": "2024年高项第2批真题",
+      "stem": "关于信息安全的描述,不正确的是:()。",
+      "options": {
+        "A": "网络安全技术主要包括防火墙、入侵检测与防护、VPN、安全扫描、网络蜜罐技术、用 户和实体行为分析技术",
+        "B": "随着物联网、云计算、人工智能、大数据等新一代信息技术的广泛应用,信息安全面临 着新的问题和挑战",
+        "C": "信息安全可以划分为设备安全、数据安全、平台安全、行为安全四个层次",
+        "D": "信息系统安全包括网络安全、操作系统安全、数据库系统安全和应用系统安全"
+      },
+      "answer": "C",
+      "explanation": "P47。\n针对信息系统,安全可以划分为以下四个层次:设备安全、数据安全、内容安全、行为安全\n其中数据安全即是传统的信息安全。【口诀:宿含内涵】",
+      "pageStart": 29,
+      "pageEnd": 29,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s6-q1-p29",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 6,
+        "title": "物联网",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 8
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "以互联网为基础,将数字化、智能化的物体接入其中,实现自组织互联,是互联网的延伸与扩 展;通过嵌入到物体上的各种数字化标识、感应设备,如RFID标签、传感器、响应器等,使 物体具有可识别、可感知、交互和响应的能力,并通过与Internet的集成实现物物相联,构成 一个协同的网络信息系统。以上描述的是()。",
+      "options": {
+        "A": "智慧地球",
+        "B": "三网融合",
+        "C": "SaaS",
+        "D": "物联网"
+      },
+      "answer": "D",
+      "explanation": "P49。\n物联网(TheInternetofThings是指通过信息传感设备,按约定的协议将任何物晶与互联\n网相连接,进行信息交换和通信,以实现智能化识别、定位、跟踪、监控和管理的园络。物联\n因主要解决物晶与物晶ThingtoThing,T2T、人与物晶HumantoThing,H2T、人与人\n(Human\nto\nHuman,H2H之间的互连、",
+      "pageStart": 29,
+      "pageEnd": 29,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s6-q2-p30",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 6,
+        "title": "物联网",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 8
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "物联网技术作为智慧城市建设的重要技术,其架构一般可分为()。",
+      "options": {
+        "A": "感知层、网络层和应用层",
+        "B": "平台层、传输层和应用层",
+        "C": "平台层、汇聚层和应用层",
+        "D": "汇聚层、平台层和应用层"
+      },
+      "answer": "A",
+      "explanation": "P49。物联网架构可分为三层,分别是盛知层、圆络层和应用层",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s6-q3-p30",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 6,
+        "title": "物联网",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 8
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "物联网是随着智能化技术的发展而发展起来的新的技术应用形式,从架构上来讲一般分为感知 层、网络层和应用层,其中RFID技术一般应用于()。",
+      "options": {
+        "A": "感知层",
+        "B": "网络层",
+        "C": "应用层",
+        "D": "展示层"
+      },
+      "answer": "A",
+      "explanation": "P49。\n物联网架构可分为三层,分别是感知层、网络层和应用层。感知层由各种传感器构成,包括\n温湿度传感器、二维码标签、RFID标签和读写器、摄像头、GPS等感知终满。网络层由各种\n网络,包括互联网、广电网、网络管理系统和云计算平台等组成,是整个物联网的中枢。应用\n层是物联网和用户的接口,它与行业需求结合,实现物联网的智能应用",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s6-q4-p30",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 6,
+        "title": "物联网",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 8
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "物联网应用已经走进了我们的日常生活,()不属于物联网的感知层",
+      "options": {
+        "A": "心率传感器",
+        "B": "北斗定位系统",
+        "C": "网络总线",
+        "D": "条码和二维码"
+      },
+      "answer": "C",
+      "explanation": "P49。\n网络总线属于网络层。园络层由各种网络,包括互联网、广电网、网络管理系统和云计算平\n台等组成,是整个物联网的中枢。",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s6-q5-p30",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 6,
+        "title": "物联网",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 8
+      },
+      "questionNo": 5,
+      "source": "蜗牛老师自编题",
+      "stem": "传感器技术是物联网感知层的主要技术,()不属于传感器技术应用。",
+      "options": {
+        "A": "空气质量检测仪",
+        "B": "无线红外电子栅栏",
+        "C": "心率监测手环",
+        "D": "无线网卡"
+      },
+      "answer": "D",
+      "explanation": "P5O。\n无线园主不属于传感设益,属于上网设备。传感器是一种检测装置,它能“感受”到被测量\n的信息,并能将检测到的信息按一定规律变换成为电信号或其他所需形式的信息输出,以满足\n信息的传输、处理、存储、显示、记录和控制等要求。",
+      "pageStart": 30,
+      "pageEnd": 30,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s6-q6-p30",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 6,
+        "title": "物联网",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 8
+      },
+      "questionNo": 6,
+      "source": "2021年上半年高项真题",
+      "stem": "小王用智能手环来督促自己每天走路10000步,这是将()应用到移动互联网中,为用户提 供智能化服务。",
+      "options": {
+        "A": "用户画像",
+        "B": "传感技术",
+        "C": "数据挖掘",
+        "D": "射频识别"
+      },
+      "answer": "B",
+      "explanation": "课外知识。智能手环是传盛器,将走路的动作盛知获取后传递到园络",
+      "pageStart": 30,
+      "pageEnd": 31,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s6-q7-p31",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 6,
+        "title": "物联网",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 8
+      },
+      "questionNo": 7,
+      "source": "2022年下半年高项真题",
+      "stem": "在物联网架构中,云计算平台属于()。",
+      "options": {
+        "A": "感知层",
+        "B": "网络层",
+        "C": "会话层",
+        "D": "数据链路层"
+      },
+      "answer": "B",
+      "explanation": "P49。\n物联网架构可分为三层,分别是感知层、网络层和应用层。感知层由各种传感器构成,包括\n温湿度传感器、二维码标签、RFID标签和读写器、摄像头、GPS等感知终端。园络层由各种\n四络,包括互联网、广电网、网络管理系统和云计算平合等组成,是整个物联图的中枢。应用\n层是物联网和用户的接口,它与行业需求结合,实现物联网的智能应用。",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s6-q8-p31",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 6,
+        "title": "物联网",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 8
+      },
+      "questionNo": 8,
+      "source": "2024年高项第1批真题",
+      "stem": "()不属于物联网感知层设备。",
+      "options": {
+        "A": "摄像头",
+        "B": "温度传感器",
+        "C": "二维码标签",
+        "D": "以太网交换机"
+      },
+      "answer": "D",
+      "explanation": "P49。\n物联网架构可分为三层,分别是感知层、网络层和应用层。感知层由各种传感器构成,包括\n温湿度传感器、二维码标签、RFID标签和读写器、摄像头、GPS等感知终满。网络层由各种\n网络,包括互联网、广电网、网络管理系统和云计算平台等组成,是整个物联网的中枢。应用\n层是物联网和用户的接口,它与行业需求结合,实现物联网的智能应用。",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s7-q1-p31",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 7,
+        "title": "云计算",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "在云计算服务类型中,()向用户提供虚拟的操作系统、数据库管理系统、Web应用等服务",
+      "options": {
+        "A": "IaaS",
+        "B": "DaaS",
+        "C": "PaaS",
+        "D": "SaaS"
+      },
+      "answer": "C",
+      "explanation": "P51-52。\n按照云计算服务提供的资源层次,可以分为Iaas、Paas和Saas三种服务类型\nPaaS(平合即服务),向用户提供虚拟的操作系统、数据库管理系统、Web应用等平台化\n的服签。PaaS服务的重点不在于直接的经济效益,而更注重构建和形成紧密的产业生态。【不\n光提供了场所,还提供了配套的生产设备】",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s7-q2-p31",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 7,
+        "title": "云计算",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "在下列应用场景中,属于SaaS(软件即服务)模式的是()。",
+      "options": {
+        "A": "供应商通过Internet提供软件,消费者从供应商处租用基于Web的软件来管理企业经 营活动",
+        "B": "供应商开拓新的T基础设施业务,消费者通过Internet从计算机基础设施获得服务",
+        "C": "消费者从供应商处购买软件的License",
+        "D": "消费者从互联网下载和使用免费软件"
+      },
+      "answer": "A",
+      "explanation": "P51-52。\n按照云计算服务提供的资源层次,可以分为laaS、PaaS和Saas三种服务类型\nSaaS(软件即服务),向用户提供应用软件(如CRM、办公软件等)、组件、工作流等虚\n拟化软件的服并,SaaS向用户提供多租户、可定制的应用能力,使软件提供商从软件产晶的生\n产者转变为应用服务的运营者。",
+      "pageStart": 31,
+      "pageEnd": 32,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s7-q3-p32",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 7,
+        "title": "云计算",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "云计算的典型特征是()。",
+      "options": {
+        "A": "多租户及虚拟化访问控制",
+        "B": "单租户及虚拟化访问控制",
+        "C": "多租户及物理资源访问控制",
+        "D": "单租户及物理资源访问控制"
+      },
+      "answer": "A",
+      "explanation": "P53。云中多租户及虚拟化访间控制是云计算的典型特征",
+      "pageStart": 32,
+      "pageEnd": 32,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s7-q4-p32",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 7,
+        "title": "云计算",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "以下说法中不正确的是()。",
+      "options": {
+        "A": "超线程技术只是单CPU模拟双CPU来平衡程序运行性能,这两个模拟出来的CPU是 不能分离的,只能协同工作。",
+        "B": "分布式文件系统是云存储技术中的重要组成部分。",
+        "C": "访问控制管理是云计算应用的核心问题之一,访间控制模型多用于动态分配用户的权限",
+        "D": "云安全技术的研究方面,主要包含:云计算安全性,保障云基础设施的安全性,云安全 技术服务。"
+      },
+      "answer": "C",
+      "explanation": "P53。\n访间控制模型多用于静态分配用户的权限,常见的有基于任务的访问控制模型、基于属性模\n型的云计算访问控制、基于UCON模型的云计算访问控制、基于BLP模型的云计算访间控制\n等。C不正确。",
+      "pageStart": 32,
+      "pageEnd": 32,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s7-q5-p32",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 7,
+        "title": "云计算",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 5,
+      "source": "2024年中项第3批真题",
+      "stem": "关于云安全技术的描述,以下不正确的是()。",
+      "options": {
+        "A": "具有一定的开放性,要保障开放环境下可信认证",
+        "B": "先进的网络技术和病毒防护技术",
+        "C": "当业务规模较大时,要尽可能与云计算厂商紧密的绑定",
+        "D": "在云安全体系构建过程中,要保证其稳定性,以满足海量数据动态变化的需求"
+      },
+      "answer": "C",
+      "explanation": "P54:\n多云和混合云将成为大中型组织的刚需,得到更多重视与发展。当组织大量的工作负载部署\n在云端,新的问题则会显现:\n①虽然云端已经能提供相当高的可用性,但为了避免单一供应商出现故障时的风险,关键\n应用仍须架设必要的技术冗余;\n②当业务规模较大时,从商业策略角度看,也需要避免过于紧密的厂商绑定,以寻求某种\n层面的商业制衡和主动权。",
+      "pageStart": 32,
+      "pageEnd": 33,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s7-q6-p33",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 7,
+        "title": "云计算",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 6,
+      "source": "2025年系规真题",
+      "stem": "云计算的关键技术不包括()。",
+      "options": {
+        "A": "虚拟化技术",
+        "B": "云存储技术",
+        "C": "多租户和访问控制管理",
+        "D": "仿真和建模"
+      },
+      "answer": "D",
+      "explanation": "P54。\n云计算的关键技术主要涉及虚拟化技术、云在储技术、多租户和访间控制管理、云安全技术\n等。",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s7-q7-p33",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 7,
+        "title": "云计算",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 7,
+      "source": "2023年上半年高项真题",
+      "stem": "()是指一个操作系统中多个程序同时并行运行,而()则可以同时运行多个操作系统,而 且每一个操作系统中都有多个程序运行,()只是单CPU模拟双CPU来平衡程序运行性能 这两个模拟出来的CPU是不能分离的,只能协同工作。",
+      "options": {
+        "A": "虚拟化技术、多任务、超线程技术",
+        "B": "超线程技术、虚拟化技术、多任务",
+        "C": "虚拟化技术、超线程技术、多任务",
+        "D": "多任务、虚拟化技术、超线程技术"
+      },
+      "answer": "D",
+      "explanation": "P52。\n多任务是指在一个操作系统中多个程序同时并行运行,面在虚拟化技术中,则可以同时运行\n多个操作系统,面且每一个操作系统中都有多个程序运行,每一个操作系统都运行在一个虚拟\n的CPU或者虚拟主机上。超线程技术只是单CPV模拟双CPV来平衡程序运行性能,这两个\n模拟出来的CPU是不能分离的,只能协同工作、",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s7-q8-p33",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 7,
+        "title": "云计算",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 8,
+      "source": "2023年下半年高项第2批真题",
+      "stem": "以下关于云计算的说法中,错误的是()。",
+      "options": {
+        "A": "云计算是一种基于互联网的计算方式,实现了“快速、按需、弹性”的服务,用户可以 随时通过宽带网络接入“云”并获得服务,按照需求获取或释放资源,对资源进行动态扩展",
+        "B": "PAAS是向用户提供计算机能力、存储空间等基础设施方面的服务",
+        "C": "云计算的关键技术主要涉及虚拟化技术、云存储技术、多租户和访间控制管理、云安全 技术等",
+        "D": "容器技术是一种全新意义上的虚拟化技术,属于操作系统虚拟化的范畴;也就是由操作 系统提供虚拟化的支持。目前最受欢迎的容器环境是Docker"
+      },
+      "answer": "B",
+      "explanation": "P51-52。\n按照云计算服务提供的资源层次,可以分为laaS、PaaS和SaaS三种服务类型\nPaaS(平台即服务),向用户提供虚拟的操作系统、数据库管理系统、Web应用等平台化\n的服务。PaaS服务的重点不在于直接的经济效益,而更注重构建和形成紧密的产业生态",
+      "pageStart": 33,
+      "pageEnd": 33,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s8-q1-p34",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 8,
+        "title": "大数据",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于大数据的说法中,错误的是()。",
+      "options": {
+        "A": "大数据主要特征包括:数据海量、数据类型多样、数据价值密度高、数据处理速度快",
+        "B": "大数据技术架构主要包含大数据获取技术、分布式数据处理技术和大数据管理技术,以 及大数据应用和服务技术",
+        "C": "大数据获取的研究主要集中在数据采集、整合和清洗三个方面",
+        "D": "大数据应用和服务技术:主要包含分析应用技术和可视化技术"
+      },
+      "answer": "A",
+      "explanation": "P55。大数据主要特征包括:数据海量、数据类型多样、数据价值密度低、数报\n处理速度快。",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s8-q2-p34",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 8,
+        "title": "大数据",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "下列主流的分布式计算系统中,常用于离线的快速的大数据处理的是()。",
+      "options": {
+        "A": "Hadoop",
+        "B": "Spark",
+        "C": "Storm",
+        "D": "Map Reduce"
+      },
+      "answer": "B",
+      "explanation": "P56。\n主流的分布式计算系统有Hadoop、Spark和Storm。(1)Hadoop常用于离线的复杂的\n大数据处理。(2)Spark常用于离线的快速的大数据处理。(3)Storm常用于在线的实时的\n大数据处理。",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s8-q3-p34",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 8,
+        "title": "大数据",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "下列主流的分布式计算系统中,常用于离线的复杂的大数据处理的是()",
+      "options": {
+        "A": "Hadoop",
+        "B": "Spark",
+        "C": "Storm",
+        "D": "Map Reduce"
+      },
+      "answer": "A",
+      "explanation": "P56。\n主流的分布式计算系统有Hadoop、Spark和Storm。(1)Hadoop常用于离线的复杂的\n大数据处理。(2)Spark常用于离线的快速的大数据处理。(3)Storm常用于在线的实时的\n大数据处理",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s8-q4-p34",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 8,
+        "title": "大数据",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 4,
+      "source": "2018年下半年高项真题",
+      "stem": "某电商平台根据用户消费记录分析用户消费偏好,预测未来消费顿向,这是()技术的典型应 用。",
+      "options": {
+        "A": "物联网",
+        "B": "区块网",
+        "C": "云计算",
+        "D": "大数据"
+      },
+      "answer": "D",
+      "explanation": "课外知识。根据大数据来分析用户的消费偏好,以此来推测用户的消费倾向",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s8-q5-p34",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 8,
+        "title": "大数据",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 5,
+      "source": "2019年上半年高项真题",
+      "stem": "基于买方的购买历史及行为分析,进行针对性的广告推送,属于()的典型应用。",
+      "options": {
+        "A": "大数据",
+        "B": "云计算",
+        "C": "物联网",
+        "D": "智慧城市"
+      },
+      "answer": "A",
+      "explanation": "课外知识。根据大数据来分析用户的消费偏好,以此来推测用户的消费倾向",
+      "pageStart": 34,
+      "pageEnd": 34,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s8-q6-p35",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 8,
+        "title": "大数据",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 6,
+      "source": "2023年下半年高项第3批真题",
+      "stem": "大数据获取的研究主要集中在以下哪()方面。",
+      "options": {
+        "A": "数据存储和计算",
+        "B": "数据采集、整合和清洗",
+        "C": "数据分析和可视化",
+        "D": "数据安全和隐私保护"
+      },
+      "answer": "B",
+      "explanation": "P55。目前,大数据获取的研究主要集中在数据采集、整合和渣选三个方面。\n“1、数据采集:通过分布式爬取、分布式高速高可靠性数据采集、高速全网数据映像技术,\n从网站上获取数据信息。\n“2、整合:在数据采集和实体识别的基础上,实现数据到信息的高质量整合。\n3、清洗:根据正确性条件和数据约束规则,清除不合理和错误的数据,对重要的信息进行\n修复,保证数据的完整性。",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s8-q7-p35",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 8,
+        "title": "大数据",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 7,
+      "source": "2024年高项第2批真题",
+      "stem": "()主要关注大数据存储,大数据协同和安全隐私等方面。",
+      "options": {
+        "A": "大数据管理技术",
+        "B": "大数据获取技术",
+        "C": "大数据可视化技术",
+        "D": "大数据处理技术"
+      },
+      "answer": "A",
+      "explanation": "P56。\n大数据管理技术主要集中在大数据存储、大数据协同和安全隐私等方面。\n1、大数据存储:通过列存储、粗粒度索引等多项大数据处理技术和高效的分布式计算模式\n实现大数据存储。\n“2、大数据协同:通过分布式工作流引攀实现工作流调度、负载均衡,整合多个数据中心的\n存储和计算资源\n“3、安全隐私:集中于新型数据发布技术,尝试在尽可能少损失数据信息的同时最大化地隐\n酸用户隐私。",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s8-q8-p35",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 8,
+        "title": "大数据",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 8
+      },
+      "questionNo": 8,
+      "source": "2025年高项第2批真题",
+      "stem": "某外卖平台中,用户收到基于地理位置的个性化推荐,其背后的技术驱动是()。",
+      "options": {
+        "A": "云计算实时模拟物流配送效率",
+        "B": "区块链技术提供的数据追踪能力",
+        "C": "大数据技术结合用户历史行为数据分析",
+        "D": "加密算法保护用户隐私的同时生成推荐"
+      },
+      "answer": "C",
+      "explanation": "课外知识。根据大数据来分析用户的消费偏好,以此来推测用户的消费倾向",
+      "pageStart": 35,
+      "pageEnd": 35,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s9-q1-p35",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 9,
+        "title": "区块链",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 5
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "区块链的典型特征不包括()。",
+      "options": {
+        "A": "去中心化",
+        "B": "单点维护",
+        "C": "不可篡改",
+        "D": "开放共识"
+      },
+      "answer": "B",
+      "explanation": "P58。\n区块链的典型特征包括:多中心化(也就是去中心化),多方维护,时序数据,智能合约,\n不可算改,开放共识,安全可信。",
+      "pageStart": 35,
+      "pageEnd": 36,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s9-q2-p36",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 9,
+        "title": "区块链",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 5
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "在区块链网络中,每台物理设备均可作为该网络中的一个节点,任意节点可自由加入且拥有一 份完整的数据库拷贝,属于区块链特征中的()。",
+      "options": {
+        "A": "多中心化",
+        "B": "多方维护",
+        "C": "时序数据",
+        "D": "开放共识"
+      },
+      "answer": "D",
+      "explanation": "P58\n区块链的典型特征:多中心化、多方维护、时序数据、智能合约、不可算改、开放共识、安\n全可信。\n运用纯数学方法代替中心化组织机构在多个分布式节点之间构建信任关系,从多中心化\n而建立可信的分布式系统。\n激励机制可确保分布式系统中的所有节点均可参与数据区块的验证过程,并通多方维护\n过共识机制选择特定节点将新产生的区块加入到区块链中\n区块链运用带有时间截信息的链式结构来存储数据信息,为数据信息添加时间时序数据\n维度的属性,从而可实现数据信息的可追溯性。\n区块链技术能够为用户提供灵活可变的脚本代码,以支持其创建新型的智能合智能合约\n约。\n在区块链系统中,因为相邻区块间后序区块可对前序区块进行验证,若算改某\n一区块的数据信息,则需递归修改该区块及其所有后序区块的数据信息,然而\n不可篡改\n每一次哈希的重新计算代价是巨大的,且须在有限时间内完成,因此可保障链\n上数据的不可算改性。\n在区块链网络中,每合物理设备均可作为该网络中的一个节点,任意节点可自开放共识\n由加入且拥有一份完整的数据库拷贝。\n数据安全可通过基于非对称加密技术对链上数据进行加密来实现,分布式系统\n安全可信\n中各节点通过区块链共识算法所形成的算力来抵御外部攻击、保证链上数据不\n被算改和伪造,从而具有较高的保密性、可信性和安全性",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s9-q3-p36",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 9,
+        "title": "区块链",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 5
+      },
+      "questionNo": 3,
+      "source": "2024年中项第2批真题",
+      "stem": "区块链概念可以理解为是以()为基础,使用共识机制、点对点网络、智能合约等技术结合而 成的一种分布式存储数据库技术。",
+      "options": {
+        "A": "哈希算法",
+        "B": "对称加密算法",
+        "C": "量子加密算法",
+        "D": "非对称加密算法"
+      },
+      "answer": "D",
+      "explanation": "P57:区块链概念可以理解为以非对称加密算法为基础,以改进的默克尔树\n(MerklcTree为数据结构,使用共识机制、点对点网络、智能合约等技术结合而成的一种分布\n式存储数据库技术。",
+      "pageStart": 36,
+      "pageEnd": 36,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s9-q4-p37",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 9,
+        "title": "区块链",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 5
+      },
+      "questionNo": 4,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "以下关于区块链的说法中,错误的是()。",
+      "options": {
+        "A": "区块链分为公有链、联盟链、私有链和混合链四大类",
+        "B": "区块链概念可以理解为以非对称加密算法为基础,以改进的默克尔树为数据结构,使用 共识机制、点对点网络、智能合约等技术结合而成的一种分布式存储数据库技术",
+        "C": "激励机制可确保分布式系统中的所有节点均可参与数据区块的验证过程,并通过共识机 制选择特定节点将新产生的区块加入到区块链中",
+        "D": "区块链系统中的加密算法一般分为散列(哈希)算法和对称加密算法"
+      },
+      "answer": "D",
+      "explanation": "P58-59。\n区块数据的加密是区块链研究和关注的重点,其主要作用是保证区块数据在网络传输、存储\n和修改过程中的安全。区块链系统中的加盛算法一般分为散列哈希)算法和非对称加密算法",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s9-q5-p37",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 9,
+        "title": "区块链",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 5
+      },
+      "questionNo": 5,
+      "source": "2025年高项第2批真题",
+      "stem": "()属于区块链的典型应用领域。 ①能源交易;②图像识别与处理;③内容生成;④学历认证;⑤金融交易满源;⑥交通路况预 测",
+      "options": {
+        "A": "①②③",
+        "B": "②⑤⑥",
+        "C": "③④⑥",
+        "D": "①④⑤"
+      },
+      "answer": "D",
+      "explanation": "课外知识。\n能源交易:属于区块链应用领城。区块链可实现能源(如电力)的去中心化交易,支持点\n对点能源共享(如虚拟电厂),通过智能合约自动执行交易,确保数据透明与可信。例如,特\n斯拉的微电网交易平台已尝试此类应用。\n图像识别与处理:不属于区块链典型应用领域。\n内容生成:不属于区块链典型应用领域。\n学历认证:属于区块链应用领域。\n区块链可用于在储和验证学历证书,确保信息不可算改、可追湖。例如,MT、清华大学等\n已尝试将学历证书上链,解决造假问题,提升认证效率\n金融交易湖源:属于区块链应用领域。区块链的可追溯性适用于金融交易审计、反洗钱等\n场景。例如,跨境支付平台Ripple利用区块链追踪交易路径,银行系统通过区块链实现交易记\n录存证。\n交通路况预测:不属于区块链典型应用领域。",
+      "pageStart": 37,
+      "pageEnd": 37,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s10-q1-p37",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 10,
+        "title": "人工智能",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 1,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于人工智能的说法中不正确的是()。",
+      "options": {
+        "A": "深度学习是通过多等级的特征和变量来预测结果的神经网络模型",
+        "B": "相比于传统的统计分析,自动化机器学习模型更容易创建,也更简单和容易解释",
+        "C": "深度学习技术是自然语言处理的重要技术支撑",
+        "D": "专家系统是一个智能计算机程序系统,通常由人机交互界面、知识库、推理机、解释器、 综合数据库、知识获取等6个部分构成"
+      },
+      "answer": "B",
+      "explanation": "P61。\n机器学习模型是以统计为基础的,而且应该将其与常规分析进行对比以明确其价值增量。它\n们往往比基于人类假设和回归分析的传统“手工”分析模型更准确,但也更复杂和难以解释\n相比于传统的统计分析,自动化机器学习模型更容易创建,而且能够揭示更多的数据细节",
+      "pageStart": 37,
+      "pageEnd": 38,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s10-q2-p38",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 10,
+        "title": "人工智能",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "()是通过多等级的特征和变量来预测结果的神经网络模型,它使用一种称为反向传插的技术, 通过模型进行预测或对输出进行分类。",
+      "options": {
+        "A": "神经网络",
+        "B": "深度学习",
+        "C": "强化学习",
+        "D": "机器学习"
+      },
+      "answer": "B",
+      "explanation": "P61。\n神经网络;是机器学习的一种形式,它根据输入、输出、变量权重或将输入与输出关联的\n特征\"来分析问题。它类似于神经元处理信号的方式。\n深度学习:是通过多等级的特征和变量来预测结果的神经圆络模型,深度学习模型中的每个\n特征通常对于人类观察者而言意义不大,使得该模型的使用难度很大且难以解释。深度学习模\n型使用一种称为反问传插的技术,通过模型进行预测或对输出进行分类\n强化学习:是机器学习的另外一种方式,指机器学习系统制订了目标而且迈向目标的每一步\n都会得到某种形式的奖励。\n机器学习模型:是以统计为基础的,它们往往比基于人类假设和回归分析的传统“手工”分\n析模型更准确。自动化机器学习模型更容易创建,而且能够揭示更多的数据细节。",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s10-q3-p38",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 10,
+        "title": "人工智能",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 3,
+      "source": "蜗牛老师自编题",
+      "stem": "以下不属于自然语言处理的主要应用的是()。",
+      "options": {
+        "A": "舆情监测",
+        "B": "文本分类",
+        "C": "人脸识别",
+        "D": "语音识别"
+      },
+      "answer": "C",
+      "explanation": "P62。\n自然语言处理主要应用于机器翻泽、奥情监测、自动摘要、观点提取、文本分类、问题回答、\n文本语义对比、语音识别、中文OCR等方面。\n人脸识别也属于人工智能,但是不属于自然语言处理。",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s10-q4-p38",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 10,
+        "title": "人工智能",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 4,
+      "source": "蜗牛老师自编题",
+      "stem": "()属于人工智能应用领域。 *①自动驾驶;②智能搜索引攀;③人脸识别;④3D打印",
+      "options": {
+        "A": "①②④",
+        "B": "①③④",
+        "C": "②③④",
+        "D": "①②③"
+      },
+      "answer": "D",
+      "explanation": "P62-63。3D打印不是人工智能的应用。",
+      "pageStart": 38,
+      "pageEnd": 38,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s10-q5-p38",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 10,
+        "title": "人工智能",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 5,
+      "source": "2023年下半年高项第1批真题",
+      "stem": "()是计算机科学领域与人工智能领域中的一个重要方向。它研究能实现人与计算机之间用自 然语言进行有效通信的各种理论和方法。并不是一般地研究自然语言,而在于研制能有效地使 用自然语言通信的计算机系统,特别是其中的软件系统。自然语言处理主要应用于机器翻译、 舆情监测、自动摘要、观点提取、文本分类、问题回答文本语义对比、语音识别、中文OCR等 方面。",
+      "options": {
+        "A": "自然语言处理(NLP)",
+        "B": "机器学习",
+        "C": "专家系统",
+        "D": "神经网络"
+      },
+      "answer": "A",
+      "explanation": "P61-62。\n自然语言处理(NLP)是计算机科学领城与人工智能领城中的一个重要方向。它研究能实现\n人与计算机之间用自然语言进行有效通信的各种理论和方法。自然语言处理并不是一般地研究\n自然语言,而在于研制能有效地使用自然语言通信的计算机系统,特别是其中的软件系统。自\n然语言处理主要应用于机器翻译、奥情监测、自动摘要、观点提取、文本分类问题回答、文本\n语义对比、语音识别、中文OCR等方面。",
+      "pageStart": 38,
+      "pageEnd": 39,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s10-q6-p39",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 10,
+        "title": "人工智能",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 6,
+      "source": "2023年下半年高项第4批真题",
+      "stem": "微信中语音转换为文字的功能,主要应用了()技术。",
+      "options": {
+        "A": "虚拟现实",
+        "B": "专家系统",
+        "C": "自然语言处理",
+        "D": "大数据"
+      },
+      "answer": "C",
+      "explanation": "P62。\n自然语言处理主要应用于机器翻译、奥情监测、自动摘要、观点提取、文本分类、问题回答、\n文本语义对比、语音识别、中文OCR等方面。所以,C正确。",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s10-q7-p39",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 10,
+        "title": "人工智能",
+        "priority": "★★★★★",
+        "priorityStars": 5,
+        "questionCountHint": 7
+      },
+      "questionNo": 7,
+      "source": "2025年高项第1批真题",
+      "stem": "某医院拟部署大模型分析电子病历辅助智能诊断,为了严格保护患者隐私,应采用的技术是()",
+      "options": {
+        "A": "强化学习",
+        "B": "联邦学习",
+        "C": "检索增强生成",
+        "D": "知识蒸馏"
+      },
+      "answer": "B",
+      "explanation": "课外知识。\nA、强化学习,强化学习通过环境反馈优化模型,需大量数据交互,无法直接解决隐私问题\n甚至可能因数据集中处理增加泄露风险。\nB、联邦学习,核心特点:数据在本地设备或机构端完成训练,仅共室模型参数更新,数报\n本身不离开本地。医疗场量适配性:医院可在各科室或分院本地部署模型训练节点,出者病历\n数据仅用于本地计算,最终通过加密参数聚合形成全局模型。这一过程完全避免原始险私数据\n传输或集中存储,是隐私保护的核心技术方案,\nC、检索增强生成,该技术通过检索外部知识库增强模型生成能力,但需依赖数据输入或调\n用外部数据源,未直接解决隐私数据的使用安全问题,若处理不当可能导致病历信息泄露\nD、知识蒸馏,知识蒸馏用于压缩模型规模,提升推理效率,与隐私保护无直接关联,无法\n阻止数据在训练或推理过程中的泄露风险。",
+      "pageStart": 39,
+      "pageEnd": 39,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s11-q1-p39",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 11,
+        "title": "虚拟现实",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 3
+      },
+      "questionNo": 1,
+      "source": "教材第2章章节习题",
+      "stem": "虚拟现实技术的主要特征包括:沉浸性、交互性、多感知性、构想性和()。",
+      "options": {
+        "A": "自主性",
+        "B": "抗否认性",
+        "C": "可审计性",
+        "D": "可靠性"
+      },
+      "answer": "A",
+      "explanation": "P63。\n虚拟现实技术的主要特征包括沉浸性、交互性、多感知性、构想性(也称想象性)和自主性",
+      "pageStart": 39,
+      "pageEnd": 40,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s11-q2-p40",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 11,
+        "title": "虚拟现实",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 3
+      },
+      "questionNo": 2,
+      "source": "蜗牛老师自编题",
+      "stem": "以下关于虚拟现实技术的说法中不正确的是()。",
+      "options": {
+        "A": "VR是一种可以创立和体验虚拟世界的计算机系统",
+        "B": "虚拟现实技术的主要特征包括沉浸性、交互性、多感知性、构想性(也称想象性)和自 主性",
+        "C": "虚拟现实的关键技术主要涉及人机交互技术、传感器技术、动态环境建模技术和系统集 成技术等",
+        "D": "虚拟现实技术己经从AR,向着VR和元字宙的方向发展"
+      },
+      "answer": "D",
+      "explanation": "P63-64。\n虚拟现实技术已经从京面虚拟现实系统、沉浸式虚拟现实系统、分布式虚拟现实系统等,向\n着增强式虚拟现实系统(AR)和元宇宙的方向发展。",
+      "pageStart": 40,
+      "pageEnd": 40,
+      "type": "single_choice"
+    },
+    {
+      "id": "c2-s11-q3-p40",
+      "chapter": {
+        "number": 2,
+        "title": "信息技术发展"
+      },
+      "section": {
+        "number": 11,
+        "title": "虚拟现实",
+        "priority": "★★★★",
+        "priorityStars": 4,
+        "questionCountHint": 3
+      },
+      "questionNo": 3,
+      "source": "2024年高项第2批真题",
+      "stem": "虚拟现实的关键技术不包括(),",
+      "options": {
+        "A": "蒙特卡洛分析技术",
+        "B": "人机交互技术",
+        "C": "传感器技术",
+        "D": "动态环境建模技术"
+      },
+      "answer": "A",
+      "explanation": "P64。\n虚拟现实的关键技术:人机交互技术、传盛器技术、动态环境建模技术、系统集成技术\n蒙特卡洛分析技术是项目管理的工具\n牛软高小通",
+      "pageStart": 40,
+      "pageEnd": 40,
+      "type": "single_choice"
+    }
+  ]
+}
