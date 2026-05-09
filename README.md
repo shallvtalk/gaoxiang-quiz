@@ -35,10 +35,10 @@ node scripts/split-questions.js
 
 ## 部署
 
-仓库是纯静态页面，推荐直接从 `main` 分支发布。
+仓库包含 GitHub Actions 工作流。推送到 `main` 分支后，工作流会把静态文件发布到 `gh-pages` 分支。
 
-到 GitHub 仓库的 `Settings` -> `Pages`，把 `Build and deployment` 设置为：
+第一次部署后，到 GitHub 仓库的 `Settings` -> `Pages`，把 `Build and deployment` 设置为：
 
 - Source: `Deploy from a branch`
-- Branch: `main`
+- Branch: `gh-pages`
 - Folder: `/ (root)`
